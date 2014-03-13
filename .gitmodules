@@ -2,3 +2,6 @@
 [submodule "18f-staging"]
 	path = 18f-staging
 	url = https://github.com/18F/18f.gsa.gov.git
+[submodule "18f-staging-feature"]
+	path = 18f-staging-feature
+	url = https://github.com/18F/18f.gsa.gov.git
