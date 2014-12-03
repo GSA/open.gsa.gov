@@ -27,34 +27,36 @@ title: Home
                         </ul>
                     </section>
 
+
                     <section class="sidebar off-the-press">
-                        <h2 class="sidebar_head">Off the press</h2>
+                        <h2 class="sidebar_head">News</h2>
                         <ul class="sidebar_list nav-list">
-                        {% for post in site.posts limit:2 %}
                             <li class="sidebar_list_item">
-                                <h3 class="sidebar_list_item_head">
-                                {% if post.external-url %}
-                                    <a href="{{ post.external-url }}">
-                                {% else %}
-                                    <a href="{{ post.url | remove_first:'/' }}/">
-                                {% endif %}
-                                        {{ post.title }}
-                                    </a>
+                                <h3 class="sidebar_list_item_head"><a href="https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/">The Encasement Strategy: On Legacy Systems and the Importance of APIs</a>
                                 </h3>
                                 
                                 <div class="sidebar_list_item_meta entry_meta">
-                                    {% if post.author %}
-                                    By <span class="author">{{ post.author }}</span> &ndash;
-                                    {% endif %}
+                                    By <span class="author">Robert Read</span> &ndash;
 
-                                    {% if post.date %}
-                                    <time datetime="{{ post.date | date: '%b %d, %Y' }}">
-                                        {{ post.date | date: '%b %d, %Y' }}
+                                    <time>
+                                        Sept. 8, 2014
                                     </time>
-                                    {% endif %}
                                 </div>
                             </li>
-                        {% endfor %}
+                        </ul>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head"><a href="https://18f.gsa.gov/2014/07/23/take-a-gander-at-our-developer-page/">Take a gander at our /Developer page!</a>
+                                </h3>
+                                
+                                <div class="sidebar_list_item_meta entry_meta">
+                                    By <span class="author">Gray Brooks</span> &ndash;
+
+                                    <time>
+                                        July 23, 2014
+                                    </time>
+                                </div>
+                            </li>
                         </ul>
                     </section>
                 </div>
