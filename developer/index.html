@@ -6,55 +6,53 @@ title: Developer Hub
             <section class="hero">
                 <div class="wrap">
                     <section class="intro">
-                        <h1>We'd like to share our work with you</h1>
-                        <p>The Consumer Financial Protection Bureau is a federal agency dedicated to ensuring that
-                            markets for consumer financial products and services are fair, transparent, and
-                            competitive. To support this mission, technologists at the CFPB build external
-                            resources for the public and internal tools to help the Bureau run more efficiently.
+                        <h1>APIs</h1>
+                        <p>GSA's web services cover a range of important data and functionality.  Software developers and researchers can use these resources to help people find useful government information.
                         </p>
                         <ul class="learn-more">
                             <li class="learn-more_item">
-                                <a class="call-to-action" href="articles/introducing-cfpb-open-tech/">
-                                    Learn more
+                                <a class="call-to-action" href="https://github.com/18f/api-standards">
+                                    18F API Standards
                                 </a>
                             </li>
                             <li class="learn-more_item">
                                 <a class="call-to-action"
-                                   href="source-code-policy/">
-                                    View our Source Code Policy
+                                   href="http://gsa.gov/portal/content/162631">
+                                    View our Developer Terms of Service
                                 </a>
                             </li>
                         </ul>
                     </section>
 
                     <section class="sidebar off-the-press">
-                        <h2 class="sidebar_head">Off the press</h2>
+                        <h2 class="sidebar_head">News</h2>
                         <ul class="sidebar_list nav-list">
-                        {% for post in site.posts limit:2 %}
                             <li class="sidebar_list_item">
-                                <h3 class="sidebar_list_item_head">
-                                {% if post.external-url %}
-                                    <a href="{{ post.external-url }}">
-                                {% else %}
-                                    <a href="{{ post.url | remove_first:'/' }}/">
-                                {% endif %}
-                                        {{ post.title }}
-                                    </a>
+                                <h3 class="sidebar_list_item_head">The Encasement Strategy: On Legacy Systems and the Importance of APIs<a href="https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/"></a>
                                 </h3>
                                 
                                 <div class="sidebar_list_item_meta entry_meta">
-                                    {% if post.author %}
-                                    By <span class="author">{{ post.author }}</span> &ndash;
-                                    {% endif %}
+                                    By <span class="author">Robert Read</span> &ndash;
 
-                                    {% if post.date %}
-                                    <time datetime="{{ post.date | date: '%b %d, %Y' }}">
-                                        {{ post.date | date: '%b %d, %Y' }}
+                                    <time>
+                                        Sept. 8, 2014
                                     </time>
-                                    {% endif %}
                                 </div>
                             </li>
-                        {% endfor %}
+                        </ul>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">Take a gander at our /Developer page!<a href="https://18f.gsa.gov/2014/07/23/take-a-gander-at-our-developer-page/"></a>
+                                </h3>
+                                
+                                <div class="sidebar_list_item_meta entry_meta">
+                                    By <span class="author">Gray Brooks</span> &ndash;
+
+                                    <time>
+                                        July 23, 2014
+                                    </time>
+                                </div>
+                            </li>
                         </ul>
                     </section>
                 </div>
