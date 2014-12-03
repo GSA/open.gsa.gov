@@ -4,6 +4,6 @@ permalink:   /articles/:title
 pygments:    true
 markdown:    kramdown
 
-title: CFPB Open Tech
-url: "https://cfpb.github.io/"
-description: "Learn about the design and development work the Consumer Financial Protection Bureau undertakes to support its mission."
+title: GSA Open Tech
+url: "https://gsa.github.io/"
+description: "Learn about the data and developer work of the General Services Administration."
