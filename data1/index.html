@@ -1,185 +1,86 @@
 ---
 layout: default
-title: Home
+title: Data
 ---
 
             <section class="hero">
                 <div class="wrap">
                     <section class="intro">
-                        <h1>We'd like to share our work with you</h1>
-                        <p>The Consumer Financial Protection Bureau is a federal agency dedicated to ensuring that
-                            markets for consumer financial products and services are fair, transparent, and
-                            competitive. To support this mission, technologists at the CFPB build external
-                            resources for the public and internal tools to help the Bureau run more efficiently.
+                        <h1>Datasets</h1>
+                        <p>GSA has categorized its public data listing to facilitate search and an improved customer experience on this site. Click on a category below to view the datasets in that category.  APIs and their documentation are detailed in the [developers hub](http://gsa.github.io/developer/).   
+                        </p>
+                        <p>
+                        May of our APIs are themselves open sourced and we always <a href="https://github.com/GSA/GSA-APIs/issues">welcome feedback</a>.  For more information or data requests, please contact [opendata@gsa.gov](opendata@gsa.gov).  
                         </p>
                         <ul class="learn-more">
                             <li class="learn-more_item">
-                                <a class="call-to-action" href="articles/introducing-cfpb-open-tech/">
-                                    Learn more
+                                <a class="call-to-action" href="https://github.com/GSA/GSA-APIs/issues">
+                                    Feedback
                                 </a>
                             </li>
-                            <li class="learn-more_item">
+                          <!--  <li class="learn-more_item">
                                 <a class="call-to-action"
-                                   href="source-code-policy/">
-                                    View our Source Code Policy
+                                   href="http://gsa.gov/portal/content/162631">
+                                    View our Developer Terms of Service
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                     </section>
 
                     <section class="sidebar off-the-press">
-                        <h2 class="sidebar_head">Off the press</h2>
+                        <h2 class="sidebar_head">Other Data Resources</h2>
                         <ul class="sidebar_list nav-list">
-                        {% for post in site.posts limit:2 %}
                             <li class="sidebar_list_item">
-                                <h3 class="sidebar_list_item_head">
-                                {% if post.external-url %}
-                                    <a href="{{ post.external-url }}">
-                                {% else %}
-                                    <a href="{{ post.url | remove_first:'/' }}/">
-                                {% endif %}
-                                        {{ post.title }}
-                                    </a>
+                                <h3 class="sidebar_list_item_head">* <a href="https://catalog.data.gov">Data.gov</a>
                                 </h3>
-                                
-                                <div class="sidebar_list_item_meta entry_meta">
-                                    {% if post.author %}
-                                    By <span class="author">{{ post.author }}</span> &ndash;
-                                    {% endif %}
-
-                                    {% if post.date %}
-                                    <time datetime="{{ post.date | date: '%b %d, %Y' }}">
-                                        {{ post.date | date: '%b %d, %Y' }}
-                                    </time>
-                                    {% endif %}
-                                </div>
                             </li>
-                        {% endfor %}
                         </ul>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="https://project-open-data.cio.gov">Project Open Data</a>
+                                </h3>
+                            </li>
+                        </ul>
+                        <!--<ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="http://sftool.gov/developers">Sustainable Facilities Tools</a>
+                                </h3>
+                            </li>
+                        </ul>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="http://www.usa.gov/developer">USA.gov</a>
+                                </h3>
+                            </li>
+                        </ul>-->
                     </section>
                 </div>
             </section> <!-- /.hero -->
 
             <section class="featured-projects">
-                <ul class="wrap nav-list">
-                    <li class="featured-project">
-                        <div class="featured-project_img__eregs"></div>
-                        <h3 class="featured-project_head">
-                            <a href="http://gsa.github.io/data">Data</a>
-                        </h3>
-                        <p class="featured-project_desc">Download bulk data from across GSA's components.</p>
-                    </li>
-                    <li class="featured-project">
-                        <div class="featured-project_img__pdp"></div>
-                        <h3 class="featured-project_head">
-                            <a href="http://gsa.github.io/developer">APIs</a>
-                        </h3>
-                        <p class="featured-project_desc">Learn how to access GSA data via dynamic web services.</p>
-                    </li>
-                    <li class="featured-project">
-                        <div class="featured-project_img__collab"></div>
-                        <h3 class="featured-project_head">
-                            <a href="https://www.github.com/gsa">Code</a>
-                        </h3>
-                        <p class="featured-project_desc">Check out the latest open source code projects from GSA teams.</p>
-                    </li>
-                </ul>
-            </section>
 
-            <section class="articles wrap">
-                <h2 class="section-head"><i class="icon-document"></i> News</h2>
+<h2>Acquisition</h2>
 
-                <section class="featured-entries">
-                {% for post in site.posts limit:1 %}
-                    <article class="entry">
-                        <h3 class="entry_title">
-                        {% if post.external-url %}
-                            <a href="{{ post.external-url }}">
-                        {% else %}
-                            <a href="{{ post.url | remove_first:'/'}}/">
-                        {% endif %}
-                                {{ post.title }}
-                            </a>
-                        </h3>
-                        {% if post.tagline %}
-                        <p class="entry_tagline">{{ post.tagline }}</p>
-                        {% endif %}
-                        
-                        {% if post.excerpt %}
-                        <p class="entry_description">{{ post.excerpt | markdownify }}</p>
-                        {% endif %}
-                        
-                        <div class="entry_meta">
-                            {% if post.author %}
-                            By <span class="author">{{ post.author }}</span> &ndash;
-                            {% endif %}
+<h3><a href=""></a>Acquisition Workforce Annual Report 2006</a></h3>
 
-                            {% if post.date %}
-                            <time datetime="{{ post.date | date: '%b %d, %Y' }}">
-                                {{ post.date | date: '%b %d, %Y' }}
-                            </time>
-                            {% endif %}
-                            
-                            {% comment %}
-                                {% if post.tags %}
-                                <div class="tags cf">
-                                    <h4 class="tags_head">Tags:</h4>
-                                    <ul class="tag-list">
-                                        {% for tag in post.tags %}
-                                        <li class="tag">
-                                            <a class="tag_link">{{ tag }}</a>
-                                        </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
-                                {% endif %}
-                            {% endcomment %}
-                        </div>
-<!--                         <a class="entry_read-more-link call-to-action__icon"
-                           href="{{ post.url | remove_first:'/'}}/">
-                           Read more <i class="icon-right"></i>
-                        </a> -->
-                    </article>
-                {% endfor %}
-                </section>
+<p>This is the Federal Acquisition Institute's (FAI's) Annual demographic report on the Federal acquisition workforce, showing trends by occupational series, employment grade and educational level, as well as turnover and hiring data for fiscal year (FY) 2006.</p>
 
-                <section class="sidebar more-articles">
-                    <h2 class="sidebar_head">More articles</h2>
 
-                    <ul class="sidebar_list nav-list">
-                    {% for post in site.posts limit:3 offset:1 %}
-                        <li class="sidebar_list_item">
-                            <h3 class="sidebar_list_item_head">
-                            {% if post.external-url %}
-                                <a href="{{ post.external-url }}">
-                            {% else %}
-                                <a href="{{ post.url | remove_first:'/' }}/">
-                            {% endif %}
-                                    {{ post.title }}
-                                </a>
-                            </h3>
+<h3><a href="">Acquisition Workforce Annual Report 2008</a></h3>
 
-                            <div class="sidebar_list_item_meta entry_meta">
-                                {% if post.author %}
-                                By <span class="author">{{ post.author }}</span> &ndash;
-                                {% endif %}
+<p>This is the Federal Acquisition Institute's (FAI's) Annual demographic report on the Federal acquisition workforce, showing trends by occupational series, employment grade and educational level, as well as turnover and hiring data for fiscal year (FY) 2008.</p>
 
-                                {% if post.date %}
-                                <time datetime="{{ post.date | date: '%b %d, %Y' }}">
-                                    {{ post.date | date: '%b %d, %Y' }}
-                                </time>
-                                {% endif %}
-                            </div>
-                        </li>
-                    {% endfor %}
-                    </ul>
 
-                    <!-- Hide until we have published at least 4 articles -->
-                    <!-- <a class="more-articles_read-more-link call-to-action__icon"
-                       href="articles/">
-                       Read more articles <i class="icon-right"></i>
-                    </a> -->
-                </section>
+<h3><a href="">Auction Sale Data</a></h3>
+
+<p>This dataset contains sale data information for Agency reported items sold via GSA Auctions® Sales. The data is for closed sales during FY2009. GSA Auctions® offers the public the opportunity to bid electronically on a wide array of Federal assets. The auctions are completely web-enabled, allowing all registered participants to bid on a single item or multiple items (lots) within specified timeframes. GSA Auctions® sale items include communications, computer, electric, electronic, agricultural, office, photographic, marine, laboratory, medical, dental and veterinary supplies and equipment; trailers, tractors, bicycles and salvage/scrap vehicles; furniture, household and personal items, industrial machinery, jewelry and collectibles. GSA Auctions® is accessible at http://www.gsaauctions.gov. Unregistered users may browse the site. Registration is required for bidders.</p>
+
+
+<h3><a href="">e-Buy Awards for Fiscal Year 2005</a></h3>
+
+<p>GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.</p>
+
+
             </section>
 
             <section class="repositories wrap">
