@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://fast.fonts.net/cssapi/0a274127-32a9-474a-bbdb-f23f410e88c5.css">
-    <link rel="stylesheet" href="https://gsa.github.io/css/site.css">
+    <link rel="stylesheet" href="/css/site.css">
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} &raquo; Feed" href="/feed/">
 
@@ -22,16 +22,10 @@
     <script src="{% if page.assetpath %}{{ page.assetpath }}{% endif %}js/respond.min.js" media="all"></script>
 <![endif]-->
 
+		<script type="text/javascript" src="http://gsa.gov/resources/js/jquery.min.js"></script>
 <!-- HELPER SCRIPTS -->
-		<script type="text/javascript" src="http://m.gsa.gov/m/js/mobileRedirect.js"></script>
-		<script type="text/javascript" src="http://gsa.gov/resources/js/jquery.cookie.js"></script>
- 		<script type="text/javascript" src="http://gsa.gov/resources/js/helper.js"></script>
- 		<script type="text/javascript" src="http://gsa.gov/resources/js/plugins.js"></script>
- 		
+
  		<!--DataTables-->
-<script type="text/javascript" src="http://gsa.gov/resources/js/jquery.dataTables.min.js"></script>
- 		<link rel="stylesheet" href="http://gsa.gov/resources/css/jquery.dataTables.css" type="text/css" />
-		<script type="text/javascript" SRC="http://gsa.gov/resources/js/jquery.min.js"></script>
 
 <!-- GSA FEEDBACK PLUGIN -->
  		<script type="text/javascript" src="http://gsa.gov/resources/js/gsaFeedback.js"></script>
@@ -42,7 +36,7 @@
  		<link rel="stylesheet" href="http://gsa.gov/resources/css/bootstrap-container.css" type="text/css" />
 
 
-    <script src="{% if page.assetpath %}{{ page.assetpath }}{% endif %}js/modernizr-afontgarde.min.js" media="all"></script>
+    <script src="/js/modernizr-afontgarde.min.js"></script>
 </head>
 
 <body>
@@ -66,7 +60,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script src="{% if page.assetpath %}{{ page.assetpath }}{% endif %}js/afontgarde.js"></script>
+    <script src="/js/afontgarde.js"></script>
     <script>
         AFontGarde( 'CFPB_Icons', '\uE600\uE601\uE602\uE605' );
         var consoleText = 'Hey!';
