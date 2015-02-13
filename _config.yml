@@ -5,5 +5,5 @@ pygments:    true
 markdown:    kramdown
 
 title: GSA Open Tech
-url: "https://gsa.github.io/"
+url: "http://open.gsa.gov/"
 description: "Learn about the data and developer work of the General Services Administration."
