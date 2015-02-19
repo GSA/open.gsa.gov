@@ -24,10 +24,11 @@
             entriesByTheme = {},
             links = $("<ul>")
               .addClass("themes")
-              .appendTo(root);
+              .appendTo(root),
+            datasets = data.dataset || data;
 
         // create an entry for each data object from 
-        $.each(data, function(i, d) {
+        $.each(datasets, function(i, d) {
           // create some HTML from the "entry" template
           var entry = GSA.dataDotJSON.template("entry", d),
               theme = d.theme[0];
