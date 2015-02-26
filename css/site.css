@@ -633,13 +633,13 @@ sub {
     background: url(../img/feature_collab_150x150.png) no-repeat;
 }
 .featured-project_img__data {
-    background: url(../img/data_circle-300x300.jpg) no-repeat;
+    background: url(../img/data_circle-150x150.jpg) no-repeat;
 }
 .featured-project_img__api {
-    background: url(../img/API_circle-300x300.jpg) no-repeat;
+    background: url(../img/API_circle-150x150.jpg) no-repeat;
 }
 .featured-project_img__code {
-    background: url(../img/code_circle-300x300.jpg) no-repeat;
+    background: url(../img/code_circle-150x150.jpg) no-repeat;
 }
 .featured-project_head {
     margin-bottom: .75em;
