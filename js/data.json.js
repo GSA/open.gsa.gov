@@ -79,7 +79,7 @@
     },
 
     templates: {
-        entry: '<div class="entry"><h4><a href="{{accessURL}}" target"_blank">{{title}}</a></h4><p>{{description}}</p><br></div>',
+        entry: '<div class="entry"><h4><a href="{{downloadURL}}" target"_blank">{{title}}</a></h4><p>{{description}}</p><br></div>',
         theme: '<h3 id="theme-{{theme}}">{{theme}}</h3>',
         theme_link: '<li><a href="#theme-{{theme}}">{{theme}}</a></li>',
         staging: '<strong>[Note: This data is dynamic, and not available in the Staging environment. It can be viewed in Production: <a href="http://gsa.gov/portal/content/181595">http://gsa.gov/portal/content/181595</a>.]</strong><br><br>',
