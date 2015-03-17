@@ -633,10 +633,10 @@ sub {
     background: url(../img/feature_collab_150x150.png) no-repeat;
 }
 .featured-project_img__data {
-    background: url(../img/data_circle-150x150.jpg) no-repeat;
+    background: url(../img/Data_circle-150x150.png) no-repeat;
 }
 .featured-project_img__api {
-    background: url(../img/API_circle-150x150.jpg) no-repeat;
+    background: url(../img/api_circle-150x150.png) no-repeat;
 }
 .featured-project_img__code {
     background: url(../img/code_circle-150x150.jpg) no-repeat;
