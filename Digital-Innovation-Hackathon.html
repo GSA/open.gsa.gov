@@ -1,0 +1,251 @@
+---
+layout: default
+title: Digital Innovation Hackathon
+---
+
+            <section class="hero">
+                <div class="wrap">
+                      <h1>Digital Innovation Hack-a-Thon</h1>
+                        <p>GSA seeks the "best and brightest" to assist the agency in providing valuable service to citizens!</p>
+                        <p>The U.S. General Services Administration (GSA) invites open source coders and designers to its 
+                        first ever Digital Innovation Hack-a-thon.  The event takes place on May 8th from 9:30am to 4:00pm at GSA's 
+                        Headquarters located in Washington, DC, at 18th & F Streets, NW. <p/>
+                        <p>Coders and designers will be randomly placed into teams 
+                        to tackle an array of challenges pertaining to acquisition, travel, and building services.  The teams will use GSA data to
+                        create a useable digital product in the form of an application, API, dashboard, mashup, etc.  The top three teams, with the
+                        best solutions, will be awarded cash prizes.</p>
+                        <p> <a class="call-to-action" href="https://groups.google.com/a/gsa.gov/forum/?hl=en#!forum/opendata">Contact Us</a><p/>
+                        
+                        <!--
+                        <ul class="learn-more">
+                            <li class="learn-more_item">
+                                <a class="call-to-action" href="articles/introducing-cfpb-open-tech/">
+                                    Learn more
+                                </a>
+                            </li>
+                            <li class="learn-more_item">
+                                <a class="call-to-action"
+                                   href="source-code-policy/">
+                                    View our Source Code Policy
+                                </a>
+                            </li>
+                        </ul> -->
+                    </section>
+
+                     <section class="sidebar off-the-press">
+                        <h2 class="sidebar_head">From the CIO's Desk </h2>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                            <p>Check Back soon for a message from our CIO Sonny Hashmi.</p>
+                                 <!--Hide until Ready  <h3 class="sidebar_list_item_head"> 
+                                    <iframe width="420" height="315"
+                                    src="http://www.youtube.com/embed/Video link here">
+                                    </iframe>  -->
+                            </li>
+                        </ul>   
+
+                        
+                        <!-- <h2 class="sidebar_head">More From GSA</h2>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="http://gsa.github.io/data1">Data</a>
+                                </h3>
+                            </li>
+                        </ul>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="http://gsa.github.io/developer/">APIs</a>
+                                </h3>
+                            </li>
+                        </ul>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="https://www.github.com/gsa">Code</a>
+                                </h3>
+                            </li> -->
+                        </ul> 
+                    </section>
+
+                </div>
+            </section> <!-- /.hero -->
+
+            <section class="featured-projects">
+             <ul class="wrap nav-list">
+                    <li class="featured-project">
+                        <a href="https://www.open.gsa.gov/data"><div class="featured-project_img__Open-data"></div></a>
+                        <h3 class="featured-project_head">
+                            <a href="https://www.open.gsa.gov/data">open.gsa.gov/data</a>
+                        </h3>
+                        <p class="featured-project_desc">Source for open government datasets, API's and code.</p>
+                    </li>
+                    
+                     <li class="featured-project">
+                        <a href=><div class="featured-project_img__calendar"></div></a>
+                        <h3 class="featured-project_head">
+                            <a href="">Register to Participate</a>
+                        </h3>
+                        <p class="featured-project_desc">All participants, physical and virtual are asked to register for the event on our Eventbrite page.</p>
+                    </li>
+                    
+                        <li class="featured-project">
+                        <a href=""><div class="featured-project_img__Rules-and-Criteria"></div></a>
+                        <h3 class="featured-project_head">
+                            <a href="">Rules and Guidance </a>
+                        </h3>
+                        <p class="featured-project_desc">View a PDF of our guidance on participation and winning project selection.</p>
+                    </li>
+            
+                    <li class="featured-project">
+                        <a href=><div class="featured-project_img__Agenda"></div></a>
+                        <h3 class="featured-project_head">
+                            <a href="">Event Agenda</a>
+                        </h3>
+                        <p class="featured-project_desc">PDF Copy of the event agenda</p>
+                    </li>
+                    </ul>
+            </section>
+
+<!--            <section class="articles wrap">
+                <h2 class="section-head"><i class="icon-document"></i> News</h2>
+
+                <section class="featured-entries">
+                {% for post in site.posts limit:1 %}
+                    <article class="entry">
+                        <h3 class="entry_title">
+                        {% if post.external-url %}
+                            <a href="{{ post.external-url }}">
+                        {% else %}
+                            <a href="{{ post.url | remove_first:'/'}}/">
+                        {% endif %}
+                                {{ post.title }}
+                            </a>
+                        </h3>
+                        {% if post.tagline %}
+                        <p class="entry_tagline">{{ post.tagline }}</p>
+                        {% endif %}
+                        
+                        {% if post.excerpt %}
+                        <p class="entry_description">{{ post.excerpt | markdownify }}</p>
+                        {% endif %}
+                        
+                        <div class="entry_meta">
+                            {% if post.author %}
+                            By <span class="author">{{ post.author }}</span> &ndash;
+                            {% endif %}
+
+                            {% if post.date %}
+                            <time datetime="{{ post.date | date: '%b %d, %Y' }}">
+                                {{ post.date | date: '%b %d, %Y' }}
+                            </time>
+                            {% endif %}
+                            
+                            {% comment %}
+                                {% if post.tags %}
+                                <div class="tags cf">
+                                    <h4 class="tags_head">Tags:</h4>
+                                    <ul class="tag-list">
+                                        {% for tag in post.tags %}
+                                        <li class="tag">
+                                            <a class="tag_link">{{ tag }}</a>
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                                {% endif %}
+                            {% endcomment %}
+                        </div>
+                        -->
+<!--                         <a class="entry_read-more-link call-to-action__icon"
+                           href="{{ post.url | remove_first:'/'}}/">
+                           Read more <i class="icon-right"></i>
+                        </a> -->
+<!--                    </article>
+                {% endfor %}
+                </section>
+
+                <section class="sidebar more-articles">
+                    <h2 class="sidebar_head">More articles</h2>
+
+                    <ul class="sidebar_list nav-list">
+                    {% for post in site.posts limit:3 offset:1 %}
+                        <li class="sidebar_list_item">
+                            <h3 class="sidebar_list_item_head">
+                            {% if post.external-url %}
+                                <a href="{{ post.external-url }}">
+                            {% else %}
+                                <a href="{{ post.url | remove_first:'/' }}/">
+                            {% endif %}
+                                    {{ post.title }}
+                                </a>
+                            </h3>
+
+                            <div class="sidebar_list_item_meta entry_meta">
+                                {% if post.author %}
+                                By <span class="author">{{ post.author }}</span> &ndash;
+                                {% endif %}
+
+                                {% if post.date %}
+                                <time datetime="{{ post.date | date: '%b %d, %Y' }}">
+                                    {{ post.date | date: '%b %d, %Y' }}
+                                </time>
+                                {% endif %}
+                            </div>
+                        </li>
+                    {% endfor %}
+                    </ul>
+
+                    <!-- Hide until we have published at least 4 articles -->
+                    <!-- <a class="more-articles_read-more-link call-to-action__icon"
+                       href="articles/">
+                       Read more articles <i class="icon-right"></i>
+                    </a> -->
+<!--
+                </section>
+            </section>-->
+
+            <section class="repositories wrap">
+                <h2 class="section-head"><i class="icon-github"></i> Highlighted Repositories</h2>
+
+                <section class="repos">
+                    <section class="repo">
+                        <h3 class="repo_name"><a href="https://github.com/GSA/data.gov">data.gov</a></h3>
+                        <p class="repo_description">The CKAN-based data catalog for the federal government.</p>
+                    </section>
+                    <section class="repo">
+                        <h3 class="repo_name"><a href="https://github.com/GSA/sam_api">sam_api</a></h3>
+                        <p class="repo_description">API access to the System for Award Management</p>
+                    </section>
+                    <section class="repo">
+                        <h3 class="repo_name"><a href="https://github.com/GSA/unclaimed_money">unclaimed_money</a></h3>
+                        <p class="repo_description">US Government unclaimed money metasearch tool.</p>
+                    </section>
+                </section>
+
+                <section class="sidebar more-repos">
+                    <h2 class="sidebar_head">More repositories</h2>
+                    <ul class="sidebar_list nav-list">
+                        <li class="sidebar_list_item">
+                            <h3 class="sidebar_list_item_head">
+                                <a href="https://github.com/GSA/openIAE">openIAE</a>
+                                <i class="icon-external-link"></i>
+                            </h3>
+                        </li>
+                        <li class="sidebar_list_item">
+                            <h3 class="sidebar_list_item_head">
+                                <a href="https://github.com/GSA/asis">asis</a>
+                                <i class="icon-external-link"></i>
+                            </h3>
+                        </li>
+                        <li class="sidebar_list_item">
+                            <h3 class="sidebar_list_item_head">
+                                <a href="https://github.com/GSA/govt-urls">govt-urls</a>
+                                <i class="icon-external-link"></i>
+                            </h3>
+                        </li>
+                    </ul>
+                    <a class="more-repos_view-all-link call-to-action__icon" href="https://github.com/gsa">
+                        View all repositories <i class="icon-external-link"></i>
+                    </a>
+                </section>
+
+            </section>
