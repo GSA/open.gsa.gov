@@ -645,6 +645,19 @@ sub {
     margin-bottom: .75em;
     font-family: "Avenir Next W01", Arial, sans-serif;
 }
+.featured-project_img__Rules-and-Criteria {
+    background: url(https://cloud.githubusercontent.com/assets/10743420/6626526/92e07518-c8cd-11e4-909d-085246cadaf0.jpg) no-repeat;   
+}
+.featured-project_img__Open-data {
+    background: url(../img/Open-data.jpg) no-repeat;
+}
+.featured-project_img__Agenda {
+    background: url(../img/Agenda.jpg) no-repeat;
+}
+.featured-project_img__calendar {
+    background: url(../img/calendar.jpg) no-repeat;
+}
+
 
 .section-head {
     padding: 0 0 0.5em;
