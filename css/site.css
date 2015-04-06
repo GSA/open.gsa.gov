@@ -653,6 +653,9 @@ sub {
 .featured-project_img__code {
     background: url(../img/code_circle-150x150.jpg) no-repeat;
 }
+.featured-project_img__toolbox {
+    background: url(../img/toolbox.jpg) no-repeat;
+}
 .featured-project_head {
     margin-bottom: .75em;
     font-family: "Avenir Next W01", Arial, sans-serif;
