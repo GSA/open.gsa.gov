@@ -282,7 +282,7 @@ main p a:visited {
 a:hover {
     border-bottom: 1px solid #7FB8E6;
     color: #7FB8E6;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a:focus {
