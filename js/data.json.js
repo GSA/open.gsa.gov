@@ -1,10 +1,10 @@
 (function(exports) {
   var GSA = exports.GSA || (exports.GSA = {});
 
-  GSA.dataDotJSON = {
+  var DDJ = GSA.dataDotJSON = {
 
     init: function(options) {
-      GSA.dataDotJSON.display(options);
+      DDJ.display(options);
     },
 
     display: function(options) {
@@ -30,11 +30,11 @@
         // create an entry for each data object from 
         $.each(datasets, function(i, d) {
 
-          if (!d.url) d.url = GSA.dataDotJSON.getDatasetURL(d);
-          if (!d.url) return; // don't list entries without a URL!
+          d.url = DDJ.getDatasetURL(d);
+          // if (!d.url) return;
 
           // create some HTML from the "entry" template
-          var entry = GSA.dataDotJSON.template("entry", d);
+          var entry = DDJ.template(d.url ? "entry" : "entry_no_url", d);
           var theme = d.theme[0];
           // if we've seen this theme before...
           if (theme in entriesByTheme) {
@@ -57,11 +57,11 @@
         $.each(themes, function(i, theme) {
           // create a link for the theme, and add it to the links list
           var link = $("<li>")
-            .html(GSA.dataDotJSON.template("theme_link", {theme: theme}))
+            .html(DDJ.template("theme_link", {theme: theme}))
             .appendTo(links);
 
           // render the "theme" template and add that bit to the root
-          var html = GSA.dataDotJSON.template("theme", {theme: theme});
+          var html = DDJ.template("theme", {theme: theme});
           root.append(html);
 
           // then add each of its entries
@@ -116,7 +116,8 @@
 
     // content templates
     templates: {
-      entry: '<div class="entry"><h4><a href="{{ url }}" class="{{ urlType }}" target"_blank">{{ title }}</a></h4><p>{{ description }}</p><br></div>',
+      entry: '<div class="entry"><h4><a href="{{ url }}" class="{{ urlType }}">{{ title }}</a></h4><p>{{ description }}</p><br></div>',
+      entry_no_url: '<div class="entry"><h4>{{ title }}</h4><p>{{ description }}</p><br></div>',
       theme: '<h3 id="theme-{{ theme }}">{{ theme }}</h3>',
       theme_link: '<li><a href="#theme-{{ theme }}">{{ theme }}</a></li>',
       staging: '<strong>[Note: This data is dynamic, and not available in the Staging environment. It can be viewed in Production: <a href="http://gsa.gov/portal/content/181595">http://gsa.gov/portal/content/181595</a>.]</strong><br><br>',
