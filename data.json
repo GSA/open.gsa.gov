@@ -1095,11 +1095,11 @@
         "hasEmail": "mailto:ammie.farrajfeijoo@gsa.gov"
       },
       "dataQuality": true,
-      "description": "Provides DigitalGov Search customers with results. This API is only available for use on official government websites. Sign in is required. Style: RESTful API (requires DigitalGov Search account)",
+      "description": "Provides DigitalGov Search customers their search results in JSON. Sign in with a .gov or .mil email is required.",
       "distribution": [
         {
           "@type": "dcat:Distribution",
-          "accessURL": "http://search.digitalgov.gov/manual/api.html",
+          "accessURL": "https://search.usa.gov/login",
           "format": "API"
         }
       ],
