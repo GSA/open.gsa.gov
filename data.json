@@ -648,7 +648,7 @@
       "distribution": [
         {
           "@type": "dcat:Distribution",
-          "accessURL": "http://search.digitalgov.gov/manual/api.html",
+          "accessURL": "http://catalog.data.gov/dataset/data-gov-daily-visitor-statistics-archival",
           "format": "API"
         }
       ],
