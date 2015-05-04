@@ -648,7 +648,7 @@
       "distribution": [
         {
           "@type": "dcat:Distribution",
-          "accessURL": "https://inventory.data.gov/dataset/data-gov-daily-visitor-statistics/resource/0f96083f-0089-4524-8574-8eec91e2a7f2"
+          "accessURL": "https://inventory.data.gov/dataset/data-gov-daily-visitor-statistics/resource/0f96083f-0089-4524-8574-8eec91e2a7f2",
           "format": "API"
         }
       ],
