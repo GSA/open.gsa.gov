@@ -626,6 +626,9 @@ sub {
 .featured-project_img__pdp {
     background: url(../img/feature_pdp_150x150.png) no-repeat;
 }
+.featured-project_img__Judge {
+    background: url(https://cloud.githubusercontent.com/assets/10743420/7526192/94d1e1ea-f4dd-11e4-899b-d6e3bc5b5733.png) no-repeat;
+}
 .featured-project_img__eregs {
     background: url(../img/feature_eregs_150x150.png) no-repeat;
 }
