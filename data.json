@@ -10,11 +10,11 @@
 			},
 			"dataQuality" : true,
 			"describedBy" : "http:\/\/inventory.data.gov\/dataset\/fe9eeb10-2e90-433e-a955-5c679f682502\/resource\/b626ef1f-9019-41c4-91aa-5ae3f7457328",
-			"description" : "This dataset offers the list of Federal Executive Agency internet domains.",
+			"description" : "This dataset offers the list of all .gov domains, including state, local, and tribal .gov domains. It does not include .mil domains, or other federal domains outside of .gov and .fed.us.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/inventory.data.gov\/dataset\/gov-domains-api\/resource\/02706c7b-98e3-4267-8dd8-e3bb2d8c7ce3",
 					"description" : null,
-					"downloadURL" : "http:\/\/inventory.data.gov\/dataset\/fe9eeb10-2e90-433e-a955-5c679f682502\/resource\/b626ef1f-9019-41c4-91aa-5ae3f7457328\/download\/federalexecagncyintntdomains06172014.csv",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -466,14 +466,6 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "Closed and Paid vouchers from the Concur Travel System",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "[[REDACTED-EX B4]], [[REDACTED-EX B6]]",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
 			"identifier" : "GSA - 155326",
 			"issued" : null,
 			"keyword" : ["[\"Purchase Card\",\"Travel Program\"]"],
@@ -501,14 +493,6 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "The data dictionary for the reporting authorization model  within Concur.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "[[REDACTED-EX B4]]",
-					"format" : null,
-					"mediaType" : "application\/msword"
-				}
-			],
 			"identifier" : "GSA - 139042",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"purchase card\",\"travel card\"]"],
@@ -536,14 +520,6 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "The data dictionary for the reporting travel model  within Concur.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "[[REDACTED-EX B4]]",
-					"format" : null,
-					"mediaType" : "application\/msword"
-				}
-			],
 			"identifier" : "GSA - 139046",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"travel card\"]"],
@@ -571,14 +547,6 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "The data dictionary for the reporting user profile folder within Concur.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "[[REDACTED-EX B4]]",
-					"format" : null,
-					"mediaType" : "application\/msword"
-				}
-			],
 			"identifier" : "GSA - 139047",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"travel card\"]"],
@@ -606,14 +574,6 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "The data dictionary for the reporting voucher model within Concur.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "[[REDACTED-EX B4]]",
-					"format" : null,
-					"mediaType" : "application\/msword"
-				}
-			],
 			"identifier" : "GSA - 139048",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"travel card\"]"],
@@ -626,7 +586,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "[[REDACTED-EX B4]]Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Travel and Transportation"],
 			"title" : "Concur - Reporting Voucher Model"
@@ -1962,76 +1922,6 @@
 			"title" : "Federal Acquisition Service Instructional Letter 2014"
 		}, {
 			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member Data collected and verified for FY 1997.  The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList1997.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1182",
-			"issued" : "1997-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "1997-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-1997"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member Data collected and verified for FY 1998. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList1998.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1181",
-			"issued" : "1997-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "1998-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-1998"
-		}, {
-			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1Y",
 			"bureauCode" : [" 023:00"],
 			"contactPoint" : {
@@ -2040,431 +1930,11 @@
 			},
 			"dataQuality" : true,
 			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Members Data collected and verified for FY 1999. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
+			"description" : "FACA Committee Member Data collected and verified for each FY from 1997 to present. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.facadatabase.gov\/datasets\/",
 					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList1999.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1180",
-			"issued" : "1998-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "1999-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-1999"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member Data collected and verified for FY 2000. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList2000.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1179",
-			"issued" : "1999-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2000-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2000"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member List Data collected and verified for FY 2001. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList2001.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1178",
-			"issued" : "2000-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2001-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2001"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member List Data collected and verified for FY 2002. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList2002.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1177",
-			"issued" : "2001-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2002-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2002"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member List Data collected and verified for FY 2003.  The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList2003.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1176",
-			"issued" : "2002-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2003-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2003"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member List Data collected and verified for FY 2004. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList2004.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1175",
-			"issued" : "2003-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2004-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2004"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member List Data collected and verified for FY 2005.  The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList2005.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1174",
-			"issued" : "2004-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2005-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2005"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member List Data collected and verified for FY 2006. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList2006.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1173",
-			"issued" : "2005-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2006-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2006"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member List Data collected and verified for FY 2007. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList2007.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1172",
-			"issued" : "2006-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2007-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2007"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member List Data collected and verified for FY 2008. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberList2008.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1171",
-			"issued" : "2007-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Interactive\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2008-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2008"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member Data collected and verified for FY 2009. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberlist2009.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-6198",
-			"issued" : "2009-10-15",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2014-01-08",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2009"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member Data collected and verified for FY 2010. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberlist2010.csv",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-6199",
-			"issued" : "2011-10-15",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2014-01-08",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2010"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member Data collected and verified for FY 2010. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAMemberlist2011.csv",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -2475,7 +1945,7 @@
 			"landingPage" : null,
 			"language" : ["en-us"],
 			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2014-01-08",
+			"modified" : "2015-05-21",
 			"programCode" : [" 023:015"],
 			"publisher" : {
 				"name" : "General Services Administration"
@@ -2484,112 +1954,7 @@
 			"rights" : "N\/A",
 			"spatial" : "National",
 			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member List-2011"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 1997.  The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData1997.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1169",
-			"issued" : "1997-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "1997-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-1997"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FYs 1997-2010.  Committee and Subcommittee Data collected is separately extracted and keyed.  The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData-All-1997-2010.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1170",
-			"issued" : "1997-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2012-03-30",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-1997-2010"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FYs 1997-2010.  Committee and Subcommittee Data collected is not separately extracted.  The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData-Raw.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1233",
-			"issued" : "2009-11-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2012-03-30",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-1997-2010 Combined Committee Data"
+			"title" : "Federal Advisory Committee Act (FACA) Committee Member Lists"
 		}, {
 			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/PT1S",
@@ -2600,363 +1965,13 @@
 			},
 			"dataQuality" : true,
 			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 1999. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
+			"description" : "FACA Data collected and verified for each FY from 1997 to present. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.facadatabase.gov\/datasets\/",
 					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData1999.zip",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1167",
-			"issued" : "1998-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "1999-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-1999"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 2000. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData2000.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1166",
-			"issued" : "1999-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2000-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-2000"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 2001. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData2001.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1165",
-			"issued" : "2000-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2001-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-2001"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 2002. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData2002.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1164",
-			"issued" : "2001-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2002-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-2002"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 2003.  The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData2003.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1163",
-			"issued" : "2002-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2003-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-2003"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 2006. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData2006.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1160",
-			"issued" : "2005-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2006-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-2006"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 2007. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData2007.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1159",
-			"issued" : "2006-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2007-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-2007"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 2008. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData2008.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-1158",
-			"issued" : "2007-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2008-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-2008"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 2009. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData2009.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-6203",
-			"issued" : "2012-03-30",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "3012-03-30",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-2009"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 2010. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData2010.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
-				}
-			],
-			"identifier" : "GSA-6204",
-			"issued" : "2012-03-30",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2012-03-30",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-2010"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for FY 2011. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/transfer.fido.gov\/facadatabase\/FACAData2011.zip",
-					"format" : null,
-					"mediaType" : "application\/mdb"
+					"mediaType" : "application\/zip"
 				}
 			],
 			"identifier" : "GSA-6205",
@@ -2965,7 +1980,7 @@
 			"landingPage" : null,
 			"language" : ["en-us"],
 			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2012-03-30",
+			"modified" : "2015-05-22",
 			"programCode" : [" 023:015"],
 			"publisher" : {
 				"name" : "General Services Administration"
@@ -2974,42 +1989,7 @@
 			"rights" : "N\/A",
 			"spatial" : "National",
 			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data-2011"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide ' This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/www.fido.gov\/facadatabase\/public.asp",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-1157",
-			"issued" : "1997-10-01",
-			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2008-12-31",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Database-Complete-Raw"
+			"title" : "Federal Advisory Committee Act (FACA) Data"
 		}, {
 			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1Y",
@@ -3232,7 +2212,7 @@
 			"describedBy" : null,
 			"description" : "The Federal Award Assistance Data System (FAADS) has been re-engineered as a real-time federal enterprise information system. Web services based on SOAP and XML, implemented using Java technologies, are used in Federal Assistance module to provide interoperability with various federal assistance systems.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/www.fpds.gov\/downloads\/FAADS\/FAADS-Specifications-WebServices_Integration_Specifications_V2.doc",
 					"description" : null,
 					"downloadURL" : "https:\/\/www.fpds.gov\/downloads\/FAADS\/FAADS-Specifications-WebServices_Integration_Specifications_V2.doc",
 					"format" : null,
@@ -3267,7 +2247,7 @@
 			"describedBy" : null,
 			"description" : "The Federal Procurement Data System (FPDS) Next Generation has been re-engineered as a real-time federal enterprise information system. Web services based on SOAP and XML, implemented using Java technologies, are used in FPDS-NG to provide interoperability with various federal procurement systems",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/www.fpds.gov\/downloads\/FPDS-Specifications-WebServices_Integration_Specifications_V1.4.doc",
 					"description" : null,
 					"downloadURL" : "https:\/\/www.fpds.gov\/downloads\/FPDS-Specifications-WebServices_Integration_Specifications_V1.4.doc",
 					"format" : null,
@@ -3336,14 +2316,6 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "FSSI Domestic Delivery Services 2 BPA vendor submitted usage reports",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "[[REDACTED-EX B4]]",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
 			"identifier" : "GSA - 139666",
 			"issued" : null,
 			"keyword" : ["[\"DDS2\",\"FSSI\"]"],
@@ -3371,14 +2343,6 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "FSSI Maintenance, Repair, and Operations BPA vendor submitted usage reports",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "[[REDACTED-EX B4]]",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
 			"identifier" : "GSA - 139667",
 			"issued" : null,
 			"keyword" : ["[\"FSSI\",\"MRO\"]"],
@@ -3406,14 +2370,6 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "FSSI Print Management BPA vendor submitted usage reports",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "[[REDACTED-EX B4]]",
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
 			"identifier" : "GSA - 139668",
 			"issued" : null,
 			"keyword" : ["[\"FSSI\",\"Print Management\"]"],
@@ -3441,14 +2397,6 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "FSSI Office Supplies 2 BPA vendor submitted usage reports",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "[[REDACTED-EX B4]]",
-					"format" : null,
-					"mediaType" : "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-				}
-			],
 			"identifier" : "GSA - 139647",
 			"issued" : null,
 			"keyword" : ["[\"BPA\",\"Data\",\"FSSI\",\"GSA\",\"Monthly\",\"Prices Paid\",\"Report\",\"Supplier\",\"Usage\",\"Vendor\",\"Wireless\"]"],
@@ -3476,14 +2424,6 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "FSSI Wireless BPA vendor submitted usage reports",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "[[REDACTED-EX B4]]",
-					"format" : null,
-					"mediaType" : "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-				}
-			],
 			"identifier" : "GSA - 139665",
 			"issued" : null,
 			"keyword" : ["[\"FSSI\",\"Wireless\"]"],
@@ -4412,34 +3352,6 @@
 			"title" : "Natural Gas Acquisition Program"
 		}, {
 			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P3M",
-			"bureauCode" : [" 023:10"],
-			"contactPoint" : {
-				"fn" : "Toni L Holloway",
-				"hasEmail" : "mailto:toni.holloway@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "https:\/\/www.asap.gsa.gov\/datagov\/networx\/networx_revenue_data_dictionary.html",
-			"description" : "The dataset represents the Networx Universal and Enterprise business volume by contractor, agency, contract vehicle and month for the centralized billing account. This represents the business volume of each government agency that has ordered telecommunications services from the Networx contract.",
-			"distribution" : [],
-			"identifier" : "GSA-2015-02-26-1",
-			"issued" : null,
-			"keyword" : ["[\"Networx Telecommunications\"]"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2013-08-15",
-			"programCode" : [" 023:008"],
-			"publisher" : {
-				"name" : "General Service Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : null,
-			"theme" : ["Other"],
-			"title" : "NetworksBusinessVolume_FY13_3rdQtr"
-		}, {
-			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1M",
 			"bureauCode" : [" 023:00"],
 			"contactPoint" : {
@@ -4472,7 +3384,7 @@
 			"rights" : "N\/A",
 			"spatial" : "National",
 			"theme" : ["Real Estate"],
-			"title" : "Networx Business Volume FY2010"
+			"title" : "NetworxBusinessVolume_FY2010"
 		}, {
 			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1M",
@@ -4507,7 +3419,7 @@
 			"rights" : "N\/A",
 			"spatial" : "National",
 			"theme" : ["Real Estate"],
-			"title" : "Networx Business Volume_FY2011_1st Qtr"
+			"title" : "NetworxBusinessVolume_FY2011_1st Qtr"
 		}, {
 			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1M",
@@ -4542,7 +3454,7 @@
 			"rights" : "N\/A",
 			"spatial" : "National",
 			"theme" : ["Real Estate"],
-			"title" : "Networx BusinessVolume_FY2012_2ndQtr"
+			"title" : "NetworxBusinessVolume_FY2012_2ndQtr"
 		}, {
 			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1M",
@@ -4577,7 +3489,7 @@
 			"rights" : "N\/A",
 			"spatial" : "National",
 			"theme" : ["Real Estate"],
-			"title" : "Networx BusinessVolume_FY2012_3rdQtr"
+			"title" : "NetworxBusinessVolume_FY2012_3rdQtr"
 		}, {
 			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1M",
@@ -4612,7 +3524,7 @@
 			"rights" : "N\/A",
 			"spatial" : "National",
 			"theme" : ["Real Estate"],
-			"title" : "Networx BusinessVolume_FY2012_4thQtr"
+			"title" : "NetworxBusinessVolume_FY2012_4thQtr"
 		}, {
 			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1M",
@@ -4647,7 +3559,7 @@
 			"rights" : "N\/A",
 			"spatial" : "National",
 			"theme" : ["Real Estate"],
-			"title" : "Networx BusinessVolume_FY2013_2ndQtr"
+			"title" : "NetworxBusinessVolume_FY2013_2ndQtr"
 		}, {
 			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1M",
@@ -5139,7 +4051,7 @@
 			"theme" : ["Travel and Transportation"],
 			"title" : "Purchase Card Transactions"
 		}, {
-			"accessLevel" : "non-public",
+			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P3M",
 			"bureauCode" : [" 023:00"],
 			"contactPoint" : {
@@ -5150,20 +4062,20 @@
 			"describedBy" : null,
 			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000PzuO\/Mm2_1yO.m08derxmeWZSpQigylfUUNvtm.6xBiRBni0",
 					"description" : null,
 					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
 			],
-			"identifier" : "GSA - 3412",
-			"issued" : null,
+			"identifier" : "GSA - 32934",
+			"issued" : "2014-10-01",
 			"keyword" : ["[\"Purchase Card\",\"GSA SmartPay\",\"Board of Contract Appeals\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
 			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2014-10-31",
+			"modified" : "2015-05-21",
 			"programCode" : [" 023:010"],
 			"publisher" : {
 				"name" : "General Services Administration"
@@ -5174,7 +4086,7 @@
 			"theme" : ["Travel and Transportation"],
 			"title" : "Purchase Card Transactions - Board of Contract Appeals"
 		}, {
-			"accessLevel" : "non-public",
+			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P3M",
 			"bureauCode" : [" 023:00"],
 			"contactPoint" : {
@@ -5185,15 +4097,15 @@
 			"describedBy" : null,
 			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000PzuT\/xLccg7SXmCiNalCrJ0_3EuizcTVTQ1vLGaXSs_tpvtY",
 					"description" : null,
 					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
 			],
-			"identifier" : "GSA - 3413",
-			"issued" : null,
+			"identifier" : "GSA - 32935",
+			"issued" : "2015-05-21",
 			"keyword" : ["[\"Purchase Card\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
@@ -6117,7 +5029,7 @@
 			"rights" : "N\/A",
 			"spatial" : null,
 			"theme" : ["Real Estate"],
-			"title" : "NetworxBusinessVolume_FY15_2ndQtr"
+			"title" : "NetworxBusinessVolume_FY2015_2ndQtr"
 		}, {
 			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1Y",
