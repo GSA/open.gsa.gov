@@ -269,7 +269,7 @@
 			"keyword" : ["[\"Budget\",\"Reporting\",\"Project\",\"Activity\",\"Repairs\",\"Alterations\",\"Construction\",\"Historic Preservation\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2011-03-24",
 			"programCode" : [" 023:000"],
 			"publisher" : {
@@ -466,12 +466,20 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "Closed and Paid vouchers from the Concur Travel System",
+			"distribution" : [{
+					"accessURL" : "[[REDACTED-EX B4]]",
+					"description" : null,
+					"downloadURL" : "[[REDACTED-EX B4]]",
+					"format" : null,
+					"mediaType" : "text\/csv"
+				}
+			],
 			"identifier" : "GSA - 155326",
 			"issued" : null,
 			"keyword" : ["[\"Purchase Card\",\"Travel Program\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-08-31",
 			"programCode" : [" 023:010"],
 			"publisher" : {
@@ -493,12 +501,20 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "The data dictionary for the reporting authorization model  within Concur.",
+			"distribution" : [{
+					"accessURL" : "[[REDACTED-EX B4]]",
+					"description" : null,
+					"downloadURL" : "[[REDACTED-EX B4]]",
+					"format" : null,
+					"mediaType" : "application\/msword"
+				}
+			],
 			"identifier" : "GSA - 139042",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"purchase card\",\"travel card\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-03-26",
 			"programCode" : [" 023:010"],
 			"publisher" : {
@@ -520,12 +536,20 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "The data dictionary for the reporting travel model  within Concur.",
+			"distribution" : [{
+					"accessURL" : "[[REDACTED-EX B4]]",
+					"description" : null,
+					"downloadURL" : "[[REDACTED-EX B4]]",
+					"format" : null,
+					"mediaType" : "application\/msword"
+				}
+			],
 			"identifier" : "GSA - 139046",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"travel card\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-03-25",
 			"programCode" : [" 023:010"],
 			"publisher" : {
@@ -547,12 +571,20 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "The data dictionary for the reporting user profile folder within Concur.",
+			"distribution" : [{
+					"accessURL" : "[[REDACTED-EX B4]]",
+					"description" : null,
+					"downloadURL" : "[[REDACTED-EX B4]]",
+					"format" : null,
+					"mediaType" : "application\/msword"
+				}
+			],
 			"identifier" : "GSA - 139047",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"travel card\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-03-25",
 			"programCode" : [" 023:010"],
 			"publisher" : {
@@ -574,12 +606,20 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "The data dictionary for the reporting voucher model within Concur.",
+			"distribution" : [{
+					"accessURL" : "[[REDACTED-EX B4]]",
+					"description" : null,
+					"downloadURL" : "[[REDACTED-EX B4]]",
+					"format" : null,
+					"mediaType" : "application\/msword"
+				}
+			],
 			"identifier" : "GSA - 139048",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"travel card\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-03-25",
 			"programCode" : [" 023:010"],
 			"publisher" : {
@@ -999,7 +1039,7 @@
 			"keyword" : ["[\"API\",\"USASearch\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-05-29",
 			"programCode" : [" 023:019"],
 			"publisher" : {
@@ -2316,12 +2356,20 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "FSSI Domestic Delivery Services 2 BPA vendor submitted usage reports",
+			"distribution" : [{
+					"accessURL" : "[[REDACTED-EX B4]]",
+					"description" : null,
+					"downloadURL" : "[[REDACTED-EX B4]]",
+					"format" : null,
+					"mediaType" : "text\/csv"
+				}
+			],
 			"identifier" : "GSA - 139666",
 			"issued" : null,
 			"keyword" : ["[\"DDS2\",\"FSSI\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-07-31",
 			"programCode" : [" 023:012"],
 			"publisher" : {
@@ -2343,12 +2391,20 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "FSSI Maintenance, Repair, and Operations BPA vendor submitted usage reports",
+			"distribution" : [{
+					"accessURL" : "[[REDACTED-EX B4]]",
+					"description" : null,
+					"downloadURL" : "[[REDACTED-EX B4]]",
+					"format" : null,
+					"mediaType" : "text\/csv"
+				}
+			],
 			"identifier" : "GSA - 139667",
 			"issued" : null,
 			"keyword" : ["[\"FSSI\",\"MRO\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-07-31",
 			"programCode" : [" 023:012"],
 			"publisher" : {
@@ -2370,12 +2426,20 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "FSSI Print Management BPA vendor submitted usage reports",
+			"distribution" : [{
+					"accessURL" : "[[REDACTED-EX B4]]",
+					"description" : null,
+					"downloadURL" : "[[REDACTED-EX B4]]",
+					"format" : null,
+					"mediaType" : "text\/csv"
+				}
+			],
 			"identifier" : "GSA - 139668",
 			"issued" : null,
 			"keyword" : ["[\"FSSI\",\"Print Management\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-07-31",
 			"programCode" : [" 023:012"],
 			"publisher" : {
@@ -2397,12 +2461,20 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "FSSI Office Supplies 2 BPA vendor submitted usage reports",
+			"distribution" : [{
+					"accessURL" : "[[REDACTED-EX B4]]",
+					"description" : null,
+					"downloadURL" : "[[REDACTED-EX B4]]",
+					"format" : null,
+					"mediaType" : "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+				}
+			],
 			"identifier" : "GSA - 139647",
 			"issued" : null,
 			"keyword" : ["[\"BPA\",\"Data\",\"FSSI\",\"GSA\",\"Monthly\",\"Prices Paid\",\"Report\",\"Supplier\",\"Usage\",\"Vendor\",\"Wireless\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-07-31",
 			"programCode" : [" 023:012"],
 			"publisher" : {
@@ -2424,12 +2496,20 @@
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "FSSI Wireless BPA vendor submitted usage reports",
+			"distribution" : [{
+					"accessURL" : "[[REDACTED-EX B4]]",
+					"description" : null,
+					"downloadURL" : "[[REDACTED-EX B4]]",
+					"format" : null,
+					"mediaType" : "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+				}
+			],
 			"identifier" : "GSA - 139665",
 			"issued" : null,
 			"keyword" : ["[\"FSSI\",\"Wireless\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-07-31",
 			"programCode" : [" 023:012"],
 			"publisher" : {
@@ -2674,9 +2754,9 @@
 			"keyword" : ["[\"General Services Administration\",\"GSA\",\"JSON\"]"],
 			"landingPage" : null,
 			"language" : ["en-us"],
-			"license" : null,
+			"license" : "http:\/\/www.usa.gov\/publicdomain\/label\/1.0\/",
 			"modified" : "2014-07-11",
-			"programCode" : [" 023:000"],
+			"programCode" : [" 023:019"],
 			"publisher" : {
 				"name" : "General Services Administration"
 			},
