@@ -1230,8 +1230,8 @@
 			"accrualPeriodicity" : "R\/P1Y",
 			"bureauCode" : [" 023:00"],
 			"contactPoint" : {
-				"fn" : "Usha Gopal",
-				"hasEmail" : "mailto:usha.gopal@gsa.gov"
+				"fn" : "Jonathan Anderson",
+				"hasEmail" : "mailto:jonathan.anderson@gsa.gov"
 			},
 			"dataQuality" : true,
 			"describedBy" : "https:\/\/www.asap.gsa.gov\/datagov\/etravel\/etravel_voucher_data_dictionary.html",
@@ -1265,8 +1265,8 @@
 			"accrualPeriodicity" : "R\/P3M",
 			"bureauCode" : [" 023:05"],
 			"contactPoint" : {
-				"fn" : "Jonathan Anderson",
-				"hasEmail" : "mailto:jonathan.anderson@gsa.gov"
+				"fn" : "Shirl R Tillman",
+				"hasEmail" : "mailto:shirl.tillman@gsa.gov"
 			},
 			"dataQuality" : true,
 			"describedBy" : null,
@@ -2040,13 +2040,13 @@
 			},
 			"dataQuality" : true,
 			"describedBy" : "http:\/\/www.gsa.gov\/Portal\/gsa\/ep\/channelView.do?pageTypeId=17113&channelPage=%2Fep%2Fchannel%2FgsaOverview.jsp&channelId=-24585",
-			"description" : "Federal aviation data is submitted quarterly to the Federal Aviation Interactive Reporting System (FAIRS) IT application. This is a GSA system which is a secure, web-based application. The report summarizes the Annual aviation cost and utilization information submitted by the thirteen agencies that own or operate aircraft as part of their mission.",
+			"description" : "This data set summarizes annual aviation cost and utilization information submitted by the thirteen Federal agencies that own or operate aircraft in support of their assigned missions.  In order to promote accountability and support transparency in Federal Government aviation program management, GSA collects, analyzes, and publishes the Federal Aviation Open Data Set.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/104076",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/dg\/FederalAircraftCostUtilizationInfo.zip",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
-					"mediaType" : "text\/csv"
+					"mediaType" : "text\/html"
 				}
 			],
 			"identifier" : "GSA-2082",
@@ -2149,7 +2149,7 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/104602?utm_source=OGP&utm_medium=print-radio&utm_term=vehiclepolicy&utm_campaign=shortcuts",
+					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/102943",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -2184,7 +2184,7 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/dg\/FY_2011_All_DataGov_Files-v2.xlsx",
+					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -3092,11 +3092,11 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
 			"description" : "Agencies Annual report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets. This dataset shows the Federal agency common carrier expenditure.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/dg\/Table_4-FY2010_Federal_Agencies_Commerical_Carriers.xls",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
-					"mediaType" : "application\/vnd.ms-excel"
+					"mediaType" : "text\/html"
 				}
 			],
 			"identifier" : "GSA-4669",
@@ -3127,11 +3127,11 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
 			"description" : "Agencies Annual report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets. This dataset shows the Federal agency USPS domestic expenditures.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/dg\/Table_2-FY2010_Federal_Agencies_USPS_Domestic.xls",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
-					"mediaType" : "application\/vnd.ms-excel"
+					"mediaType" : "text\/html"
 				}
 			],
 			"identifier" : "GSA-4667",
@@ -3162,11 +3162,11 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
 			"description" : "Agencies Annual report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets. This dataset shows the Federal Agency USPS international expenditure.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/dg\/Table_3-FY2010_Federal_Agencies_USPS_International.xls",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
-					"mediaType" : "application\/vnd.ms-excel"
+					"mediaType" : "text\/html"
 				}
 			],
 			"identifier" : "GSA-4668",
@@ -3197,11 +3197,11 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
 			"description" : "Agencies Annual report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets. This dataset shows the professional certifications by Federal agency.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/dg\/Table_5-FY2010_Professional_Certifications_by_Federal_Agencies.xls",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
-					"mediaType" : "application\/vnd.ms-excel"
+					"mediaType" : "text\/html"
 				}
 			],
 			"identifier" : "GSA-4670",
@@ -3232,11 +3232,11 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
 			"description" : "Agencies Annual report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets. This dataset shows the total mail expenditures by agency.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/dg\/Table_1-FY2010_Federal_Agencies-Total_Expenditures.xls",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
-					"mediaType" : "application\/vnd.ms-excel"
+					"mediaType" : "text\/html"
 				}
 			],
 			"identifier" : "GSA-4666",
