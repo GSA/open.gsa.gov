@@ -1972,11 +1972,11 @@
 			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
 			"description" : "FACA Committee Member Data collected and verified for each FY from 1997 to present. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
 			"distribution" : [{
-					"accessURL" : "http:\/\/www.facadatabase.gov\/datasets\/",
+					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/gsa.gov\/",
+					"downloadURL" : "http:\/\/www.facadatabase.gov\/datasets\/",
 					"format" : null,
-					"mediaType" : "text\/csv"
+					"mediaType" : "application\/zip"
 				}
 			],
 			"identifier" : "GSA-6200",
@@ -2007,9 +2007,9 @@
 			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
 			"description" : "FACA Data collected and verified for each FY from 1997 to present. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
 			"distribution" : [{
-					"accessURL" : "http:\/\/www.facadatabase.gov\/datasets\/",
+					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/gsa.gov\/",
+					"downloadURL" : "http:\/\/www.facadatabase.gov\/datasets\/",
 					"format" : null,
 					"mediaType" : "application\/zip"
 				}
@@ -2042,9 +2042,9 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/Portal\/gsa\/ep\/channelView.do?pageTypeId=17113&channelPage=%2Fep%2Fchannel%2FgsaOverview.jsp&channelId=-24585",
 			"description" : "This data set summarizes annual aviation cost and utilization information submitted by the thirteen Federal agencies that own or operate aircraft in support of their assigned missions.  In order to promote accountability and support transparency in Federal Government aviation program management, GSA collects, analyzes, and publishes the Federal Aviation Open Data Set.",
 			"distribution" : [{
-					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/104076",
+					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/gsa.gov\/",
+					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/104076",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -2151,7 +2151,7 @@
 					"description" : null,
 					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/102943",
 					"format" : null,
-					"mediaType" : "application\/vnd.ms-excel"
+					"mediaType" : "text\/html"
 				}
 			],
 			"identifier" : "GSA-4543",
@@ -2186,7 +2186,7 @@
 					"description" : null,
 					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"format" : null,
-					"mediaType" : "application\/vnd.ms-excel"
+					"mediaType" : "text\/html"
 				}
 			],
 			"identifier" : "GSA-6386",
@@ -3092,9 +3092,9 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
 			"description" : "Agencies Annual report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets. This dataset shows the Federal agency common carrier expenditure.",
 			"distribution" : [{
-					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
+					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/gsa.gov\/",
+					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3127,9 +3127,9 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
 			"description" : "Agencies Annual report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets. This dataset shows the Federal agency USPS domestic expenditures.",
 			"distribution" : [{
-					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
+					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/gsa.gov\/",
+					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3162,9 +3162,9 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
 			"description" : "Agencies Annual report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets. This dataset shows the Federal Agency USPS international expenditure.",
 			"distribution" : [{
-					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
+					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/gsa.gov\/",
+					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3197,9 +3197,9 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
 			"description" : "Agencies Annual report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets. This dataset shows the professional certifications by Federal agency.",
 			"distribution" : [{
-					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
+					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/gsa.gov\/",
+					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3232,9 +3232,9 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
 			"description" : "Agencies Annual report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets. This dataset shows the total mail expenditures by agency.",
 			"distribution" : [{
-					"accessURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
+					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/gsa.gov\/",
+					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/235245",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -5054,9 +5054,9 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/getMediaData?mediaId=201463",
+					"downloadURL" : "http:\/\/www.gsa.gov\/portal\/content\/104076",
 					"format" : null,
-					"mediaType" : "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+					"mediaType" : "text\/html"
 				}
 			],
 			"identifier" : "GSA-2015-02-27-1",
