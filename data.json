@@ -222,9 +222,9 @@
 			"describedBy" : null,
 			"description" : "BusinessUSA connects businesses to government services and information. The API provides access to resource abstracts including programs, services, data, events, and more.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/business.usa.gov\/apis",
 					"description" : null,
-					"downloadURL" : "http:\/\/business.usa.gov\/apis",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -362,9 +362,9 @@
 			"describedBy" : null,
 			"description" : "This API lists the topics that we use to organize content on USA.gov. You can access it via the \/tags call to the Social Media Registry.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/social-media-registry.shtml#tags",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/social-media-registry.shtml#tags",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -642,9 +642,9 @@
 			"describedBy" : null,
 			"description" : "The data in the Corporate Consumer Contact API is based on the content you can find in the Corporate Consumer Contact listing in the Consumer Action Handbook (PDF). We gather this data manually, as it can sometimes be difficult for consumers to find out how they can contact a corporation. As this is a consumer focused dataset, corporations included in the API are corporations that directly interact with consumers.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/corporation-contact-directory\/index.shtml",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/corporation-contact-directory\/index.shtml",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -677,9 +677,9 @@
 			"describedBy" : "http:\/\/www.data.gov\/metric",
 			"description" : "This dataset provides distribution of daily visitors to the Data.gov site up to 2013.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/inventory.data.gov\/dataset\/data-gov-daily-visitor-statistics\/resource\/0f96083f-0089-4524-8574-8eec91e2a7f2",
 					"description" : null,
-					"downloadURL" : "https:\/\/inventory.data.gov\/dataset\/data-gov-daily-visitor-statistics\/resource\/0f96083f-0089-4524-8574-8eec91e2a7f2",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -1027,9 +1027,9 @@
 			"describedBy" : null,
 			"description" : "Provides DigitalGov Search customers their search results in JSON. Sign in with a .gov or .mil email is required.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/search.usa.gov\/login",
 					"description" : null,
-					"downloadURL" : "https:\/\/search.usa.gov\/login",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -1447,9 +1447,9 @@
 			"describedBy" : null,
 			"description" : "FBOpen is an API to a search index containing opportunities to do business with the U.S. Federal Government",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/docs.fbopen.apiary.io\/",
 					"description" : null,
-					"downloadURL" : "http:\/\/docs.fbopen.apiary.io\/",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -1517,9 +1517,9 @@
 			"describedBy" : null,
 			"description" : "In addition to the ability to interact directly with FedBizOpps using its on-line web interface, the service supports Web Services for Federal buyers to post information to the database using their agency’s electronic procurement system",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/www.fbo.gov\/?s=generalinfo&mode=list&tab=list&tabmode=list&static=documentation",
 					"description" : null,
-					"downloadURL" : "https:\/\/www.fbo.gov\/?s=generalinfo&mode=list&tab=list&tabmode=list&static=documentation",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -1972,9 +1972,9 @@
 			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
 			"description" : "FACA Committee Member Data collected and verified for each FY from 1997 to present. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.facadatabase.gov\/datasets\/",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.facadatabase.gov\/datasets\/",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -2005,13 +2005,13 @@
 			},
 			"dataQuality" : true,
 			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for each FY from 1997 to present. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
+			"description" : "FACA Data collected and verified for each FY from 1997 to present. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide. This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities. Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true shared system wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/www.facadatabase.gov\/datasets\/",
+					"downloadURL" : "http:\/\/www.facadatabase.gov\/",
 					"format" : null,
-					"mediaType" : "application\/zip"
+					"mediaType" : "text\/html"
 				}
 			],
 			"identifier" : "GSA-6205",
@@ -2040,7 +2040,7 @@
 			},
 			"dataQuality" : true,
 			"describedBy" : "http:\/\/www.gsa.gov\/Portal\/gsa\/ep\/channelView.do?pageTypeId=17113&channelPage=%2Fep%2Fchannel%2FgsaOverview.jsp&channelId=-24585",
-			"description" : "This data set summarizes annual aviation cost and utilization information submitted by the thirteen Federal agencies that own or operate aircraft in support of their assigned missions.  In order to promote accountability and support transparency in Federal Government aviation program management, GSA collects, analyzes, and publishes the Federal Aviation Open Data Set.",
+			"description" : "Federal aviation data is submitted quarterly to the Federal Aviation Interactive Reporting System (FARIS) IT application.  This is a GSA system which is a secure, web-based application.  The report summarizes the Annual aviation cost and utilization information submitted by the thirteen agencies that own or operate aircraft as part of their mission.",
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
@@ -2180,7 +2180,7 @@
 			},
 			"dataQuality" : true,
 			"describedBy" : "http:\/\/www.gsa.gov\/mailpolicy",
-			"description" : "Federal Mail Expenditures",
+			"description" : "Agencies annually report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy.  The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets.",
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
@@ -2602,9 +2602,9 @@
 			"describedBy" : "https:\/\/go.usa.gov\/api",
 			"description" : "The Go.USA.gov REST API allows you interact with Go.USA.gov by shortening URLs, previewing long urls, and getting the number of clicks to a Go.USA.gov URL..  An API key is required and available to any registered Go.USA.gov user.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/go.usa.gov\/api\/",
 					"description" : null,
-					"downloadURL" : "https:\/\/go.usa.gov\/api\/",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -2882,9 +2882,9 @@
 			"describedBy" : "http:\/\/www.gsa.gov\/dg\/Data_Dictionary_Building.docx",
 			"description" : "IOLP Website is database that lists GSA Owned and Leased properties, by state, county and city; and lease, dates, square footage and building type.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.iolp.gsa.gov\/iolp\/NationalMap.asp",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.iolp.gsa.gov\/iolp\/NationalMap.asp",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -2987,9 +2987,9 @@
 			"describedBy" : null,
 			"description" : "This Jobs API returns job openings across the federal government and includes all current openings posted on USAJobs.gov that are open to the public and located in the United States. It also includes some state and local government jobs.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/usasearch.howto.gov\/developer\/jobs.html",
 					"description" : null,
-					"downloadURL" : "http:\/\/usasearch.howto.gov\/developer\/jobs.html",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -3022,9 +3022,9 @@
 			"describedBy" : null,
 			"description" : "A list of individual public APIs maintained by the US government.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/raw.githubusercontent.com\/18F\/API-All-the-X\/gh-pages\/_data\/individual_apis.yml",
 					"description" : null,
-					"downloadURL" : "https:\/\/raw.githubusercontent.com\/18F\/API-All-the-X\/gh-pages\/_data\/individual_apis.yml",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3057,9 +3057,9 @@
 			"describedBy" : null,
 			"description" : "A list of public developer hubs maintained by the US government.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/raw.githubusercontent.com\/18F\/API-All-the-X\/gh-pages\/_data\/developer_hubs.yml",
 					"description" : null,
-					"downloadURL" : "https:\/\/raw.githubusercontent.com\/18F\/API-All-the-X\/gh-pages\/_data\/developer_hubs.yml",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3267,9 +3267,9 @@
 			"describedBy" : null,
 			"description" : "The App Gallery features mobile apps and websites from government agencies on a variety of platforms in English and Spanish.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/mobile-app-gallery\/index.shtml",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/mobile-app-gallery\/index.shtml",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3302,9 +3302,9 @@
 			"describedBy" : null,
 			"description" : "The MyUSA Citizen API is how My.USA.gov Apps interact with My.USA.gov Accounts.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/my.usa.gov\/developer\/",
 					"description" : null,
-					"downloadURL" : "https:\/\/my.usa.gov\/developer\/",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3862,9 +3862,9 @@
 			"describedBy" : null,
 			"description" : "This map shows new construction and major R&A projects in federal buildings under GSA’s custody and control that are above the current prospectus threshold of $2.85 million. New construction and major R&A projects for two different fiscal years are displayed on the map. Projects for FY2014 were funded as part of the Consolidated Appropriations Act of 2014, and GSA will begin to execute these projects this year. Projects for FY2015 have been included in the President’s Budget request, but require approval and funding from Congress before the projects can begin.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/pbs.maps.arcgis.com\/apps\/OnePane\/basicviewer\/index.html?appid=50df1afef78047109ee9f72b39fcd11e",
 					"description" : null,
-					"downloadURL" : "http:\/\/pbs.maps.arcgis.com\/apps\/OnePane\/basicviewer\/index.html?appid=50df1afef78047109ee9f72b39fcd11e",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4037,9 +4037,9 @@
 			"describedBy" : null,
 			"description" : "This API contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 392 locations across the continental United States for Fiscal Year 2013.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/gsa.gov\/portal\/content\/162379",
 					"description" : null,
-					"downloadURL" : "http:\/\/gsa.gov\/portal\/content\/162379",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4142,9 +4142,9 @@
 			"describedBy" : null,
 			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000PzuO\/Mm2_1yO.m08derxmeWZSpQigylfUUNvtm.6xBiRBni0",
 					"description" : null,
-					"downloadURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000PzuO\/Mm2_1yO.m08derxmeWZSpQigylfUUNvtm.6xBiRBni0",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -4177,9 +4177,9 @@
 			"describedBy" : null,
 			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000PzuT\/xLccg7SXmCiNalCrJ0_3EuizcTVTQ1vLGaXSs_tpvtY",
 					"description" : null,
-					"downloadURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000PzuT\/xLccg7SXmCiNalCrJ0_3EuizcTVTQ1vLGaXSs_tpvtY",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -4214,7 +4214,7 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/dg\/REXUS\/data_gov_lse_rexus.csv",
+					"downloadURL" : "http:\/\/inventory.data.gov\/dataset\/2cdc97b5-3029-4ec3-b3bf-baec7948bad1\/resource\/1d2d6cac-12e6-411d-968c-75f977ec9028\/download\/datagovlserexus.csv",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -4249,7 +4249,7 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "http:\/\/www.gsa.gov\/dg\/data_gov_bldg_star.csv",
+					"downloadURL" : "http:\/\/inventory.data.gov\/dataset\/04247624-1d6b-4e03-84eb-9eda1a6ea638\/resource\/f6d61aa1-7673-449b-b4cb-0b85ca3d3888\/download\/datagovbldgrexus.csv",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -4282,9 +4282,9 @@
 			"describedBy" : "http:\/\/usasearch.howto.gov\/developer\/recalls.html",
 			"description" : "This Recalls API allows you to tap into a list of (1) drug and food safety recalls from the Food and Drug Administration, Food Safety and Inspection Service, and FoodSafety.gov; (2) car safety recalls from the National Highway Traffic Safety Administration; and (3) product safety recalls from the Consumer Product Safety Commission.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/usasearch.howto.gov\/developer\/recalls.html",
 					"description" : null,
-					"downloadURL" : "http:\/\/usasearch.howto.gov\/developer\/recalls.html",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4457,9 +4457,9 @@
 			"describedBy" : null,
 			"description" : "The Social Media Registry is an official source of information about federal government social media accounts",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/social-media-registry.shtml",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/social-media-registry.shtml",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4492,9 +4492,9 @@
 			"describedBy" : "https:\/\/sftool.gov\/Developers\/",
 			"description" : "With the SFTool API, you can access a myriad of high performance building information. Pull the most up to date information about green products, services, and materials. Put sustainable strategies in the hands of your audience today. All of our API methods are HTTP GET and always return the latest data. Whether you’re looking to add sustainable building information to your website or blog, or looking for data to build an application, the SFTool API is here for you.Making API calls is very straightforward. There is a single base URI for each data category. By default, it will return all of the data for that category. By using any of our optional parameters, you can filter the data as you see fit. Signup for free to get the SFTool API key at  https:\/\/api.data.gov\/signup\/.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/catalog.data.gov\/dataset\/sustainable-facilities-tool",
 					"description" : null,
-					"downloadURL" : "http:\/\/catalog.data.gov\/dataset\/sustainable-facilities-tool",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4597,9 +4597,9 @@
 			"describedBy" : null,
 			"description" : "The SAM API is a RESTful method of retrieving public information about the businesses or individuals (referred to as “entities”) within the SAM data set. The information can currently be retrieved on an entity-by-entity basis.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/gsa.github.io\/sam_api\/sam\/index.html",
 					"description" : null,
-					"downloadURL" : "https:\/\/gsa.github.io\/sam_api\/sam\/index.html",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4667,9 +4667,9 @@
 			"describedBy" : "http:\/\/www.usa.gov\/About\/developer-resources\/federal-agency-directory\/index.shtml",
 			"description" : "Access federal agency directory records from USA.gov and GobiernoUSA.gov via a REST API that can return JSON, JSONP, and XML",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/federal-agency-directory\/index.shtml",
 					"description" : null,
-					"downloadURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/federal-agency-directory\/index.shtml",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4737,9 +4737,9 @@
 			"describedBy" : "http:\/\/www.usaspending.gov\/sites\/all\/themes\/usaspendingv2\/Archives_Data_Feeds_Data_Dictionary.pdf",
 			"description" : "Provides U.S. Federal Spending by agency. The Contracts section allows searching for data relating to all Federal contracts. There are three main categories of searches: by contractor, by location, and by contracting agency. The Purchase section allows users to view purchase cards spending of various federal agencies for each fiscal year. The data available on this website are extracted from the report published once every quarter on the GSA SmartPay website. The GSA SmartPay receives this data directly from the banks that issued the purchase cards. This tool allows you to structure your search for data contained on USAspending.gov website.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/www.usaspending.gov\/DownloadCenter\/Pages\/DataDownload.aspx",
 					"description" : null,
-					"downloadURL" : "https:\/\/www.usaspending.gov\/DownloadCenter\/Pages\/DataDownload.aspx",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4772,9 +4772,9 @@
 			"describedBy" : "http:\/\/www.usaspending.gov\/sites\/all\/themes\/usaspendingv2\/Archives_Data_Feeds_Data_Dictionary.pdf",
 			"description" : "Provides U.S. Federal Spending by agency. The Grants section allows visitors to search for information about federal assistance; including grants, insurance, direct payments, and other. Information about federal loan spending can be found on the Loans section, which allows visitors to search for information about different federal loan categories, including Direct Loans and Guaranteed Loans. This tool allows you to structure your search for data contained on USAspending.gov website.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/www.usaspending.gov\/DownloadCenter\/Pages\/DataDownload.aspx",
 					"description" : null,
-					"downloadURL" : "https:\/\/www.usaspending.gov\/DownloadCenter\/Pages\/DataDownload.aspx",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -5122,9 +5122,9 @@
 			"describedBy" : null,
 			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) \/ Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs\/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000Q0Hr\/eXuvyi_7Jtb4pu4YZUZ7lDYL9075iECzMVdO.8.XEX4",
 					"description" : null,
-					"downloadURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000Q0Hr\/eXuvyi_7Jtb4pu4YZUZ7lDYL9075iECzMVdO.8.XEX",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -5157,9 +5157,9 @@
 			"describedBy" : null,
 			"description" : "This API delivers search information and images from The Museum System (TMS) & eMuseum to GSA.gov.",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "http:\/\/gsa.github.io\/eMuseum-API\/basics.html",
 					"description" : null,
-					"downloadURL" : "http:\/\/gsa.github.io\/eMuseum-API\/basics.html",
+					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
