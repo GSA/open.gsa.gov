@@ -276,7 +276,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "N\/A",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : "United States",
 			"theme" : ["Real Estate"],
 			"title" : "Capital Projects Application (CPA)"
@@ -486,7 +486,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Travel and Transportation"],
 			"title" : "Closed-Paid Vouchers in Concur Government Edition (CGE)"
@@ -521,7 +521,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Travel and Transportation"],
 			"title" : "Concur - Reporting Authorization Model"
@@ -556,7 +556,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Travel and Transportation"],
 			"title" : "Concur - Reporting Travel Model"
@@ -591,7 +591,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Travel and Transportation"],
 			"title" : "Concur - Reporting User Profile Folder"
@@ -626,7 +626,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Travel and Transportation"],
 			"title" : "Concur - Reporting Voucher Model"
@@ -1046,7 +1046,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "N\/A",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["API"],
 			"title" : "DigitalGov Search API (formerly USASearch)"
@@ -2376,7 +2376,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Acquisition"],
 			"title" : "Federal Strategic Sourcing Initiative (FSSI) DDS2"
@@ -2411,7 +2411,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Acquisition"],
 			"title" : "Federal Strategic Sourcing Initiative (FSSI) MRO"
@@ -2446,7 +2446,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Acquisition"],
 			"title" : "Federal Strategic Sourcing Initiative (FSSI) PM"
@@ -2481,7 +2481,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Acquisition"],
 			"title" : "Federal Strategic Sourcing Initiative(FSSI) Office Supplies 2"
@@ -2516,7 +2516,7 @@
 				"name" : "General Services Administration"
 			},
 			"references" : null,
-			"rights" : "Trade secrets and commercial or financial information obtained from a person and privileged or confidential.",
+			"rights" : "Trade secrets & commercial\/financial info obtained from a person and privileged or confidential.",
 			"spatial" : null,
 			"theme" : ["Acquisition"],
 			"title" : "Federal Strategic Sourcing Initiative(FSSI) Wireless"
@@ -3365,8 +3365,8 @@
 			"accrualPeriodicity" : "R\/P1Y",
 			"bureauCode" : [" 023:00"],
 			"contactPoint" : {
-				"fn" : "Tonya Summerville",
-				"hasEmail" : "mailto:jonathan.anderson@gsa.gov"
+				"fn" : "Carla Correll",
+				"hasEmail" : "mailto:carla.correll@gsa.gov"
 			},
 			"dataQuality" : true,
 			"describedBy" : null,
@@ -4109,7 +4109,7 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000Pyu8\/zt_nUF_kjv.VkAOd3oqBjZrG9.G87JawPpNbXTDOsys",
+					"downloadURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/#30000001G26s\/a\/30000000Pyu8\/zt_nUF_kjv.VkAOd3oqBjZrG9.G87JawPpNbXTDOsys",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -4142,7 +4142,7 @@
 			"describedBy" : null,
 			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
 			"distribution" : [{
-					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000PzuO\/Mm2_1yO.m08derxmeWZSpQigylfUUNvtm.6xBiRBni0",
+					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/t00000004CBd\/FHXKZJ3VN0ATMLEQlQLLkU8Flc48IlY.oQry_rARSxw",
 					"description" : null,
 					"downloadURL" : "http:\/\/gsa.gov\/",
 					"format" : null,
@@ -5184,3 +5184,4 @@
 	],
 	"describedBy" : "https:\/\/project-open-data.cio.gov\/v1.1\/schema\/catalog.json"
 }
+
