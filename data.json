@@ -20,6 +20,7 @@
 				}
 			],
 			"identifier" : "GSA-138675",
+			"isPartOf": "GSA-138675",
 			"issued" : null,
 			"keyword" : ["[\".Gov Domains\"]"],
 			"landingPage" : null,
@@ -55,6 +56,7 @@
 				}
 			],
 			"identifier" : "GSA-4733",
+			"isPartOf": "GSA-4733",
 			"issued" : "2009-01-31",
 			"keyword" : ["[\"Federal acquisition workforce report\",\"Federal acquisition workforce statistics\"]"],
 			"landingPage" : null,
@@ -90,6 +92,7 @@
 				}
 			],
 			"identifier" : "GSA-4732",
+			"isPartOf": "GSA-4732",
 			"issued" : "2009-01-31",
 			"keyword" : ["[\"Federal acquisition workforce report\",\"Federal acquisition workforce statistics\"]"],
 			"landingPage" : null,
@@ -125,6 +128,7 @@
 				}
 			],
 			"identifier" : "GSA - 138668",
+			"isPartOf": "GSA - 138668",
 			"issued" : null,
 			"keyword" : ["[\"American Job Center\",\"Job\",\"Resource Center\"]"],
 			"landingPage" : null,
@@ -160,6 +164,7 @@
 				}
 			],
 			"identifier" : "GSA - 32792",
+			"isPartOf": "GSA - 32792",
 			"issued" : null,
 			"keyword" : ["[\"Agency Financial Report (AFR)\",\"Performance and Accountability Reports (PAR)\",\"Citizens Reports\",\"Annual Performance Reports\"]"],
 			"landingPage" : null,
@@ -195,6 +200,7 @@
 				}
 			],
 			"identifier" : "GSA-4145",
+			"isPartOf": "GSA-4145",
 			"issued" : "2010-11-23",
 			"keyword" : ["[\"Auctions\",\"Sales\",\"GSA Auctions\",\"GSA Auctions Sale Data\",\"GSA Sales Data\",\"Property\",\"Property Sales Data\",\"Property Data\",\"Furniture\",\"Vechicles\",\"Jewelry\",\"Computer Equipment\",\"ADP\",\"ADP Equipment\",\"Automobile\",\"Trucks\",\"Motorcycles\"]"],
 			"landingPage" : null,
@@ -230,6 +236,7 @@
 				}
 			],
 			"identifier" : "GSA - 138669",
+			"isPartOf": "GSA - 138669",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"Business USA\",\"Resource\"]"],
 			"landingPage" : null,
@@ -265,6 +272,7 @@
 				}
 			],
 			"identifier" : "GSA-4722",
+			"isPartOf": "GSA-4722",
 			"issued" : "2011-03-24",
 			"keyword" : ["[\"Budget\",\"Reporting\",\"Project\",\"Activity\",\"Repairs\",\"Alterations\",\"Construction\",\"Historic Preservation\"]"],
 			"landingPage" : null,
@@ -300,6 +308,7 @@
 				}
 			],
 			"identifier" : "GSA-1439",
+			"isPartOf": "GSA-1439",
 			"issued" : "2010-01-19",
 			"keyword" : ["[\"Cash and Payments Management\",\"Agency Financial Report (AFR)\",\"Financial\",\"Budgeting\",\"Performance\",\"Controller\",\"Invoice\",\"Interest\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -335,6 +344,7 @@
 				}
 			],
 			"identifier" : "GSA-1423",
+			"isPartOf": "GSA-1423",
 			"issued" : "2010-01-14",
 			"keyword" : ["[\"CFDA\",\"Catalog of Federal Domestic Assistance\",\"Federal Domestic Assistance\",\"Federal Assistance Programs\",\"Program Descriptions\",\"Formula Grants\",\"Project Grants\",\"Direct Payments for Specified Use\",\"Direct Payments with Unrestricted Use\",\"Direct Loans\",\"Guarantee\"]"],
 			"landingPage" : null,
@@ -370,6 +380,7 @@
 				}
 			],
 			"identifier" : "GSA - 138670",
+			"isPartOf": "GSA - 138670",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"Citizen\",\"Citizen Topic\"]"],
 			"landingPage" : null,
@@ -405,6 +416,7 @@
 				}
 			],
 			"identifier" : "GSA - 138584",
+			"isPartOf": "GSA - 138584",
 			"issued" : null,
 			"keyword" : ["[\"City Pair Program\",\"CPP\",\"Travel\"]"],
 			"landingPage" : null,
@@ -440,6 +452,7 @@
 				}
 			],
 			"identifier" : "GSA - 155327",
+			"isPartOf": "GSA - 155327",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"City Pair Program\"]"],
 			"landingPage" : null,
@@ -475,6 +488,7 @@
 				}
 			],
 			"identifier" : "GSA - 155326",
+			"isPartOf": "GSA - 155326",
 			"issued" : null,
 			"keyword" : ["[\"Purchase Card\",\"Travel Program\"]"],
 			"landingPage" : null,
@@ -510,6 +524,7 @@
 				}
 			],
 			"identifier" : "GSA - 139042",
+			"isPartOf": "GSA - 139042",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"purchase card\",\"travel card\"]"],
 			"landingPage" : null,
@@ -545,6 +560,7 @@
 				}
 			],
 			"identifier" : "GSA - 139046",
+			"isPartOf": "GSA - 139046",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"travel card\"]"],
 			"landingPage" : null,
@@ -580,6 +596,7 @@
 				}
 			],
 			"identifier" : "GSA - 139047",
+			"isPartOf": "GSA - 139047",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"travel card\"]"],
 			"landingPage" : null,
@@ -615,6 +632,7 @@
 				}
 			],
 			"identifier" : "GSA - 139048",
+			"isPartOf": "GSA - 139048",
 			"issued" : null,
 			"keyword" : ["[\"Credit Card\",\"travel card\"]"],
 			"landingPage" : null,
@@ -650,6 +668,7 @@
 				}
 			],
 			"identifier" : "GSA - 139632",
+			"isPartOf": "GSA - 139632",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"Consumer\",\"Contact\",\"Corporate Consumer\",\"Corporate Contact\"]"],
 			"landingPage" : null,
@@ -685,6 +704,7 @@
 				}
 			],
 			"identifier" : "GSA-32441",
+			"isPartOf": "GSA-32441",
 			"issued" : "2013-04-11",
 			"keyword" : ["[\"Daily\",\"visitor\",\"statistics\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -720,6 +740,7 @@
 				}
 			],
 			"identifier" : "GSA-32421",
+			"isPartOf": "GSA-32421",
 			"issued" : "2013-04-11",
 			"keyword" : ["[\"Data.gov\",\"downloads\",\"monthly\",\"dataset\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -755,6 +776,7 @@
 				}
 			],
 			"identifier" : "GSA-32031",
+			"isPartOf": "GSA-32031",
 			"issued" : "2013-04-11",
 			"keyword" : ["[\"Data.gov\",\"datasets\",\"download\",\"Category\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -790,6 +812,7 @@
 				}
 			],
 			"identifier" : "GSA-32481",
+			"isPartOf": "GSA-32481",
 			"issued" : "2013-05-13",
 			"keyword" : ["[\"datasets\",\"uploaded\",\"agencies\",\"monthly\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -825,6 +848,7 @@
 				}
 			],
 			"identifier" : "GSA-32041",
+			"isPartOf": "GSA-32041",
 			"issued" : "2013-04-11",
 			"keyword" : ["[\"Data.gov\",\"federal\",\"participation\",\"Agency\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -860,6 +884,7 @@
 				}
 			],
 			"identifier" : "GSA-32451",
+			"isPartOf": "GSA-32451",
 			"issued" : "2013-04-11",
 			"keyword" : ["[\"monthly\",\"page\",\"views\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -895,6 +920,7 @@
 				}
 			],
 			"identifier" : "GSA-32431",
+			"isPartOf": "GSA-32431",
 			"issued" : "2013-04-11",
 			"keyword" : ["[\"Data.gov\",\"monthly\",\"visitor\",\"statistics\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -930,6 +956,7 @@
 				}
 			],
 			"identifier" : "GSA-32491",
+			"isPartOf": "GSA-32491",
 			"issued" : "2013-05-13",
 			"keyword" : ["[\"visiting\",\"Countries\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -965,6 +992,7 @@
 				}
 			],
 			"identifier" : "GSA-32501",
+			"isPartOf": "GSA-32501",
 			"issued" : "2013-05-13",
 			"keyword" : ["[\"visiting\",\"states\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -1000,6 +1028,7 @@
 				}
 			],
 			"identifier" : "GSA - 139375",
+			"isPartOf": "GSA - 139375",
 			"issued" : null,
 			"keyword" : ["[\"metrics\",\"Data\",\"Data.gov\"]"],
 			"landingPage" : null,
@@ -1035,6 +1064,7 @@
 				}
 			],
 			"identifier" : "GSA - 138681",
+			"isPartOf": "GSA - 138681",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"USASearch\"]"],
 			"landingPage" : null,
@@ -1070,6 +1100,7 @@
 				}
 			],
 			"identifier" : "GSA-4008",
+			"isPartOf": "GSA-4008",
 			"issued" : "2010-09-27",
 			"keyword" : ["[\"e-Buy\",\"Schedules\",\"Award\",\"Contracts\",\"RFQ\",\"Quote\"]"],
 			"landingPage" : null,
@@ -1105,6 +1136,7 @@
 				}
 			],
 			"identifier" : "GSA-4095",
+			"isPartOf": "GSA-4095",
 			"issued" : "2010-10-21",
 			"keyword" : ["[\"Award\",\"Quote\",\"e-Buy\",\"Contracts\",\"Schedules\",\"RFQ\",\"Procurement\"]"],
 			"landingPage" : null,
@@ -1140,6 +1172,7 @@
 				}
 			],
 			"identifier" : "GSA-4096",
+			"isPartOf": "GSA-4096",
 			"issued" : "2010-10-21",
 			"keyword" : ["[\"e-Buy\",\"Award\",\"Quote\",\"Contracts\",\"Procurement\",\"Schedules\",\"RFQ\"]"],
 			"landingPage" : null,
@@ -1175,6 +1208,7 @@
 				}
 			],
 			"identifier" : "GSA-4097",
+			"isPartOf": "GSA-4097",
 			"issued" : "2010-10-21",
 			"keyword" : ["[\"e-Buy\",\"Award\",\"RFQ\",\"Quote\",\"Procurement\",\"Schedules\",\"Contracts\"]"],
 			"landingPage" : null,
@@ -1210,6 +1244,7 @@
 				}
 			],
 			"identifier" : "GSA-4427",
+			"isPartOf": "GSA-4427",
 			"issued" : "2011-02-04",
 			"keyword" : ["[\"e-Buy\",\"Award\",\"Schedules\",\"RFQ\",\"Quote\",\"Procurement\",\"Contracts\"]"],
 			"landingPage" : null,
@@ -1245,6 +1280,7 @@
 				}
 			],
 			"identifier" : "GSA-4918",
+			"isPartOf": "GSA-4918",
 			"issued" : "2011-06-22",
 			"keyword" : ["[\"Q-Federal Acquisition Service performance measures\",\"Balanced Scorecard Perspectives\",\"Customer\",\"stakeholder\",\"internal processes and technology\",\"travel\"]"],
 			"landingPage" : null,
@@ -1280,6 +1316,7 @@
 				}
 			],
 			"identifier" : "GSA-4305",
+			"isPartOf": "GSA-4305",
 			"issued" : "2010-11-15",
 			"keyword" : ["[\"Utilities\",\"Energy Usage\",\"Analysis\",\"electricity\",\"natural gas\",\"oil\",\"Chilled Water\",\"steam and renewable energy\"]"],
 			"landingPage" : null,
@@ -1315,6 +1352,7 @@
 				}
 			],
 			"identifier" : "GSA-32021",
+			"isPartOf": "GSA-32021",
 			"issued" : "2012-10-16",
 			"keyword" : ["[\"FAS\",\"contracting\",\"opportunities\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -1350,6 +1388,7 @@
 				}
 			],
 			"identifier" : "GSA-5180",
+			"isPartOf": "GSA-5180",
 			"issued" : "2011-07-26",
 			"keyword" : ["[\"Instructional Letters\",\"Acquisition\"]"],
 			"landingPage" : null,
@@ -1385,6 +1424,7 @@
 				}
 			],
 			"identifier" : "GSA-5179",
+			"isPartOf": "GSA-5179",
 			"issued" : "2011-07-26",
 			"keyword" : ["[\"Instructional Letters\",\"Acquisition\"]"],
 			"landingPage" : null,
@@ -1420,6 +1460,7 @@
 				}
 			],
 			"identifier" : "GSA-5134",
+			"isPartOf": "GSA-5134",
 			"issued" : "2011-07-26",
 			"keyword" : ["[\"Instructional Letters\",\"Acquisition\"]"],
 			"landingPage" : null,
@@ -1455,6 +1496,7 @@
 				}
 			],
 			"identifier" : "GSA - 138964",
+			"isPartOf": "GSA - 138964",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"Contracts\",\"FB open\",\"FBO\",\"Government Opportunities\",\"procurement\"]"],
 			"landingPage" : null,
@@ -1490,6 +1532,7 @@
 				}
 			],
 			"identifier" : "GSA - 32830",
+			"isPartOf": "GSA - 32830",
 			"issued" : "2015-04-01",
 			"keyword" : ["[\"Federal Data Center Consolidation Initiative\",\"FDCCI\",\"Consolidation Interactive\"]"],
 			"landingPage" : null,
@@ -1525,6 +1568,7 @@
 				}
 			],
 			"identifier" : "GSA - 138672",
+			"isPartOf": "GSA - 138672",
 			"issued" : null,
 			"keyword" : ["[\"FedBizOpps\"]"],
 			"landingPage" : null,
@@ -1560,6 +1604,7 @@
 				}
 			],
 			"identifier" : "GSA-2582",
+			"isPartOf": "GSA-2582",
 			"issued" : "1905-06-29",
 			"keyword" : ["[\"Q-Federal Acquisition Service performance measures\",\"Balanced Scorecard Perspectives\",\"Customer\",\"stakeholder\",\"internal processes and technology\",\"human capital\",\"financial\"]"],
 			"landingPage" : null,
@@ -1595,6 +1640,7 @@
 				}
 			],
 			"identifier" : "GSA-2583",
+			"isPartOf": "GSA-2583",
 			"issued" : "1905-06-30",
 			"keyword" : ["[\"Q-Federal Acquisition Service performance measures\",\"Balanced Scorecard Perspectives\",\"Customer\",\"stakeholder\",\"internal processes and technology\",\"human capital\",\"financial\"]"],
 			"landingPage" : null,
@@ -1630,6 +1676,7 @@
 				}
 			],
 			"identifier" : "GSA-2584",
+			"isPartOf": "GSA-2584",
 			"issued" : "1905-07-01",
 			"keyword" : ["[\"Q-Federal Acquisition Service performance measures\",\"Balanced Scorecard Perspectives\",\"Customer\",\"stakeholder\",\"internal processes and technology\",\"human capital\",\"financial\"]"],
 			"landingPage" : null,
@@ -1665,6 +1712,7 @@
 				}
 			],
 			"identifier" : "GSA-6365",
+			"isPartOf": "GSA-6365",
 			"issued" : "2008-01-01",
 			"keyword" : ["[\"Industrial Funding Fee\",\"Instructional Letters\",\"FAS\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -1700,6 +1748,7 @@
 				}
 			],
 			"identifier" : "GSA-6366",
+			"isPartOf": "GSA-6366",
 			"issued" : "2009-01-01",
 			"keyword" : ["[\"Industrial Funding Fee\",\"Instructional Letters\",\"FAS\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -1735,6 +1784,7 @@
 				}
 			],
 			"identifier" : "GSA-6367",
+			"isPartOf": "GSA-6367",
 			"issued" : "2010-01-01",
 			"keyword" : ["[\"Industrial Funding Fee\",\"Instructional Letters\",\"FAS\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -1770,6 +1820,7 @@
 				}
 			],
 			"identifier" : "GSA-4593",
+			"isPartOf": "GSA-4593",
 			"issued" : "2011-02-22",
 			"keyword" : ["[\"Industrial Funding Fee\"]"],
 			"landingPage" : null,
@@ -1805,6 +1856,7 @@
 				}
 			],
 			"identifier" : "GSA-6368",
+			"isPartOf": "GSA-6368",
 			"issued" : "2011-01-01",
 			"keyword" : ["[\"Industrial Funding Fee\",\"Instructional Letters\",\"FAS\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -1840,6 +1892,7 @@
 				}
 			],
 			"identifier" : "GSA-6369",
+			"isPartOf": "GSA-6369",
 			"issued" : "2012-01-01",
 			"keyword" : ["[\"Industrial Funding Fee\",\"Instructional Letters\",\"FAS\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -1875,6 +1928,7 @@
 				}
 			],
 			"identifier" : "GSA-6374",
+			"isPartOf": "GSA-6374",
 			"issued" : "2011-10-01",
 			"keyword" : ["[\"Industrial Funding Fee\",\"Instructional Letters\",\"FAS\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -1910,6 +1964,7 @@
 				}
 			],
 			"identifier" : "GSA - 139296",
+			"isPartOf": "GSA - 139296",
 			"issued" : "2014-07-22",
 			"keyword" : ["[\"Industrial Funding Fee\",\"Instructional Letters\",\"FAS\",\"GSA\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -1945,6 +2000,7 @@
 				}
 			],
 			"identifier" : "GSA - 139297",
+			"isPartOf": "GSA - 139297",
 			"issued" : "2014-07-22",
 			"keyword" : ["[\"Industrial Funding Fee\",\"Instructional Letters\",\"FAS\",\"GSA\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -1980,6 +2036,7 @@
 				}
 			],
 			"identifier" : "GSA-6200",
+			"isPartOf": "GSA-6200",
 			"issued" : "2011-10-15",
 			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
 			"landingPage" : null,
@@ -2015,6 +2072,7 @@
 				}
 			],
 			"identifier" : "GSA-6205",
+			"isPartOf": "GSA-6205",
 			"issued" : "2012-03-30",
 			"keyword" : ["[\"Committee Management Secretariat\",\"FACA\",\"Federal Advisory Committees\",\"Presidential Commissions\"]"],
 			"landingPage" : null,
@@ -2050,6 +2108,7 @@
 				}
 			],
 			"identifier" : "GSA-2082",
+			"isPartOf": "GSA-2082",
 			"issued" : "2009-06-30",
 			"keyword" : ["[\"Aircraft Agency\",\"Aircraft Cost\",\"Aircraft Hours\",\"Aircraft Utilization\",\"FAIRS\"]"],
 			"landingPage" : null,
@@ -2085,6 +2144,7 @@
 				}
 			],
 			"identifier" : "GSA-4007",
+			"isPartOf": "GSA-4007",
 			"issued" : "2010-08-10",
 			"keyword" : ["[\"FBO\",\"FedBizOpps\",\"Solicitation\",\"Opportunity\",\"opportunities\",\"Procurement\",\"RFP\",\"RFI\",\"Award\"]"],
 			"landingPage" : null,
@@ -2120,6 +2180,7 @@
 				}
 			],
 			"identifier" : "GSA-9601",
+			"isPartOf": "GSA-9601",
 			"issued" : "2012-09-11",
 			"keyword" : ["[\"Domains\",\"Agency\",\"federal\",\"internet\",\"executive branch\",\"websites\"]"],
 			"landingPage" : null,
@@ -2155,6 +2216,7 @@
 				}
 			],
 			"identifier" : "GSA-4543",
+			"isPartOf": "GSA-4543",
 			"issued" : "2011-01-31",
 			"keyword" : ["[\"FAST report\",\"federal fleet\",\"federal fleet report\",\"fleet cost\",\"fleet inventory\",\"fleet report\",\"fleet utilization\",\"motor vehicle fleet\",\"motor vehicles\"]"],
 			"landingPage" : null,
@@ -2190,6 +2252,7 @@
 				}
 			],
 			"identifier" : "GSA-6386",
+			"isPartOf": "GSA-6386",
 			"issued" : "2011-01-01",
 			"keyword" : ["[\"Federal Mail\",\"Federal Mail Expenditures\",\"Federal Mail Management\",\"Federal Mail Pieces\",\"Federal Mail Policy\"]"],
 			"landingPage" : null,
@@ -2225,6 +2288,7 @@
 				}
 			],
 			"identifier" : "GSA-2412",
+			"isPartOf": "GSA-2412",
 			"issued" : "2003-10-01",
 			"keyword" : ["[\"Procurement\",\"FPDS\",\"Federal Procurement Data System\",\"Award\",\"Acquisition\",\"Contracts\",\"reporting\"]"],
 			"landingPage" : null,
@@ -2260,6 +2324,7 @@
 				}
 			],
 			"identifier" : "GSA - 138674",
+			"isPartOf": "GSA - 138674",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"FAADS\"]"],
 			"landingPage" : null,
@@ -2295,6 +2360,7 @@
 				}
 			],
 			"identifier" : "GSA - 138673",
+			"isPartOf": "GSA - 138673",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"FPDS\"]"],
 			"landingPage" : null,
@@ -2330,6 +2396,7 @@
 				}
 			],
 			"identifier" : "GSA - 138962",
+			"isPartOf": "GSA - 138962",
 			"issued" : null,
 			"keyword" : ["[\"Federal Property\",\"FRPP\",\"General Services Property\",\"GSA\",\"ngda\",\"NGDA Portfolio Themes\",\"Real Property Theme\",\"Geospatial\",\"Real Estate\"]"],
 			"landingPage" : null,
@@ -2365,6 +2432,7 @@
 				}
 			],
 			"identifier" : "GSA - 139666",
+			"isPartOf": "GSA - 139666",
 			"issued" : null,
 			"keyword" : ["[\"DDS2\",\"FSSI\"]"],
 			"landingPage" : null,
@@ -2400,6 +2468,7 @@
 				}
 			],
 			"identifier" : "GSA - 139667",
+			"isPartOf": "GSA - 139667",
 			"issued" : null,
 			"keyword" : ["[\"FSSI\",\"MRO\"]"],
 			"landingPage" : null,
@@ -2435,6 +2504,7 @@
 				}
 			],
 			"identifier" : "GSA - 139668",
+			"isPartOf": "GSA - 139668",
 			"issued" : null,
 			"keyword" : ["[\"FSSI\",\"Print Management\"]"],
 			"landingPage" : null,
@@ -2470,6 +2540,7 @@
 				}
 			],
 			"identifier" : "GSA - 139647",
+			"isPartOf": "GSA - 139647",
 			"issued" : null,
 			"keyword" : ["[\"BPA\",\"Data\",\"FSSI\",\"GSA\",\"Monthly\",\"Prices Paid\",\"Report\",\"Supplier\",\"Usage\",\"Vendor\",\"Wireless\"]"],
 			"landingPage" : null,
@@ -2505,6 +2576,7 @@
 				}
 			],
 			"identifier" : "GSA - 139665",
+			"isPartOf": "GSA - 139665",
 			"issued" : null,
 			"keyword" : ["[\"FSSI\",\"Wireless\"]"],
 			"landingPage" : null,
@@ -2540,6 +2612,7 @@
 				}
 			],
 			"identifier" : "GSA-4671",
+			"isPartOf": "GSA-4671",
 			"issued" : "2011-03-18",
 			"keyword" : ["[\"Works Progress Administration\",\"WPA\",\"Art in Architecture\"]"],
 			"landingPage" : null,
@@ -2575,6 +2648,7 @@
 				}
 			],
 			"identifier" : "GSA-31641",
+			"isPartOf": "GSA-31641",
 			"issued" : "2012-08-07",
 			"keyword" : ["[\"federal per diem\",\"per diem\",\"lodging\",\"meals and incidental expenses\",\"m&ie\",\"maximum per diem rates\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -2610,6 +2684,7 @@
 				}
 			],
 			"identifier" : "GSA-2014-02-14-1",
+			"isPartOf": "GSA-2014-02-14-1",
 			"issued" : null,
 			"keyword" : ["[\"Go.USA.gov URL shortener\"]"],
 			"landingPage" : null,
@@ -2645,6 +2720,7 @@
 				}
 			],
 			"identifier" : "GSA-2014-02-14-2",
+			"isPartOf": "GSA-2014-02-14-2",
 			"issued" : null,
 			"keyword" : ["[\"government information\",\"government benefits\",\"government services\",\"Blog\",\"news\",\"Consumer\"]"],
 			"landingPage" : null,
@@ -2680,6 +2756,7 @@
 				}
 			],
 			"identifier" : "GSA-4001",
+			"isPartOf": "GSA-4001",
 			"issued" : "2010-09-17",
 			"keyword" : ["[\"eLibrary GSA Schedule Contract\"]"],
 			"landingPage" : null,
@@ -2715,6 +2792,7 @@
 				}
 			],
 			"identifier" : "GSA-2079",
+			"isPartOf": "GSA-2079",
 			"issued" : "2009-03-01",
 			"keyword" : ["[\"FAIR Act\",\"Functions\",\"Activity\",\"Inventory\",\"Commercial\",\"Inherently Governmental\"]"],
 			"landingPage" : null,
@@ -2750,6 +2828,7 @@
 				}
 			],
 			"identifier" : "GSA - 139225",
+			"isPartOf": "GSA - 139225",
 			"issued" : null,
 			"keyword" : ["[\"General Services Administration\",\"GSA\",\"JSON\"]"],
 			"landingPage" : null,
@@ -2785,6 +2864,7 @@
 				}
 			],
 			"identifier" : "GSA-4716",
+			"isPartOf": "GSA-4716",
 			"issued" : "2009-01-01",
 			"keyword" : ["[\"Building\",\"Construction\",\"Historic\",\"Space\"]"],
 			"landingPage" : null,
@@ -2820,6 +2900,7 @@
 				}
 			],
 			"identifier" : "GSA-136951",
+			"isPartOf": "GSA-136951",
 			"issued" : null,
 			"keyword" : ["[\"Visitor\"]"],
 			"landingPage" : null,
@@ -2855,6 +2936,7 @@
 				}
 			],
 			"identifier" : "GSA - 3374",
+			"isPartOf": "GSA - 3374",
 			"issued" : null,
 			"keyword" : ["[\"Agency Financial Report (AFR)\",\"Financial\",\"Savings\",\"AFR\"]"],
 			"landingPage" : null,
@@ -2890,6 +2972,7 @@
 				}
 			],
 			"identifier" : "GSA-4495",
+			"isPartOf": "GSA-4495",
 			"issued" : "2002-01-01",
 			"keyword" : ["[\"ngda\",\"NGDA Portfolio Themes\",\"Real Estate\",\"Real Property Theme\",\"Geospatial\",\"National Geospatial Data Asset\"]"],
 			"landingPage" : null,
@@ -2925,6 +3008,7 @@
 				}
 			],
 			"identifier" : "GSA-4306",
+			"isPartOf": "GSA-4306",
 			"issued" : "2010-11-15",
 			"keyword" : ["[\"Construction\",\"repairs\",\"Alterations\",\"Safety\",\"Fire\",\"Survey\",\"Findings\",\"Building\",\"OSHA\",\"SEM\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -2960,6 +3044,7 @@
 				}
 			],
 			"identifier" : "GSA-33271",
+			"isPartOf": "GSA-33271",
 			"issued" : "2011-05-02",
 			"keyword" : ["[\"safety\",\"Fire\",\"survey\",\"findings\",\"building\",\"osha\",\"sem\",\"Interactive\"]"],
 			"landingPage" : null,
@@ -2995,6 +3080,7 @@
 				}
 			],
 			"identifier" : "GSA-30251",
+			"isPartOf": "GSA-30251",
 			"issued" : "2013-03-01",
 			"keyword" : ["[\"job openings\",\"job listings\",\"position opening\"]"],
 			"landingPage" : null,
@@ -3030,6 +3116,7 @@
 				}
 			],
 			"identifier" : "GSA - 139011",
+			"isPartOf": "GSA - 139011",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"developers\",\"government\",\"web service\"]"],
 			"landingPage" : null,
@@ -3065,6 +3152,7 @@
 				}
 			],
 			"identifier" : "GSA - 139012",
+			"isPartOf": "GSA - 139012",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"developers\",\"government\",\"web service\"]"],
 			"landingPage" : null,
@@ -3100,6 +3188,7 @@
 				}
 			],
 			"identifier" : "GSA-4669",
+			"isPartOf": "GSA-4669",
 			"issued" : "2011-01-31",
 			"keyword" : ["[\"federal mail\",\"federal mail report\",\"mail certifications\",\"mail cost\",\"mail expenditures\",\"mail management\",\"mail management report\",\"mail policy\",\"mail utilization\",\"SMART\",\"SMART report\"]"],
 			"landingPage" : null,
@@ -3135,6 +3224,7 @@
 				}
 			],
 			"identifier" : "GSA-4667",
+			"isPartOf": "GSA-4667",
 			"issued" : "2011-01-31",
 			"keyword" : ["[\"federal mail\",\"federal mail report\",\"mail certifications\",\"mail cost\",\"mail expenditures\",\"mail management\",\"mail management report\",\"mail policy\",\"mail utilization\",\"SMART\",\"SMART report\"]"],
 			"landingPage" : null,
@@ -3170,6 +3260,7 @@
 				}
 			],
 			"identifier" : "GSA-4668",
+			"isPartOf": "GSA-4668",
 			"issued" : "2011-01-31",
 			"keyword" : ["[\"federal mail\",\"federal mail report\",\"mail certifications\",\"mail cost\",\"mail expenditures\",\"mail management\",\"mail management report\",\"mail policy\",\"mail utilization\",\"SMART\",\"SMART report\"]"],
 			"landingPage" : null,
@@ -3205,6 +3296,7 @@
 				}
 			],
 			"identifier" : "GSA-4670",
+			"isPartOf": "GSA-4670",
 			"issued" : "2011-01-31",
 			"keyword" : ["[\"federal mail\",\"federal mail report\",\"mail certifications\",\"mail cost\",\"mail expenditures\",\"mail management\",\"mail management report\",\"mail policy\",\"mail utilization\",\"SMART\",\"SMART report\"]"],
 			"landingPage" : null,
@@ -3240,6 +3332,7 @@
 				}
 			],
 			"identifier" : "GSA-4666",
+			"isPartOf": "GSA-4666",
 			"issued" : "2011-01-31",
 			"keyword" : ["[\"federal mail\",\"federal mail report\",\"mail certifications\",\"mail cost\",\"mail expenditures\",\"mail management\",\"mail management report\",\"mail policy\",\"mail utilization\",\"SMART\",\"SMART report\"]"],
 			"landingPage" : null,
@@ -3275,6 +3368,7 @@
 				}
 			],
 			"identifier" : "GSA - 138676",
+			"isPartOf": "GSA - 138676",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"Mobile\",\"Mobilie App\"]"],
 			"landingPage" : null,
@@ -3310,6 +3404,7 @@
 				}
 			],
 			"identifier" : "GSA - 138677",
+			"isPartOf": "GSA - 138677",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"Citizen\",\"MyUSA Citizen API\"]"],
 			"landingPage" : null,
@@ -3345,6 +3440,7 @@
 				}
 			],
 			"identifier" : "GSA-4724",
+			"isPartOf": "GSA-4724",
 			"issued" : "2011-03-30",
 			"keyword" : ["[\"NAICS\",\"North American Industry Classification System\",\"Business\",\"Contracts\",\"Schedules\",\"GWAC\",\"MAS\",\"Governmentwide Acquisition Contract\",\"Multiple Award Schedule\",\"Federal Supply Schedule\",\"BPA\",\"Blanket Purchase Agreement\"]"],
 			"landingPage" : null,
@@ -3380,6 +3476,7 @@
 				}
 			],
 			"identifier" : "GSA-2084",
+			"isPartOf": "GSA-2084",
 			"issued" : "2010-03-22",
 			"keyword" : ["[\"National Stock Number\",\"NSN\",\"Part Number\",\"Product\",\"Vendor\"]"],
 			"landingPage" : null,
@@ -3415,6 +3512,7 @@
 				}
 			],
 			"identifier" : "GSA-4308",
+			"isPartOf": "GSA-4308",
 			"issued" : "2010-11-16",
 			"keyword" : ["[\"Utilities\",\"Natural Gas\",\"LCD\",\"Agency\",\"Facility\",\"Cost\",\"Usage Data.\"]"],
 			"landingPage" : null,
@@ -3450,6 +3548,7 @@
 				}
 			],
 			"identifier" : "GSA-4498",
+			"isPartOf": "GSA-4498",
 			"issued" : "2011-02-24",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3485,6 +3584,7 @@
 				}
 			],
 			"identifier" : "GSA-5049",
+			"isPartOf": "GSA-5049",
 			"issued" : "2011-07-13",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3520,6 +3620,7 @@
 				}
 			],
 			"identifier" : "GSA-7421",
+			"isPartOf": "GSA-7421",
 			"issued" : "2012-07-17",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3555,6 +3656,7 @@
 				}
 			],
 			"identifier" : "GSA-9611",
+			"isPartOf": "GSA-9611",
 			"issued" : "2012-09-14",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3590,6 +3692,7 @@
 				}
 			],
 			"identifier" : "GSA-25061",
+			"isPartOf": "GSA-25061",
 			"issued" : "2012-12-15",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3625,6 +3728,7 @@
 				}
 			],
 			"identifier" : "GSA-30771",
+			"isPartOf": "GSA-30771",
 			"issued" : "2013-05-30",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3660,6 +3764,7 @@
 				}
 			],
 			"identifier" : "GSA-4109",
+			"isPartOf": "GSA-4109",
 			"issued" : "2010-10-21",
 			"keyword" : ["[\"Networx Telecommunications\"]"],
 			"landingPage" : null,
@@ -3695,6 +3800,7 @@
 				}
 			],
 			"identifier" : "GSA-5195",
+			"isPartOf": "GSA-5195",
 			"issued" : "2011-09-20",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3730,6 +3836,7 @@
 				}
 			],
 			"identifier" : "GSA-6249",
+			"isPartOf": "GSA-6249",
 			"issued" : "2012-04-01",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3765,6 +3872,7 @@
 				}
 			],
 			"identifier" : "GSA-6370",
+			"isPartOf": "GSA-6370",
 			"issued" : "2012-01-01",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3800,6 +3908,7 @@
 				}
 			],
 			"identifier" : "GSA-6376",
+			"isPartOf": "GSA-6376",
 			"issued" : "2012-01-01",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3835,6 +3944,7 @@
 				}
 			],
 			"identifier" : "GSA-25071",
+			"isPartOf": "GSA-25071",
 			"issued" : "2013-03-15",
 			"keyword" : ["[\"Networx\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -3870,6 +3980,7 @@
 				}
 			],
 			"identifier" : "GSA-138569",
+			"isPartOf": "GSA-138569",
 			"issued" : null,
 			"keyword" : ["[\"buildings\",\"General Services Administration\",\"GSA\",\"PBS leased\",\"PBS owned\"]"],
 			"landingPage" : null,
@@ -3905,6 +4016,7 @@
 				}
 			],
 			"identifier" : "GSA-2014-02-14-3",
+			"isPartOf": "GSA-2014-02-14-3",
 			"issued" : null,
 			"keyword" : ["[\"government information\",\"government services\",\"apps\",\"mobile apps\",\"mobile websites\"]"],
 			"landingPage" : null,
@@ -3940,6 +4052,7 @@
 				}
 			],
 			"identifier" : "GSA-2014-02-14-4",
+			"isPartOf": "GSA-2014-02-14-4",
 			"issued" : null,
 			"keyword" : ["[\"government information\",\"government services\",\"apps\",\"mobile apps\",\"mobile websites\"]"],
 			"landingPage" : null,
@@ -3975,6 +4088,7 @@
 				}
 			],
 			"identifier" : "GSA-1272",
+			"isPartOf": "GSA-1272",
 			"issued" : null,
 			"keyword" : ["[\"news\",\"government\",\"agencies\",\"updates\",\"holidays\"]"],
 			"landingPage" : null,
@@ -4010,6 +4124,7 @@
 				}
 			],
 			"identifier" : "GSA-1275",
+			"isPartOf": "GSA-1275",
 			"issued" : null,
 			"keyword" : ["[\"government information\",\"government benefits\",\"government services\",\"Blog\",\"news\",\"Consumer\",\"smart living\"]"],
 			"landingPage" : null,
@@ -4045,6 +4160,7 @@
 				}
 			],
 			"identifier" : "GSA - 138679",
+			"isPartOf": "GSA - 138679",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"PerDiem\"]"],
 			"landingPage" : null,
@@ -4080,6 +4196,7 @@
 				}
 			],
 			"identifier" : "GSA-4723",
+			"isPartOf": "GSA-4723",
 			"issued" : "2011-03-30",
 			"keyword" : ["[\"Classification\",\"PSC\",\"Product Service Code\",\"Business\",\"Contracts\",\"Schedules\",\"GWAC\",\"MAS\",\"Governmentwide Acquisition Contract\",\"Multiple Award Schedule\",\"Federal Supply Schedule\",\"BPA\",\"Blanket Purchase Agreement\"]"],
 			"landingPage" : null,
@@ -4115,6 +4232,7 @@
 				}
 			],
 			"identifier" : "GSA - 138791",
+			"isPartOf": "GSA - 138791",
 			"issued" : null,
 			"keyword" : ["[\"p-card\",\"purchase card\"]"],
 			"landingPage" : null,
@@ -4150,6 +4268,7 @@
 				}
 			],
 			"identifier" : "GSA - 32934",
+			"isPartOf": "GSA - 32934",
 			"issued" : "2014-10-01",
 			"keyword" : ["[\"Purchase Card\",\"GSA SmartPay\",\"Board of Contract Appeals\"]"],
 			"landingPage" : null,
@@ -4185,6 +4304,7 @@
 				}
 			],
 			"identifier" : "GSA - 32935",
+			"isPartOf": "GSA - 32935",
 			"issued" : "2015-05-21",
 			"keyword" : ["[\"Purchase Card\"]"],
 			"landingPage" : null,
@@ -4220,6 +4340,7 @@
 				}
 			],
 			"identifier" : "GSA-25261",
+			"isPartOf": "GSA-25261",
 			"issued" : "2011-07-15",
 			"keyword" : ["[\"GSA\",\"building\",\"owned\",\"property\",\"real estate\",\"real property\"]"],
 			"landingPage" : null,
@@ -4255,6 +4376,7 @@
 				}
 			],
 			"identifier" : "GSA-25251",
+			"isPartOf": "GSA-25251",
 			"issued" : "2011-07-01",
 			"keyword" : ["[\"GSA\",\"building\",\"owned\",\"property\",\"real estate\",\"real property\"]"],
 			"landingPage" : null,
@@ -4290,6 +4412,7 @@
 				}
 			],
 			"identifier" : "GSA-30261",
+			"isPartOf": "GSA-30261",
 			"issued" : "2011-03-01",
 			"keyword" : ["[\"NHTSA\",\"FDA\",\"USDA\",\"CPSC\"]"],
 			"landingPage" : null,
@@ -4325,6 +4448,7 @@
 				}
 			],
 			"identifier" : "GSA-5008",
+			"isPartOf": "GSA-5008",
 			"issued" : "2011-04-21",
 			"keyword" : ["[\"Building\",\"Construction\",\"Historic\",\"Space\"]"],
 			"landingPage" : null,
@@ -4360,6 +4484,7 @@
 				}
 			],
 			"identifier" : "GSA-2581",
+			"isPartOf": "GSA-2581",
 			"issued" : "2009-02-18",
 			"keyword" : ["[\"Schedule Sales Query\",\"sales volume figures\",\"sales data report\",\"GSA contract administration and fee management\"]"],
 			"landingPage" : null,
@@ -4395,6 +4520,7 @@
 				}
 			],
 			"identifier" : "GSA-2641",
+			"isPartOf": "GSA-2641",
 			"issued" : "2009-02-19",
 			"keyword" : ["[\"Schedule Sales Query\",\"sales volume figures\",\"sales data report\",\"GSA contract administration and fee management\"]"],
 			"landingPage" : null,
@@ -4430,6 +4556,7 @@
 				}
 			],
 			"identifier" : "GSA - 3420",
+			"isPartOf": "GSA - 3420",
 			"issued" : null,
 			"keyword" : ["[\"FSSI\",\"OS2\",\"Office Supplies\",\"Strategic Sourcing\"]"],
 			"landingPage" : null,
@@ -4465,6 +4592,7 @@
 				}
 			],
 			"identifier" : "GSA - 138680",
+			"isPartOf": "GSA - 138680",
 			"issued" : null,
 			"keyword" : ["[\"API\",\"Social Media\"]"],
 			"landingPage" : null,
@@ -4500,6 +4628,7 @@
 				}
 			],
 			"identifier" : "GSA-138568",
+			"isPartOf": "GSA-138568",
 			"issued" : null,
 			"keyword" : ["[\"SFTool\",\"Sustainable Facilities Tool\"]"],
 			"landingPage" : null,
@@ -4535,6 +4664,7 @@
 				}
 			],
 			"identifier" : "GSA-1626",
+			"isPartOf": "GSA-1626",
 			"issued" : "2006-09-26",
 			"keyword" : ["[\"EPLS\",\"debarred list\",\"Black List\",\"excluded parties list\",\"list of exclusions\",\"System for Award Management\",\"SAM\"]"],
 			"landingPage" : null,
@@ -4570,6 +4700,7 @@
 				}
 			],
 			"identifier" : "GSA-1422",
+			"isPartOf": "GSA-1422",
 			"issued" : "2010-01-14",
 			"keyword" : ["[\"Vendor\",\"Registration\",\"Contractor\",\"DUNS number\",\"Grantee\",\"Registrant\",\"Entity\",\"System for Award Management\",\"SAM\",\"CCR\"]"],
 			"landingPage" : null,
@@ -4605,6 +4736,7 @@
 				}
 			],
 			"identifier" : "GSA - 139633",
+			"isPartOf": "GSA - 139633",
 			"issued" : null,
 			"keyword" : ["[\"Acquisition\",\"Award\",\"Contracts\"]"],
 			"landingPage" : null,
@@ -4640,6 +4772,7 @@
 				}
 			],
 			"identifier" : "GSA-1375",
+			"isPartOf": "GSA-1375",
 			"issued" : "2010-01-15",
 			"keyword" : ["[\"Vacancy\",\"Employment\",\"Human Capital\",\"Application\",\"Jobs\",\"Time2Hire\",\"USAJobs\"]"],
 			"landingPage" : null,
@@ -4675,6 +4808,7 @@
 				}
 			],
 			"identifier" : "GSA-2014-02-14-5",
+			"isPartOf": "GSA-2014-02-14-5",
 			"issued" : null,
 			"keyword" : ["[\"government directory\",\"federal agencies\",\"USA.gov\",\"GobiernoUSA.gov\"]"],
 			"landingPage" : null,
@@ -4710,6 +4844,7 @@
 				}
 			],
 			"identifier" : "GSA-2014-02-14-6",
+			"isPartOf": "GSA-2014-02-14-6",
 			"issued" : null,
 			"keyword" : ["[\"government information\",\"government benefits\",\"government services\",\"Blog\",\"news\",\"Consumer\"]"],
 			"landingPage" : null,
@@ -4745,6 +4880,7 @@
 				}
 			],
 			"identifier" : "GSA-132",
+			"isPartOf": "GSA-132",
 			"issued" : "2014-02-28",
 			"keyword" : ["[\"Federal contracts\",\"Contracts\",\"Awards\",\"Grants\",\"Loans\",\"Assistance\",\"Purchase Cards\",\"GSASmartPay\",\"GSA SmartPay\",\"USASpending\",\"USA Spending\",\"Purchase\",\"Travel\",\"Fleet\",\"Contractor\",\"contracting agency\",\"American Recovery and Reinvestment Act\",\"Recovery Act\",\"ARRA\",\"Top\"]"],
 			"landingPage" : null,
@@ -4780,6 +4916,7 @@
 				}
 			],
 			"identifier" : "GSA-133",
+			"isPartOf": "GSA-133",
 			"issued" : "2014-02-28",
 			"keyword" : ["[\"Federal contracts\",\"Contracts\",\"Awards\",\"Grants\",\"Loans\",\"Assistance\",\"Purchase Cards\",\"GSASmartPay\",\"GSA SmartPay\",\"USASpending\",\"USA Spending\",\"Purchase\",\"Travel\",\"Fleet\",\"Contractor\",\"contracting agency\",\"American Recovery and Reinvestment Act\",\"Recovery Act\",\"ARRA\",\"Top\"]"],
 			"landingPage" : null,
@@ -4815,6 +4952,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-02-26-1",
+			"isPartOf": "GSA-2015-02-26-1",
 			"issued" : "2015-02-27",
 			"keyword" : ["[\"Networx Telecommunications\",\"telecommunications.\",\"Networx\"]"],
 			"landingPage" : null,
@@ -4850,6 +4988,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-02-26-2",
+			"isPartOf": "GSA-2015-02-26-2",
 			"issued" : "2015-02-27",
 			"keyword" : ["[\"Networx\",\"Networx Telecommunications\",\"telecommunications.\"]"],
 			"landingPage" : null,
@@ -4885,6 +5024,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-02-26-3",
+			"isPartOf": "GSA-2015-02-26-3",
 			"issued" : "2015-02-27",
 			"keyword" : ["[\"Networx Telecommunications\"]"],
 			"landingPage" : null,
@@ -4920,6 +5060,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-02-26-4",
+			"isPartOf": "GSA-2015-02-26-4",
 			"issued" : "2015-02-27",
 			"keyword" : ["[\"Networx Telecommunications\"]"],
 			"landingPage" : null,
@@ -4955,6 +5096,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-02-26-5",
+			"isPartOf": "GSA-2015-02-26-5",
 			"issued" : "2015-02-27",
 			"keyword" : ["[\"Networx Telecommunications\"]"],
 			"landingPage" : null,
@@ -4990,6 +5132,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-02-26-6",
+			"isPartOf": "GSA-2015-02-26-6",
 			"issued" : "2015-02-27",
 			"keyword" : ["[\"Networx Telecommunications\"]"],
 			"landingPage" : null,
@@ -5025,6 +5168,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-03-02-2",
+			"isPartOf": "GSA-2015-03-02-2",
 			"issued" : "2015-03-03",
 			"keyword" : ["[\"Networx Telecommunications\"]"],
 			"landingPage" : null,
@@ -5060,6 +5204,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-02-27-1",
+			"isPartOf": "GSA-2015-02-27-1",
 			"issued" : "2015-02-28",
 			"keyword" : ["[\"Aviation\",\"Fleet\"]"],
 			"landingPage" : null,
@@ -5095,6 +5240,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-05-18-1",
+			"isPartOf": "GSA-2015-05-18-1",
 			"issued" : "2015-05-18",
 			"keyword" : ["[\"Networx Telecommunications\"]"],
 			"landingPage" : null,
@@ -5130,6 +5276,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-05-18-2",
+			"isPartOf": "GSA-2015-05-18-2",
 			"issued" : "2015-05-18",
 			"keyword" : ["[\"e-Buy\",\"Awards\",\"Schedules\",\"RFQ\",\"Quote\",\"procurement\",\"Contracts\"]"],
 			"landingPage" : null,
@@ -5165,6 +5312,7 @@
 				}
 			],
 			"identifier" : "GSA-2015-05-18-3",
+			"isPartOf": "GSA-2015-05-18-3",
 			"issued" : "2015-02-01",
 			"keyword" : ["[\"Fine Arts\",\"TMS\",\"eMuseum\"]"],
 			"landingPage" : null,
