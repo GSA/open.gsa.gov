@@ -224,6 +224,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/business.usa.gov\/apis",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -258,6 +259,7 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -362,6 +364,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/social-media-registry.shtml#tags",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -429,11 +432,11 @@
 			"describedBy" : null,
 			"description" : "This API access to City Pair Program FY15 Award data",
 			"distribution" : [{
-					"accessURL" : null,
+					"accessURL" : "https:\/\/apps.fas.gsa.gov\/citypairs\/createcsv.cfm?runsched=yes&award_year=2015",
 					"description" : null,
-					"downloadURL" : "https:\/\/inventory.data.gov\/dataset\/city-pair-program\/resource\/02c2b1c6-a42d-4a10-9e8b-9cf06e54a82b",
+					"downloadURL" : "",
 					"format" : null,
-					"mediaType" : "application\/xhtml+xml"
+					"mediaType" : "text\/csv"
 				}
 			],
 			"identifier" : "GSA - 155327",
@@ -641,6 +644,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/corporation-contact-directory\/index.shtml",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -675,6 +679,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/inventory.data.gov\/dataset\/data-gov-daily-visitor-statistics\/resource\/0f96083f-0089-4524-8574-8eec91e2a7f2",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -1024,6 +1029,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/search.usa.gov\/login",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -1443,6 +1449,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/docs.fbopen.apiary.io\/",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -1512,6 +1519,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/www.fbo.gov\/?s=generalinfo&mode=list&tab=list&tabmode=list&static=documentation",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -1756,6 +1764,7 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/pdf"
 				}
@@ -1956,75 +1965,6 @@
 			"accrualPeriodicity" : "R\/P1Y",
 			"bureauCode" : [" 023:00"],
 			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Committee Member Data collected and verified for each FY from 1997 to present. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide.  This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.   Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true \"shared system\" wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : "http:\/\/www.facadatabase.gov\/datasets\/",
-					"description" : null,
-					"format" : null,
-					"mediaType" : "text\/csv"
-				}
-			],
-			"identifier" : "GSA-6200",
-			"issued" : "2011-10-15",
-			"keyword" : ["Committee Management Secretariat", "FACA", "Federal Advisory Committees", "Presidential Commissions"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2015-05-21",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Committee Member Lists"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/PT1S",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
-				"fn" : "Ken F Fussell",
-				"hasEmail" : "mailto:kennett.fussell@gsa.gov"
-			},
-			"dataQuality" : true,
-			"describedBy" : "http:\/\/www.fido.gov\/facadatabase\/help.asp",
-			"description" : "FACA Data collected and verified for each FY from 1997 to present. The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide. This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities. Although centrally supported by the General Services Administration's Committee Management Secretariat, the database represents a true shared system wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"distribution" : [{
-					"accessURL" : null,
-					"description" : null,
-					"downloadURL" : "http:\/\/www.facadatabase.gov\/",
-					"format" : null,
-					"mediaType" : "text\/html"
-				}
-			],
-			"identifier" : "GSA-6205",
-			"issued" : "2012-03-30",
-			"keyword" : ["Committee Management Secretariat", "FACA", "Federal Advisory Committees", "Presidential Commissions"],
-			"landingPage" : null,
-			"language" : ["en-us"],
-			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2015-05-22",
-			"programCode" : [" 023:015"],
-			"publisher" : {
-				"name" : "General Services Administration"
-			},
-			"references" : null,
-			"rights" : "N\/A",
-			"spatial" : "National",
-			"theme" : ["People"],
-			"title" : "Federal Advisory Committee Act (FACA) Data"
-		}, {
-			"accessLevel" : "public",
-			"accrualPeriodicity" : "R\/P1Y",
-			"bureauCode" : [" 023:00"],
-			"contactPoint" : {
 				"fn" : "Joseph J Spurr",
 				"hasEmail" : "mailto:joseph.spurr@gsa.gov"
 			},
@@ -2100,7 +2040,7 @@
 			},
 			"dataQuality" : true,
 			"describedBy" : null,
-			"description" : "List of Internet domains registered and maintained by Federal Executive Agencies.",
+			"description" : "List of Federal Executive Agency Internet Domains",
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
@@ -2111,11 +2051,11 @@
 			],
 			"identifier" : "GSA-9601",
 			"issued" : "2012-09-11",
-			"keyword" : ["Domains", "Agency", "federal", "internet", "executive branch", "websites"],
+			"keyword" : ["Domains", "Agency", "Federal", "Internet", "Executive"],
 			"landingPage" : null,
 			"language" : ["en-us"],
 			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
-			"modified" : "2012-09-11",
+			"modified" : "2015-09-01",
 			"programCode" : [" 023:014"],
 			"publisher" : {
 				"name" : "General Services Administration"
@@ -2124,7 +2064,7 @@
 			"rights" : "N\/A",
 			"spatial" : "US Government",
 			"theme" : ["Information Technology"],
-			"title" : "Federal Executive Agencies Domain List"
+			"title" : "Federal Executive Agency Internet Domains"
 		}, {
 			"accessLevel" : "public",
 			"accrualPeriodicity" : "R\/P1Y",
@@ -2594,6 +2534,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/go.usa.gov\/api\/",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -2873,6 +2814,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.iolp.gsa.gov\/iolp\/NationalMap.asp",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -2977,6 +2919,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/usasearch.howto.gov\/developer\/jobs.html",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -3011,6 +2954,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/raw.githubusercontent.com\/18F\/API-All-the-X\/gh-pages\/_data\/individual_apis.yml",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3045,6 +2989,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/raw.githubusercontent.com\/18F\/API-All-the-X\/gh-pages\/_data\/developer_hubs.yml",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3079,6 +3024,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/mobile-app-gallery\/index.shtml",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3113,6 +3059,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/my.usa.gov\/developer\/",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3672,6 +3619,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/pbs.maps.arcgis.com\/apps\/OnePane\/basicviewer\/index.html?appid=50df1afef78047109ee9f72b39fcd11e",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3846,6 +3794,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/gsa.gov\/portal\/content\/162379",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3950,6 +3899,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/t00000004CBd\/FHXKZJ3VN0ATMLEQlQLLkU8Flc48IlY.oQry_rARSxw",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -3984,6 +3934,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000PzuT\/xLccg7SXmCiNalCrJ0_3EuizcTVTQ1vLGaXSs_tpvtY",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -4088,6 +4039,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/usasearch.howto.gov\/developer\/recalls.html",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4227,6 +4179,7 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4261,6 +4214,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/social-media-registry.shtml",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4295,6 +4249,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/catalog.data.gov\/dataset\/sustainable-facilities-tool",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4399,6 +4354,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/gsa.github.io\/sam_api\/sam\/index.html",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4468,6 +4424,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/federal-agency-directory\/index.shtml",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4537,6 +4494,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/www.usaspending.gov\/DownloadCenter\/Pages\/DataDownload.aspx",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4571,6 +4529,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/www.usaspending.gov\/DownloadCenter\/Pages\/DataDownload.aspx",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4885,6 +4844,7 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000Q0Hr\/eXuvyi_7Jtb4pu4YZUZ7lDYL9075iECzMVdO.8.XEX4",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -4919,6 +4879,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/gsa.github.io\/eMuseum-API\/basics.html",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4953,6 +4914,7 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.facadatabase.gov\/",
 					"description" : null,
+					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4973,6 +4935,76 @@
 			"spatial" : "National",
 			"theme" : ["People"],
 			"title" : "Federal Advisory Committee Act (FACA) Database-Complete-Raw"
+		}, {
+			"accessLevel" : "public",
+			"accrualPeriodicity" : "R\/P3M",
+			"bureauCode" : [" 023:00"],
+			"contactPoint" : {
+				"fn" : "Jonah M Hatfield",
+				"hasEmail" : "mailto:"
+			},
+			"dataQuality" : true,
+			"describedBy" : null,
+			"description" : "Json file for the CIO Governance Board Membership List",
+			"distribution" : [{
+					"accessURL" : "www.gsa.gov\/digitalstrategy\/governanceboards.json",
+					"description" : null,
+					"downloadURL" : "",
+					"format" : null,
+					"mediaType" : "application\/json"
+				}
+			],
+			"identifier" : "GSA-2015-09-01-01",
+			"issued" : "2015-09-01",
+			"keyword" : ["CIO", "Governance", "Board", "List", "Membership"],
+			"landingPage" : null,
+			"language" : ["en-us"],
+			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
+			"modified" : "2015-09-01",
+			"programCode" : [" 023:014"],
+			"publisher" : {
+				"name" : "General Service Administration"
+			},
+			"references" : null,
+			"rights" : "N\/A",
+			"spatial" : null,
+			"theme" : ["People"],
+			"title" : "CIO Governance Board Membership List"
+		}, {
+			"accessLevel" : "public",
+			"accrualPeriodicity" : "R\/P3M",
+			"bureauCode" : [" 023:00"],
+			"contactPoint" : {
+				"fn" : "Jonah M Hatfield",
+				"hasEmail" : "mailto:"
+			},
+			"dataQuality" : true,
+			"describedBy" : null,
+			"description" : "Json file for Bureau IT Leadership",
+			"distribution" : [{
+					"accessURL" : "www.gsa.gov\/digitalstrategy\/bureaudirectory.json",
+					"description" : null,
+					"downloadURL" : "",
+					"format" : null,
+					"mediaType" : "application\/json"
+				}
+			],
+			"identifier" : "GSA-2015-09-01-02",
+			"issued" : "2015-09-01",
+			"keyword" : ["Bureau", "IT", "Leadership"],
+			"landingPage" : null,
+			"language" : ["en-us"],
+			"license" : "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
+			"modified" : "2015-09-01",
+			"programCode" : [" 023:014"],
+			"publisher" : {
+				"name" : "General Service Administration"
+			},
+			"references" : null,
+			"rights" : "N\/A",
+			"spatial" : null,
+			"theme" : ["People"],
+			"title" : "Bureau IT Leadership"
 		}
 	],
 	"describedBy" : "https:\/\/project-open-data.cio.gov\/v1.1\/schema\/catalog.json"
