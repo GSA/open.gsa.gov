@@ -224,7 +224,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/business.usa.gov\/apis",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
