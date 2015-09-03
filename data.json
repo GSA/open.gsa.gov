@@ -258,7 +258,6 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -363,7 +362,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/social-media-registry.shtml#tags",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -433,7 +431,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/apps.fas.gsa.gov\/citypairs\/createcsv.cfm?runsched=yes&award_year=2015",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -643,7 +640,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/corporation-contact-directory\/index.shtml",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -678,7 +674,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/inventory.data.gov\/dataset\/data-gov-daily-visitor-statistics\/resource\/0f96083f-0089-4524-8574-8eec91e2a7f2",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/csv"
 				}
@@ -1028,7 +1023,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/search.usa.gov\/login",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -1448,7 +1442,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/docs.fbopen.apiary.io\/",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -1518,7 +1511,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/www.fbo.gov\/?s=generalinfo&mode=list&tab=list&tabmode=list&static=documentation",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -1763,7 +1755,6 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/pdf"
 				}
@@ -2533,7 +2524,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/go.usa.gov\/api\/",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -2813,7 +2803,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.iolp.gsa.gov\/iolp\/NationalMap.asp",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -2918,7 +2907,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/usasearch.howto.gov\/developer\/jobs.html",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -2953,7 +2941,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/raw.githubusercontent.com\/18F\/API-All-the-X\/gh-pages\/_data\/individual_apis.yml",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -2988,7 +2975,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/raw.githubusercontent.com\/18F\/API-All-the-X\/gh-pages\/_data\/developer_hubs.yml",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3023,7 +3009,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/mobile-app-gallery\/index.shtml",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3058,7 +3043,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/my.usa.gov\/developer\/",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3618,7 +3602,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/pbs.maps.arcgis.com\/apps\/OnePane\/basicviewer\/index.html?appid=50df1afef78047109ee9f72b39fcd11e",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3793,7 +3776,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/gsa.gov\/portal\/content\/162379",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -3898,7 +3880,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/t00000004CBd\/FHXKZJ3VN0ATMLEQlQLLkU8Flc48IlY.oQry_rARSxw",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -3933,7 +3914,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000PzuT\/xLccg7SXmCiNalCrJ0_3EuizcTVTQ1vLGaXSs_tpvtY",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -4038,7 +4018,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/usasearch.howto.gov\/developer\/recalls.html",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4178,7 +4157,6 @@
 			"distribution" : [{
 					"accessURL" : null,
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4213,7 +4191,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/social-media-registry.shtml",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4248,7 +4225,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/catalog.data.gov\/dataset\/sustainable-facilities-tool",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4353,7 +4329,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/gsa.github.io\/sam_api\/sam\/index.html",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4423,7 +4398,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.usa.gov\/About\/developer-resources\/federal-agency-directory\/index.shtml",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4493,7 +4467,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/www.usaspending.gov\/DownloadCenter\/Pages\/DataDownload.aspx",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4528,7 +4501,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/www.usaspending.gov\/DownloadCenter\/Pages\/DataDownload.aspx",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
@@ -4843,7 +4815,6 @@
 			"distribution" : [{
 					"accessURL" : "https:\/\/gsa.my.salesforce.com\/sfc\/p\/30000001G26s\/a\/30000000Q0Hr\/eXuvyi_7Jtb4pu4YZUZ7lDYL9075iECzMVdO.8.XEX4",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/vnd.ms-excel"
 				}
@@ -4878,7 +4849,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/gsa.github.io\/eMuseum-API\/basics.html",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
@@ -4913,7 +4883,6 @@
 			"distribution" : [{
 					"accessURL" : "http:\/\/www.facadatabase.gov\/",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "text\/html"
 				}
