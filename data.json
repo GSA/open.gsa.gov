@@ -4975,15 +4975,14 @@
 			"bureauCode" : [" 023:00"],
 			"contactPoint" : {
 				"fn" : "Jonah M Hatfield",
-				"hasEmail" : "mailto:"
+				"hasEmail" : "mailto:jonah.hatfield@gsa.gov"
 			},
 			"dataQuality" : true,
 			"describedBy" : null,
 			"description" : "Json file for Bureau IT Leadership",
 			"distribution" : [{
-					"accessURL" : "www.gsa.gov\/digitalstrategy\/bureaudirectory.json",
+					"accessURL" : "http://www.gsa.gov\/digitalstrategy\/bureaudirectory.json",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
