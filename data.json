@@ -4946,9 +4946,8 @@
 			"describedBy" : null,
 			"description" : "Json file for the CIO Governance Board Membership List",
 			"distribution" : [{
-					"accessURL" : "www.gsa.gov\/digitalstrategy\/governanceboards.json",
+					"accessURL" : "http://www.gsa.gov\/digitalstrategy\/governanceboards.json",
 					"description" : null,
-					"downloadURL" : "",
 					"format" : null,
 					"mediaType" : "application\/json"
 				}
