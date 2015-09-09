@@ -815,7 +815,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Visitor Metrics",
 			"description" : "The dataset provides metrics for the number of dataset views in catalog.data.gov broken down by month starting Jan 2014.",
-			"modified" : "2014-07-01",
+			"modified" : "2015-09-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139375",
 			"dataQuality" : true,
@@ -1268,8 +1268,8 @@
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "e-Buy Awards Parent",
-			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
-			"modified" : "2015-08-31",
+			"description" : "This is the Parent folder for GSA e-Buy Fiscal Year information, e-Buy is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts.",
+			"modified" : "2015-09-04",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-08-31",
 			"dataQuality" : true,
@@ -1287,7 +1287,7 @@
 				"fn" : "Usha Gopal",
 				"hasEmail" : "mailto:usha.gopal@gsa.gov"
 			},
-			"keyword" : ["Award", "Contracts", "Quote", "Schedules", "e-Buy", "e-Buy Award RFQ Quote GSA Schedule Contract"],
+			"keyword" : ["Award", "Contracts", "Quote", "Schedules", "e-Buy"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:007"],
 			"language" : ["en-us"],
@@ -3290,22 +3290,30 @@
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Parent",
-			"description" : "Networx Business Parent",
-			"modified" : "2015-08-27",
+			"description" : "These datasets represent the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contract.  This collection contains data from FY2008 to the presesnt.",
+			"modified" : "2015-09-04",
 			"accessLevel" : "public",
-			"identifier" : "dummty-id-001",
+			"identifier" : "GSA-2015-08-27P",
+			"dataQuality" : true,
+			"describedBy" : "http://www.gsa.gov/networx",
+			"describedByType" : "text/html",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"spatial" : "United States",
 			"publisher" : {
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
 			},
+			"accrualPeriodicity" : "R/P3M",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Cindy Smith",
 				"hasEmail" : "mailto:cindya.smith@gsa.gov"
 			},
-			"keyword" : ["gsa", "parent"],
+			"keyword" : ["Networx", "Parent", "Telecommunications"],
 			"bureauCode" : ["023:00"],
-			"programCode" : ["023:019"]
+			"programCode" : ["023:019"],
+			"language" : ["en-us"],
+			"theme" : ["Telecommunications"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2008_FY2009",
@@ -3324,7 +3332,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3361,7 +3369,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3398,7 +3406,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3435,7 +3443,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3472,7 +3480,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3509,7 +3517,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3546,7 +3554,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3583,7 +3591,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3620,7 +3628,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3657,7 +3665,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3694,7 +3702,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3731,7 +3739,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3767,7 +3775,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L. Holloway",
@@ -3800,7 +3808,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3838,7 +3846,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3876,7 +3884,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3913,7 +3921,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3951,7 +3959,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -3988,7 +3996,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -4024,7 +4032,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "dummty-id-001",
+			"isPartOf" : "GSA-2015-08-27P",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Toni L Holloway",
@@ -4045,6 +4053,39 @@
 			"keyword" : ["Networx Telecommunications"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:019"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Networx Business Volume_FY2015_3rd Quarter",
+			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
+			"modified" : "2015-09-09",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2015-05-09-09",
+			"dataQuality" : true,
+			"issued" : "2015-05-18",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2015-08-27P",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Toni L Holloway",
+				"hasEmail" : "mailto:toni.holloway@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"title" : "Networx Business Volume FY15 3rd Quarter",
+					"downloadURL" : "https://gsa.my.salesforce.com/sfc/p/30000001G26s/a/t0000000PAsN/tp6PGKtTvJNSu..gKk43nv5L3mg6OiqvsXG6RsG9LNs"
+				}
+			],
+			"keyword" : ["Networx Telecommunications"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:019"],
+			"language" : ["en-us"],
+			"theme" : ["Telecommunications Services"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "New Construction and Repair and Alteration (R&A) Projects",
@@ -4251,9 +4292,9 @@
 			"theme" : ["API"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "FY2013 Per Diem Reimbursement Rates",
-			"description" : "The dataset contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 362 locations across the continental United States for Fiscal Year 2014, Fiscal Year 2013, and Fiscal Year 2012, as well as the standard per diem rates for any locations not specifically listed.",
-			"modified" : "2012-08-07",
+			"title" : "Per Diem Reimbursement Rates",
+			"description" : "The dataset contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 362 locations across the continental United States for Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014 and Fiscal Year 2013, as well as the standard per diem rates for any locations not specifically listed.",
+			"modified" : "2015-09-08",
 			"accessLevel" : "public",
 			"identifier" : "GSA-31641",
 			"dataQuality" : true,
@@ -4274,8 +4315,8 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"title" : "FY2013 Per_Diem_Reimbursement_Rates.csv",
-					"downloadURL" : "https://inventory.data.gov/dataset/ad729937-b245-4eec-a88d-b72eb36d8106/resource/996f733b-7f9c-4011-a1a0-9768f67c1623/download/perdiemreimbursementrates.csv"
+					"title" : "Per_Diem_Reimbursement_Rates.csv",
+					"downloadURL" : "https://inventory.data.gov/dataset/ad729937-b245-4eec-a88d-b72eb36d8106/resource/996f733b-7f9c-4011-a1a0-9768f67c1623/download/perdiemreimbursementrates2016.csv"
 				}
 			],
 			"keyword" : ["federal per diem", "lodging", "m ie", "maximum per diem rates", "meals and incidental expenses", "per diem"],
@@ -4688,6 +4729,37 @@
 			"theme" : ["API"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "Subcontracting Directory for Small Businesses",
+			"description" : "The GSA Subcontracting Directory list large prime contractors who, by law, are required to establish plans and goals for subcontracting with small business firms.",
+			"modified" : "2015-01-01",
+			"accessLevel" : "public",
+			"identifier" : "mu7x-xj6s1",
+			"describedBy" : "http://gsa.gov/subdirectory",
+			"issued" : "2012-12-06",
+			"landingPage" : "http://gsa.gov/subdirectory",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Patrick Son",
+				"hasEmail" : "mailto:patrick.son@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"format" : "csv",
+					"title" : "SubContractor Directory - Q4 - 2014",
+					"downloadURL" : "https://inventory.data.gov/dataset/1de9a4fa-3cf0-4fe1-8c2f-a264ef5f2311/resource/4b964280-f0c5-4dd0-b81f-dc93121126f3/download/subkdir4thqtr2014.csv"
+				}
+			],
+			"keyword" : ["prime contractors", "subcontracting", "subcontracting directory"],
+			"bureauCode" : ["001:40"],
+			"programCode" : ["015:010"],
+			"theme" : ["Directory"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "Sustainable Facilities Tool",
 			"description" : "With the SFTool API, you can access a myriad of high performance building information. Pull the most up to date information about green products, services, and materials. Put sustainable strategies in the hands of your audience today. All of our API methods are HTTP GET and always return the latest data. Whether you’re looking to add sustainable building information to your website or blog, or looking for data to build an application, the SFTool API is here for you.Making API calls is very straightforward. There is a single base URI for each data category. By default, it will return all of the data for that category. By using any of our optional parameters, you can filter the data as you see fit. Signup for free to get the SFTool API key at  https://api.data.gov/signup/.",
 			"modified" : "2014-11-11",
@@ -4722,19 +4794,20 @@
 			"theme" : ["API"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "System for Award Management API",
-			"description" : "The SAM API is a RESTful method of retrieving public information about the businesses or individuals (referred to as “entities”) within the SAM data set. The information can currently be retrieved on an entity-by-entity basis.",
-			"modified" : "2014-05-01",
+			"title" : "System for Award Management (SAM) API",
+			"description" : "The SAM API is a RESTful method of retrieving public information about the businesses, organizations, or individuals (referred to as entities) within the SAM entity regsitration data set. Public registration information can currently be retrieved on an entity-by-entity basis. In addition, the SAM Search API offers both a 'quick search' and 'advanced search' method.",
+			"modified" : "2015-09-09",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139633",
 			"dataQuality" : true,
+			"describedBy" : "http://gsa.github.io/sam_api/sam/fields3.html",
+			"issued" : "2010-01-14",
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"rights" : "N/A",
 			"publisher" : {
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
 			},
-			"accrualPeriodicity" : "R/PT1S",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Navin Nagaraj Vembar",
@@ -4742,10 +4815,12 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "https://gsa.github.io/sam_api/sam/index.html",
+					"accessURL" : "http://gsa.github.io/sam_api/sam/index.html",
 					"mediaType" : "application/json",
 					"format" : "None",
-					"title" : "System for Award Management API"
+					"title" : "SAM - System for Award Management API",
+					"describedBy" : "http://gsa.github.io/sam_api/sam/fields3.html",
+					"describedByType" : "text/html"
 				}
 			],
 			"keyword" : ["Acquisition", "Award", "Contracts"],
@@ -4791,8 +4866,8 @@
 			"theme" : ["Acquisition"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "System for Award Management (SAM) Public Extract",
-			"description" : "This dataset contains the information available under the Freedom of Information Act (FOIA) for those registered to do business with the Federal government in the System for Award Management (SAM). It is updated monthly. This dataset was previously called the \"Central Contractor Registration (CCR) FOIA Extract.\"",
+			"title" : "System for Award Management (SAM) Public Extract - Entity Registration",
+			"description" : "This dataset contains the information available under the Freedom of Information Act (FOIA) for those entities registered to do business with the Federal government in the System for Award Management (SAM). It is updated monthly. Prior to July 2012, this dataset was called the Central Contractor Registration (CCR) FOIA Extract.",
 			"modified" : "2012-07-29",
 			"accessLevel" : "public",
 			"identifier" : "GSA-1422",
@@ -4814,10 +4889,18 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "None",
-					"title" : "System for Award Management (SAM) Public Extract",
-					"downloadURL" : "https://www.sam.gov/public-extracts/CCR-FOIA/CCR_FOIA_Extract.zip"
+					"mediaType" : "application/zip",
+					"title" : "ASCII - System for Award Management (SAM) Public Extract",
+					"describedBy" : "https://sam.gov/sam/transcript/SAM%20Master%20Extract%20Mapping%20v5.1%20Public%20File%20Layout.xlsx",
+					"describedByType" : "application/vnd.ms-excel",
+					"downloadURL" : "https://www.sam.gov/SAMPortal/extractfiledownload?role=WW&version=SAM&filename=SAM_PUBLIC_MONTHLY_EXTRACT.ZIP"
+				}, {
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/zip",
+					"title" : "UTF-8 System for Award Managment (SAM) Public Extract",
+					"describedBy" : "https://sam.gov/sam/transcript/SAM%20Master%20Extract%20Mapping%20v5.1%20Public%20File%20Layout.xlsx",
+					"describedByType" : "application/vnd.ms-excel",
+					"downloadURL" : "https://www.sam.gov/SAMPortal/extractfiledownload?role=SAM-PUBLIC-UTF8&version=SAM&filename=SAM_PUBLIC_UTF-8_MONTHLY_EXTRACT.ZIP"
 				}
 			],
 			"keyword" : ["CCR", "Contractor", "DUNS number", "Entity", "Grantee", "Registrant", "Registration", "SAM", "System for Award Management", "Vendor"],
