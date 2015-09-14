@@ -247,8 +247,8 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Capital Projects Application (CPA)",
 			"description" : "Capital Projects application (CPA) provides users with the ability to maintain project related financial data for Budget Activity (BA) 51, 55, 64, 01, 02, 03, 04.  CPA maintains extensive project related data for single year and multiple year funded projects for these budget activities.  CPA maintains transaction details of the amount appropriated and obligated over the course of the project at the project level.  The information contained in CPA is used daily by field personnel and serves as the system of record when responding to Office of management and Budget (OMB) and Congress.  CPA interfaces with Business Information System (BIS) and performs daily downloads of obligation data for BA51, BA55, BA64, BA01, BA02, BA03, BA04, segmented by budget activity, region, and project status and type.  Accessible through the PBS Portal CPA data elements include Region, Projects Number, Project Name/Location, Status, Project Manager, Balance Amounts, and Authorization/Schedules for single and multiple year funds projects.",
-			"modified" : "2011-03-24",
-			"accessLevel" : "restricted public",
+			"modified" : "2015-09-10",
+			"accessLevel" : "non-public",
 			"identifier" : "GSA-4722",
 			"dataQuality" : true,
 			"describedBy" : "http://www.gsa.gov/dg/CPA_DataDictionary.docx",
@@ -266,6 +266,14 @@
 				"fn" : "Justin M Pinkney",
 				"hasEmail" : "mailto:justin.pinkney@gsa.gov"
 			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"format" : "csv",
+					"title" : "Capital Project Application",
+					"downloadURL" : "[[REDACTED-EX B4]]"
+				}
+			],
 			"keyword" : ["Activity", "Alterations", "Budget", "Construction", "Historic Preservation", "Project", "Repairs", "Reporting"],
 			"bureauCode" : ["023:05"],
 			"programCode" : ["023:014"],
@@ -488,6 +496,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2015-09-11-01",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Marvin Wilber Somers",
@@ -521,6 +530,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-11-01",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Norma H Tolson",
@@ -554,6 +564,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-11-01",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Norma H Tolson",
@@ -587,6 +598,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-11-01",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Norma H Tolson",
@@ -620,6 +632,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-11-01",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Norma H Tolson",
@@ -634,6 +647,38 @@
 				}
 			],
 			"keyword" : ["Credit Card", "travel card"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Travel and Transportation"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Concur Travel Parent",
+			"description" : "This is the Parent folder for Concur datasets reporting on; Closed-Paid Vouchers, Authorization Model, Travel Model, User Profile, and Voucher Model.",
+			"modified" : "2015-09-11",
+			"accessLevel" : "non-public",
+			"identifier" : "GSA-2015-09-11-01",
+			"dataQuality" : true,
+			"license" : "http://www.usa.gov/publicdomain/label/1.0/",
+			"rights" : "Trade secrets & commercial/financial info obtained from a person and privileged or confidential.",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P1Y",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Norma H Tolson",
+				"hasEmail" : "mailto:norma.tolson@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"title" : "Concur Travel Parent",
+					"downloadURL" : "[[REDACTED-EX B4]]"
+				}
+			],
+			"keyword" : ["Authorization", "Closed", "Concur", "Paid", "Travel", "Voucher"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
 			"language" : ["en-us"],
@@ -1069,6 +1114,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Usha Gopal",
@@ -1105,6 +1151,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Usha Gopal",
@@ -1141,6 +1188,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Usha Gopal",
@@ -1177,6 +1225,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Usha Gopal",
@@ -1213,6 +1262,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Usha Gopal",
@@ -1247,6 +1297,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Usha Gopal",
@@ -4830,13 +4881,14 @@
 			"theme" : ["API"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "System for Award Management (SAM) Exclusions Extract Data Package",
-			"description" : "This dataset contains a daily snapshot of active exclusion records entered by the U.S. Federal government identifying those parties excluded from receiving Federal contracts, certain subcontracts, and certain types of Federal financial and non-financial assistance and benefits. The data was formerly contained in the Excluded Parties List System (EPLS), but was incorporated into the System for Award Management. SAM is an electronic, web-based system that keeps its user community aware of administrative and statuatory exclusions across the entire government, and individuals barred from entering the United States. Users must read the exclusion record completely to understand how it impacts the excluded party.",
-			"modified" : "2012-12-04",
+			"title" : "System for Award Management (SAM) Public Extract - Exclusions",
+			"description" : "This dataset contains a daily snapshot of active exclusion records entered by the U.S. Federal government identifying those parties excluded from receiving Federal contracts, certain subcontracts, and certain types of Federal financial and non-financial assistance and benefits. The data was formerly contained in the Excluded Parties List System (EPLS). In July 2012, EPLS was incorporated into the System for Award Management (SAM). SAM is now the electronic, web-based system that keeps its user community aware of administrative and statutory exclusions across the entire government, and individuals barred from entering the United States. Users must read the exclusion record completely to understand how it impacts the excluded party.",
+			"modified" : "2015-09-14",
 			"accessLevel" : "public",
 			"identifier" : "GSA-1626",
 			"dataQuality" : true,
-			"describedBy" : "https://www.sam.gov/portal/public/SAM/",
+			"describedBy" : "https://www.sam.gov/sam/transcript/SAM_Exclusions_Extract_User_Guide.pdf",
+			"describedByType" : "application/pdf",
 			"issued" : "2006-09-26",
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"rights" : "N/A",
@@ -4845,25 +4897,27 @@
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
 			},
-			"accrualPeriodicity" : "R/PT1S",
+			"accrualPeriodicity" : "R/P1D",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "Memi Michelle Whitehead",
+				"fn" : "Meredith M Whitehead",
 				"hasEmail" : "mailto:meredith.whitehead@gsa.gov"
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
 					"format" : "None",
-					"title" : "System for Award Management (SAM) Exclusions Extract Data Package",
-					"downloadURL" : "https://www.sam.gov/public-extracts/SAM-Public/"
+					"title" : "System for Award Management (SAM) Public Extract - Exclusions",
+					"describedBy" : "https://www.sam.gov/sam/transcript/SAM_Exclusions_Extract_User_Guide.pdf",
+					"describedByType" : "application/pdf",
+					"downloadURL" : "https://www.sam.gov/public-extracts/SAM-Public/SAM_Exclusions_Public_Extract.ZIP"
 				}
 			],
-			"keyword" : ["Black List", "EPLS", "SAM", "System for Award Management", "debarred list", "excluded parties list", "list of exclusions"],
+			"keyword" : ["Black List", "EPLS", "Ineligible Proceedings Completed", "Ineligible Proceedings Pending", "Prohibition Restriction", "SAM", "System for Award Management", "Voluntary Exclusion", "debarred list", "excluded parties list", "list of exclusions"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:015"],
 			"language" : ["en-us"],
-			"theme" : ["Acquisition"]
+			"theme" : ["Federal Acquisition Service Program"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "System for Award Management (SAM) Public Extract - Entity Registration",
@@ -4872,7 +4926,8 @@
 			"accessLevel" : "public",
 			"identifier" : "GSA-1422",
 			"dataQuality" : true,
-			"describedBy" : "https://www.sam.gov/public-extracts/CCR_FOIA_Extract_Layout.pdf",
+			"describedBy" : "https://sam.gov/sam/transcript/SAM%20Master%20Extract%20Mapping%20v5.1%20Public%20File%20Layout.xlsx",
+			"describedByType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 			"issued" : "2010-01-14",
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"rights" : "N/A",
@@ -4884,7 +4939,7 @@
 			"accrualPeriodicity" : "R/PT1S",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "Memi Michelle Whitehead",
+				"fn" : "Meredith M Whitehead",
 				"hasEmail" : "mailto:meredith.whitehead@gsa.gov"
 			},
 			"distribution" : [{
