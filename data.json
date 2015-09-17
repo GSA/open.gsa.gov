@@ -1534,6 +1534,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Robert D Bourne",
@@ -1569,6 +1570,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Robert D Bourne",
@@ -1605,6 +1607,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -1622,6 +1625,30 @@
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:007"],
 			"language" : ["en-us"],
+			"theme" : ["Acquisition"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "FAS Parent",
+			"description" : "This contains the Federal Acquisition Service collection of Instructional Letters and Scorecards.",
+			"modified" : "2015-09-14",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2015-09-14-02",
+			"dataQuality" : true,
+			"issued" : "2015-09-14",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"spatial" : "National",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "David W Orcutt",
+				"hasEmail" : "mailto:david.orcutt@gsa.gov"
+			},
+			"keyword" : ["Acquisition", "Balanced Scorecard", "FAS", "Instructional Letters"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:007"],
 			"theme" : ["Acquisition"]
 		}, {
 			"@type" : "dcat:Dataset",
@@ -1706,6 +1733,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Kari A Namiot",
@@ -1741,6 +1769,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -1776,6 +1805,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -1811,6 +1841,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -1847,6 +1878,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -1883,6 +1915,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1M",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -1911,6 +1944,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -1947,6 +1981,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -1983,6 +2018,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -2019,6 +2055,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -2054,6 +2091,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -2089,6 +2127,7 @@
 				"name" : "General Services Administration"
 			},
 			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-09-14-02",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "David W Orcutt",
@@ -3256,7 +3295,7 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "https://my.usa.gov/developer/",
+					"accessURL" : "https://alpha.my.usa.gov/developer",
 					"mediaType" : "text/html",
 					"format" : "None",
 					"title" : "MyUSA Citizen API"
