@@ -98,7 +98,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/json",
-					"format" : "None",
+					"format" : "API",
 					"title" : "American Job Center Resource API",
 					"downloadURL" : "http://jobcenter.usa.gov/apis"
 				}
@@ -179,6 +179,40 @@
 			"theme" : ["Acquisition"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "Auctions API",
+			"description" : "GSA Auctions offers Federal personal property assets ranging from common place items (such as office equipment and furniture) to more select products like scientific equipment, heavy machinery, airplanes, vessels and vehicles. GSA Auctions’ online capabilities allow GSA to offer assets located across the country to any interested buyer, regardless of location.    Build your own tools using our API to access GSA Auctions listings.  The Auctions API is a GET API which has currently one operation. The operation will retrieve GSA Auctions data.  The output data will be in XML and JSON format. These files are downloadable.  The data in the API output file is live data.",
+			"modified" : "2015-11-09",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2015-11-09-01",
+			"dataQuality" : true,
+			"license" : "http://creativecommons.org/publicdomain/zero/1.0/",
+			"spatial" : "National",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/PT1S",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Cindy A Smith",
+				"hasEmail" : "mailto:cindya.smith@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/html",
+					"format" : "API",
+					"title" : "Auctions API",
+					"description" : "GSA Auctions API is a public GET API. The Auction listings will be delivered to the user in two formats. One is JSON and the other one is XML. The auction listings delivered thru the API contains the auction listings from all the participating agencies.\r\n\r\nThe output data will be in XML and JSON format. These files are downloadable.  The data in the API output file is live data.",
+					"downloadURL" : "http://gsa.github.io/auctions_api/"
+				}
+			],
+			"keyword" : ["API", "Assets", "Auctions", "Federal Personal Property"],
+			"bureauCode" : ["023:30"],
+			"programCode" : ["023:009"],
+			"language" : ["us-en"],
+			"theme" : ["API"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "Bureau IT Leadership Directory",
 			"description" : "Json file for Bureau IT Leadership Directory",
 			"modified" : "2015-09-01",
@@ -233,7 +267,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://business.usa.gov/apis",
-					"format" : "None",
+					"format" : "API",
 					"title" : "BusinessUSA Resource Access API"
 				}
 			],
@@ -406,7 +440,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://www.usa.gov/About/developer-resources/social-media-registry.shtml#tags",
-					"format" : "None",
+					"format" : "API",
 					"title" : "Citizen Topics API"
 				}
 			],
@@ -437,6 +471,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "API",
 					"title" : "City Pairs - FY15 Contract Awards",
 					"downloadURL" : "https://apps.fas.gsa.gov/citypairs/createcsv.cfm?runsched=yes&award_year=2015"
 				}
@@ -704,7 +739,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://www.usa.gov/About/developer-resources/corporation-contact-directory/index.shtml",
-					"format" : "None",
+					"format" : "API",
 					"title" : "Corporate Consumer Contact API"
 				}
 			],
@@ -712,6 +747,39 @@
 			"bureauCode" : ["023:10"],
 			"programCode" : ["023:019"],
 			"language" : ["en-us"],
+			"theme" : ["API"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Data.gov CKAN API",
+			"description" : "The data.gov catalog is powered by CKAN, a powerful open source data platform that includes a robust API.  Please be aware that data.gov and the data.gov CKAN API only contain metadata about datasets.  This metadata includes URLs and descriptions of datasets, but it does not include the actual data within each dataset.",
+			"modified" : "2015-11-09",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2015-11-09-02",
+			"dataQuality" : true,
+			"issued" : "2015-11-09",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/PT1S",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Cindy A Smith",
+				"hasEmail" : "mailto:cindya.smith@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"accessURL" : "http://www.data.gov/developers/apis",
+					"format" : "API",
+					"title" : "Data.gov CKAN API",
+					"description" : "This metadata includes URLs and descriptions of datasets, but it does not include the actual data within each dataset."
+				}
+			],
+			"keyword" : ["API", "CKAN", "DATA", "GOV"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:014"],
+			"language" : ["us-EN"],
 			"theme" : ["API"]
 		}, {
 			"@type" : "dcat:Dataset",
@@ -1119,7 +1187,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "https://search.usa.gov/login",
-					"format" : "None",
+					"format" : "API",
 					"title" : "DigitalGov Search API (formerly USASearch)"
 				}
 			],
@@ -1414,7 +1482,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "eMuseum API",
 			"description" : "This API delivers search information and images from The Museum System (TMS) & eMuseum to GSA.gov.",
-			"modified" : "2015-02-01",
+			"modified" : "2015-11-09",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-05-18-3",
 			"dataQuality" : true,
@@ -1434,7 +1502,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://gsa.github.io/eMuseum-API/basics.html",
-					"format" : "None",
+					"format" : "API",
 					"title" : "eMuseum API"
 				}
 			],
@@ -1668,7 +1736,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://docs.fbopen.apiary.io/",
-					"format" : "None",
+					"format" : "API",
 					"title" : "FBOpen API"
 				}
 			],
@@ -1808,6 +1876,7 @@
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
 					"format" : "None",
+					"title" : "Federal Acquisition Service Balanced Scorecard 2009",
 					"downloadURL" : "http://www.gsa.gov/dg/FAS%20Balanced%20Scorecard_2009.xlsx"
 				}
 			],
@@ -2410,7 +2479,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/msword",
-					"format" : "None",
+					"format" : "API",
 					"title" : "Federal Procurement Data System - FAADS API",
 					"downloadURL" : "https://www.fpds.gov/downloads/FAADS/FAADS-Specifications-WebServices_Integration_Specifications_V2.doc"
 				}
@@ -2443,7 +2512,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/msword",
-					"format" : "None",
+					"format" : "API",
 					"title" : "Federal Procurement Data System - FPDS API",
 					"downloadURL" : "https://www.fpds.gov/downloads/FPDS-Specifications-WebServices_Integration_Specifications_V1.4.doc"
 				}
@@ -2745,7 +2814,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "https://go.usa.gov/api/",
-					"format" : "None",
+					"format" : "API",
 					"title" : "Go.USA.gov URL Shortner API"
 				}
 			],
@@ -3155,7 +3224,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://usasearch.howto.gov/developer/jobs.html",
-					"format" : "None",
+					"format" : "API",
 					"title" : "Jobs API"
 				}
 			],
@@ -3187,7 +3256,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "https://raw.githubusercontent.com/18F/API-All-the-X/gh-pages/_data/individual_apis.yml",
-					"format" : "None",
+					"format" : "API",
 					"title" : "List of Government APIs"
 				}
 			],
@@ -3251,7 +3320,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://www.usa.gov/About/developer-resources/mobile-app-gallery/index.shtml",
-					"format" : "None",
+					"format" : "API",
 					"title" : "Mobile App Gallery API Documentation"
 				}
 			],
@@ -4406,7 +4475,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://gsa.gov/portal/content/162379",
-					"format" : "None",
+					"format" : "API",
 					"title" : "Per Diem API"
 				}
 			],
@@ -4588,7 +4657,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2015-10-13",
+			"modified" : "2015-11-02",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25251",
 			"dataQuality" : true,
@@ -4621,7 +4690,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) (Lease)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2015-10-13",
+			"modified" : "2015-11-02",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25261",
 			"dataQuality" : true,
@@ -4677,7 +4746,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://usasearch.howto.gov/developer/recalls.html",
-					"format" : "None",
+					"format" : "API",
 					"title" : "Recalls API"
 				}
 			],
@@ -4842,7 +4911,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://www.usa.gov/About/developer-resources/social-media-registry.shtml",
-					"format" : "None",
+					"format" : "API",
 					"title" : "Social Media Registry API"
 				}
 			],
@@ -4893,7 +4962,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Sustainable Facilities Tool",
 			"description" : "With the SFTool API, you can access a myriad of high performance building information. Pull the most up to date information about green products, services, and materials. Put sustainable strategies in the hands of your audience today. All of our API methods are HTTP GET and always return the latest data. Whether you’re looking to add sustainable building information to your website or blog, or looking for data to build an application, the SFTool API is here for you.Making API calls is very straightforward. There is a single base URI for each data category. By default, it will return all of the data for that category. By using any of our optional parameters, you can filter the data as you see fit. Signup for free to get the SFTool API key at  https://api.data.gov/signup/.",
-			"modified" : "2014-11-11",
+			"modified" : "2015-11-09",
 			"accessLevel" : "public",
 			"identifier" : "GSA-138568",
 			"dataQuality" : true,
@@ -4912,13 +4981,13 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "http://catalog.data.gov/dataset/sustainable-facilities-tool",
-					"format" : "None",
+					"accessURL" : "https://sftool.gov/developers",
+					"format" : "API",
 					"title" : "Sustainable Facilities Tool"
 				}
 			],
 			"keyword" : ["SFTool", "Sustainable Facilities Tool"],
-			"bureauCode" : ["023:30"],
+			"bureauCode" : ["023:00"],
 			"programCode" : ["023:009"],
 			"language" : ["en-us"],
 			"theme" : ["API"]
@@ -4946,7 +5015,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://gsa.github.io/sam_api/sam/index.html",
-					"format" : "None",
+					"format" : "API",
 					"title" : "SAM - System for Award Management API",
 					"description" : "System implementing the functionalities of the legacy IAE applications: CCR, FedReg, ORCA, and EPLS.",
 					"describedBy" : "http://gsa.github.io/sam_api/sam/fields3.html",
@@ -5104,7 +5173,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://www.usa.gov/About/developer-resources/federal-agency-directory/index.shtml",
-					"format" : "None",
+					"format" : "API",
 					"title" : "USA.gov and GobiernoUSA.gov Federal Agency Directory API"
 				}
 			],
