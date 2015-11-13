@@ -2894,6 +2894,42 @@
 			"theme" : ["Acquisition"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "GSA Enterprise Data Inventory (EDI)",
+			"description" : "JSON file of Datasets.",
+			"modified" : "2015-11-13",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2015-11-13-01",
+			"dataQuality" : true,
+			"describedByType" : "application/json",
+			"issued" : "2015-11-13",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/PT1S",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Cindy A Smith",
+				"hasEmail" : "mailto:cindya.smith@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/json",
+					"format" : "json",
+					"title" : "GSA EDI",
+					"description" : "GSA JSON file of datasets",
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/gsaedidatasets111315.js"
+				}
+			],
+			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:014"],
+			"language" : ["us-EN"],
+			"theme" : ["Enterprise Data Inventory"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "GSA Fair Act Inventory Data",
 			"description" : "The Federal Activities Inventory Reform (FAIR) Act Inventory contains GSA's information related to the determination of whether a position is commercial or inherently governmental in nature.  Total Full-time Equivalent (FTE) are listed by activity, city and state and a designation of commercial (C) or inherently governmental (I).",
 			"modified" : "2009-03-01",
