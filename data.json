@@ -79,7 +79,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "American Job Center Resource API",
 			"description" : "American Job Center partners with O'Net to provide a variety of APIs useful for jobseekers.",
-			"modified" : "2014-05-29",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 138668",
 			"dataQuality" : true,
@@ -97,8 +97,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/json",
-					"format" : "API",
+					"mediaType" : "text/html",
+					"format" : "text/html",
 					"title" : "American Job Center Resource API",
 					"downloadURL" : "http://jobcenter.usa.gov/apis"
 				}
@@ -316,7 +316,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Cash and Payments Management Data",
 			"description" : "The Prompt Payment Act, along with the Debt Collection Improvement Act of 1996, requires the timely payment of commercial obligations for supplies and services using electronic funds transfer (EFT).",
-			"modified" : "2010-01-19",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA-1439",
 			"dataQuality" : true,
@@ -337,8 +337,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "None",
+					"mediaType" : "application/zip",
+					"format" : "csv",
 					"title" : "Cash and Payments Management Data",
 					"downloadURL" : "http://www.gsa.gov/graphics/admin/CashandPaymentsManagement2007-2009.zip"
 				}
@@ -453,7 +453,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "City Pair Program API",
 			"description" : "This API provides access to the City Pair Program FY15 Award data.",
-			"modified" : "2014-10-01",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 155327",
 			"dataQuality" : true,
@@ -471,7 +471,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"format" : "API",
+					"format" : "csv",
 					"title" : "City Pairs - FY15 Contract Awards",
 					"downloadURL" : "https://apps.fas.gsa.gov/citypairs/createcsv.cfm?runsched=yes&award_year=2015"
 				}
@@ -503,8 +503,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "text/html",
+					"format" : "html",
 					"title" : "City Pair Program",
 					"downloadURL" : "http://gsa.gov/portal/category/27093"
 				}
@@ -1515,7 +1515,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Energy Usage Analysis System",
 			"description" : "The EUAS application is a web based system which serves Energy Center of Expertise, under the Office of Facilitates Management and Service Programs.  EUAS is used for tracking energy details for various energy sources namely electricity, natural gas, oil, chilled water, steam and renewable energy.",
-			"modified" : "2010-12-01",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4305",
 			"dataQuality" : true,
@@ -1535,8 +1535,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "None",
+					"mediaType" : "application/zip",
+					"format" : "xlsx",
 					"title" : "Energy Usage Analysis System",
 					"downloadURL" : "http://www.gsa.gov/dg/EUAS.zip"
 				}
@@ -1781,7 +1781,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Acquisition Service Balanced Scorecard 2007",
 			"description" : "Federal Acquisition Service Performance Measures are tracked for each of the four portfolios within the organization (Assisted Acquisition Services; General Supplies and Services; Integrated Technology Services; and Travel, Motor Vehicle, and Card Services) and are reported Annual.  Each measure aligns to one of Kaplan and Norton's Balanced Scorecard Perspectives:  customer, stakeholder, internal processes and technology, human capital, and financial.  The results reported here are collected and maintained by the Office of Strategy Management.",
-			"modified" : "1905-06-29",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2582",
 			"dataQuality" : true,
@@ -1802,8 +1802,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/zip",
-					"format" : "None",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "Federal Acquisition Service Balanced Scorecard 2007",
 					"downloadURL" : "http://www.gsa.gov/dg/FAS%20Balanced%20Scorecard_2007.xlsx"
 				}
@@ -1817,7 +1817,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Acquisition Service Balanced Scorecard 2008",
 			"description" : "Federal Acquisition Service Performance Measures are tracked for each of the four portfolios within the organization (Assisted Acquisition Services; General Supplies and Services; Integrated Technology Services; and Travel, Motor Vehicle, and Card Services) and are reported Annual.  Each measure aligns to one of Kaplan and Norton's Balanced Scorecard Perspectives:  customer, stakeholder, internal processes and technology, human capital, and financial.  The results reported here are collected and maintained by the Office of Strategy Management.",
-			"modified" : "1905-06-30",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2583",
 			"dataQuality" : true,
@@ -1838,8 +1838,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "Federal Acquisition Service Balanced Scorecard 2008",
 					"downloadURL" : "http://www.gsa.gov/dg/FAS%20Balanced%20Scorecard_2008.xlsx"
 				}
@@ -1853,7 +1853,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Acquisition Service Balanced Scorecard 2009",
 			"description" : "Federal Acquisition Service Performance Measures are tracked for each of the four portfolios within the organization (Assisted Acquisition Services; General Supplies and Services; Integrated Technology Services; and Travel, Motor Vehicle, and Card Services) and are reported Annual.  Each measure aligns to one of Kaplan and Norton's Balanced Scorecard Perspectives:  customer, stakeholder, internal processes and technology, human capital, and financial.  The results reported here are collected and maintained by the Office of Strategy Management.",
-			"modified" : "1905-07-01",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2584",
 			"dataQuality" : true,
@@ -1874,8 +1874,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "Federal Acquisition Service Balanced Scorecard 2009",
 					"downloadURL" : "http://www.gsa.gov/dg/FAS%20Balanced%20Scorecard_2009.xlsx"
 				}
@@ -2284,7 +2284,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Fed. Data Center Consolidation Initiative (FDCCI) Data Center Closings 2010-2015",
 			"description" : "Posted quarterly, using FDCCI Task Force data reported to OMB through the quarterly Integrated Data Collection (IDC) deadline. Federal Data Center Consolidation Initiative (FDCCI) Data Center Closures 2010-2015. Under the FDDCI, agencies have categorized their agency data center populations into two categories: core and non-core. The government is closing 40% of agency-identified, non-­core data centers, while optimizing agency-identified core-data centers, according to a series of total cost of ownership metrics (see OMB M-13-09 and OMB M-14-08). This dataset reflects information only for agency-identified, non-core closures. All questions or inquiries should be directed to the specific agencies. The FY2010 through FY2015 dataset provides a list of planned or closed data centers by agency and by city/state location since the FDCCI started. Please note ?OTHER? is listed for data centers in cloud, co-located or managed service data centers, where square footage is unavailable. See related information about the FDCCI, including the definition of a data center and other FAQs at http://cio.gov/fdcci.",
-			"modified" : "2015-04-01",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 32830",
 			"dataQuality" : true,
@@ -2305,7 +2305,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "Federal_Data_Center_Consolidation_Initiative__FDCCI__Data_Center_Closings_2010-2015_053115",
 					"description" : "Data as of 05/31/2015",
 					"downloadURL" : "https://inventory.data.gov/dataset/251f4905-c320-468a-975e-45e9835ba418/resource/5ac29bc3-2a8f-4bdc-810c-31598058ba8f/download/federaldatacenterconsolidationinitiativefdccidatacenterclosings20102015053115.xlsx"
@@ -2354,7 +2355,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Fleet Report",
 			"description" : "Annual report of Federal agencies' motor vehicle fleet data collected in the Federal Automotive Statistical Tool (FAST), a web-based reporting tool cosponsored by GSA and the Department of Energy. The Federal Fleet Report is a year-end snapshot of motor vehicle fleet inventory, cost, and use data from agency data submissions, and the resulting data tables are available in these datasets.",
-			"modified" : "2012-05-14",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4543",
 			"dataQuality" : true,
@@ -2374,8 +2375,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "text/html",
+					"format" : "html",
 					"title" : "Federal Fleet Report",
 					"downloadURL" : "http://www.gsa.gov/portal/content/102943"
 				}
@@ -2724,7 +2725,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Fine Arts Database (FAD)",
 			"description" : "The Fine Arts Database records information on federally owned art in the control of the GSA; this includes the location, current condition and information on artists.",
-			"modified" : "2011-03-18",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4671",
 			"dataQuality" : true,
@@ -2745,8 +2746,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "None",
+					"mediaType" : "csv/rar",
+					"format" : "csv",
 					"title" : "Fine Arts Database (FAD)",
 					"downloadURL" : "http://www.gsa.gov/dg/data_gov_feed_FACIT.csv.rar"
 				}
@@ -2932,7 +2933,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Fair Act Inventory Data",
 			"description" : "The Federal Activities Inventory Reform (FAIR) Act Inventory contains GSA's information related to the determination of whether a position is commercial or inherently governmental in nature.  Total Full-time Equivalent (FTE) are listed by activity, city and state and a designation of commercial (C) or inherently governmental (I).",
-			"modified" : "2009-03-01",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2079",
 			"dataQuality" : true,
@@ -2953,8 +2954,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "None",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xls",
 					"title" : "GSA Fair Act Inventory Data",
 					"downloadURL" : "http://www.gsa.gov/graphics/staffoffices/2008_FAIR_Act_Inventory.xls"
 				}
@@ -3437,8 +3438,8 @@
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "National Stock Number Extract",
-			"description" : "National Stock Number extract includes the current listing of National Stock Numbers (NSNs), NSN item name and descriptions, and current selling price of each product listed in GSA Advantage and managed by GSA for use by the general public.  This list contains only stocked items in the GSA Supply Chain and does not list nonstocked items.Each NSN is listed with the vendors description of the item. Some descriptions exceed the standard length and are truncated.",
-			"modified" : "2010-03-22",
+			"description" : "National Stock Number extract includes the current listing of National Stock Numbers (NSNs) , NSN item name and descriptions, and current selling price of each product listed in GSA Advantage and managed by GSA.  Each NSN is listed with the vendors description of the item. Some descriptions exceed the standard length and are truncated.",
+			"modified" : "2015-11-18",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2084",
 			"dataQuality" : true,
@@ -3453,27 +3454,26 @@
 			"accrualPeriodicity" : "R/P1Y",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "Carla Correll",
-				"hasEmail" : "mailto:carla.correll@gsa.gov"
+				"fn" : "Frank Fornaris",
+				"hasEmail" : "mailto:frank.fornaris@gsa.gov"
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
 					"title" : "National Stock Number Extract",
-					"downloadURL" : "http://www.gsa.gov/dg/NSN_DATA.xls"
+					"downloadURL" : "https://inventory.data.gov/dataset/67567804-073d-40ad-a710-2b0bed8b84e2/resource/e983b323-df6e-43f2-a78d-7af0a2dff997/download/nsnextract.xlsx"
 				}
 			],
 			"keyword" : ["NSN", "National Stock Number", "Part Number", "Product", "Vendor"],
-			"bureauCode" : ["023:00"],
-			"programCode" : ["023:009"],
+			"bureauCode" : ["023:10"],
+			"programCode" : ["023:019"],
 			"language" : ["en-us"],
 			"theme" : ["Other"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Natural Gas Acquisition Program",
 			"description" : "The \"NGAP\" system is a web based application which serves NGAP GSA users for tracking information details for various natural gas supply chain elements like Agency, LDC, and Facility with their respective Point of Contacts information. In addition to this, it also maintains the Cost & Usage Data and Invoices for the Facilities under different account managers.",
-			"modified" : "2010-12-01",
+			"modified" : "2015-11-16",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4308",
 			"dataQuality" : true,
@@ -3493,8 +3493,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "Natural Gas Acquisition Program",
 					"downloadURL" : "http://www.gsa.gov/dg/pbs/DATA.gov_NGAP.xlsx"
 				}
