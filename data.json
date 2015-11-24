@@ -29,7 +29,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/pdf",
-					"format" : "None",
+					"format" : "pdf",
 					"title" : "Acquisition Workforce Annual Report 2006",
 					"downloadURL" : "http://www.fai.gov/pdfs/FAI%20Report%202007r.pdf"
 				}
@@ -65,7 +65,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/pdf",
-					"format" : "None",
+					"format" : "pdf",
 					"title" : "Acquisition Workforce Annual Report 2008",
 					"downloadURL" : "http://www.fai.gov/pdfs/FAI%20Annual%20Report_Final_29%20Jul%202009_v2.pdf"
 				}
@@ -131,7 +131,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/html",
-					"format" : "None",
+					"format" : "html",
 					"title" : "Annual Reports",
 					"downloadURL" : "http://www.gsa.gov/portal/category/26851"
 				}
@@ -167,7 +167,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "xls",
 					"title" : "Auction Sale Data",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/auctions/auctions-data-fy2009.xls"
 				}
@@ -374,7 +374,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"format" : "None",
+					"format" : "csv",
 					"title" : "Catalog of Federal Domestic Assistance (CFDA)",
 					"downloadURL" : "ftp://ftp.cfda.gov/datagov/programs-full-datagov.csv"
 				}
@@ -1467,8 +1467,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xls",
 					"title" : "E-Gov Travel (ETS) Measures",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/etravel/etravel_data_2010.xls"
 				}
@@ -1887,43 +1887,6 @@
 			"theme" : ["Acquisition"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Federal Acquisition Service Instructional Letter 2007",
-			"description" : "The GSA Federal Acquisition Service Instructional Letters (ILs) - guidance issued to internal FAS acquisition personnel that generally requires action as a result of a regulatory or programmatic change, e.g. inserting a new clause into solicitations and contracts.  All ILs are current only as of the date posted and are subject to amendment, update, and supersession without further notice being posted on this site. Changes and revisions to regulatory or statutory guidance subsequent to the effective date of this IL may affect its relevancy and accurateness. The IL is provided for informational purposes only.",
-			"modified" : "2012-05-17",
-			"accessLevel" : "public",
-			"identifier" : "GSA-6365",
-			"dataQuality" : true,
-			"describedBy" : "https://www.asap.gsa.gov/datagov/fas-il/IL_01_data_dictionary.html",
-			"issued" : "2008-01-01",
-			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-			"rights" : "N/A",
-			"spatial" : "National",
-			"publisher" : {
-				"@type" : "org:Organization",
-				"name" : "General Services Administration"
-			},
-			"accrualPeriodicity" : "R/P1Y",
-			"isPartOf" : "GSA-2015-09-14-02",
-			"contactPoint" : {
-				"@type" : "vcard:Contact",
-				"fn" : "David W Orcutt",
-				"hasEmail" : "mailto:david.orcutt@gsa.gov"
-			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "application/pdf",
-					"format" : "None",
-					"title" : "Federal Acquisition Service Instructional Letter 2007",
-					"downloadURL" : "https://explore.data.gov/dataset/2007-Instructional-Letters/uj9h-52f4"
-				}
-			],
-			"keyword" : ["FAS", "Industrial Funding Fee", "Instructional Letters", "Interactive"],
-			"bureauCode" : ["023:00"],
-			"programCode" : ["023:007"],
-			"language" : ["en-us"],
-			"theme" : ["Acquisition"]
-		}, {
-			"@type" : "dcat:Dataset",
 			"title" : "Federal Acquisition Service Instructional Letter 2008",
 			"description" : "The GSA Federal Acquisition Service Instructional Letters (ILs) - guidance issued to internal FAS acquisition personnel that generally requires action as a result of a regulatory or programmatic change, e.g. inserting a new clause into solicitations and contracts.  All ILs are current only as of the date posted and are subject to amendment, update, and supersession without further notice being posted on this site. Changes and revisions to regulatory or statutory guidance subsequent to the effective date of this IL may affect its relevancy and accurateness. The IL is provided for informational purposes only.",
 			"modified" : "2012-05-17",
@@ -2234,7 +2197,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/html",
-					"format" : "None",
+					"format" : "html",
 					"title" : "Federal Aircraft Cost and Utilization Data",
 					"downloadURL" : "http://www.gsa.gov/portal/content/104076"
 				}
@@ -2412,7 +2375,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/html",
-					"format" : "None",
+					"format" : "html",
 					"title" : "Federal Mail Expenditures",
 					"downloadURL" : "http://www.gsa.gov/portal/content/235245"
 				}
@@ -2861,7 +2824,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA eLibrary Schedules and Contracts",
 			"description" : "GSA eLibrary (formerly Schedules e-Library) is the online source for the latest contract award information for: GSA Schedules; Department of Veterans Affairs (VA) Schedules; and Technology Contracts, including Governmentwide Acquisition Contracts (GWACs), Network Services and Telecommunications Contracts, and Information Technology (IT) Schedule 70. This data contains all the current contracts under those contract vehicles and their respective schedule, special item number information.",
-			"modified" : "2010-09-17",
+			"modified" : "2015-11-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4001",
 			"dataQuality" : true,
@@ -2883,7 +2846,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "xls",
 					"title" : "GSA eLibrary Schedules and Contracts",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/eLibrary_Schedule_Contracts.xls"
 				}
@@ -3002,7 +2965,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA PBS Building Preservation Plan (BPP)",
 			"description" : "BPP data regarding existing building conditions; current and new conditions; and research, recommended building treatments to help prioritize and direct repair and alteration projects of all sizes relative to historic GSA-owned properties.",
-			"modified" : "2011-03-24",
+			"modified" : "2015-11-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4716",
 			"dataQuality" : true,
@@ -3023,7 +2986,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/zip",
-					"format" : "None",
+					"format" : "csv",
 					"title" : "GSA PBS Building Preservation Plan (BPP)",
 					"downloadURL" : "http://www.gsa.gov/dg/data_gov_BPP.zip"
 				}
@@ -3124,7 +3087,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/html",
-					"format" : "None",
+					"format" : "html",
 					"title" : "Interactive Financial Charts- Agency Financial Reports",
 					"downloadURL" : "http://www.gsa.gov/portal/content/182763"
 				}
@@ -3194,7 +3157,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"format" : "None",
+					"format" : "csv",
 					"title" : "Inventory Reporting Information System (IRIS)",
 					"downloadURL" : "http://www.gsa.gov/dg/pbs/data_gov_feed_wi.csv"
 				}
@@ -3228,6 +3191,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "csv",
 					"title" : "Inventory_Reporting_Info_Systems_Safety.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/24ccab47-cd58-4e1a-a7c3-d06ccd63b338/resource/0f648994-4341-40ed-9d19-e5746764c4a2/download/inventoryreportinginfosystemssafety.csv"
 				}
@@ -3325,7 +3289,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "https://raw.githubusercontent.com/18F/API-All-the-X/gh-pages/_data/developer_hubs.yml",
-					"format" : "None",
+					"format" : "html",
 					"title" : "List of Government Developer Hubs"
 				}
 			],
@@ -3425,7 +3389,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "xls",
 					"title" : "NAICS Matrix for Active GSA Schedules and GSA GWACs",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/naics/NAICS_Matrix_for_Active_GSA_Schedules_and_GSA_GWACs.xls"
 				}
@@ -3683,7 +3647,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2011_3rdQtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2012-04-01",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-6249",
 			"dataQuality" : true,
@@ -3705,8 +3669,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "NetworxBusinessVolume_FY2011_3rdQtr",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/networx/TotRevFY11_3rdQtr.xlsx"
 				}
@@ -3794,7 +3758,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2012_2ndQtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2012-07-17",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-7421",
 			"dataQuality" : true,
@@ -3816,8 +3780,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "NetworxBusinessVolume_FY2012_2ndQtr",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/networx/TotRevFY12_2ndQtr.xlsx"
 				}
@@ -3831,7 +3795,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2012_3rdQtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2012-09-14",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-9611",
 			"dataQuality" : true,
@@ -3853,8 +3817,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "NetworxBusinessVolume_FY2012_3rdQtr",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/networx/TotRevFY12_3rdQtr.xlsx"
 				}
@@ -3868,7 +3832,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2012_4thQtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2012-12-15",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25061",
 			"dataQuality" : true,
@@ -3890,8 +3854,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "NetworxBusinessVolume_FY2012_4thQtr",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/TotRevFY12_4thQtr.xlsx"
 				}
@@ -3979,7 +3943,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Volume_FY2013_3rd Qtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume by contractor, agency, contract vehicle and month for the centralized billing account. This represents the business volume of each government agency that has ordered telecommunications services from the Networx contract.",
-			"modified" : "2013-08-15",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-1",
 			"dataQuality" : true,
@@ -4000,7 +3964,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "Networx Business Volume_FY2013_3rd Qtr",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/TotRevFY13_3rdQtr.xlsx"
 				}
@@ -4013,7 +3978,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Volume_FY2013_4th Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2013-11-26",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-2",
 			"dataQuality" : false,
@@ -4033,13 +3998,15 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY13_4thQtr Data",
 					"description" : "TotRevFY13_3rdQtr Data",
 					"downloadURL" : "https://inventory.data.gov/dataset/5e375e42-9970-4dc2-8f7e-8d183758423e/resource/d3c8790c-f6ae-4667-b3d2-c57ed2d7de62/download/totrevfy134thqtr.xlsx"
 				}, {
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY13_4thQtr - Data element Descriptions",
 					"description" : "Description of the Data elements presented in \"TotRevFY13_3thQtr Data\" resource.",
 					"downloadURL" : "https://inventory.data.gov/dataset/5e375e42-9970-4dc2-8f7e-8d183758423e/resource/19a72d90-75d2-4675-ac08-3609192e23e5/download/totrevfy134thqtrdataelementdescriptions.xlsx"
@@ -4052,7 +4019,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Volume_FY2014_1st Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2013-11-26",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-3",
 			"dataQuality" : false,
@@ -4073,13 +4040,15 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY14_1stQtr Data",
 					"description" : "TotRevFY14_1stQtr Data",
 					"downloadURL" : "https://inventory.data.gov/dataset/9f6683f7-4878-4cb8-93e2-98db46e1d283/resource/ee29e6de-f1b6-4ab0-ada4-250e6d8bee85/download/totrevfy141stqtr.xlsx"
 				}, {
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY14_1stQtr - Data element Descriptions",
 					"description" : "Description of the Data elements presented in \"TotRevFY14_1stQtr Data\" resource.",
 					"downloadURL" : "https://inventory.data.gov/dataset/9f6683f7-4878-4cb8-93e2-98db46e1d283/resource/ba3f9d79-8813-4787-9aea-fb03ecb85f9a/download/totrevfy141stqtrdataelementdescriptions.xlsx"
@@ -4092,7 +4061,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Volume_FY2014_2nd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2014-08-28",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-4",
 			"dataQuality" : true,
@@ -4113,13 +4082,15 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY14_2ndQtr Data",
 					"description" : "TotRevFY14_2ndQtr Data",
 					"downloadURL" : "https://inventory.data.gov/dataset/e30708c5-0801-42ef-8678-f30a6b3176a5/resource/57a062d1-559d-4399-b5ca-3f5c9584e49c/download/totrevfy142ndqtr.xlsx"
 				}, {
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY14_2ndQtr - Data element Descriptions",
 					"description" : "Description of the Data elements presented in \"TotRevFY14_2ndQtr Data\" resource.",
 					"downloadURL" : "https://inventory.data.gov/dataset/e30708c5-0801-42ef-8678-f30a6b3176a5/resource/664ed9f0-579b-43a5-96c7-0e39a7fc63ea/download/totrevfy142ndqtrdataelementdescriptions.xlsx"
@@ -4132,7 +4103,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Volume_FY2014_3rd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-08-28",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-5",
 			"dataQuality" : false,
@@ -4152,13 +4123,15 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY14_3rdQtr Data",
 					"description" : "TotRevFY14_3rdQtr Data",
 					"downloadURL" : "https://inventory.data.gov/dataset/6af87c9b-edc8-40cf-b692-6c35aa3d0e21/resource/4fc1bd3a-5019-4c45-9518-7543616d6049/download/totrevfy143rdqtr.xlsx"
 				}, {
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY14_3rdQtr - Data element Descriptions",
 					"description" : "Description of the Data elements presented in \"TotRevFY14_3rdQtr Data\" resource.",
 					"downloadURL" : "https://inventory.data.gov/dataset/6af87c9b-edc8-40cf-b692-6c35aa3d0e21/resource/dd2a75cd-9810-4335-9d57-3adc82c7ba0b/download/totrevfy143rdqtrdataelementdescriptions.xlsx"
@@ -4171,7 +4144,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Volume_ FY2014_4th Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-01-15",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-6",
 			"dataQuality" : true,
@@ -4192,13 +4165,15 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY14_4thQtr Data",
 					"description" : "TotRevFY14_4thQtr Data",
 					"downloadURL" : "https://inventory.data.gov/dataset/7555a0c0-0bb7-41d0-9430-4e5349c8b1da/resource/0945af83-6010-455e-b267-002106d30634/download/totrevfy144thqtr.xlsx"
 				}, {
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY14_4thQtr - Data element Descriptions",
 					"description" : "Description of the Data elements presented in \"TotRevFY14_4thQtr Data\" resource.",
 					"downloadURL" : "https://inventory.data.gov/dataset/7555a0c0-0bb7-41d0-9430-4e5349c8b1da/resource/d5aa2464-53a6-42db-b5ce-2c141a6d9541/download/totrevfy144thqtrdataelementdescriptions.xlsx"
@@ -4211,7 +4186,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Volume_ FY2015_1st Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-02-03",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-03-02-2",
 			"dataQuality" : true,
@@ -4231,13 +4206,15 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY15_1stQtr Data",
 					"description" : "TotRevFY15_1stQtr Data",
 					"downloadURL" : "https://inventory.data.gov/dataset/38675b52-bfc1-41e1-ac88-303ce468cc7d/resource/a6017a41-2033-4e03-bb32-d74f32338391/download/totrevfy151stqtr.xlsx"
 				}, {
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY15_1stQtr - Data element Descriptions",
 					"description" : "Description of the Data elements presented in \"TotRevFY15_1stQtr Data\" resource.",
 					"downloadURL" : "https://inventory.data.gov/dataset/38675b52-bfc1-41e1-ac88-303ce468cc7d/resource/1c426769-8bd5-4440-9192-8b84834802cc/download/totrevfy151stqtrdataelementdescriptions.xlsx"
@@ -4250,7 +4227,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Volume_FY2015_2nd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-05-08",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-05-18-1",
 			"dataQuality" : true,
@@ -4269,13 +4246,15 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY15_2ndQtr Data",
 					"description" : "TotRevFY15_2ndQtr Data",
 					"downloadURL" : "https://inventory.data.gov/dataset/54a13558-83ad-46c0-8c48-efe5f5bab48e/resource/3329e2ba-9915-4e1c-bdd3-89b81f7c28c8/download/totrevfy152ndqtr.xlsx"
 				}, {
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "TotRevFY15_2ndQtr - Data element Descriptions",
 					"description" : "Description of the Data elements presented in \"TotRevFY15_2ndQtr Data\" resource.",
 					"downloadURL" : "https://inventory.data.gov/dataset/54a13558-83ad-46c0-8c48-efe5f5bab48e/resource/c0dacdf8-0d61-4d62-8894-ab40bafd082a/download/totrevfy152ndqtrdataelementdescriptions.xlsx"
@@ -4322,7 +4301,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Volume_FY2015_4th Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-16",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-16-01",
 			"dataQuality" : true,
@@ -4341,8 +4320,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "Networx Business Volume FY15 4th Quarter",
 					"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
 					"downloadURL" : "https://inventory.data.gov/dataset/18eab5fe-9bbf-4ca5-88d7-f71885052d0c/resource/5e3f57e5-ad4b-4ab0-8628-1508199cacb4/download/networxbusinessvolumefy154thquarter.xlsx"
@@ -4376,7 +4355,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://pbs.maps.arcgis.com/apps/OnePane/basicviewer/index.html?appid=50df1afef78047109ee9f72b39fcd11e",
-					"format" : "None",
+					"format" : "html",
 					"title" : "New Construction and Repair and Alteration (R&A) Projects"
 				}
 			],
@@ -4492,7 +4471,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Noticias y actualizaciones de GobiernoUSA.gov",
 			"description" : "Mant&eacute;ngase al tanto de las noticias e informaciones importantes del Gobierno con el canal RSS de GobiernoUSA.gov: noticias y actualizaciones. Este canal se actualizar&aacute; cuando agreguemos noticias y contenido nuevo al sitio web GobiernoUSA.gov.",
-			"modified" : "2013-09-01",
+			"modified" : "2015-11-23",
 			"accessLevel" : "public",
 			"identifier" : "GSA-1275",
 			"dataQuality" : true,
@@ -4504,7 +4483,6 @@
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
 			},
-			"accrualPeriodicity" : "R/P1W",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Russell G O'Neill",
@@ -4513,9 +4491,9 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/xml",
-					"format" : "None",
+					"format" : "xml",
 					"title" : "Noticias y actualizaciones de GobiernoUSA.gov",
-					"downloadURL" : "http://www.usa.gov/gobiernousa/rss/actualizaciones-articulos.xml?WT.rss_f=ultimas+noticias+por+RSS+de+GobiernoUSA.gov&WT.rss_ev=s"
+					"downloadURL" : "https://gobierno.usa.gov/rss/actualizaciones-articulos.xml"
 				}
 			],
 			"keyword" : ["Blog", "Consumer", "government benefits", "government information", "government services", "news", "smart living"],
@@ -4629,7 +4607,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Purchase Card Transactions",
 			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
-			"modified" : "2014-09-30",
+			"modified" : "2015-11-24",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 138791",
 			"dataQuality" : true,
@@ -4647,10 +4625,10 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
 					"title" : "Purchase Card Transactions",
-					"downloadURL" : "https://gsa.my.salesforce.com/sfc/p/#30000001G26s/a/30000000Pyu8/zt_nUF_kjv.VkAOd3oqBjZrG9.G87JawPpNbXTDOsys"
+					"downloadURL" : "https://inventory.data.gov/dataset/fb8096f8-b8a7-4391-beb9-b18907f6a8ed/resource/ba8c523e-cdd8-4245-aed9-ad49ed245da3/download/julysept2015gsapctransactions.xlsx"
 				}
 			],
 			"keyword" : ["p-card", "purchase card"],
@@ -4830,7 +4808,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "RWA Entry & Tracking Application (RETA)",
 			"description" : "The Reimbursable Work Authorization (RWA) Entry & Tracking Application (RETA) is a web based system that serves the Public Buildings Service as a centralized repository for Reimbursable Work Authorization information.  It is a national PBS RWA database warehouse with electronic interface capabilities into the NEAR RWA Database System.",
-			"modified" : "2011-04-21",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-5008",
 			"dataQuality" : true,
@@ -4851,8 +4829,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "application/zip",
+					"format" : "csv",
 					"title" : "RWA Entry & Tracking Application (RETA)",
 					"downloadURL" : "http://www.gsa.gov/dg/RETADataGov.zip"
 				}
@@ -4887,10 +4865,10 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "text/html",
+					"format" : "html",
 					"title" : "Schedule Sales Query Raw Data",
-					"downloadURL" : "http://ssq.gsa.gov/ReportSelection2.cfm"
+					"downloadURL" : "https://ssq.gsa.gov/ReportSelection.cfm"
 				}
 			],
 			"keyword" : ["GSA contract administration and fee management", "Schedule Sales Query", "sales data report", "sales volume figures"],
@@ -5102,7 +5080,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "System for Award Management (SAM) Public Extract - Exclusions",
 			"description" : "This dataset contains a daily snapshot of active exclusion records entered by the U.S. Federal government identifying those parties excluded from receiving Federal contracts, certain subcontracts, and certain types of Federal financial and non-financial assistance and benefits. The data was formerly contained in the Excluded Parties List System (EPLS). In July 2012, EPLS was incorporated into the System for Award Management (SAM). SAM is now the electronic, web-based system that keeps its user community aware of administrative and statutory exclusions across the entire government, and individuals barred from entering the United States. Users must read the exclusion record completely to understand how it impacts the excluded party.",
-			"modified" : "2015-09-14",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-1626",
 			"dataQuality" : true,
@@ -5124,8 +5102,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "None",
+					"mediaType" : "application/zip",
+					"format" : "csv",
 					"title" : "System for Award Management (SAM) Public Extract - Exclusions",
 					"description" : "System implementing the functionalities of the legacy IAE applications: CCR, FedReg, ORCA, and EPLS.",
 					"describedBy" : "https://www.sam.gov/sam/transcript/SAM_Exclusions_Extract_User_Guide.pdf",
@@ -5257,7 +5235,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "USA.gov Blog RSS feed",
 			"description" : "We help you find official U.S. government information and services on the Internet.",
-			"modified" : "2013-09-04",
+			"modified" : "2015-11-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2014-02-14-6",
 			"dataQuality" : true,
@@ -5276,7 +5254,7 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/xml",
+					"mediaType" : "text/html",
 					"format" : "None",
 					"title" : "USA.gov Blog RSS feed",
 					"downloadURL" : "http://feeds.feedburner.com/USAgov-blog?format=xml"
