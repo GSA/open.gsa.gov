@@ -2930,6 +2930,38 @@
 			"theme" : ["People"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "GSA IT Cost Savings-Avoidance",
+			"description" : "GSA IT provides data related to Agency IT initiatives that save or avoid expenditures.  This data is provided as a requirement of OMB's Integrated Data Collection (IDC) and posted publicly as a requirement of the Federal Information Technology Acquisition Reform Act (FITARA) leglislation.",
+			"modified" : "2015-11-30",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2015-11-25-01",
+			"issued" : "2015-11-25",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Chris Campbell",
+				"hasEmail" : "mailto:christopher.campbell@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/json",
+					"format" : "JSON",
+					"title" : "GSA IT Reform Cost Savings/Avoidance",
+					"conformsTo" : "https://management.cio.gov/schemaexamples/costSavingsAvoidanceSchema.json",
+					"downloadURL" : "https://inventory.data.gov/dataset/57f52388-9b32-4069-925f-e0de9c5c6ea4/resource/87eb8833-7abb-432b-a272-e611c0aff04a/download/gsaitcostsavingsavoidance20151125.json"
+				}
+			],
+			"keyword" : ["GSA IT", "cost avoidance", "cost savings", "savings"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"theme" : ["IT Initiatives"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "GSA JSON",
 			"description" : "The General Service Administration's data.json harvest source. This file contains the metadata for the GSA's public data listing shown on data.gov as defined by the Project Open Data",
 			"modified" : "2014-07-11",
@@ -2961,41 +2993,6 @@
 			"programCode" : ["023:019"],
 			"language" : ["en-us"],
 			"theme" : ["Other"]
-		}, {
-			"@type" : "dcat:Dataset",
-			"title" : "GSA PBS Building Preservation Plan (BPP)",
-			"description" : "BPP data regarding existing building conditions; current and new conditions; and research, recommended building treatments to help prioritize and direct repair and alteration projects of all sizes relative to historic GSA-owned properties.",
-			"modified" : "2015-11-20",
-			"accessLevel" : "public",
-			"identifier" : "GSA-4716",
-			"dataQuality" : true,
-			"describedBy" : "http://www.gsa.gov/dg/BPPTableStructuresforDatagov.docx",
-			"issued" : "2009-01-01",
-			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-			"rights" : "N/A",
-			"spatial" : "Contiguous United States",
-			"publisher" : {
-				"@type" : "org:Organization",
-				"name" : "General Services Administration"
-			},
-			"contactPoint" : {
-				"@type" : "vcard:Contact",
-				"fn" : "Jonathan F Harding",
-				"hasEmail" : "mailto:Jonathan.Harding@gsa.gov"
-			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "application/zip",
-					"format" : "csv",
-					"title" : "GSA PBS Building Preservation Plan (BPP)",
-					"downloadURL" : "http://www.gsa.gov/dg/data_gov_BPP.zip"
-				}
-			],
-			"keyword" : ["Building", "Construction", "Historic", "Space"],
-			"bureauCode" : ["023:05"],
-			"programCode" : ["023:002"],
-			"language" : ["en-us"],
-			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Visitor Logs",
@@ -3101,7 +3098,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Inventory of Owned and Leased Properties",
 			"description" : "IOLP Website is database that lists GSA Owned and Leased properties, by state, county and city; and lease, dates, square footage and building type.",
-			"modified" : "2011-02-01",
+			"modified" : "2015-11-25",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4495",
 			"dataQuality" : true,
@@ -3122,8 +3119,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "http://www.iolp.gsa.gov/iolp/NationalMap.asp",
-					"format" : "None",
+					"accessURL" : "http://www.gsa.gov/portal/content/100783",
+					"format" : "html",
 					"title" : "Inventory of Owned and Leased Properties"
 				}
 			],
