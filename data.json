@@ -929,7 +929,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Visitor Metrics",
 			"description" : "The dataset provides metrics for the number of dataset views in catalog.data.gov broken down by month starting Jan 2014.",
-			"modified" : "2015-10-13",
+			"modified" : "2015-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139375",
 			"dataQuality" : true,
@@ -2930,7 +2930,7 @@
 			"theme" : ["People"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "GSA IT Cost Savings-Avoidance",
+			"title" : "GSA IT Reform Cost Savings/Avoidance",
 			"description" : "GSA IT provides data related to Agency IT initiatives that save or avoid expenditures.  This data is provided as a requirement of OMB's Integrated Data Collection (IDC) and posted publicly as a requirement of the Federal Information Technology Acquisition Reform Act (FITARA) leglislation.",
 			"modified" : "2015-11-30",
 			"accessLevel" : "public",
@@ -2956,7 +2956,7 @@
 					"downloadURL" : "https://inventory.data.gov/dataset/57f52388-9b32-4069-925f-e0de9c5c6ea4/resource/87eb8833-7abb-432b-a272-e611c0aff04a/download/gsaitcostsavingsavoidance20151125.json"
 				}
 			],
-			"keyword" : ["GSA IT", "cost avoidance", "cost savings", "savings"],
+			"keyword" : ["GSA IT", "GSA IT reform cost savings", "cost avoidance", "cost savings", "savings"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
 			"theme" : ["IT Initiatives"]
@@ -4604,7 +4604,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Purchase Card Transactions",
 			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
-			"modified" : "2015-11-24",
+			"modified" : "2015-12-02",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 138791",
 			"dataQuality" : true,
@@ -4632,12 +4632,12 @@
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
 			"language" : ["en-us"],
-			"theme" : ["Travel and Transportation"]
+			"theme" : ["Card Services Program"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Purchase Card Transactions - Board of Contract Appeals",
 			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
-			"modified" : "2015-05-21",
+			"modified" : "2015-12-02",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 32934",
 			"dataQuality" : true,
@@ -4656,21 +4656,22 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "https://gsa.my.salesforce.com/sfc/p/30000001G26s/a/t00000004CBd/FHXKZJ3VN0ATMLEQlQLLkU8Flc48IlY.oQry_rARSxw",
-					"format" : "None",
-					"title" : "Purchase Card Transactions - Board of Contract Appeals"
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "excel",
+					"title" : "Purchase Card Transactions - Board of Contract Appeals",
+					"downloadURL" : "https://inventory.data.gov/dataset/9197bab9-e041-4141-9677-dda6ebdee18e/resource/e448a68a-9822-42df-b1ef-98e44472e6fa/download/julysept2015bocapctransactions.xlsx"
 				}
 			],
 			"keyword" : ["Board of Contract Appeals", "GSA SmartPay", "Purchase Card"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
 			"language" : ["en-us"],
-			"theme" : ["Travel and Transportation"]
+			"theme" : ["Card Services Program"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Purchase Card Transactions - Office of  Inspector General",
 			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
-			"modified" : "2014-09-30",
+			"modified" : "2015-12-02",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 32935",
 			"dataQuality" : true,
@@ -4698,12 +4699,12 @@
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:020"],
 			"language" : ["en-us"],
-			"theme" : ["Travel and Transportation"]
+			"theme" : ["Card Services Program"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2015-11-02",
+			"modified" : "2015-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25251",
 			"dataQuality" : true,
@@ -4724,6 +4725,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "csv",
 					"title" : "CSV File",
 					"description" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/f6d61aa1-7673-449b-b4cb-0b85ca3d3888/download/datagovbldgrexus.csv"
@@ -4736,7 +4738,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) (Lease)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2015-11-02",
+			"modified" : "2015-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25261",
 			"dataQuality" : true,
@@ -4757,6 +4759,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "csv",
 					"title" : "CSV File",
 					"description" : "Real Estate Across the United States (REXUS) (Lease)",
 					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/1d2d6cac-12e6-411d-968c-75f977ec9028/download/datagovlserexus.csv"
