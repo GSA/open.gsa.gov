@@ -1768,7 +1768,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "https://www.fbo.gov/?s=generalinfo&mode=list&tab=list&tabmode=list&static=documentation",
-					"format" : "None",
+					"format" : "json",
 					"title" : "FedBizOpps Documentation"
 				}
 			],
@@ -2233,7 +2233,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/xml",
-					"format" : "None",
+					"format" : "xml",
 					"title" : "Federal Business Opportunities Data",
 					"downloadURL" : "ftp://ftp.fbo.gov/datagov/FBOFullXML.xml"
 				}
@@ -4602,11 +4602,45 @@
 			"theme" : ["Acquisition"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Purchase Card Transactions",
+			"title" : "Purchase Card Transactions July-September 2015",
 			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
-			"modified" : "2015-12-02",
+			"modified" : "2016-01-05",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 138791",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "July September 2015 PC Transactions",
+					"downloadURL" : "https://inventory.data.gov/dataset/fb8096f8-b8a7-4391-beb9-b18907f6a8ed/resource/ba8c523e-cdd8-4245-aed9-ad49ed245da3/download/julysept2015gsapctransactions.xlsx"
+				}
+			],
+			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions Parent",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-01",
 			"dataQuality" : true,
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"rights" : "N/A",
@@ -4620,26 +4654,260 @@
 				"fn" : "Nancy V Hexmoor",
 				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-					"format" : "xlsx",
-					"title" : "Purchase Card Transactions",
-					"downloadURL" : "https://inventory.data.gov/dataset/fb8096f8-b8a7-4391-beb9-b18907f6a8ed/resource/ba8c523e-cdd8-4245-aed9-ad49ed245da3/download/julysept2015gsapctransactions.xlsx"
-				}
-			],
-			"keyword" : ["p-card", "purchase card"],
+			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
 			"language" : ["en-us"],
 			"theme" : ["Card Services Program"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Purchase Card Transactions - Board of Contract Appeals",
-			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
-			"modified" : "2015-12-02",
+			"title" : "Purchase Card Transactions April - June 2015",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-01-05",
 			"accessLevel" : "public",
-			"identifier" : "GSA - 32934",
+			"identifier" : "GSA-2016-01-05-2",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "April June 2015 PC Transactions",
+					"downloadURL" : "https://inventory.data.gov/dataset/74a95741-336c-43ce-93e3-820c4074908c/resource/ccef13ed-62c3-4abc-af56-05133ea28e54/download/apriljune2015pctransactions.xlsx"
+				}
+			],
+			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions January - March 2015",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-3",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "January March 2015 PC Transactions",
+					"downloadURL" : "https://inventory.data.gov/dataset/71e0196c-533a-4efc-a878-1f447858b0c3/resource/4a8b8081-eef6-44a3-9840-58f459eb5388/download/januarymarch2015pctransactions.xlsx"
+				}
+			],
+			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions October - December 2014",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-4",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "October December 2014 PC Transactions",
+					"downloadURL" : "https://inventory.data.gov/dataset/68562ea5-5cbf-49a3-b880-1b64f265139a/resource/4f8ca985-9bc3-41da-96f5-8fa8a2784665/download/octoberdecember2014pctransactions.xlsx"
+				}
+			],
+			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions July - September 2014",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-5",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "July September 2014 PC Transactions",
+					"description" : "Purchases made with purchase card.",
+					"downloadURL" : "https://inventory.data.gov/dataset/c8891019-aef4-4395-a5e4-70c77f2904bf/resource/51c7579d-739d-4f34-8c48-9e00b2eea0ee/download/julyseptember2014pctransactions.xlsx"
+				}
+			],
+			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions April - June 2014",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-6",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "April June 2014 PC Transactions",
+					"description" : "Purchases made with the purchase card.",
+					"downloadURL" : "https://inventory.data.gov/dataset/a554234f-cf00-4a02-8fed-e333580660fd/resource/a01a43ad-5302-4558-ba24-2c9872f1d398/download/apriljune2014pctransactions.xlsx"
+				}
+			],
+			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions January - March 2014",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-7",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "January March 2014 PC Transactions",
+					"description" : "Purchases made with the purchase card.",
+					"downloadURL" : "https://inventory.data.gov/dataset/a2f142d9-8996-4b2f-8398-bb8c53d33cd8/resource/2f977100-51be-4438-9629-fa984ecb93cc/download/januarymarch2014pctransactions.xlsx"
+				}
+			],
+			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions October - December 2013",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-8",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "October December 2013 PC Transactions",
+					"description" : "Purchases made with the purchase card.",
+					"downloadURL" : "https://inventory.data.gov/dataset/414d204b-541f-441d-84c1-68d3f27ed3be/resource/5d54bcd6-f004-4dc3-bf53-3438aa3fb448/download/octoberdecember2013pctransactions.xlsx"
+				}
+			],
+			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - Board of Contract Appeals Parent",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+			"modified" : "2016-01-06",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-06-1",
 			"dataQuality" : true,
 			"issued" : "2014-10-01",
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -4654,26 +4922,306 @@
 				"fn" : "James G Parks",
 				"hasEmail" : "mailto:greg.parks@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "excel",
-					"title" : "Purchase Card Transactions - Board of Contract Appeals",
-					"downloadURL" : "https://inventory.data.gov/dataset/9197bab9-e041-4141-9677-dda6ebdee18e/resource/e448a68a-9822-42df-b1ef-98e44472e6fa/download/julysept2015bocapctransactions.xlsx"
-				}
-			],
-			"keyword" : ["Board of Contract Appeals", "GSA SmartPay", "Purchase Card"],
+			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
 			"language" : ["en-us"],
 			"theme" : ["Card Services Program"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Purchase Card Transactions - Office of  Inspector General",
-			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
-			"modified" : "2015-12-02",
+			"title" : "Purchase Card Transactions - BOCA July September 2015",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+			"modified" : "2016-01-06",
 			"accessLevel" : "public",
-			"identifier" : "GSA - 32935",
+			"identifier" : "GSA-2016-01-06-2",
+			"dataQuality" : true,
+			"issued" : "2014-10-01",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-06-1",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "James G Parks",
+				"hasEmail" : "mailto:greg.parks@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "July September 2015 BOCA PC Transactions",
+					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+					"downloadURL" : "https://inventory.data.gov/dataset/09ad9d3a-9758-44e1-8e94-19ff8ca13f42/resource/cafc450c-3ab9-41a9-9b5c-16494ed5db68/download/julyseptember2015bocapctransactions.xlsx"
+				}
+			],
+			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - BOCA  April  June 2015",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+			"modified" : "2016-01-06",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-06-3",
+			"dataQuality" : true,
+			"issued" : "2014-10-01",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-06-1",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "James G Parks",
+				"hasEmail" : "mailto:greg.parks@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "April June 2015 BOCA PC Transactions",
+					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+					"downloadURL" : "https://inventory.data.gov/dataset/284cd4e6-da37-446d-8ca3-79569780f4d5/resource/3d77fead-e5f8-49ad-9d82-0be928ec4abb/download/apriljune2015bocapctransactions.xlsx"
+				}
+			],
+			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - BOCA  January March 2015",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+			"modified" : "2016-01-06",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-06-4",
+			"dataQuality" : true,
+			"issued" : "2014-10-01",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-06-1",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "James G Parks",
+				"hasEmail" : "mailto:greg.parks@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "January March 2015 BOCA PC Transactions",
+					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+					"downloadURL" : "https://inventory.data.gov/dataset/163269b9-f474-4a28-a413-d1ac79fc578b/resource/abf3e5e9-fa7a-43e8-9ea6-52e644b7551e/download/januarymarch2015bocapctransactions.xlsx"
+				}
+			],
+			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - BOCA  October December 2014",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+			"modified" : "2016-01-06",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-06-5",
+			"dataQuality" : true,
+			"issued" : "2014-10-01",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-06-1",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "James G Parks",
+				"hasEmail" : "mailto:greg.parks@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "October December 2014 BOCA PC Transactions",
+					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+					"downloadURL" : "https://inventory.data.gov/dataset/b9b49662-4f9c-4048-811d-0b024ecb376d/resource/cbe7ccee-aa86-4f39-9f5c-0ca8b9442c68/download/octoberdecember2014bocapctransactions.xlsx"
+				}
+			],
+			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - BOCA  July September 2014",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+			"modified" : "2016-01-06",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-06-6",
+			"dataQuality" : true,
+			"issued" : "2014-10-01",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-06-1",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "James G Parks",
+				"hasEmail" : "mailto:greg.parks@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "July September 2014 BOCA PC Transactions",
+					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+					"downloadURL" : "https://inventory.data.gov/dataset/c626be85-ca43-4608-b573-fd9bc0006bb2/resource/d0471cb0-ec64-443b-9a56-a2a0bddc5237/download/julyseptember2014bocapctransactions.xlsx"
+				}
+			],
+			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - BOCA  April June 2014",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+			"modified" : "2016-01-06",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-06-7",
+			"dataQuality" : true,
+			"issued" : "2014-10-01",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-06-1",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "James G Parks",
+				"hasEmail" : "mailto:greg.parks@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "April June 2014 BOCA PC Transactions",
+					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+					"downloadURL" : "https://inventory.data.gov/dataset/a1dd6e03-6a27-4177-9f6c-aa59a8e4291f/resource/8a666bdd-a8e5-4f81-8a18-d2ac6ba03a60/download/apriljune2014bocapctransactions.xlsx"
+				}
+			],
+			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - BOCA  October December 2013",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+			"modified" : "2016-01-06",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-06-8",
+			"dataQuality" : true,
+			"issued" : "2014-10-01",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-06-1",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "James G Parks",
+				"hasEmail" : "mailto:greg.parks@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "October December 2013 BOCA PC Transactions",
+					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+					"downloadURL" : "https://inventory.data.gov/dataset/46d614e2-dcc6-4d9b-aa61-da4eea26d767/resource/810cb259-0efe-4efd-9490-a94965dc1ab1/download/octoberdecember2013bocapctransactions.xlsx"
+				}
+			],
+			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - OIG April June 2014",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-10",
+			"dataQuality" : true,
+			"issued" : "2015-05-21",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-9",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Daphne Muse",
+				"hasEmail" : "mailto:gsaig.alias.daphne.muse@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "April June 2014 OIG PC Transactions",
+					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
+					"downloadURL" : "https://inventory.data.gov/dataset/0a5b4508-03ab-431f-940a-bae972ef2382/resource/d5d026da-23c8-4f6f-8e78-6699045b984f/download/apriljune2014oigpctransactions.xlsx"
+				}
+			],
+			"keyword" : ["Inspector General", "Office of Inspector General", "Purchase Card", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:020"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - Office of  Inspector General Parent",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-9",
 			"dataQuality" : true,
 			"issued" : "2015-05-21",
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -4688,14 +5236,79 @@
 				"fn" : "Daphne Muse",
 				"hasEmail" : "mailto:gsaig.alias.daphne.muse@gsa.gov"
 			},
+			"keyword" : ["Purchase Card"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:020"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - OIG January March 2014",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-11",
+			"dataQuality" : true,
+			"issued" : "2015-05-21",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-9",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Daphne Muse",
+				"hasEmail" : "mailto:gsaig.alias.daphne.muse@gsa.gov"
+			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "https://gsa.my.salesforce.com/sfc/p/30000001G26s/a/30000000PzuT/xLccg7SXmCiNalCrJ0_3EuizcTVTQ1vLGaXSs_tpvtY",
-					"format" : "None",
-					"title" : "Purchase Card Transactions - Office of  Inspector General"
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "January March 2014 OIG PC Transactions",
+					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
+					"downloadURL" : "https://inventory.data.gov/dataset/c227f1bd-f127-4da3-92b1-665809646ee5/resource/70a9b97f-6f52-40db-bf95-545f5c809572/download/januarymarch2014oigpctransactions.xlsx"
 				}
 			],
-			"keyword" : ["Purchase Card"],
+			"keyword" : ["Inspector General", "Office of Inspector General", "Purchase Card", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:020"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - OIG October December  2013",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
+			"modified" : "2016-01-05",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-05-12",
+			"dataQuality" : true,
+			"issued" : "2015-05-21",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-9",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Daphne Muse",
+				"hasEmail" : "mailto:gsaig.alias.daphne.muse@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "October December 2013 OIG PC Transactions",
+					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
+					"downloadURL" : "https://inventory.data.gov/dataset/5f832b05-cdf6-4c63-88f8-d05390a06029/resource/8e9fbfe8-d2b0-4a48-96cd-dc5302c279e0/download/octoberdecember2013oigpctransactions.xlsx"
+				}
+			],
+			"keyword" : ["Inspector General", "Office of Inspector General", "Purchase Card", "transactions"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:020"],
 			"language" : ["en-us"],
@@ -4704,7 +5317,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2015-12-01",
+			"modified" : "2016-01-04",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25251",
 			"dataQuality" : true,
@@ -4738,7 +5351,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) (Lease)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2015-12-01",
+			"modified" : "2016-01-04",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25261",
 			"dataQuality" : true,
