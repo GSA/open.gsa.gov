@@ -1749,7 +1749,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "FedBizOpps Documentation",
 			"description" : "In addition to the ability to interact directly with FedBizOpps using its on-line web interface, the service supports Web Services for Federal buyers to post information to the database using their agency’s electronic procurement system",
-			"modified" : "2014-05-29",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 138672",
 			"dataQuality" : true,
@@ -1768,11 +1768,11 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "https://www.fbo.gov/?s=generalinfo&mode=list&tab=list&tabmode=list&static=documentation",
-					"format" : "json",
+					"format" : "text/html",
 					"title" : "FedBizOpps Documentation"
 				}
 			],
-			"keyword" : ["FedBizOpps"],
+			"keyword" : ["FedBizOpps", "Federal Buyers", "procurement"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:012"],
 			"language" : ["en-us"],
@@ -2490,7 +2490,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Real Property Profile (FRPP)",
 			"description" : "The Federal Real Property Report includes summary data for the federal government's inventory of land, building, and structure assets around the world, as of September 30th each year.",
-			"modified" : "2012-09-30",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 138962",
 			"dataQuality" : true,
@@ -2508,8 +2508,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "text/html",
+					"format" : "text/html",
 					"title" : "Federal Real Property Profile (FRPP)",
 					"downloadURL" : "http://gsa.gov/portal/content/102880"
 				}
@@ -2724,7 +2724,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GobiernoUSA.gov Blog RSS feed",
 			"description" : "We help you find official U.S. government information and services in Spanish on the Internet.",
-			"modified" : "2013-09-04",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2014-02-14-2",
 			"dataQuality" : true,
@@ -2743,13 +2743,13 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/xml",
-					"format" : "None",
+					"mediaType" : "text/html",
+					"format" : "text/html",
 					"title" : "GobiernoUSA.gov Blog RSS feed",
 					"downloadURL" : "http://blog.gobiernousa.gov/rss"
 				}
 			],
-			"keyword" : ["Blog", "Consumer", "government benefits", "government information", "government services", "news"],
+			"keyword" : ["Blog", "Consumer", "Services in Spanish", "government benefits", "government information", "government services", "news"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:014"],
 			"language" : ["en-us"],
@@ -2964,7 +2964,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA JSON",
 			"description" : "The General Service Administration's data.json harvest source. This file contains the metadata for the GSA's public data listing shown on data.gov as defined by the Project Open Data",
-			"modified" : "2014-07-11",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139225",
 			"dataQuality" : true,
@@ -2983,12 +2983,12 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/json",
-					"format" : "None",
+					"format" : "json",
 					"title" : "GSA JSON",
 					"downloadURL" : "http://gsa.gov/data.json"
 				}
 			],
-			"keyword" : ["GSA", "General Services Administration", "JSON"],
+			"keyword" : ["GSA", "General Services Administration", "Harvest Source", "JSON", "Project Open Data", "Public Data Listing"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:019"],
 			"language" : ["en-us"],
@@ -2997,7 +2997,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Visitor Logs",
 			"description" : "GSA provides the logs of visitors signing in and out of GSA's headquarters buildings as part of the transparency goals of the agency.",
-			"modified" : "2014-01-31",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-136951",
 			"dataQuality" : true,
@@ -3015,13 +3015,13 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "text/html",
+					"format" : "text/html",
 					"title" : "GSA Visitor Logs",
 					"downloadURL" : "http://gsa.gov/portal/content/306965"
 				}
 			],
-			"keyword" : ["Visitor"],
+			"keyword" : ["Building", "GSA", "Headquarters", "Visitor"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:004"],
 			"language" : ["en-us"],
@@ -4365,7 +4365,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Newest Apps from the GobiernoUSA.gov Mobile Apps Gallery in Spanish",
 			"description" : "Get RSS notifications of the latest app releases in Spanish from the U.S. government.",
-			"modified" : "2013-09-04",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2014-02-14-3",
 			"dataQuality" : true,
@@ -4384,13 +4384,13 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/xml",
-					"format" : "None",
+					"mediaType" : "text/html",
+					"format" : "text/html",
 					"title" : "Newest Apps from the GobiernoUSA.gov Mobile Apps Gallery in Spanish",
 					"downloadURL" : "http://apps.gobiernousa.gov/rss.xml"
 				}
 			],
-			"keyword" : ["apps", "government information", "government services", "mobile apps", "mobile websites"],
+			"keyword" : ["Services in Spanish", "apps", "government information", "government services", "mobile apps", "mobile websites"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:019"],
 			"language" : ["sp-US"],
@@ -4399,7 +4399,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Newest Apps from the USA.gov Mobile Apps Gallery",
 			"description" : "Get RSS notifications of the latest app releases from the U.S. government.",
-			"modified" : "2013-09-04",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2014-02-14-4",
 			"dataQuality" : true,
@@ -4418,8 +4418,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/xml",
-					"format" : "None",
+					"mediaType" : "text/html",
+					"format" : "text/html",
 					"title" : "Newest Apps from the USA.gov Mobile Apps Gallery",
 					"downloadURL" : "http://apps.usa.gov/rss.xml"
 				}
@@ -4568,7 +4568,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "PSC Matrix for Active GSA Schedules and GSA GWACs",
 			"description" : "The Product Service Codes (PSC) and North American Industrial Classification Systems (NAICS) are the two methods the Federal government classifies contracts.  They are used as a mechanism to identify scope of the products and services and business segment covered under the award.  This data can be used as a mechanism to understand the scope of GSA programs.  This can be used as means to identify best fit.  While a GSA contract can offer great opportunities for many businesses, the process of applying for that contract will take a significant amount of time and resources. Understanding best GSA contract for your products and services is a preliminary step to take prior to responding to a GSA solicitation.",
-			"modified" : "2011-03-30",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4723",
 			"dataQuality" : true,
@@ -4590,7 +4590,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "excel",
 					"title" : "PSC Matrix for Active GSA Schedules and GSA GWACs",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/naics/PSC_Matrix_for_Active_GSA_Schedules_and_GSA_GWACs.xls"
 				}
@@ -5493,7 +5493,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Schedule Sales Query Report Generation System",
 			"description" : "Schedule Sales Query presents sales volume figures as reported to GSA by contractors. The reports are generated as quarterly reports for the current year and the past five fiscal years. The sales data reported here are updated as contractors' reports are received, but the data may not be up to date as adjustments can be received at any time. The information on this site mirrors the data used by GSA for contract administration and fee management. It is not the official source of sales data. This data should be used for informational purposes only.",
-			"modified" : "2010-08-17",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2641",
 			"dataQuality" : true,
@@ -5514,8 +5514,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"mediaType" : "text/html",
+					"format" : "text/html",
 					"title" : "Schedule Sales Query Report Generation System",
 					"downloadURL" : "http://ssq.gsa.gov"
 				}
@@ -5780,7 +5780,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Time to Hire",
 			"description" : "This dataset represents time taken to hire a GSA employee from the internal request to hire through the entry on duty of the of the selected individual",
-			"modified" : "2010-01-15",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-1375",
 			"dataQuality" : true,
@@ -5801,9 +5801,9 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "xlsx",
 					"title" : "Time to Hire",
-					"downloadURL" : "https://gsa.my.salesforce.com/sfc/p/30000001G26s/a/30000000Pyu3/8ZlsW_G0JYft0vX6qZ2dBG_jb91uwJ41GWZDXWlqneo"
+					"downloadURL" : "https://inventory.data.gov/dataset/58fa1cd3-c1bf-4492-964d-f994b26a6cae/resource/f6d8dd83-3080-470f-b453-03f8ead0228f/download/timetohiredatafile.xlsx"
 				}
 			],
 			"keyword" : ["Application", "Employment", "Human Capital", "Jobs", "Time2Hire", "USAJobs", "Vacancy"],
@@ -5848,7 +5848,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "USA.gov Blog RSS feed",
 			"description" : "We help you find official U.S. government information and services on the Internet.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2014-02-14-6",
 			"dataQuality" : true,
@@ -5867,10 +5867,9 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/html",
-					"format" : "None",
-					"title" : "USA.gov Blog RSS feed",
-					"downloadURL" : "http://feeds.feedburner.com/USAgov-blog?format=xml"
+					"accessURL" : "https://www.usa.gov",
+					"format" : "text/html",
+					"title" : "USA.gov Blog RSS feed"
 				}
 			],
 			"keyword" : ["Blog", "Consumer", "government benefits", "government information", "government services", "news"],
