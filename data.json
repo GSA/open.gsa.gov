@@ -2211,7 +2211,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Business Opportunities Data",
 			"description" : "FedBizOpps is the single government point-of-entry for solicitations of any dollar amount and for required synopsis over $25,000, allowing commercial business suppliers and government buyers to post, search, monitor, and retrieve opportunities in federal government markets.  FBO now includes the functionality of the Federal Technical Data Solutions (FedTeDS) which allows agencies to securely disseminate sensitive acquisition-related technical data for solicitations to approved business partners. This dataset contains current active notices and is updated weekly.",
-			"modified" : "2010-08-10",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4007",
 			"dataQuality" : true,
@@ -2224,7 +2224,6 @@
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
 			},
-			"accrualPeriodicity" : "R/P1W",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Andrew Starling",
@@ -2233,7 +2232,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/xml",
-					"format" : "xml",
+					"format" : "application/xml",
 					"title" : "Federal Business Opportunities Data",
 					"downloadURL" : "ftp://ftp.fbo.gov/datagov/FBOFullXML.xml"
 				}
@@ -2389,7 +2388,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Procurement Data System",
 			"description" : "The Federal Procurement Data System houses Federal contract information where a contract's value is expected to exceed the micro-purchase threshold.",
-			"modified" : "2010-06-23",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2412",
 			"dataQuality" : true,
@@ -2410,7 +2409,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/rss+xml",
-					"format" : "None",
+					"format" : "application/rss+xml",
 					"title" : "Federal Procurement Data System",
 					"downloadURL" : "https://www.fpds.gov/fpdsng_cms/index.php?format=feed&type=atom"
 				}
@@ -4433,7 +4432,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "News and Features Updates from USA.gov",
 			"description" : "Stay on top of important government news and information with the USA.gov Updates: News and Features RSS feed. We'll update this feed when we add news and featured content to the USA.gov website.",
-			"modified" : "2013-09-01",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA-1272",
 			"dataQuality" : true,
@@ -4445,7 +4444,6 @@
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
 			},
-			"accrualPeriodicity" : "R/P1W",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Russell G O'Neill",
@@ -4453,8 +4451,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/xml",
-					"format" : "None",
+					"mediaType" : "application/rss+xml",
+					"format" : "application/rss+xml",
 					"title" : "News and Features Updates from USA.gov",
 					"downloadURL" : "http://www.usa.gov/rss/updates.xml?WT.rss_f=USA.gov+Updates+News+and+Features&WT.rss_ev=s"
 				}
