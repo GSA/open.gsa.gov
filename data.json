@@ -5543,6 +5543,13 @@
 				"fn" : "Joshua Daniel Royko",
 				"hasEmail" : "mailto:joshua.royko@gsa.gov"
 			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"accessURL" : "http://public.tableau.com/views/OfficeSupplies2ndGenerationsOS2FSSI/SecondGenerationOfficeSuppliesOS2FSSISavingsSmallBusinessSuccess?amp;:embed=y&:display_count=no?:showVizHome=no#1",
+					"format" : "text/html",
+					"title" : "Savings and Small Business Dashboard"
+				}
+			],
 			"keyword" : ["FSSI", "OS2", "Office Supplies", "Strategic Sourcing"],
 			"bureauCode" : ["023:10"],
 			"programCode" : ["023:007"],
