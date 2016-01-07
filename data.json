@@ -5527,7 +5527,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Second Generation Office Supplies (OS2) Savings and Small Business Dashboard",
 			"description" : "The Second Generation Office Supplies (OS2) Savings and Small Business Dashboard is a graphical depiction of OS2 spend, savings and small business utilization, further highlighting FSSI OS2’s accomplishments on behalf of small businesses, veterans, and the taxpayer. Its easy to use, and provides filters for users to focus on geographical, government agency, small or large business, and SDVOSB specifics.",
-			"modified" : "2014-10-15",
+			"modified" : "2016-01-07",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 3420",
 			"dataQuality" : true,
@@ -5943,7 +5943,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "https://www.usaspending.gov/DownloadCenter/Pages/DataDownload.aspx",
-					"format" : "None",
+					"format" : "text/html",
 					"title" : "USAspending.gov Grants and Loans"
 				}
 			],
