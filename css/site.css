@@ -641,6 +641,9 @@ sub {
 .featured-project_img__api {
     background: url(../img/api_circle-150x150.png) no-repeat;
 }
+.featured-project_img__gsa_labs {
+    background: url(../img/labs-150x150.png) no-repeat;
+}
 .featured-project_img__Rules-and-Criteria {
     background: url(https://cloud.githubusercontent.com/assets/10743420/6626526/92e07518-c8cd-11e4-909d-085246cadaf0.jpg) no-repeat;   
 }
