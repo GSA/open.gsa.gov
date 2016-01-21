@@ -518,7 +518,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Closed-Paid Vouchers in Concur Government Edition (CGE)",
 			"description" : "Closed and Paid vouchers from the Concur Travel System",
-			"modified" : "2014-08-31",
+			"modified" : "2016-01-20",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 155326",
 			"dataQuality" : true,
@@ -538,7 +538,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"format" : "None",
+					"format" : "text/csv",
 					"title" : "Closed-Paid Vouchers in Concur Government Edition (CGE)",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -552,7 +552,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Concur - Reporting Authorization Model",
 			"description" : "The data dictionary for the reporting authorization model  within Concur.",
-			"modified" : "2014-03-26",
+			"modified" : "2016-01-20",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139042",
 			"dataQuality" : true,
@@ -572,7 +572,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/msword",
-					"format" : "None",
+					"format" : "application/msword",
 					"title" : "Concur - Reporting Authorization Model",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -586,7 +586,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Concur - Reporting Travel Model",
 			"description" : "The data dictionary for the reporting travel model  within Concur.",
-			"modified" : "2014-03-25",
+			"modified" : "2016-01-20",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139046",
 			"dataQuality" : true,
@@ -606,7 +606,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/msword",
-					"format" : "None",
+					"format" : "application/msword",
 					"title" : "Concur - Reporting Travel Model",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -620,7 +620,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Concur - Reporting User Profile Folder",
 			"description" : "The data dictionary for the reporting user profile folder within Concur.",
-			"modified" : "2014-03-25",
+			"modified" : "2016-01-20",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139047",
 			"dataQuality" : true,
@@ -640,7 +640,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/msword",
-					"format" : "None",
+					"format" : "application/msword",
 					"title" : "Concur - Reporting User Profile Folder",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -654,7 +654,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Concur - Reporting Voucher Model",
 			"description" : "The data dictionary for the reporting voucher model within Concur.",
-			"modified" : "2014-03-25",
+			"modified" : "2016-01-20",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139048",
 			"dataQuality" : true,
@@ -674,7 +674,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/msword",
-					"format" : "None",
+					"format" : "application/msword",
 					"title" : "Concur - Reporting Voucher Model",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -688,7 +688,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Concur Travel Parent",
 			"description" : "This is the Parent folder for Concur datasets reporting on; Closed-Paid Vouchers, Authorization Model, Travel Model, User Profile, and Voucher Model.",
-			"modified" : "2015-09-11",
+			"modified" : "2016-01-20",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA-2015-09-11-01",
 			"dataQuality" : true,
@@ -707,6 +707,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Concur Travel Parent",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -785,7 +786,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Daily Visitor Statistics - Archival",
 			"description" : "This dataset provides distribution of daily visitors to the Data.gov site up to 2013.",
-			"modified" : "2015-05-05",
+			"modified" : "2016-01-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-32441",
 			"dataQuality" : true,
@@ -808,6 +809,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Data.gov_Daily_Visitor_Statistics.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/2dc37fea-3afa-4f9d-93ef-5e11957a371b/resource/0f96083f-0089-4524-8574-8eec91e2a7f2/download/userssharedsdfdata.govdailyvisitorstatistics.csv"
 				}
@@ -821,7 +823,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Dataset Monthly Download Trends - Archival",
 			"description" : "This dataset provides the trend of downloads in Data.gov up to 2013. These numbers represent the number of times a user has clicked on the XML or CSV (for example) links in the catalog.",
-			"modified" : "2013-04-11",
+			"modified" : "2016-01-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-32421",
 			"dataQuality" : true,
@@ -844,6 +846,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Data.gov_Dataset_Monthly_Download_Trends.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/3a69e635-ff9c-4bd9-8fb3-04f8ccb7b351/resource/06684cd2-f911-49e9-8d44-d4fe256b4882/download/userssharedsdfdata.govdatasetmonthlydownloadtrends.csv"
 				}
@@ -857,7 +860,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Datasets Download By Data Category - Archival",
 			"description" : "This dataset provides archival data on downloads for different data categories in Data.gov based on a previous dataset management system for Data.gov. Download represents the number of times a user has clicked on the XML or CSV (for example) links in the catalog to download datasets in these categories.",
-			"modified" : "2013-04-11",
+			"modified" : "2016-01-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-32031",
 			"dataQuality" : true,
@@ -880,6 +883,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Data.gov_Datasets_Download_By_Data_Category.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/05c94390-bd32-4ae5-955e-6c812143a4fc/resource/5a64130b-d5d8-421b-9f2d-c8d6ff25b28b/download/userssharedsdfdata.govdatasetsdownloadbydatacategory.csv"
 				}
@@ -893,7 +897,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Datasets Uploaded by Agencies per Month - Archival",
 			"description" : "This dataset provides count of datasets uploaded by agencies per month in Data.gov. This is from the prior dataset management system and not the current harvesting system for catalog.data.gov.",
-			"modified" : "2013-05-13",
+			"modified" : "2016-01-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-32481",
 			"dataQuality" : true,
@@ -916,6 +920,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Data.gov_Upld_By_Agencies_per_Month.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/07db4fc0-3ab1-401a-bb77-7ce502d7dc1b/resource/8abf19fd-8d83-4eb0-a7cc-35d22c986673/download/userssharedsdfdata.govupldbyagenciespermonth.csv"
 				}
@@ -929,7 +934,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Visitor Metrics",
 			"description" : "The dataset provides metrics for the number of dataset views in catalog.data.gov broken down by month starting Jan 2014.",
-			"modified" : "2015-12-01",
+			"modified" : "2016-01-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139375",
 			"dataQuality" : true,
@@ -949,6 +954,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "datagov_datasets_view_metrics.csv",
 					"description" : "Data.gov Datasets View Metrics",
 					"downloadURL" : "https://inventory.data.gov/dataset/e5ba009c-3e40-4f5a-b010-e294a8369ba4/resource/7385188a-84f1-4e1a-8e78-05e694b65bdf/download/datagovdatasetsviewmetrics.csv"
@@ -963,7 +969,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Federal Agency Participation - Archival",
 			"description" : "This dataset provides distribution of all datasets provided by all Departments/ Agencies/ Organizations in Data.gov up to 2013. See http://www.data.gov/metric for current information on federal agency participation.",
-			"modified" : "2013-04-11",
+			"modified" : "2016-01-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-32041",
 			"dataQuality" : true,
@@ -986,6 +992,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Data.gov_Federal_Agency_Participation.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/f6f06df8-c102-4fe8-af31-c368be66166d/resource/d65072b5-08f0-4f90-bd57-65e731c59df2/download/userssharedsdfdata.govfederalagencyparticipation.csv"
 				}
@@ -999,7 +1006,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Monthly Page Views - Archival",
 			"description" : "This dataset provides monthly page views in Data.gov up to 2013.",
-			"modified" : "2013-04-11",
+			"modified" : "2016-01-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-32451",
 			"dataQuality" : true,
@@ -1022,6 +1029,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Data.gov_Monthly_Page_Views.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/bbde0832-623e-46df-90eb-2c033843cd00/resource/3b2d23db-82ab-44a5-8152-1d65a88be376/download/userssharedsdfdata.govmonthlypageviews.csv"
 				}
@@ -1035,7 +1043,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Monthly Visitor Statistics - Archival",
 			"description" : "This dataset provides the number of visitors to Data.gov per month up to 2013.",
-			"modified" : "2013-04-11",
+			"modified" : "2016-01-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-32431",
 			"dataQuality" : true,
@@ -1058,6 +1066,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Data.gov_Monthly_Visitor_Statistics.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/a84616de-f4a8-4834-8acf-be5aa05e2713/resource/5fb970e5-11a5-4ef7-ae06-5df03688caec/download/userssharedsdfdata.govmonthlyvisitorstatistics.csv"
 				}
@@ -1096,7 +1105,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Top 10 Visiting Countries - Archival",
 			"description" : "This dataset provides top 10 visiting countries by month in Data.gov up to July 2013.",
-			"modified" : "2013-05-13",
+			"modified" : "2016-01-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-32491",
 			"dataQuality" : true,
@@ -1119,6 +1128,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Data.gov_Top_10_Visiting_Countries.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/b0d40da1-a505-476a-a49b-cfc50ea6d9da/resource/0a1a3fb8-a813-4470-b50c-51b7856203be/download/userssharedsdfdata.govtop10visitingcountries.csv"
 				}
@@ -1132,7 +1142,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Top 10 Visiting States - Archival",
 			"description" : "This dataset provides top 10 states by month visiting Data.gov up to 2013.",
-			"modified" : "2013-05-13",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-32501",
 			"dataQuality" : true,
@@ -1155,6 +1165,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Data.gov_Top_10_Visiting_States.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/2f3fa83b-80f3-4951-8ef7-96e213a53c16/resource/48dc3ad1-ebb0-4ee8-993a-defa131af5e2/download/userssharedsdfdata.govtop10visitingstates.csv"
 				}
@@ -1200,7 +1211,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "e-Buy Awards for Fiscal Year 2005",
 			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
-			"modified" : "2010-09-27",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4008",
 			"dataQuality" : true,
@@ -1223,7 +1234,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "excel",
 					"title" : "e-Buy Awards for Fiscal Year 2005",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/eBuy_Awards_FY2005.xls"
 				}
@@ -1237,7 +1248,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "e-Buy Awards for Fiscal Year 2006",
 			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
-			"modified" : "2010-10-21",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4095",
 			"dataQuality" : true,
@@ -1260,7 +1271,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "excel",
 					"title" : "e-Buy Awards for Fiscal Year 2006",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/eBuy_Awards_FY2006.xls"
 				}
@@ -1274,7 +1285,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "e-Buy Awards for Fiscal Year 2007",
 			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
-			"modified" : "2010-10-21",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4096",
 			"dataQuality" : true,
@@ -1297,7 +1308,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "excel",
 					"title" : "e-Buy Awards for Fiscal Year 2007",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/eBuy_Awards_FY2007.xls"
 				}
@@ -1311,7 +1322,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "e-Buy Awards for Fiscal Year 2008",
 			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
-			"modified" : "2010-10-21",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4097",
 			"dataQuality" : true,
@@ -1334,7 +1345,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "excel",
 					"title" : "e-Buy Awards for Fiscal Year 2008",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/eBuy_Awards_FY2008.xls"
 				}
@@ -1348,7 +1359,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "e-Buy Awards for Fiscal Year 2009",
 			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
-			"modified" : "2011-02-04",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4427",
 			"dataQuality" : true,
@@ -1371,7 +1382,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "excel",
 					"title" : "e-Buy Awards for Fiscal Year 2009",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/eBuy_Awards_FY2009.xls"
 				}
@@ -1383,9 +1394,9 @@
 			"theme" : ["Acquisition"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "e-Buy Awards for Fiscal Year 2010 - 2014",
-			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year",
-			"modified" : "2015-04-01",
+			"title" : "e-Buy Awards for Fiscal Year 2010",
+			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-05-18-2",
 			"dataQuality" : true,
@@ -1405,9 +1416,155 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "https://gsa.my.salesforce.com/sfc/p/30000001G26s/a/30000000Q0Hr/eXuvyi_7Jtb4pu4YZUZ7lDYL9075iECzMVdO.8.XEX4",
-					"format" : "None",
-					"title" : "e-Buy Awards for Fiscal Year 2010 - 2014"
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "e-Buy Awards for Fiscal Year 2010",
+					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+					"downloadURL" : "https://inventory.data.gov/dataset/7a96f2a8-0422-4a4a-884b-3411e1cc7848/resource/6201b0df-4b36-454b-a1a1-02b81e309fe4/download/ebuyawardsfy2010.xlsx"
+				}
+			],
+			"keyword" : ["Awards", "Contracts", "Quote", "RFQ", "Schedules", "e-Buy", "procurement"],
+			"bureauCode" : ["023:10"],
+			"programCode" : ["023:007"],
+			"language" : ["en-us"],
+			"theme" : ["Acquisition"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "e-Buy Awards for Fiscal Year 2011",
+			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+			"modified" : "2016-01-21",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-21-1",
+			"dataQuality" : true,
+			"issued" : "2015-05-18",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Usha Gopal",
+				"hasEmail" : "mailto:usha.gopal@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "e-Buy Awards for Fiscal Year 2011",
+					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+					"downloadURL" : "https://inventory.data.gov/dataset/dccdec01-d8f8-4c01-aadb-8067d138250d/resource/2bf6b6c0-b196-4c4c-9af3-0e2ca58b897c/download/ebuyawardsfy2011.xlsx"
+				}
+			],
+			"keyword" : ["Awards", "Contracts", "Quote", "RFQ", "Schedules", "e-Buy", "procurement"],
+			"bureauCode" : ["023:10"],
+			"programCode" : ["023:007"],
+			"language" : ["en-us"],
+			"theme" : ["Acquisition"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "e-Buy Awards for Fiscal Year 2012",
+			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+			"modified" : "2016-01-21",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-21-2",
+			"dataQuality" : true,
+			"issued" : "2015-05-18",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Usha Gopal",
+				"hasEmail" : "mailto:usha.gopal@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "e-Buy Awards for Fiscal Year 2012",
+					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+					"downloadURL" : "https://inventory.data.gov/dataset/5588754c-253a-4008-9ab1-dd517729a13b/resource/24faaff4-113d-40f8-a4ee-ebe369e4b160/download/ebuyawardsfy2012.xlsx"
+				}
+			],
+			"keyword" : ["Awards", "Contracts", "Quote", "RFQ", "Schedules", "e-Buy", "procurement"],
+			"bureauCode" : ["023:10"],
+			"programCode" : ["023:007"],
+			"language" : ["en-us"],
+			"theme" : ["Acquisition"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "e-Buy Awards for Fiscal Year 2013",
+			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+			"modified" : "2016-01-21",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-21-3",
+			"dataQuality" : true,
+			"issued" : "2015-05-18",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Usha Gopal",
+				"hasEmail" : "mailto:usha.gopal@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "e-Buy Awards for Fiscal Year 2013",
+					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year",
+					"downloadURL" : "https://inventory.data.gov/dataset/878a56fc-0181-43e7-8c1b-2d8a62de3bcb/resource/ed254f4a-1647-4fcb-a9db-93c2dae6f880/download/ebuyawardsfy2013.xlsx"
+				}
+			],
+			"keyword" : ["Awards", "Contracts", "Quote", "RFQ", "Schedules", "e-Buy", "procurement"],
+			"bureauCode" : ["023:10"],
+			"programCode" : ["023:007"],
+			"language" : ["en-us"],
+			"theme" : ["Acquisition"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "e-Buy Awards for Fiscal Year 2014",
+			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+			"modified" : "2016-01-21",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-01-21-4",
+			"dataQuality" : true,
+			"issued" : "2015-05-18",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Usha Gopal",
+				"hasEmail" : "mailto:usha.gopal@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
+					"title" : "e-Buy Awards for Fiscal Year 2014",
+					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+					"downloadURL" : "https://inventory.data.gov/dataset/17945414-d229-45fb-a216-b0b05df931b8/resource/4f3e8d99-2fa8-4ea2-8bba-d1cca2cc0a48/download/ebuyawardsfy2014.xlsx"
 				}
 			],
 			"keyword" : ["Awards", "Contracts", "Quote", "RFQ", "Schedules", "e-Buy", "procurement"],
@@ -1550,7 +1707,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "FAS Forecast Of Contracting Opportunities",
 			"description" : "FAS Forecast of Contracting Opportunities",
-			"modified" : "2012-10-22",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-32021",
 			"dataQuality" : true,
@@ -1571,6 +1728,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "FAS_Forecast_Of_Contracting_Opportunities.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/baa0ba2b-5eaa-4a71-b1b0-1c364d439f85/resource/ab0d35f6-7d88-4349-9e61-254ce4145a45/download/userssharedsdffasforecastofcontractingopportunities.csv"
 				}
@@ -1584,7 +1742,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "FAS Instructional Letters 2007-01 Procedures for Financial Responsibility",
 			"description" : "This IL sets forth procedures for financial responsibility. The GSA Federal Acquisition Service Instructional Letters (ILs) - guidance issued to internal FAS acquisition personnel that generally requires action as a result of a regulatory or programmatic change, e.g. inserting a new clause into solicitations and contracts. All ILs are current only as of the date posted and are subject to amendment, update, and supersession without further notice being posted on this site. Changes and revisions to regulatory or statutory guidance subsequent to the effective date of this IL may affect its relevancy and accurateness. The IL is provided for informational purposes only.",
-			"modified" : "2011-07-26",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-5180",
 			"dataQuality" : true,
@@ -1606,7 +1764,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/pdf",
-					"format" : "None",
+					"format" : "pdf",
 					"title" : "FAS Instructional Letters 2007-01 Procedures for Financial Responsibility",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/fas-il/IL-2007-01.pdf"
 				}
@@ -1620,7 +1778,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "FAS Instructional Letters 2008-01 Transferring Contract Files",
 			"description" : "The purpose of this Instructional Letter (IL) is to outline steps to take when transferring contract files between Acquisition Centers within the Federal Acquisition Service (FAS). The GSA Federal Acquisition Service Instructional Letters (ILs) - guidance issued to internal FAS acquisition personnel that generally requires action as a result of a regulatory or programmatic change, e.g. inserting a new clause into solicitations and contracts. All ILs are current only as of the date posted and are subject to amendment, update, and supersession without further notice being posted on this site. Changes and revisions to regulatory or statutory guidance subsequent to the effective date of this IL may affect its relevancy and accurateness. The IL is provided for informational purposes only.",
-			"modified" : "2011-07-26",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-5179",
 			"dataQuality" : true,
@@ -1642,7 +1800,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/pdf",
-					"format" : "None",
+					"format" : "pdf",
 					"title" : "FAS Instructional Letters 2008-01 Transferring Contract Files",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/fas-il/IL-2008-01.pdf"
 				}
@@ -1656,7 +1814,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "FAS Instructional Letters 2008-02 Modification Receipt, Dates and Types",
 			"description" : "This acquisition process improvement will enhance both the quality of contract modification data and our ability to process contract modifications electronically. The GSA Federal Acquisition Service Instructional Letters (ILs) - guidance issued to internal FAS acquisition personnel that generally requires action as a result of a regulatory or programmatic change, e.g. inserting a new clause into solicitations and contracts. All ILs are current only as of the date posted and are subject to amendment, update, and supersession without further notice being posted on this site. Changes and revisions to regulatory or statutory guidance subsequent to the effective date of this IL may affect its relevancy and accurateness. The IL is provided for informational purposes only.",
-			"modified" : "2011-07-26",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-5134",
 			"dataQuality" : true,
@@ -1679,7 +1837,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/pdf",
-					"format" : "None",
+					"format" : "pdf",
 					"title" : "FAS Instructional Letters 2008-02 Modification Receipt, Dates and Types",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/fas-il/IL-2008-02.pdf"
 				}
@@ -2284,7 +2442,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Executive Agency Internet Domains",
 			"description" : "List of Federal Executive Agency Internet domains.",
-			"modified" : "2015-03-30",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-9601",
 			"dataQuality" : true,
@@ -2304,6 +2462,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Federal_Exec_Agncy_Intnt_Domains.csv",
 					"downloadURL" : "https://inventory.data.gov/dataset/fe9eeb10-2e90-433e-a955-5c679f682502/resource/b626ef1f-9019-41c4-91aa-5ae3f7457328/download/federalexecagncyintntdomains03302015.csv"
 				}
@@ -2522,7 +2681,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Strategic Sourcing Initiative (FSSI) DDS2",
 			"description" : "FSSI Domestic Delivery Services 2 BPA vendor submitted usage reports",
-			"modified" : "2014-07-31",
+			"modified" : "2016-01-21",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139666",
 			"dataQuality" : true,
@@ -2541,7 +2700,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"format" : "None",
+					"format" : "text/csv",
 					"title" : "Federal Strategic Sourcing Initiative (FSSI) DDS2",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -2555,7 +2714,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Strategic Sourcing Initiative (FSSI) MRO",
 			"description" : "FSSI Maintenance, Repair, and Operations BPA vendor submitted usage reports",
-			"modified" : "2014-07-31",
+			"modified" : "2016-01-21",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139667",
 			"dataQuality" : true,
@@ -2574,7 +2733,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"format" : "None",
+					"format" : "text/csv",
 					"title" : "Federal Strategic Sourcing Initiative (FSSI) MRO",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -2588,7 +2747,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Strategic Sourcing Initiative(FSSI) Office Supplies 2",
 			"description" : "FSSI Office Supplies 2 BPA vendor submitted usage reports",
-			"modified" : "2014-07-31",
+			"modified" : "2016-01-21",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139647",
 			"dataQuality" : true,
@@ -2607,7 +2766,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-					"format" : "None",
+					"format" : "xml",
 					"title" : "Federal Strategic Sourcing Initiative(FSSI) Office Supplies 2",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -2621,7 +2780,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Strategic Sourcing Initiative (FSSI) PM",
 			"description" : "FSSI Print Management BPA vendor submitted usage reports",
-			"modified" : "2014-07-31",
+			"modified" : "2016-01-21",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139668",
 			"dataQuality" : true,
@@ -2640,7 +2799,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"format" : "None",
+					"format" : "text/csv",
 					"title" : "Federal Strategic Sourcing Initiative (FSSI) PM",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -2654,7 +2813,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Strategic Sourcing Initiative(FSSI) Wireless",
 			"description" : "FSSI Wireless BPA vendor submitted usage reports",
-			"modified" : "2014-07-31",
+			"modified" : "2016-01-21",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139665",
 			"dataQuality" : true,
@@ -2673,7 +2832,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-					"format" : "None",
+					"format" : "xml",
 					"title" : "Federal Strategic Sourcing Initiative(FSSI) Wireless",
 					"downloadURL" : "[[REDACTED-EX B4]]"
 				}
@@ -2858,8 +3017,8 @@
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Enterprise Data Inventory (EDI)",
-			"description" : "JSON file of Datasets.",
-			"modified" : "2015-11-13",
+			"description" : "GSA Enterprise Data Inventory (EDI)",
+			"modified" : "2016-01-12",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-13-01",
 			"dataQuality" : true,
@@ -2882,8 +3041,8 @@
 					"mediaType" : "application/json",
 					"format" : "json",
 					"title" : "GSA EDI",
-					"description" : "GSA JSON file of datasets",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/gsaedidatasets111315.js"
+					"description" : "GSA Enterprise Data Inventory (EDI)",
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edijsonfile011216.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
@@ -3029,7 +3188,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Advisory Committee Act (FACA) Database-Complete-Raw",
 			"description" : "The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide. This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.  Although centrally supported by the General Services Administration's (GSA) Committee Management Secretariat, the database represents a true shared system wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"modified" : "2015-08-26",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-08-26-01",
 			"dataQuality" : false,
@@ -3051,6 +3210,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "http://www.facadatabase.gov/",
+					"format" : "text/html",
 					"title" : "Federal Advisory Committee Act (FACA) Database-Complete-Raw",
 					"describedBy" : "http://www.fido.gov/facadatabase/help.asp"
 				}
@@ -3399,7 +3559,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "National Stock Number Extract",
 			"description" : "National Stock Number extract includes the current listing of National Stock Numbers (NSNs) , NSN item name and descriptions, and current selling price of each product listed in GSA Advantage and managed by GSA.  Each NSN is listed with the vendors description of the item. Some descriptions exceed the standard length and are truncated.",
-			"modified" : "2015-11-18",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2084",
 			"dataQuality" : true,
@@ -3420,6 +3580,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
+					"format" : "excel",
 					"title" : "National Stock Number Extract",
 					"downloadURL" : "https://inventory.data.gov/dataset/67567804-073d-40ad-a710-2b0bed8b84e2/resource/e983b323-df6e-43f2-a78d-7af0a2dff997/download/nsnextract.xlsx"
 				}
@@ -3495,7 +3656,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2008_FY2009",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2010-10-21",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4109",
 			"dataQuality" : true,
@@ -3518,7 +3679,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "xls",
 					"title" : "NetworxBusinessVolume_FY2008_FY2009",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/networx/NetworxRevenue.xls"
 				}
@@ -3532,7 +3693,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2010",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2011-02-24",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4498",
 			"dataQuality" : true,
@@ -3555,7 +3716,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "xls",
 					"title" : "NetworxBusinessVolume_FY2010",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/networx/NetworxRevenue_FY10.xls"
 				}
@@ -3569,7 +3730,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2011_1st Qtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2011-07-13",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-5049",
 			"dataQuality" : true,
@@ -3592,7 +3753,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "xls",
 					"title" : "NetworxBusinessVolume_FY2011_1st Qtr",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/networx/networx_revenus_fy11_q1.xls"
 				}
@@ -3606,7 +3767,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2011_2ndQtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2011-09-20",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-5195",
 			"dataQuality" : true,
@@ -3629,7 +3790,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
-					"format" : "None",
+					"format" : "xls",
 					"title" : "NetworxBusinessVolume_FY2011_2ndQtr",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/networx/networx_revenue_fy11_q2.xls"
 				}
@@ -3680,7 +3841,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2011_4THQtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2012-05-17",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-6370",
 			"dataQuality" : true,
@@ -3703,7 +3864,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-					"format" : "None",
+					"format" : "xml",
 					"title" : "NetworxBusinessVolume_FY2011_4THQtr",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/networx/TotRevFY11_4thQtr.xlsx"
 				}
@@ -3717,7 +3878,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2012_1stQtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2012-05-25",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-6376",
 			"dataQuality" : true,
@@ -3740,7 +3901,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-					"format" : "None",
+					"format" : "xlsx",
 					"title" : "NetworxBusinessVolume_FY2012_1stQtr",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/networx/TotRevFY12_1stQtr.xlsx"
 				}
@@ -3865,7 +4026,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2013_1stQtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2013-03-15",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25071",
 			"dataQuality" : true,
@@ -3888,7 +4049,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-					"format" : "None",
+					"format" : "xlsx",
 					"title" : "NetworxBusinessVolume_FY2013_1stQtr",
 					"downloadURL" : "http://www.asap.gsa.gov/datagov/TotRevFY13_1stQtr.xlsx"
 				}
@@ -3902,7 +4063,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "NetworxBusinessVolume_FY2013_2ndQtr",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2013-05-30",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-30771",
 			"dataQuality" : true,
@@ -3925,7 +4086,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-					"format" : "None",
+					"format" : "xlsx",
 					"title" : "NetworxBusinessVolume_FY2013_2ndQtr",
 					"downloadURL" : "https://www.asap.gsa.gov/datagov/TotRevFY13_2ndQtr.xlsx"
 				}
@@ -4263,7 +4424,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Networx Business Volume_FY2015_3rd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-09-09",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-05-09-09",
 			"dataQuality" : true,
@@ -4283,9 +4444,10 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsx",
 					"title" : "Networx Business Volume FY15 3rd Quarter",
 					"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-					"downloadURL" : "https://gsa.my.salesforce.com/sfc/p/30000001G26s/a/t0000000PAsN/tp6PGKtTvJNSu..gKk43nv5L3mg6OiqvsXG6RsG9LNs"
+					"downloadURL" : "https://inventory.data.gov/dataset/44bff510-9e9d-4910-8e3f-da64a53f4680/resource/d881a4dd-9cc7-4c8e-86da-bde870f60444/download/networxfy153rdqtr.xlsx"
 				}
 			],
 			"keyword" : ["Networx Telecommunications"],
@@ -4532,7 +4694,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Per Diem Reimbursement Rates",
 			"description" : "The dataset contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 362 locations across the continental United States for Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014 and Fiscal Year 2013, as well as the standard per diem rates for any locations not specifically listed.",
-			"modified" : "2015-09-08",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-31641",
 			"dataQuality" : true,
@@ -4553,6 +4715,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Per_Diem_Reimbursement_Rates.csv",
 					"description" : "Updated through 2016",
 					"downloadURL" : "https://inventory.data.gov/dataset/ad729937-b245-4eec-a88d-b72eb36d8106/resource/996f733b-7f9c-4011-a1a0-9768f67c1623/download/perdiemreimbursementrates2016.csv"
@@ -5886,7 +6049,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "USAspending.gov Contracts and Purchases",
 			"description" : "Provides U.S. Federal Spending by agency. The Contracts section allows searching for data relating to all Federal contracts. There are three main categories of searches: by contractor, by location, and by contracting agency. The Purchase section allows users to view purchase cards spending of various federal agencies for each fiscal year. The data available on this website are extracted from the report published once every quarter on the GSA SmartPay website. The GSA SmartPay receives this data directly from the banks that issued the purchase cards. This tool allows you to structure your search for data contained on USAspending.gov website.",
-			"modified" : "2015-04-21",
+			"modified" : "2016-01-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-132",
 			"dataQuality" : true,
@@ -5908,7 +6071,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"accessURL" : "https://www.usaspending.gov/DownloadCenter/Pages/DataDownload.aspx",
-					"format" : "None",
+					"format" : "text/html",
 					"title" : "USAspending.gov Contracts and Purchases"
 				}
 			],
