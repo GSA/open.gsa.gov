@@ -3054,7 +3054,7 @@
 					"format" : "json",
 					"title" : "GSA EDI",
 					"description" : "GSA Enterprise Data Inventory (EDI)",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edijsonfile011216.js"
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edifile01282016.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
@@ -5076,6 +5076,41 @@
 			"theme" : ["Card Services Program"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions October - December 2015",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-02-01",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-02-01",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xls",
+					"title" : "Purchase Card Transactions Oct - Dec 2015",
+					"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+					"downloadURL" : "https://inventory.data.gov/dataset/401dd7af-0042-4151-9145-1c86d945b201/resource/43be4fac-09fd-42a2-acea-8edd8752d0b2/download/1stquarter2016octdec2015pctransactions.xlsx"
+				}
+			],
+			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "Purchase Card Transactions - Board of Contract Appeals Parent",
 			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
 			"modified" : "2016-01-06",
@@ -5490,7 +5525,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-01-04",
+			"modified" : "2016-02-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25251",
 			"dataQuality" : true,
@@ -5510,11 +5545,10 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "csv",
-					"title" : "CSV File",
-					"description" : "Real Estate Across the United States (REXUS) Inventory (Building)",
-					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/f6d61aa1-7673-449b-b4cb-0b85ca3d3888/download/datagovbldgrexus.csv"
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "excel",
+					"title" : "Real Estate Across the United States (REXUS) Inventory Building",
+					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/f6d61aa1-7673-449b-b4cb-0b85ca3d3888/download/datagovbldgrexus.xls"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
@@ -5524,7 +5558,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) (Lease)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-01-04",
+			"modified" : "2016-02-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25261",
 			"dataQuality" : true,
@@ -5544,11 +5578,10 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "csv",
-					"title" : "CSV File",
-					"description" : "Real Estate Across the United States (REXUS) (Lease)",
-					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/1d2d6cac-12e6-411d-968c-75f977ec9028/download/datagovlserexus.csv"
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "excel",
+					"title" : "Real Estate Across the United States (REXUS) Lease",
+					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/1d2d6cac-12e6-411d-968c-75f977ec9028/download/datagovlserexus.xls"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
