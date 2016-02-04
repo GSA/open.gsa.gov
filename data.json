@@ -3030,7 +3030,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Enterprise Data Inventory (EDI)",
 			"description" : "GSA Enterprise Data Inventory (EDI)",
-			"modified" : "2016-01-12",
+			"modified" : "2016-02-04",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-13-01",
 			"dataQuality" : true,
@@ -3052,9 +3052,9 @@
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/json",
 					"format" : "json",
-					"title" : "GSA EDI",
+					"title" : "GSA Enterprise Data Inventory",
 					"description" : "GSA Enterprise Data Inventory (EDI)",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edifile01282016.js"
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edijsonfile02042016.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
