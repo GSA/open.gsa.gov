@@ -3030,7 +3030,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Enterprise Data Inventory (EDI)",
 			"description" : "GSA Enterprise Data Inventory (EDI)",
-			"modified" : "2016-02-04",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-13-01",
 			"dataQuality" : true,
@@ -3054,7 +3054,7 @@
 					"format" : "json",
 					"title" : "GSA Enterprise Data Inventory",
 					"description" : "GSA Enterprise Data Inventory (EDI)",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edijsonfile02042016.js"
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edijsonfile02192016.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
@@ -3666,9 +3666,9 @@
 			"theme" : ["Telecommunications"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2008_FY2009",
+			"title" : "Networx Business Volume FY2008 FY2009",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4109",
 			"dataQuality" : true,
@@ -3703,9 +3703,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2010",
+			"title" : "Networx Business Volume FY2010",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4498",
 			"dataQuality" : true,
@@ -3740,9 +3740,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2011_1st Qtr",
+			"title" : "Networx Business Volume FY2011 1st Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-5049",
 			"dataQuality" : true,
@@ -3777,9 +3777,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2011_2ndQtr",
+			"title" : "Networx Business Volume FY2011 2nd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-5195",
 			"dataQuality" : true,
@@ -3814,9 +3814,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2011_3rdQtr",
+			"title" : "Networx Business Volume FY2011 3rd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-6249",
 			"dataQuality" : true,
@@ -3851,9 +3851,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2011_4THQtr",
+			"title" : "Networx Business Volume FY2011 4th Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-6370",
 			"dataQuality" : true,
@@ -3888,9 +3888,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2012_1stQtr",
+			"title" : "Networx Business Volume FY2012 1st Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-6376",
 			"dataQuality" : true,
@@ -3925,9 +3925,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2012_2ndQtr",
+			"title" : "Networx Business Volume FY2012 2nd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-7421",
 			"dataQuality" : true,
@@ -3962,9 +3962,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2012_3rdQtr",
+			"title" : "Networx Business Volume FY2012 3rd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-9611",
 			"dataQuality" : true,
@@ -3999,9 +3999,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2012_4thQtr",
+			"title" : "Networx Business Volume FY2012 4th Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25061",
 			"dataQuality" : true,
@@ -4036,9 +4036,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2013_1stQtr",
+			"title" : "Networx Business Volume FY2013 1st Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25071",
 			"dataQuality" : true,
@@ -4073,9 +4073,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "NetworxBusinessVolume_FY2013_2ndQtr",
+			"title" : "Networx Business Volume FY2013 2nd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-30771",
 			"dataQuality" : true,
@@ -4110,9 +4110,9 @@
 			"theme" : ["Real Estate"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Networx Business Volume_FY2013_3rd Qtr",
+			"title" : "Networx Business Volume FY2013 3rd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume by contractor, agency, contract vehicle and month for the centralized billing account. This represents the business volume of each government agency that has ordered telecommunications services from the Networx contract.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-1",
 			"dataQuality" : true,
@@ -4145,9 +4145,9 @@
 			"theme" : ["Procurement"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Networx Business Volume_FY2013_4th Quarter",
+			"title" : "Networx Business Volume FY2013 4th Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-2",
 			"dataQuality" : false,
@@ -4186,9 +4186,9 @@
 			"programCode" : ["023:019"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Networx Business Volume_FY2014_1st Quarter",
+			"title" : "Networx Business Volume FY2014 1st Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-3",
 			"dataQuality" : false,
@@ -4228,9 +4228,9 @@
 			"programCode" : ["023:019"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Networx Business Volume_FY2014_2nd Quarter",
+			"title" : "Networx Business Volume FY2014 2nd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-4",
 			"dataQuality" : true,
@@ -4270,9 +4270,9 @@
 			"programCode" : ["023:019"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Networx Business Volume_FY2014_3rd Quarter",
+			"title" : "Networx Business Volume FY2014 3rd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-5",
 			"dataQuality" : false,
@@ -4311,9 +4311,9 @@
 			"programCode" : ["023:019"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Networx Business Volume_ FY2014_4th Quarter",
+			"title" : "Networx Business Volume  FY2014 4th Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-02-26-6",
 			"dataQuality" : true,
@@ -4353,9 +4353,9 @@
 			"programCode" : ["023:019"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Networx Business Volume_ FY2015_1st Quarter",
+			"title" : "Networx Business Volume  FY2015 1st Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-03-02-2",
 			"dataQuality" : true,
@@ -4394,9 +4394,9 @@
 			"programCode" : ["023:019"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Networx Business Volume_FY2015_2nd Quarter",
+			"title" : "Networx Business Volume FY2015 2nd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-05-18-1",
 			"dataQuality" : true,
@@ -4434,9 +4434,9 @@
 			"programCode" : ["023:019"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Networx Business Volume_FY2015_3rd Quarter",
+			"title" : "Networx Business Volume FY2015 3rd Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-05-09-09",
 			"dataQuality" : true,
@@ -4469,9 +4469,9 @@
 			"theme" : ["Telecommunications Services"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Networx Business Volume_FY2015_4th Quarter",
+			"title" : "Networx Business Volume FY2015 4th Quarter",
 			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-			"modified" : "2015-11-19",
+			"modified" : "2016-02-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-16-01",
 			"dataQuality" : true,
@@ -4495,6 +4495,41 @@
 					"title" : "Networx Business Volume FY15 4th Quarter",
 					"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
 					"downloadURL" : "https://inventory.data.gov/dataset/18eab5fe-9bbf-4ca5-88d7-f71885052d0c/resource/5e3f57e5-ad4b-4ab0-8628-1508199cacb4/download/networxbusinessvolumefy154thquarter.xlsx"
+				}
+			],
+			"keyword" : ["Contract", "Networx Telecommunications", "Telecommunications"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:019"],
+			"language" : ["en-US"],
+			"theme" : ["Telecommunications Services"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Networx Business Volume FY2016 1st Quarter",
+			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
+			"modified" : "2016-02-19",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-02-19",
+			"dataQuality" : true,
+			"issued" : "2015-11-13",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2015-08-27P",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Toni L Holloway",
+				"hasEmail" : "mailto:toni.holloway@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
+					"title" : "Networx Business Volume FY16 1st Quarter",
+					"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
+					"downloadURL" : "https://inventory.data.gov/dataset/c79e79c9-db24-415b-ae5a-ce183449e802/resource/ec4eeb54-fc86-4029-bd4a-f0ca339d1e31/download/networxbusinessvolumefy161stquarter.xlsx"
 				}
 			],
 			"keyword" : ["Contract", "Networx Telecommunications", "Telecommunications"],
