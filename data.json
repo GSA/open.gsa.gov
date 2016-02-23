@@ -548,43 +548,9 @@
 			"theme" : ["Travel and Transportation"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "Closed-Paid Vouchers in Concur Government Edition (CGE)",
-			"description" : "Closed and Paid vouchers from the Concur Travel System",
-			"modified" : "2016-01-20",
-			"accessLevel" : "non-public",
-			"identifier" : "GSA - 155326",
-			"dataQuality" : true,
-			"license" : "http://www.usa.gov/publicdomain/label/1.0/",
-			"rights" : "Trade secrets & commercial/financial info obtained from a person and privileged or confidential.",
-			"publisher" : {
-				"@type" : "org:Organization",
-				"name" : "General Services Administration"
-			},
-			"accrualPeriodicity" : "R/P3M",
-			"isPartOf" : "GSA-2015-09-11-01",
-			"contactPoint" : {
-				"@type" : "vcard:Contact",
-				"fn" : "Marvin Wilber Somers",
-				"hasEmail" : "mailto:marvin.somers@gsa.gov"
-			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "Closed-Paid Vouchers in Concur Government Edition (CGE)",
-					"downloadURL" : "[[REDACTED-EX B4]]"
-				}
-			],
-			"keyword" : ["Purchase Card", "Travel Program"],
-			"bureauCode" : ["023:00"],
-			"programCode" : ["023:010"],
-			"language" : ["en-us"],
-			"theme" : ["Travel and Transportation"]
-		}, {
-			"@type" : "dcat:Dataset",
 			"title" : "Concur - Reporting Authorization Model",
 			"description" : "The data dictionary for the reporting authorization model  within Concur.",
-			"modified" : "2016-01-20",
+			"modified" : "2016-02-23",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139042",
 			"dataQuality" : true,
@@ -603,10 +569,11 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/msword",
-					"format" : "application/msword",
-					"title" : "Concur - Reporting Authorization Model",
-					"downloadURL" : "[[REDACTED-EX B4]]"
+					"mediaType" : "text/csv",
+					"format" : "text/csv",
+					"title" : "[[REDACTED-EX B4]]",
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/3ea776d6-f16a-4342-b862-f1349be4a84d/resource/0c971148-c735-44bd-bf3e-166aef9767fd/download/concurreportingauthorizationmodel.csv"
 				}
 			],
 			"keyword" : ["Credit Card", "purchase card", "travel card"],
@@ -637,10 +604,11 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/msword",
-					"format" : "application/msword",
-					"title" : "Concur - Reporting Travel Model",
-					"downloadURL" : "[[REDACTED-EX B4]]"
+					"mediaType" : "text/csv",
+					"format" : "text/csv",
+					"title" : "[[REDACTED-EX B4]]",
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/eee2ce9d-ab8e-4a8d-9c9c-9db439dc6fbb/resource/c7b6d090-1118-4630-a2f8-754b7c7a852c/download/concurreportingtravelmodel.csv"
 				}
 			],
 			"keyword" : ["Credit Card", "travel card"],
@@ -652,7 +620,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Concur - Reporting User Profile Folder",
 			"description" : "The data dictionary for the reporting user profile folder within Concur.",
-			"modified" : "2016-01-20",
+			"modified" : "2016-02-23",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139047",
 			"dataQuality" : true,
@@ -671,13 +639,14 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/msword",
-					"format" : "application/msword",
-					"title" : "Concur - Reporting User Profile Folder",
-					"downloadURL" : "[[REDACTED-EX B4]]"
+					"mediaType" : "text/csv",
+					"format" : "text/csv",
+					"title" : "[[REDACTED-EX B4]]",
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/f4b78786-518b-4ba3-9910-75c23f9267fa/resource/28326916-a6fb-4d21-b9b0-7ca96f8dd443/download/concurreportinguserprofilefolder.csv"
 				}
 			],
-			"keyword" : ["Credit Card", "travel card"],
+			"keyword" : ["Credit Card", "Travel Card"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
 			"language" : ["en-us"],
@@ -686,7 +655,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Concur - Reporting Voucher Model",
 			"description" : "The data dictionary for the reporting voucher model within Concur.",
-			"modified" : "2016-01-20",
+			"modified" : "2016-02-23",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139048",
 			"dataQuality" : true,
@@ -705,13 +674,14 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/msword",
-					"format" : "application/msword",
-					"title" : "Concur - Reporting Voucher Model",
-					"downloadURL" : "[[REDACTED-EX B4]]"
+					"mediaType" : "text/csv",
+					"format" : "text/csv",
+					"title" : "[[REDACTED-EX B4]]",
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/f8f63837-a2a9-46ed-878d-3269149d1ee4/resource/390d80e1-d9f0-4968-8f63-28afecef9cb4/download/concurreportingvouchermodel.csv"
 				}
 			],
-			"keyword" : ["Credit Card", "travel card"],
+			"keyword" : ["Credit Card", "Travel Card"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
 			"language" : ["en-us"],
@@ -719,8 +689,8 @@
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Concur Travel Parent",
-			"description" : "This is the Parent folder for Concur datasets reporting on; Closed-Paid Vouchers, Authorization Model, Travel Model, User Profile, and Voucher Model.",
-			"modified" : "2016-01-20",
+			"description" : "This is the Parent folder for Concur datasets reporting on; Closed-Paid Vouchers in Concur Government Edition (CGE), Authorization Model, Travel Model, User Profile, and Voucher Model.",
+			"modified" : "2016-02-23",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA-2015-09-11-01",
 			"dataQuality" : true,
@@ -740,8 +710,9 @@
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
 					"format" : "text/csv",
-					"title" : "Concur Travel Parent",
-					"downloadURL" : "[[REDACTED-EX B4]]"
+					"title" : "[[REDACTED-EX B4]]",
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/4bac2708-8626-46f4-858a-3065cc5652b4/resource/8d0dfd3f-adbb-4d4b-bd1e-02481a749ff9/download/concurtravelparent.csv"
 				}
 			],
 			"keyword" : ["Authorization", "Closed", "Concur", "Paid", "Travel", "Voucher"],
@@ -1925,7 +1896,7 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "http://docs.fbopen.apiary.io/",
+					"accessURL" : "https://pages.18f.gov/fbopen/",
 					"format" : "API",
 					"title" : "FBOpen API"
 				}
@@ -2693,7 +2664,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Strategic Sourcing Initiative (FSSI) DDS2",
 			"description" : "FSSI Domestic Delivery Services 2 BPA vendor submitted usage reports",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-23",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139666",
 			"dataQuality" : true,
@@ -2714,7 +2685,8 @@
 					"mediaType" : "text/csv",
 					"format" : "text/csv",
 					"title" : "Federal Strategic Sourcing Initiative (FSSI) DDS2",
-					"downloadURL" : "[[REDACTED-EX B4]]"
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/eeb7ace9-ab7c-4e68-8e85-fa7700bdb709/resource/1cc8ed82-d6d5-412c-b0b7-d910f258a711/download/federalstrategicsourcinginitiativefssidds2.csv"
 				}
 			],
 			"keyword" : ["DDS2", "FSSI"],
@@ -2726,7 +2698,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Strategic Sourcing Initiative (FSSI) MRO",
 			"description" : "FSSI Maintenance, Repair, and Operations BPA vendor submitted usage reports",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-23",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139667",
 			"dataQuality" : true,
@@ -2747,7 +2719,8 @@
 					"mediaType" : "text/csv",
 					"format" : "text/csv",
 					"title" : "Federal Strategic Sourcing Initiative (FSSI) MRO",
-					"downloadURL" : "[[REDACTED-EX B4]]"
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/40dda03c-33cd-4f04-adec-705052df9797/resource/d92ccfad-5182-4038-a74b-ee803e352cd0/download/federalstrategicsourcinginitiativefssimro.csv"
 				}
 			],
 			"keyword" : ["FSSI", "MRO"],
@@ -2759,7 +2732,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Strategic Sourcing Initiative(FSSI) Office Supplies 2",
 			"description" : "FSSI Office Supplies 2 BPA vendor submitted usage reports",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-23",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139647",
 			"dataQuality" : true,
@@ -2777,10 +2750,11 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-					"format" : "xml",
+					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Federal Strategic Sourcing Initiative(FSSI) Office Supplies 2",
-					"downloadURL" : "[[REDACTED-EX B4]]"
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/1e41ca18-d6bb-477b-83bd-dc2237038e98/resource/2d783eed-1fc5-4a25-ae2f-98473d22ffb1/download/federalstrategicsourcinginitiativefssiofficesupplies2.csv"
 				}
 			],
 			"keyword" : ["BPA", "Data", "FSSI", "GSA", "Monthly", "Prices Paid", "Report", "Supplier", "Usage", "Vendor", "Wireless"],
@@ -2792,7 +2766,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Strategic Sourcing Initiative (FSSI) PM",
 			"description" : "FSSI Print Management BPA vendor submitted usage reports",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-23",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139668",
 			"dataQuality" : true,
@@ -2813,7 +2787,8 @@
 					"mediaType" : "text/csv",
 					"format" : "text/csv",
 					"title" : "Federal Strategic Sourcing Initiative (FSSI) PM",
-					"downloadURL" : "[[REDACTED-EX B4]]"
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/7b7726c6-7001-496b-ba0d-d32e19eb794f/resource/e932d455-7aca-4c47-b018-6a9d2e255f4c/download/federalstrategicsourcinginitiativefssipm.csv"
 				}
 			],
 			"keyword" : ["FSSI", "Print Management"],
@@ -2825,7 +2800,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Strategic Sourcing Initiative(FSSI) Wireless",
 			"description" : "FSSI Wireless BPA vendor submitted usage reports",
-			"modified" : "2016-01-21",
+			"modified" : "2016-02-23",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA - 139665",
 			"dataQuality" : true,
@@ -2843,10 +2818,11 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-					"format" : "xml",
+					"mediaType" : "text/csv",
+					"format" : "text/csv",
 					"title" : "Federal Strategic Sourcing Initiative(FSSI) Wireless",
-					"downloadURL" : "[[REDACTED-EX B4]]"
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/e3db1ce2-cf09-4041-848e-a20df8e5b716/resource/a5171a8f-d059-4224-a39f-15058e6b886e/download/federalstrategicsourcinginitiativefssiwireless.csv"
 				}
 			],
 			"keyword" : ["FSSI", "Wireless"],
@@ -3030,7 +3006,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Enterprise Data Inventory (EDI)",
 			"description" : "GSA Enterprise Data Inventory (EDI)",
-			"modified" : "2016-02-19",
+			"modified" : "2016-02-23",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-13-01",
 			"dataQuality" : true,
@@ -3054,7 +3030,7 @@
 					"format" : "json",
 					"title" : "GSA Enterprise Data Inventory",
 					"description" : "GSA Enterprise Data Inventory (EDI)",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edijsonfile02192016.js"
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edijsonfile02232016.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
@@ -5694,6 +5670,42 @@
 			"programCode" : ["023:009"],
 			"language" : ["en-us"],
 			"theme" : ["API"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Closed-Paid Vouchers in Concur Government Edition (CGE)",
+			"description" : "Closed and Paid vouchers from the Concur Travel System.",
+			"modified" : "2016-02-23",
+			"accessLevel" : "non-public",
+			"identifier" : "GSA-2016-02-22-01",
+			"dataQuality" : true,
+			"issued" : "2015-08-27",
+			"license" : "http://www.usa.gov/publicdomain/label/1.0/",
+			"rights" : "Trade secrets & commercial/financial info obtained from a person and privileged or confidential.",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2015-09-11-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Marvin Wilber Somers",
+				"hasEmail" : "mailto:marvin.somers@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"format" : "text/csv",
+					"title" : "[[REDACTED-EX B4]]",
+					"description" : "[[REDACTED-EX B4]]",
+					"downloadURL" : "https://inventory.data.gov/dataset/6239bbf5-bd30-4cd1-bfa3-1871da07d15e/resource/9a3924d6-25a8-4e7b-98d8-9f29bcde8b4b/download/closedpaidvouchersinconcurgovernmenteditioncge.csv"
+				}
+			],
+			"keyword" : ["Purchase Card", "Travel Program"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Travel", "Transportation"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "RWA Entry & Tracking Application (RETA)",
