@@ -331,14 +331,6 @@
 				"fn" : "Justin M Pinkney",
 				"hasEmail" : "mailto:justin.pinkney@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "csv",
-					"title" : "Capital Project Application",
-					"downloadURL" : "[[REDACTED-EX B4]]"
-				}
-			],
 			"keyword" : ["Activity", "Alterations", "Budget", "Construction", "Historic Preservation", "Project", "Repairs", "Reporting"],
 			"bureauCode" : ["023:05"],
 			"programCode" : ["023:014"],
@@ -536,7 +528,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/html",
-					"format" : "html",
+					"format" : "text/html",
 					"title" : "City Pair Program",
 					"downloadURL" : "http://gsa.gov/portal/category/27093"
 				}
@@ -567,15 +559,6 @@
 				"fn" : "Norma H Tolson",
 				"hasEmail" : "mailto:norma.tolson@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "[[REDACTED-EX B4]]",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/3ea776d6-f16a-4342-b862-f1349be4a84d/resource/0c971148-c735-44bd-bf3e-166aef9767fd/download/concurreportingauthorizationmodel.csv"
-				}
-			],
 			"keyword" : ["Credit Card", "purchase card", "travel card"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
@@ -602,15 +585,6 @@
 				"fn" : "Norma H Tolson",
 				"hasEmail" : "mailto:norma.tolson@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "[[REDACTED-EX B4]]",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/eee2ce9d-ab8e-4a8d-9c9c-9db439dc6fbb/resource/c7b6d090-1118-4630-a2f8-754b7c7a852c/download/concurreportingtravelmodel.csv"
-				}
-			],
 			"keyword" : ["Credit Card", "travel card"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
@@ -637,15 +611,6 @@
 				"fn" : "Norma H Tolson",
 				"hasEmail" : "mailto:norma.tolson@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "[[REDACTED-EX B4]]",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/f4b78786-518b-4ba3-9910-75c23f9267fa/resource/28326916-a6fb-4d21-b9b0-7ca96f8dd443/download/concurreportinguserprofilefolder.csv"
-				}
-			],
 			"keyword" : ["Credit Card", "Travel Card"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
@@ -672,15 +637,6 @@
 				"fn" : "Norma H Tolson",
 				"hasEmail" : "mailto:norma.tolson@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "[[REDACTED-EX B4]]",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/f8f63837-a2a9-46ed-878d-3269149d1ee4/resource/390d80e1-d9f0-4968-8f63-28afecef9cb4/download/concurreportingvouchermodel.csv"
-				}
-			],
 			"keyword" : ["Credit Card", "Travel Card"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
@@ -706,15 +662,6 @@
 				"fn" : "Norma H Tolson",
 				"hasEmail" : "mailto:norma.tolson@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "[[REDACTED-EX B4]]",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/4bac2708-8626-46f4-858a-3065cc5652b4/resource/8d0dfd3f-adbb-4d4b-bd1e-02481a749ff9/download/concurtravelparent.csv"
-				}
-			],
 			"keyword" : ["Authorization", "Closed", "Concur", "Paid", "Travel", "Voucher"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
@@ -2680,15 +2627,6 @@
 				"fn" : "Claudia J Brumbach",
 				"hasEmail" : "mailto:claudia.brumbach@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "Federal Strategic Sourcing Initiative (FSSI) DDS2",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/eeb7ace9-ab7c-4e68-8e85-fa7700bdb709/resource/1cc8ed82-d6d5-412c-b0b7-d910f258a711/download/federalstrategicsourcinginitiativefssidds2.csv"
-				}
-			],
 			"keyword" : ["DDS2", "FSSI"],
 			"bureauCode" : ["023:10"],
 			"programCode" : ["023:012"],
@@ -2714,15 +2652,6 @@
 				"fn" : "Nathan Morgan Kreoger",
 				"hasEmail" : "mailto:nathan.kreoger@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "Federal Strategic Sourcing Initiative (FSSI) MRO",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/40dda03c-33cd-4f04-adec-705052df9797/resource/d92ccfad-5182-4038-a74b-ee803e352cd0/download/federalstrategicsourcinginitiativefssimro.csv"
-				}
-			],
 			"keyword" : ["FSSI", "MRO"],
 			"bureauCode" : ["023:10"],
 			"programCode" : ["023:012"],
@@ -2748,15 +2677,6 @@
 				"fn" : "Joshua Daniel Royko",
 				"hasEmail" : "mailto:joshua.royko@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "Federal Strategic Sourcing Initiative(FSSI) Office Supplies 2",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/1e41ca18-d6bb-477b-83bd-dc2237038e98/resource/2d783eed-1fc5-4a25-ae2f-98473d22ffb1/download/federalstrategicsourcinginitiativefssiofficesupplies2.csv"
-				}
-			],
 			"keyword" : ["BPA", "Data", "FSSI", "GSA", "Monthly", "Prices Paid", "Report", "Supplier", "Usage", "Vendor", "Wireless"],
 			"bureauCode" : ["023:10"],
 			"programCode" : ["023:012"],
@@ -2782,15 +2702,6 @@
 				"fn" : "Michael J Wano",
 				"hasEmail" : "mailto:mike.wano@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "Federal Strategic Sourcing Initiative (FSSI) PM",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/7b7726c6-7001-496b-ba0d-d32e19eb794f/resource/e932d455-7aca-4c47-b018-6a9d2e255f4c/download/federalstrategicsourcinginitiativefssipm.csv"
-				}
-			],
 			"keyword" : ["FSSI", "Print Management"],
 			"bureauCode" : ["023:10"],
 			"programCode" : ["023:012"],
@@ -2816,15 +2727,6 @@
 				"fn" : "David Andrew Peters",
 				"hasEmail" : "mailto:david.peters@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "Federal Strategic Sourcing Initiative(FSSI) Wireless",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/e3db1ce2-cf09-4041-848e-a20df8e5b716/resource/a5171a8f-d059-4224-a39f-15058e6b886e/download/federalstrategicsourcinginitiativefssiwireless.csv"
-				}
-			],
 			"keyword" : ["FSSI", "Wireless"],
 			"bureauCode" : ["023:10"],
 			"programCode" : ["023:012"],
@@ -3006,7 +2908,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Enterprise Data Inventory (EDI)",
 			"description" : "GSA Enterprise Data Inventory (EDI)",
-			"modified" : "2016-02-23",
+			"modified" : "2016-02-26",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-13-01",
 			"dataQuality" : true,
@@ -3030,7 +2932,7 @@
 					"format" : "json",
 					"title" : "GSA Enterprise Data Inventory",
 					"description" : "GSA Enterprise Data Inventory (EDI)",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edijsonfile02232016.js"
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edifile02262016.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
@@ -3099,7 +3001,7 @@
 					"format" : "JSON",
 					"title" : "GSA IT Reform Cost Savings/Avoidance",
 					"conformsTo" : "https://management.cio.gov/schemaexamples/costSavingsAvoidanceSchema.json",
-					"downloadURL" : "https://inventory.data.gov/dataset/57f52388-9b32-4069-925f-e0de9c5c6ea4/resource/87eb8833-7abb-432b-a272-e611c0aff04a/download/gsaitcostsavingsavoidance20151125.json"
+					"downloadURL" : "https://inventory.data.gov/dataset/57f52388-9b32-4069-925f-e0de9c5c6ea4/resource/87eb8833-7abb-432b-a272-e611c0aff04a/download/gsaitcostsavingsavoidance20160217.json"
 				}
 			],
 			"keyword" : ["GSA IT", "GSA IT reform cost savings", "cost avoidance", "cost savings", "savings"],
@@ -5692,15 +5594,6 @@
 				"fn" : "Marvin Wilber Somers",
 				"hasEmail" : "mailto:marvin.somers@gsa.gov"
 			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "[[REDACTED-EX B4]]",
-					"description" : "[[REDACTED-EX B4]]",
-					"downloadURL" : "https://inventory.data.gov/dataset/6239bbf5-bd30-4cd1-bfa3-1871da07d15e/resource/9a3924d6-25a8-4e7b-98d8-9f29bcde8b4b/download/closedpaidvouchersinconcurgovernmenteditioncge.csv"
-				}
-			],
 			"keyword" : ["Purchase Card", "Travel Program"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
