@@ -1,1 +1,0 @@
-Welcome to the Governmentwide Earth Day Hackathon GH Pages.  This is content for the upcoming event on 4/22.
