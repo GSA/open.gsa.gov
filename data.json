@@ -5474,7 +5474,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-02-01",
+			"modified" : "2016-03-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25251",
 			"dataQuality" : true,
@@ -5497,7 +5497,7 @@
 					"mediaType" : "application/vnd.ms-excel",
 					"format" : "excel",
 					"title" : "Real Estate Across the United States (REXUS) Inventory Building",
-					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/f6d61aa1-7673-449b-b4cb-0b85ca3d3888/download/datagovbldgrexus.xls"
+					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/f6d61aa1-7673-449b-b4cb-0b85ca3d3888/download/datagovbldgrexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
@@ -5507,7 +5507,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) (Lease)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-02-01",
+			"modified" : "2016-03-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25261",
 			"dataQuality" : true,
@@ -5530,7 +5530,7 @@
 					"mediaType" : "application/vnd.ms-excel",
 					"format" : "excel",
 					"title" : "Real Estate Across the United States (REXUS) Lease",
-					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/1d2d6cac-12e6-411d-968c-75f977ec9028/download/datagovlserexus.xls"
+					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/1d2d6cac-12e6-411d-968c-75f977ec9028/download/datagovlserexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
