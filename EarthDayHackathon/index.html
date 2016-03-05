@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
-    <meta>
-    <meta content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content>
-    <meta name="author" content>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>Governmentwide Earth Day Hackathon</title>
+    <title>Government-wide Earth Day Hackathon</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +18,7 @@
     <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -31,13 +31,12 @@ background: rgba(24, 188, 156, 0.72);
 color: #fff;
     <![endif]-->
 
-	<style type='text/css'>
-	.imgWrap {
+    <style type='text/css'>
+    .imgWrap {
   position: relative;
   height: 200px;
   width: 390px;
 }
-
 .imgDescription {
   position: relative;
   top: 0;
@@ -46,17 +45,12 @@ color: #fff;
   right: 0;
   background: rgba(255, 255, 255, 0.72);
   color: #000;
-
-
   visibility: hidden;
   opacity: 0;
-
   
   -webkit-transition: visibility opacity 0.9s;
   
 }
-
-
 .imgWrap:hover .imgDescription {
   visibility: visible;
   opacity: 1;
@@ -65,31 +59,48 @@ color: #fff;
         width: 350px;
         height: 150px;
       }
-	</style>
-	
-    
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var myLatLng = {lat: 38.896848, lng: -77.042476};
+        var mapOptions = {
+          center: new google.maps.LatLng(38.896848, -77.042476),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+        var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'GSA Headquarters'
+  });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </head>
 
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div>
-                <button type="button" class="navbar-toggle">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#page-top">Earth Day Hackathon</a>
-				
+                
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div id="bs-example-navbar-collapse-1">
-                <ul>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
@@ -107,259 +118,259 @@ color: #fff;
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
-    
+    </nav>
 
     <!-- Header -->
-    
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt>
+                    <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
                         <span class="name"><font size="8">SAVE THE DATE!</font><br>2016 Government-wide Earth Day Hackathon</span>
-						<hr class="star-light">
-                <span class="skills">Help the government go "green" at the Governmentwide Earth Day Hackathon</span>
+                        <hr class="star-light">
+                <span class="skills">Help the government go "green" at the Government-wide Earth Day Hackathon</span>
                       <!--   <hr class="star-light">
                         <span class="skills">Join us for the 3<sup>rd</sup> edition of our Digital Innovation Hackathon. The first one in May was very productive and we plan to make this bigger and better than the last!!</span>-->
                     </div>
                 </div>
             </div>
         </div>
-    
+    </header>
 
     <!-- Portfolio Grid Section -->
-    
+    <section id="portfolio">
         <div class="container">
             <div class="row">
-                <div>
+                <div class="col-lg-12 text-center">
                     <h2>Agencies & Projects</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
                
-                <div>
-                    <a href="#CEQProjects" class="portfolio-link">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#CEQProjects" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i></i>
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/CEQ.png" class="img-responsive" alt>
+                        <img src="img/portfolio/CEQ.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div>
-                    <a href="#CENSUSProjects" class="portfolio-link">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#CENSUSProjects" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i></i>
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/CENSUS.png" class="img-responsive" alt>
+                        <img src="img/portfolio/CENSUS.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div>
-                    <a href="#EPAProjects" class="portfolio-link">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#EPAProjects" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i></i>
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/EPA.png" class="img-responsive" alt>
+                        <img src="img/portfolio/EPA.png" class="img-responsive" alt="">
                     </a>
                 </div>
-				</div>
-				
-				 <div class="row">
-				<div>
-                    <a href="#MOIProjects" class="portfolio-link">
+                </div>
+                
+                 <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#MOIProjects" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i></i>
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/MOI.png" class="img-responsive" alt>
+                        <img src="img/portfolio/MOI.png" class="img-responsive" alt="">
                     </a>
                 </div>
-				<div>
-                    <a href="#NISTProjects" class="portfolio-link">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#NISTProjects" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i></i>
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/NIST.png" class="img-responsive" alt>
+                        <img src="img/portfolio/NIST.png" class="img-responsive" alt="">
                     </a>
                 </div>
-				<div>
-                    <a href="#NOAAProjects" class="portfolio-link">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#NOAAProjects" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i></i>
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/NOAA.png" class="img-responsive" alt>
+                        <img src="img/portfolio/NOAA.png" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
-			
-			
-				<div class="row">
-				<div>
-                    <a href="#USDAProjects" class="portfolio-link">
+            
+            
+                <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#USDAProjects" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i></i>
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/USDA.png" class="img-responsive" alt>
+                        <img src="img/portfolio/USDA.png" class="img-responsive" alt="">
                     </a>
                 </div>
-				<div>
-                    <a href="#GSAProjects" class="portfolio-link">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#GSAProjects" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i></i>
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/GSA.png" class="img-responsive" alt>
+                        <img src="img/portfolio/GSA.png" class="img-responsive" alt="">
                     </a>
                 </div>
-			
+            
             </div>
-			
-			
+            
+            
         </div>
-    
+    </section>
 
     <!-- About Section -->
-    
+    <section class="success" id="about">
         <div class="container">
             <div class="row">
-                <div>
+                <div class="col-lg-12 text-center">
                     <h2>About</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
-                <div>
+                <div class="col-lg-4 col-lg-offset-2">
                     <p>
-					GSA is hosting the first ever Governmentwide Earth Day Hackathon on Friday April 22<sup>nd</sup> from 8:30am to 4:30pm.  The event will be held at the GSA Central Office Building, located at 1800 F Street, NW, Washington, DC. and is close to the Metro Orange Line at Farragut Square and the Red Line at Farragut North.
-				</p>
+                    GSA is hosting the first ever Government-wide Earth Day Hackathon on Friday April 22<sup>nd</sup> from 8:30am to 4:30pm.  The event will be held at the GSA Central Office Building, located at 1800 F Street, NW, Washington, DC. and is close to the Metro Orange Line at Farragut Square and the Red Line at Farragut North.
+                </p>
                 </div>
                 <div class="col-lg-4">
                     <p>Industry professionals, students, and government employees are invited.  Participate and colloborate with multiple government agencies and have the opportunity to develop new solutions and win cash prizes.</p>
                 </div>
-                <div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
             <!--        <a href="http://www.google.com" class="btn btn-lg btn-outline">-->
 <!--<i class="fa fa-download"></i>                        -->
-				<!-- 		Register Here! -->
+                <!--        Register Here! -->
                 <!--     </a> -->
                 </div>
             </div>
         </div>
 
+    </section>
+
     
 
-	
 
-
-	
-	
+    
+    
     <!-- Gallery Section -->
-    
+    <section id="gallery">
         <div class="container">
             <div class="row">
-                <div>
+                <div class="col-lg-12 text-center">
                     <h2>Gallery</h2>
                     <hr class="star-primary">
-					
+                    
                 </div>
             </div>
 
-		            <div class="row">
+                    <div class="row">
                
                 <!--<div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon2.jpg" class="img-responsive" alt="Image description"></div>
-				<div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon3.jpg" class="img-responsive" alt="Image description"></div>
-				<div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon4.jpg" class="img-responsive" alt=""></div>
-				<div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon2.jpg" class="img-responsive" alt=""></div>-->
-				
-				<div>
-  <img src="img/portfolio/hackathon1.jpg" class="img-responsive" alt="polaroid">
+                <div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon3.jpg" class="img-responsive" alt="Image description"></div>
+                <div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon4.jpg" class="img-responsive" alt=""></div>
+                <div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon2.jpg" class="img-responsive" alt=""></div>-->
+                
+                <div class="imgWrap col-sm-4 portfolio-item">
+  <img src="img/portfolio/hackathon1.jpg" class="img-responsive" alt="polaroid" />
   <p class="imgDescription">Joe and David discuss the day's events.</p>
 </div>
-				
-				<div>
-  <img src="img/portfolio/hackathon2.jpg" class="img-responsive" alt="polaroid">
+                
+                <div class="imgWrap col-sm-3 portfolio-item">
+  <img src="img/portfolio/hackathon2.jpg" class="img-responsive" alt="polaroid" />
   <p class="imgDescription">Joe having a laugh with the judges.</p>
 </div>
 
-<div>
-  <img src="img/portfolio/hackathon3.jpg" class="img-responsive" alt="polaroid">
+<div class="imgWrap col-sm-3 portfolio-item">
+  <img src="img/portfolio/hackathon3.jpg" class="img-responsive" alt="polaroid" />
   <p class="imgDescription">Presentation time! One team presents to the judges and audience.</p>
 </div>
 
 
-				
+                
              </div>    
-			 
-			 
-		<br><br><br><br><br>	 
-			 
+             
+             
+        <br><br><br><br><br>     
+             
  <div class="row">
                
                 <!--<div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon2.jpg" class="img-responsive" alt="Image description"></div>
-				<div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon3.jpg" class="img-responsive" alt="Image description"></div>
-				<div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon4.jpg" class="img-responsive" alt=""></div>
-				<div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon2.jpg" class="img-responsive" alt=""></div>-->
-				
-				<div>
-  <img src="img/portfolio/hackathon4.jpg" class="img-responsive" alt="polaroid">
+                <div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon3.jpg" class="img-responsive" alt="Image description"></div>
+                <div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon4.jpg" class="img-responsive" alt=""></div>
+                <div class="col-sm-3 portfolio-item"><img src="img/portfolio/hackathon2.jpg" class="img-responsive" alt=""></div>-->
+                
+                <div class="imgWrap col-sm-4 portfolio-item">
+  <img src="img/portfolio/hackathon4.jpg" class="img-responsive" alt="polaroid" />
   <p class="imgDescription">One developer hard at work.</p>
 </div>
-				
-				<div>
-  <img src="img/portfolio/hackathon5.jpg" class="img-responsive" alt="polaroid">
+                
+                <div class="imgWrap col-sm-3 portfolio-item">
+  <img src="img/portfolio/hackathon5.jpg" class="img-responsive" alt="polaroid" />
   <p class="imgDescription">Collaboration is key especially when teams had just met. SMEs help too.</p>
 </div>
 
-<div>
-  <img src="img/portfolio/hackathon6.jpg" class="img-responsive" alt="polaroid">
+<div class="imgWrap col-sm-3 portfolio-item">
+  <img src="img/portfolio/hackathon6.jpg" class="img-responsive" alt="polaroid" />
   <p class="imgDescription">David and Christine having a good conversation.</p>
 </div>
 
 
-				
-             </div>  	
-			
+                
+             </div>     
+            
         </div>
+    </section>
+
+
     
-
-
-	
-	
-	
+    
+    
     <!-- Footer -->
-    
+    <footer class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-				
+                
                         
                 
-                    <div>
+                    <div class="footer-col col-md-4">
                         <h3>Location</h3>
                         <p><div id="map"></div>1800 F Street NW, Washington, DC</p>
-						
+                        
                     </div>
-                    <div>
+                    <div class="footer-col col-md-4">
                         <h3>Follow US</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="https://www.facebook.com/GSA"><i></i></a>
+                                <a href="https://www.facebook.com/GSA" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
-							<li>
-                                <a href="https://twitter.com/USGSA"><i></i></a>
+                            <li>
+                                <a href="https://twitter.com/USGSA" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             <!--<li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
@@ -373,10 +384,9 @@ color: #fff;
                             </li>-->
                         </ul>
                     </div>
-                    <div>
-                        <h3>Questions? Comments?</h3>
-                        <p><a href="mailto:cindya.smith@gsa.gov?Subject=2016EarthDayHackathon">contact us</a>  </p>
-						
+                    <div class="footer-col col-md-4">
+                        <p>Questions? Comments? <a href="mailto:cindya.smith@gsa.gov?Subject=2016EarthDayHackathon">contact us</a>  </p>
+                        
                     </div>
                 </div>
             </div>
@@ -390,22 +400,22 @@ color: #fff;
                 </div>
             </div>
         </div>
-    
+    </footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div>
-        <a href="#page-top">
-            <i></i>
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
         </a>
     </div>
 
     <!-- Portfolio Modals -->
 
-	<!--CEQ Projects -->
+    <!--CEQ Projects -->
     
-    <div id="CEQProjects">
+    <div class="portfolio-modal modal fade" id="CEQProjects" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal">
+            <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -413,13 +423,13 @@ color: #fff;
             </div>
             <div class="container">
                 <div class="row">
-                    <div>
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Federal Dashboard on Sustainable Purchasing</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Create a visual dashboard on sustainable purchasing by agencies using data captured in the government-wide procurement system. Show which agencies are putting their dollars towards environmentally sustainable products and services.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="https://www.whitehouse.gov/administration/eop/ceq">CEQ</a>
                                     </strong>
@@ -432,14 +442,14 @@ color: #fff;
                         </div>
                     </div>
                 </div>
-				 <div class="row">
-                    <div>
+                 <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Assessment of Wildfire Hazard Location for Federal and Public Users</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Create a website or app that allows federal agencies or the public to assess whether or not their property is located in an area of wildfire risk as defined by the Wildland Urban Interface guidelines.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="https://www.whitehouse.gov/administration/eop/ceq">CEQ</a>
                                     </strong>
@@ -449,18 +459,18 @@ color: #fff;
                                     </strong>
                                 </li>-->
                             </ul>
-                            <button type="button"><i></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	
-	<!--CENSUS Projects -->
-    <div id="CENSUSProjects">
+    
+    <!--CENSUS Projects -->
+    <div class="portfolio-modal modal fade" id="CENSUSProjects" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal">
+            <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -468,13 +478,13 @@ color: #fff;
             </div>
             <div class="container">
                 <div class="row">
-                    <div>
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Population Growth vs. Fresh Water Availability Visualization</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Water withdrawal as a percentage of total water available on a global scale. Visualize the same story confined to local geographies in the United States.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.census.gov/">CENSUS</a>
                                     </strong>
@@ -487,14 +497,14 @@ color: #fff;
                         </div>
                     </div>
                 </div>
-				 <div class="row">
-                    <div>
+                 <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Population Growth vs. Amphibian Population Visualization</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Web-based visualization tool that allows an end user to view localities on a map and see an indication of the relationship between human population and the Amphibian population. Perhaps the map could show different color intensities in areas where the Human Population Growth is most closely related to amphibian population decline.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.census.gov/">CENSUS</a>
                                     </strong>
@@ -504,19 +514,19 @@ color: #fff;
                                     </strong>
                                 </li>-->
                             </ul>
-                            <button type="button"><i></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	
-	
-	<!--EPA Projects -->
-    <div id="EPAProjects">
+    
+    
+    <!--EPA Projects -->
+    <div class="portfolio-modal modal fade" id="EPAProjects" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal">
+            <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -524,13 +534,13 @@ color: #fff;
             </div>
             <div class="container">
                 <div class="row">
-                    <div>
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Develop a method to identify fraudulent reporting to the EPA</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Using Benford’s law of statistical probability, build a tool to scan environmental data from industries or other regulated entities to identify potential cases of fraudulent reporting.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www3.epa.gov/">EPA</a>
                                     </strong>
@@ -543,14 +553,14 @@ color: #fff;
                         </div>
                     </div>
                 </div>
-				<div class="row">
-                    <div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Tailored UV Index Forecast for Beaches</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>The UV Index, a numeric index of the strength of cancer-causing UV rays from the sun, is a forecast produced by the National Weather Service. The forecast data are run through the EPA’s Envirofacts and put out to the public through our app and widget. The app has been featured on nationwide media and TV. Develop code that can be deployed on Android and iOS mobile apps that displays UV Index forecast information specific to a defined beach.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www3.epa.gov/">EPA</a>
                                     </strong>
@@ -563,14 +573,14 @@ color: #fff;
                         </div>
                     </div>
                 </div>
-				<div class="row">
-                    <div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Climate Change Indicators Reports</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>The Office of Air has published several climate-related indicators and datasets. Develop improved data visualizations or a consolidated dashboard associated with the climate change indicator data.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www3.epa.gov/">EPA</a>
                                     </strong>
@@ -583,14 +593,14 @@ color: #fff;
                         </div>
                     </div>
                 </div>
-				 <div class="row">
-                    <div>
+                 <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Geofence application to improve environmental awareness</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Develop a mobile app that improves environmental awareness through the use of geo-fences. User would get a push notification of the presence of a green infrastructure project, wilderness area, habitat restoration or other projects from Geo Grants that the EPA has funded.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www3.epa.gov/">EPA</a>
                                     </strong>
@@ -600,19 +610,19 @@ color: #fff;
                                     </strong>
                                 </li>-->
                             </ul>
-                            <button type="button"><i></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	
-	
-		<!--GSA Projects -->
-    <div id="GSAProjects">
+    
+    
+        <!--GSA Projects -->
+    <div class="portfolio-modal modal fade" id="GSAProjects" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal">
+            <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -620,13 +630,13 @@ color: #fff;
             </div>
             <div class="container">
                 <div class="row">
-                    <div>
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Simplifying Sustainable Procurement</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Make it easier for purchasers to buy green products by filling out procurement forms automatically while shopping on the web.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.gsa.gov/">GSA</a>
                                     </strong>
@@ -639,14 +649,14 @@ color: #fff;
                         </div>
                     </div>
                 </div>
-				<div class="row">
-                    <div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Sustainable Decision Making for Building Project Management</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Build a streamlined management tool to help teams collaborate and incorporate sustainability into any building project.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.gsa.gov/">GSA</a>
                                     </strong>
@@ -659,14 +669,14 @@ color: #fff;
                         </div>
                     </div>
                 </div>
-				<div class="row">
-                    <div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Sustainable Facility Camera APP</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Build an app that allows a user to take a photo of products, building materials, and systems and receive green tips and sustainable purchasing information.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.gsa.gov/">GSA</a>
                                     </strong>
@@ -679,14 +689,14 @@ color: #fff;
                         </div>
                     </div>
                 </div>
-				 <div class="row">
-                    <div>
+                 <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Sustainable Reordering</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Help purchasers order green products while out in the world or checking physical inventory via a barcode-scanning app that populated procurement forms. Phone application that allows a user to scan a barcode, looks up the product and notified the user whether it meets latest sustainability requirements.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.gsa.gov/">GSA</a>
                                     </strong>
@@ -696,19 +706,19 @@ color: #fff;
                                     </strong>
                                 </li>-->
                             </ul>
-                            <button type="button"><i></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	
-	
-		<!--NOAA Projects -->
-    <div id="NOAAProjects">
+    
+    
+        <!--NOAA Projects -->
+    <div class="portfolio-modal modal fade" id="NOAAProjects" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal">
+            <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -716,13 +726,13 @@ color: #fff;
             </div>
             <div class="container">
                 <div class="row">
-                    <div>
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Offering Dynamic Climate Normals for custom applications</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>An API, browser extension or add-on (for Internet Explorer or Chrome) that allows users to compute their custom normals from NOAA’s records of surface temperature and precipitation.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.noaa.gov/">NOAA</a>
                                     </strong>
@@ -735,14 +745,14 @@ color: #fff;
                         </div>
                     </div>
                 </div>
-				<div class="row">
-                    <div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Exploiting NOAA’s new Multi-Radar Multi-Sensor precipitation and severe weather mosaic products</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>An app, browser extension or add-on (for Internet Explorer or Chrome) that allows users to visualize and/or compute on NOAA’s records of severe weather and precipitation.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.noaa.gov/">NOAA</a>
                                     </strong>
@@ -755,14 +765,14 @@ color: #fff;
                         </div>
                     </div>
                 </div>
-				<div class="row">
-                    <div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Enabling discovery of NOAA NEXRAD data on the commercial cloud</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Enable users to easily discover NOAA NEXRAD Weather Radar data that are relevant to their application.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.noaa.gov/">NOAA</a>
                                     </strong>
@@ -772,18 +782,17 @@ color: #fff;
                                     </strong>
                                 </li>-->
                             </ul>
-							<button type="button"><i></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	
-			<!--NIST Projects -->
-    <div id="NISTProjects">
+    
+            <!--NIST Projects -->
+    <div class="portfolio-modal modal fade" id="NISTProjects" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal">
+            <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -791,14 +800,14 @@ color: #fff;
             </div>
             <div class="container">
  
-				 <div class="row">
-                    <div>
+                 <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Environmentally-friendly product selection Web interface API</h2>
                             <hr class="star-primary">
                           <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
                             <p>Our goal for the hackers is to help develop a new web application that allows for selection and comparison of building products across their economic and environmental performance based on the user’s specific needs and preferences.  The application should be able to collect user inputs from a graphical user interface, use those inputs to select data from a database or csv files, apply some business rules on the data and then display the data in the form of a graph, table and downloadable data file.</p>
-                            <ul>
+                            <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.nist.gov/">NIST</a>
                                     </strong>
@@ -808,109 +817,109 @@ color: #fff;
                                     </strong>
                                 </li>-->
                             </ul>
-                            <button type="button"><i></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	
-			<!--USDA Projects -->
-    <div id="USDAProjects">
-        <div class="modal-content">
-            <div class="close-modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div>
-                        <div class="modal-body">
-                            <h2>COMING SOON...</h2>
-                            <hr class="star-primary">
-                          <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
-                            <p><!--text--></p>
-                           <!-- <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.noaa.gov/">NOAA</a>
-                                    </strong>
-                                </li>
-                                <!--<li>Project Files:
-                                    <strong><a href="#">Link</a>
-                                    </strong>
-                                </li>
-                            </ul>-->
-                        <button type="button"><i></i> Close</button>
-						</div>
-                    </div>
-                </div>
-				
-				
-            </div>
-        </div>
-    </div>
-	
-				<!--MOI Projects -->
-    <div id="MOIProjects">
-        <div class="modal-content">
-            <div class="close-modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div>
-                        <div class="modal-body">
-						
-                            <h2>COMING SOON...</h2>
-                            <hr class="star-primary">
-                          <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
-                            <p><!--text--></p>
-                           <!-- <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.noaa.gov/">NOAA</a>
-                                    </strong>
-                                </li>
-                                <!--<li>Project Files:
-                                    <strong><a href="#">Link</a>
-                                    </strong>
-                                </li>
-                            </ul>-->
-                        <button type="button"><i></i> Close</button>
-						</div>
-                    </div>
-                </div>
-				
-				
-            </div>
-        </div>
-    </div>
-	
-	
-	
-    <!-- jQuery -->
     
+            <!--USDA Projects -->
+    <div class="portfolio-modal modal fade" id="USDAProjects" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>COMING SOON...</h2>
+                            <hr class="star-primary">
+                          <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
+                            <p><!--text--></p>
+                           <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.noaa.gov/">NOAA</a>
+                                    </strong>
+                                </li>
+                                <!--<li>Project Files:
+                                    <strong><a href="#">Link</a>
+                                    </strong>
+                                </li>
+                            </ul>-->
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+                <!--MOI Projects -->
+    <div class="portfolio-modal modal fade" id="MOIProjects" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                        
+                            <h2>COMING SOON...</h2>
+                            <hr class="star-primary">
+                          <!--  <img src="img/portfolio/CENSUS.PNG" class="img-responsive img-centered" alt="">-->
+                            <p><!--text--></p>
+                           <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.noaa.gov/">NOAA</a>
+                                    </strong>
+                                </li>
+                                <!--<li>Project Files:
+                                    <strong><a href="#">Link</a>
+                                    </strong>
+                                </li>
+                            </ul>-->
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    
-    
-    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
 
     <!-- Contact Form JavaScript -->
-    
-    
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    
+    <script src="js/freelancer.js"></script>
 <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
 </body>
 
 </html>
+Status API Training Shop Blog About Pricing
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
