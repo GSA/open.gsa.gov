@@ -1441,7 +1441,7 @@ ol ol {
   padding-left: 5px;
   padding-right: 5px;
 }
-.list-inline > li a {
+.list-inline > li > a {
   color:#18bc9c;
 }
 dl {
