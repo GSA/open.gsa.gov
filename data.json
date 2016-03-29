@@ -213,7 +213,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Auctions API",
 			"description" : "GSA Auctions offers Federal personal property assets ranging from common place items (such as office equipment and furniture) to more select products like scientific equipment, heavy machinery, airplanes, vessels and vehicles. GSA Auctions’ online capabilities allow GSA to offer assets located across the country to any interested buyer, regardless of location.    Build your own tools using our API to access GSA Auctions listings.  The Auctions API is a GET API which has currently one operation. The operation will retrieve GSA Auctions data.  The output data will be in XML and JSON format. These files are downloadable.  The data in the API output file is live data.",
-			"modified" : "2015-11-09",
+			"modified" : "2016-03-29",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-09-01",
 			"dataQuality" : true,
@@ -232,7 +232,7 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/html",
-					"format" : "API",
+					"format" : "text/html",
 					"title" : "Auctions API",
 					"description" : "GSA Auctions API is a public GET API. The Auction listings will be delivered to the user in two formats. One is JSON and the other one is XML. The auction listings delivered thru the API contains the auction listings from all the participating agencies.\r\n\r\nThe output data will be in XML and JSON format. These files are downloadable.  The data in the API output file is live data.",
 					"downloadURL" : "http://gsa.github.io/auctions_api/"
@@ -242,7 +242,7 @@
 			"bureauCode" : ["023:30"],
 			"programCode" : ["023:009"],
 			"language" : ["us-en"],
-			"theme" : ["API"]
+			"theme" : ["Auctions"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Bureau IT Leadership Directory",
@@ -734,6 +734,40 @@
 			"theme" : ["API"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "Data.gov Daily Sessions",
+			"description" : "Data.gov Daily Sessions 20120101-20151231",
+			"modified" : "2015-12-31",
+			"accessLevel" : "public",
+			"identifier" : "GSA - DATA.GOVMETRICS1",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"isPartOf" : "GSA-2015-09-14-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Hyon Joo Kim",
+				"hasEmail" : "mailto:hyon.kim@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"title" : "Data.gov Daily Sessions",
+					"description" : "Data.gov Daily Sessions 20120101-20151231",
+					"downloadURL" : "https://inventory.data.gov/dataset/e0de4198-eaaa-423a-9154-7af76ab8d822/resource/a78ae43e-0ceb-4f2d-83ac-99c61b249afa/download/analytics-www.data.gov-data.gov-daily-sessions-20120101-20151231---analytics-www.data.gov-data.g.csv"
+				}, {
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"title" : "Data.gov Daily Sessions Day Index",
+					"description" : "Data.gov Daily Sessions 20120101-20151231 Day Index",
+					"downloadURL" : "https://inventory.data.gov/dataset/e0de4198-eaaa-423a-9154-7af76ab8d822/resource/925f6204-5240-4dd1-8604-c279843c8974/download/analytics-www.data.gov-data.gov-daily-sessions-20120101-20151231b---sheet1.csv"
+				}
+			],
+			"keyword" : ["Data.gov Analytics", "metrics"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:019"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Daily Visitor Statistics - Archival",
 			"description" : "This dataset provides distribution of daily visitors to the Data.gov site up to 2013.",
 			"modified" : "2016-01-20",
@@ -884,7 +918,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Visitor Metrics",
 			"description" : "The dataset provides metrics for the number of dataset views in catalog.data.gov broken down by month starting Jan 2014.",
-			"modified" : "2016-01-20",
+			"modified" : "2016-03-02",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139375",
 			"dataQuality" : true,
@@ -1026,6 +1060,105 @@
 			"programCode" : ["023:019"],
 			"language" : ["us-EN"],
 			"theme" : ["Statistics", "Visitors Monthly"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Data.gov Sessions by Month",
+			"description" : "Data.gov Sessions by Month 20120101-20151231",
+			"modified" : "2015-12-31",
+			"accessLevel" : "public",
+			"identifier" : "GSA - DATA.GOVMETRICS4",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"isPartOf" : "GSA-2015-09-14-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Hyon Joo Kim",
+				"hasEmail" : "mailto:hyon.kim@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"title" : "Data.gov Sessions by Month",
+					"description" : "Data.gov Sessions by Month 20120101-20151231",
+					"downloadURL" : "https://inventory.data.gov/dataset/93deddb9-ff7b-43ea-bce6-a747202bae6b/resource/f933a656-37c4-4c21-8ebc-b34a8e1ef891/download/analytics-www.data.gov-data.gov-sessions-by-month-20120101-20151231---analytics-www.data.gov-dat.csv"
+				}, {
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"title" : "Data.gov Sessions by Month Day Index",
+					"description" : "Data.gov Sessions by Month Day Index 20120101-20151231",
+					"downloadURL" : "https://inventory.data.gov/dataset/93deddb9-ff7b-43ea-bce6-a747202bae6b/resource/31218b56-e5a1-4f7d-9ad6-5ddca5f08083/download/analytics-www.data.gov-data.gov-sessions-by-month-20120101-20151231b---analytics-www.data.gov-da.csv"
+				}
+			],
+			"keyword" : ["Data.gov Metrics", "Data.gov Stats"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:019"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Data.gov Sessions by Month from Countries with Sessions Greater than 1000 per Month, Excluding United States",
+			"description" : "Data.gov Sessions by Month from Countries with Sessions Greater than 1000 per Month, Excluding United States 20120101-20151231",
+			"modified" : "2015-12-31",
+			"accessLevel" : "public",
+			"identifier" : "GSA - DATA.GOVMETRICS2",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"isPartOf" : "GSA-2015-09-14-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Hyon Joo Kim",
+				"hasEmail" : "mailto:hyon.kim@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"format" : "csv",
+					"title" : "Data.gov Sessions by Month from Countries with Sessions Greater than 1000 per Month, Excluding United States",
+					"description" : "Data.gov Sessions by Month from Countries with Sessions Greater than 1000 per Month, Excluding United States 20120101-20151231",
+					"downloadURL" : "https://inventory.data.gov/dataset/25013222-c373-4a08-9750-14794daffe66/resource/eb1faa07-1e63-454c-a968-8734a5faf9aa/download/analytics-www.data.gov-data.gov-sessions-by-month-from-countries-with-sessions-greater-than-1000.csv"
+				}
+			],
+			"keyword" : ["data.gov", "data.gov analytics", "metrics"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:019"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Data.gov Sessions by U.S. States by Month",
+			"description" : "Data.gov Sessions by U.S. States by Month 20120101-20151231",
+			"modified" : "2015-12-31",
+			"accessLevel" : "public",
+			"identifier" : "GSA - DATA.GOVMETRICS3",
+			"describedByType" : "text/csv",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"isPartOf" : "GSA-2015-09-14-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Hyon Joo Kim",
+				"hasEmail" : "mailto:hyon.kim@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"format" : "csv",
+					"title" : "Data.gov Sessions by U.S. States by Month",
+					"description" : "Data.gov Sessions by U.S. States by Month 20120101-20151231",
+					"downloadURL" : "https://inventory.data.gov/dataset/77d6edf0-14a8-4e53-a211-403343328be2/resource/302fc081-484e-4de2-be55-f92b7d030691/download/analytics-www.data.gov-data.gov-sessions-by-u.s.-states-by-month-20120101-20151231---analytics-w.csv"
+				}, {
+					"@type" : "dcat:Distribution",
+					"mediaType" : "text/csv",
+					"title" : "Data.gov Sessions by U.S. States by Month Day Index",
+					"description" : "Data.gov Sessions by U.S. States by Month 20120101-20151231 Day Index",
+					"downloadURL" : "https://inventory.data.gov/dataset/77d6edf0-14a8-4e53-a211-403343328be2/resource/3b1dce0e-2cda-4fed-a749-68954abafbc7/download/analytics-www.data.gov-data.gov-sessions-by-u.s.-states-by-month-20120101-20151231b---sheet1.csv"
+				}
+			],
+			"keyword" : ["Data.gov Metrics", "Data.gov Stats"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:019"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Statistics Parent",
@@ -2060,7 +2193,7 @@
 					"format" : "pdf",
 					"title" : "FAS Instructional Letter 2009-01 Applying IFF to Schedule Pricing",
 					"description" : "The GSA Federal Acquisition Service Instructional Letters (ILs) - guidance issued to internal FAS acquisition personnel that generally requires action as a result of a regulatory or programmatic change, e.g. inserting a new clause into solicitations and contracts.",
-					"downloadURL" : "https://inventory.data.gov/dataset/c6b18dfe-afe0-459a-94a0-6441fdf948d1/resource/cca647c7-145a-4439-b00d-9caec26dedf9/download/fasinstructionalletter200901.pdf"
+					"downloadURL" : "https://inventory.data.gov/dataset/c6b18dfe-afe0-459a-94a0-6441fdf948d1/resource/cca647c7-145a-4439-b00d-9caec26dedf9/download/fas-instructional-letter-200901.pdf"
 				}
 			],
 			"keyword" : ["Industrial Funding Fee"],
@@ -2861,7 +2994,7 @@
 					"mediaType" : "text/csv",
 					"format" : "API",
 					"title" : "Full Domain Report",
-					"downloadURL" : "https://inventory.data.gov/dataset/b2c31002-8a5e-4cd0-85bd-6971934f4e59/resource/02706c7b-98e3-4267-8dd8-e3bb2d8c7ce3/download/fulldomainreport01192016.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/b2c31002-8a5e-4cd0-85bd-6971934f4e59/resource/02706c7b-98e3-4267-8dd8-e3bb2d8c7ce3/download/full-domain-report-01192016.csv"
 				}
 			],
 			"keyword" : [".gov domains"],
@@ -2932,7 +3065,7 @@
 					"format" : "json",
 					"title" : "GSA Enterprise Data Inventory",
 					"description" : "GSA Enterprise Data Inventory (EDI)",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edifile02262016.js"
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/624091cc-d015-4ca2-b94f-976be592b8c1/download/edi-file-02-26-2016.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
@@ -3284,7 +3417,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "List of Government APIs",
 			"description" : "A list of individual public APIs maintained by the US government.",
-			"modified" : "2014-05-28",
+			"modified" : "2016-03-04",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139011",
 			"dataQuality" : true,
@@ -3302,8 +3435,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "https://raw.githubusercontent.com/18F/API-All-the-X/gh-pages/_data/individual_apis.yml",
-					"format" : "API",
+					"accessURL" : "https://pages.18f.gov/API-All-the-X/data/individual_apis.json",
+					"format" : "json",
 					"title" : "List of Government APIs"
 				}
 			],
@@ -3316,7 +3449,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "List of Government Developer Hubs",
 			"description" : "A list of public developer hubs maintained by the US government.",
-			"modified" : "2014-05-23",
+			"modified" : "2016-03-04",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139012",
 			"dataQuality" : true,
@@ -3334,8 +3467,8 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "https://raw.githubusercontent.com/18F/API-All-the-X/gh-pages/_data/developer_hubs.yml",
-					"format" : "html",
+					"accessURL" : "https://pages.18f.gov/API-All-the-X/data/developer_hubs.json",
+					"format" : "json",
 					"title" : "List of Government Developer Hubs"
 				}
 			],
@@ -4337,7 +4470,7 @@
 					"format" : "xlsx",
 					"title" : "Networx Business Volume FY15 3rd Quarter",
 					"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-					"downloadURL" : "https://inventory.data.gov/dataset/44bff510-9e9d-4910-8e3f-da64a53f4680/resource/d881a4dd-9cc7-4c8e-86da-bde870f60444/download/networxfy153rdqtr.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/44bff510-9e9d-4910-8e3f-da64a53f4680/resource/d881a4dd-9cc7-4c8e-86da-bde870f60444/download/networx-fy15-3rdqtr.xlsx"
 				}
 			],
 			"keyword" : ["Networx Telecommunications"],
@@ -4368,11 +4501,11 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"mediaType" : "application/vnd.ms-excel",
 					"format" : "xlsx",
 					"title" : "Networx Business Volume FY15 4th Quarter",
 					"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-					"downloadURL" : "https://inventory.data.gov/dataset/18eab5fe-9bbf-4ca5-88d7-f71885052d0c/resource/5e3f57e5-ad4b-4ab0-8628-1508199cacb4/download/networxbusinessvolumefy154thquarter.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/18eab5fe-9bbf-4ca5-88d7-f71885052d0c/resource/5e3f57e5-ad4b-4ab0-8628-1508199cacb4/download/networx-business-volume-fy15-4th-quarter.xlsx"
 				}
 			],
 			"keyword" : ["Contract", "Networx Telecommunications", "Telecommunications"],
@@ -4403,11 +4536,11 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"mediaType" : "application/vnd.ms-excel",
 					"format" : "xlsx",
 					"title" : "Networx Business Volume FY16 1st Quarter",
 					"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
-					"downloadURL" : "https://inventory.data.gov/dataset/c79e79c9-db24-415b-ae5a-ce183449e802/resource/ec4eeb54-fc86-4029-bd4a-f0ca339d1e31/download/networxbusinessvolumefy161stquarter.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/c79e79c9-db24-415b-ae5a-ce183449e802/resource/ec4eeb54-fc86-4029-bd4a-f0ca339d1e31/download/networx-business-volume-fy16-1st-quarter.xlsx"
 				}
 			],
 			"keyword" : ["Contract", "Networx Telecommunications", "Telecommunications"],
@@ -4688,6 +4821,43 @@
 			"theme" : ["Acquisition"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "Pulse HTTPS Survey",
+			"description" : "Results of Pulse's Survey of HTTPS support in Government Agency Websites.",
+			"modified" : "2016-03-04",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-03-03-01",
+			"dataQuality" : true,
+			"issued" : "2015-07-08",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "OCSIT/18F",
+				"subOrganizationOf" : {
+					"@type" : "org:Organization",
+					"name" : "General Services Administration"
+				}
+			},
+			"accrualPeriodicity" : "R/P1Y",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Eric Mill",
+				"hasEmail" : "mailto:eric.mill@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/csv",
+					"format" : "csv",
+					"title" : "Pulse HTTPS Survey",
+					"downloadURL" : "https://pulse.cio.gov/assets/data/tables/https/https-domains.csv"
+				}
+			],
+			"keyword" : ["18F", "government", "https", "pulse"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:019"],
+			"language" : ["en-US"],
+			"theme" : ["HTTPS Survey"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "Purchase Card Transactions July-September 2015",
 			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
 			"modified" : "2016-01-05",
@@ -4712,7 +4882,7 @@
 					"mediaType" : "application/vnd.ms-excel",
 					"format" : "xlsx",
 					"title" : "July September 2015 PC Transactions",
-					"downloadURL" : "https://inventory.data.gov/dataset/fb8096f8-b8a7-4391-beb9-b18907f6a8ed/resource/ba8c523e-cdd8-4245-aed9-ad49ed245da3/download/julysept2015gsapctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/fb8096f8-b8a7-4391-beb9-b18907f6a8ed/resource/ba8c523e-cdd8-4245-aed9-ad49ed245da3/download/julysept-2015-gsa-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
@@ -4771,7 +4941,7 @@
 					"mediaType" : "application/vnd.ms-excel",
 					"format" : "xlsx",
 					"title" : "April June 2015 PC Transactions",
-					"downloadURL" : "https://inventory.data.gov/dataset/74a95741-336c-43ce-93e3-820c4074908c/resource/ccef13ed-62c3-4abc-af56-05133ea28e54/download/apriljune2015pctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/74a95741-336c-43ce-93e3-820c4074908c/resource/ccef13ed-62c3-4abc-af56-05133ea28e54/download/april-june-2015-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
@@ -4805,7 +4975,7 @@
 					"mediaType" : "application/vnd.ms-excel",
 					"format" : "xlsx",
 					"title" : "January March 2015 PC Transactions",
-					"downloadURL" : "https://inventory.data.gov/dataset/71e0196c-533a-4efc-a878-1f447858b0c3/resource/4a8b8081-eef6-44a3-9840-58f459eb5388/download/januarymarch2015pctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/71e0196c-533a-4efc-a878-1f447858b0c3/resource/4a8b8081-eef6-44a3-9840-58f459eb5388/download/january-march-2015-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
@@ -4839,7 +5009,7 @@
 					"mediaType" : "application/vnd.ms-excel",
 					"format" : "xlsx",
 					"title" : "October December 2014 PC Transactions",
-					"downloadURL" : "https://inventory.data.gov/dataset/68562ea5-5cbf-49a3-b880-1b64f265139a/resource/4f8ca985-9bc3-41da-96f5-8fa8a2784665/download/octoberdecember2014pctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/68562ea5-5cbf-49a3-b880-1b64f265139a/resource/4f8ca985-9bc3-41da-96f5-8fa8a2784665/download/october-december-2014-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
@@ -4874,7 +5044,7 @@
 					"format" : "xlsx",
 					"title" : "July September 2014 PC Transactions",
 					"description" : "Purchases made with purchase card.",
-					"downloadURL" : "https://inventory.data.gov/dataset/c8891019-aef4-4395-a5e4-70c77f2904bf/resource/51c7579d-739d-4f34-8c48-9e00b2eea0ee/download/julyseptember2014pctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/c8891019-aef4-4395-a5e4-70c77f2904bf/resource/51c7579d-739d-4f34-8c48-9e00b2eea0ee/download/july-september-2014-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
@@ -4909,7 +5079,7 @@
 					"format" : "xlsx",
 					"title" : "April June 2014 PC Transactions",
 					"description" : "Purchases made with the purchase card.",
-					"downloadURL" : "https://inventory.data.gov/dataset/a554234f-cf00-4a02-8fed-e333580660fd/resource/a01a43ad-5302-4558-ba24-2c9872f1d398/download/apriljune2014pctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/a554234f-cf00-4a02-8fed-e333580660fd/resource/a01a43ad-5302-4558-ba24-2c9872f1d398/download/april-june-2014-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
@@ -4944,7 +5114,7 @@
 					"format" : "xlsx",
 					"title" : "January March 2014 PC Transactions",
 					"description" : "Purchases made with the purchase card.",
-					"downloadURL" : "https://inventory.data.gov/dataset/a2f142d9-8996-4b2f-8398-bb8c53d33cd8/resource/2f977100-51be-4438-9629-fa984ecb93cc/download/januarymarch2014pctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/a2f142d9-8996-4b2f-8398-bb8c53d33cd8/resource/2f977100-51be-4438-9629-fa984ecb93cc/download/january-march-2014-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
@@ -4979,7 +5149,7 @@
 					"format" : "xlsx",
 					"title" : "October December 2013 PC Transactions",
 					"description" : "Purchases made with the purchase card.",
-					"downloadURL" : "https://inventory.data.gov/dataset/414d204b-541f-441d-84c1-68d3f27ed3be/resource/5d54bcd6-f004-4dc3-bf53-3438aa3fb448/download/octoberdecember2013pctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/414d204b-541f-441d-84c1-68d3f27ed3be/resource/5d54bcd6-f004-4dc3-bf53-3438aa3fb448/download/october-december-2013-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
@@ -5014,7 +5184,7 @@
 					"format" : "xls",
 					"title" : "Purchase Card Transactions Oct - Dec 2015",
 					"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
-					"downloadURL" : "https://inventory.data.gov/dataset/401dd7af-0042-4151-9145-1c86d945b201/resource/43be4fac-09fd-42a2-acea-8edd8752d0b2/download/1stquarter2016octdec2015pctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/401dd7af-0042-4151-9145-1c86d945b201/resource/43be4fac-09fd-42a2-acea-8edd8752d0b2/download/1st-quarter-2016-octdec-2015-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["p-card", "purchase card", "purchase card transactions", "transactions"],
@@ -5076,7 +5246,7 @@
 					"format" : "xlsx",
 					"title" : "July September 2015 BOCA PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
-					"downloadURL" : "https://inventory.data.gov/dataset/09ad9d3a-9758-44e1-8e94-19ff8ca13f42/resource/cafc450c-3ab9-41a9-9b5c-16494ed5db68/download/julyseptember2015bocapctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/09ad9d3a-9758-44e1-8e94-19ff8ca13f42/resource/cafc450c-3ab9-41a9-9b5c-16494ed5db68/download/july-september2015-boca-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
@@ -5112,7 +5282,7 @@
 					"format" : "xlsx",
 					"title" : "April June 2015 BOCA PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
-					"downloadURL" : "https://inventory.data.gov/dataset/284cd4e6-da37-446d-8ca3-79569780f4d5/resource/3d77fead-e5f8-49ad-9d82-0be928ec4abb/download/apriljune2015bocapctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/284cd4e6-da37-446d-8ca3-79569780f4d5/resource/3d77fead-e5f8-49ad-9d82-0be928ec4abb/download/april-june-2015-boca-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
@@ -5148,7 +5318,7 @@
 					"format" : "excel",
 					"title" : "October December 2015 BOCA PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
-					"downloadURL" : "https://inventory.data.gov/dataset/b580478a-b61d-4553-bcf9-848cc4214aa8/resource/c2837a8d-6e83-4873-806b-f1ab58d64d13/download/octoberdecember2015bocapctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/b580478a-b61d-4553-bcf9-848cc4214aa8/resource/c2837a8d-6e83-4873-806b-f1ab58d64d13/download/october-december-2015-boca-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
@@ -5184,7 +5354,7 @@
 					"format" : "xlsx",
 					"title" : "January March 2015 BOCA PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
-					"downloadURL" : "https://inventory.data.gov/dataset/163269b9-f474-4a28-a413-d1ac79fc578b/resource/abf3e5e9-fa7a-43e8-9ea6-52e644b7551e/download/januarymarch2015bocapctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/163269b9-f474-4a28-a413-d1ac79fc578b/resource/abf3e5e9-fa7a-43e8-9ea6-52e644b7551e/download/january-march-2015-boca-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
@@ -5220,7 +5390,7 @@
 					"format" : "xlsx",
 					"title" : "October December 2014 BOCA PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
-					"downloadURL" : "https://inventory.data.gov/dataset/b9b49662-4f9c-4048-811d-0b024ecb376d/resource/cbe7ccee-aa86-4f39-9f5c-0ca8b9442c68/download/octoberdecember2014bocapctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/b9b49662-4f9c-4048-811d-0b024ecb376d/resource/cbe7ccee-aa86-4f39-9f5c-0ca8b9442c68/download/october-december-2014--boca-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
@@ -5256,7 +5426,7 @@
 					"format" : "xlsx",
 					"title" : "July September 2014 BOCA PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
-					"downloadURL" : "https://inventory.data.gov/dataset/c626be85-ca43-4608-b573-fd9bc0006bb2/resource/d0471cb0-ec64-443b-9a56-a2a0bddc5237/download/julyseptember2014bocapctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/c626be85-ca43-4608-b573-fd9bc0006bb2/resource/d0471cb0-ec64-443b-9a56-a2a0bddc5237/download/july-september-2014-boca-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
@@ -5292,7 +5462,7 @@
 					"format" : "xlsx",
 					"title" : "April June 2014 BOCA PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
-					"downloadURL" : "https://inventory.data.gov/dataset/a1dd6e03-6a27-4177-9f6c-aa59a8e4291f/resource/8a666bdd-a8e5-4f81-8a18-d2ac6ba03a60/download/apriljune2014bocapctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/a1dd6e03-6a27-4177-9f6c-aa59a8e4291f/resource/8a666bdd-a8e5-4f81-8a18-d2ac6ba03a60/download/april-june-2014-boca-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
@@ -5328,7 +5498,7 @@
 					"format" : "xlsx",
 					"title" : "October December 2013 BOCA PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
-					"downloadURL" : "https://inventory.data.gov/dataset/46d614e2-dcc6-4d9b-aa61-da4eea26d767/resource/810cb259-0efe-4efd-9490-a94965dc1ab1/download/octoberdecember2013bocapctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/46d614e2-dcc6-4d9b-aa61-da4eea26d767/resource/810cb259-0efe-4efd-9490-a94965dc1ab1/download/october-december-2013-boca-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
@@ -5364,7 +5534,7 @@
 					"format" : "xlsx",
 					"title" : "April June 2014 OIG PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
-					"downloadURL" : "https://inventory.data.gov/dataset/0a5b4508-03ab-431f-940a-bae972ef2382/resource/d5d026da-23c8-4f6f-8e78-6699045b984f/download/apriljune2014oigpctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/0a5b4508-03ab-431f-940a-bae972ef2382/resource/d5d026da-23c8-4f6f-8e78-6699045b984f/download/april-june-2014-oig-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["Inspector General", "Office of Inspector General", "Purchase Card", "transactions"],
@@ -5426,7 +5596,7 @@
 					"format" : "xlsx",
 					"title" : "January March 2014 OIG PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
-					"downloadURL" : "https://inventory.data.gov/dataset/c227f1bd-f127-4da3-92b1-665809646ee5/resource/70a9b97f-6f52-40db-bf95-545f5c809572/download/januarymarch2014oigpctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/c227f1bd-f127-4da3-92b1-665809646ee5/resource/70a9b97f-6f52-40db-bf95-545f5c809572/download/january-march-2014-oig-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["Inspector General", "Office of Inspector General", "Purchase Card", "transactions"],
@@ -5462,7 +5632,7 @@
 					"format" : "xlsx",
 					"title" : "October December 2013 OIG PC Transactions",
 					"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the Office of the Inspector General.",
-					"downloadURL" : "https://inventory.data.gov/dataset/5f832b05-cdf6-4c63-88f8-d05390a06029/resource/8e9fbfe8-d2b0-4a48-96cd-dc5302c279e0/download/octoberdecember2013oigpctransactions.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/5f832b05-cdf6-4c63-88f8-d05390a06029/resource/8e9fbfe8-d2b0-4a48-96cd-dc5302c279e0/download/october-december-2013-oig-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["Inspector General", "Office of Inspector General", "Purchase Card", "transactions"],
@@ -5992,7 +6162,7 @@
 					"mediaType" : "application/vnd.ms-excel",
 					"format" : "xlsx",
 					"title" : "Time to Hire",
-					"downloadURL" : "https://inventory.data.gov/dataset/58fa1cd3-c1bf-4492-964d-f994b26a6cae/resource/f6d8dd83-3080-470f-b453-03f8ead0228f/download/timetohiredatafile.xlsx"
+					"downloadURL" : "https://inventory.data.gov/dataset/58fa1cd3-c1bf-4492-964d-f994b26a6cae/resource/f6d8dd83-3080-470f-b453-03f8ead0228f/download/time-to-hire-data-file.xlsx"
 				}
 			],
 			"keyword" : ["Application", "Employment", "Human Capital", "Jobs", "Time2Hire", "USAJobs", "Vacancy"],
