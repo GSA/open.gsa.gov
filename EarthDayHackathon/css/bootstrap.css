@@ -1441,8 +1441,8 @@ ol ol {
   padding-left: 5px;
   padding-right: 5px;
 }
-.list-inline a {
-  color: #18bc9c;
+.list-inline > li a {
+  color:#18bc9c;
 }
 dl {
   margin-top: 0;
