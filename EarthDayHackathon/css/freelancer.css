@@ -457,3 +457,7 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.copyright a {
+    color: #18bc9c
+}
