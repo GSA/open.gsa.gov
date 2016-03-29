@@ -75,6 +75,11 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+hr.star-primary a {
+    text-decoration: none;
+    color: #18bc9c;
+}
+
 .img-centered {
     margin: 0 auto;
 }
