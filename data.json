@@ -6673,7 +6673,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Subcontracting Directory for Small Businesses",
 			"description" : "The GSA Subcontracting Directory list large Prime Contractors who, by law, are required to establish plans and goals for subcontracting with Small Business Firms.",
-			"modified" : "2015-10-26",
+			"modified" : "2015-04-27",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-10-26-01",
 			"dataQuality" : true,
@@ -6694,12 +6694,12 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "text/csv",
-					"format" : "csv",
-					"title" : "SubContractor Directory - Q3 - 2015",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "excel",
+					"title" : "SubContractor Directory - March 2016",
 					"describedBy" : "http://gsa.gov/subdirectory",
 					"describedByType" : "text/csv",
-					"downloadURL" : "https://inventory.data.gov/dataset/50bfccab-460c-4f18-9f17-28c4104e6d50/resource/2f9e9397-c404-4d3f-8438-34baecaa1c18/download/subkdirectory3rdqtr2015sept0915.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/50bfccab-460c-4f18-9f17-28c4104e6d50/resource/2f9e9397-c404-4d3f-8438-34baecaa1c18/download/subkdirectorymar2016.xls"
 				}
 			],
 			"keyword" : ["Prime Contractors", "Subcontracting", "Subcontracting Directory"],
