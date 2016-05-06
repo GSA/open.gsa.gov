@@ -918,7 +918,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Visitor Metrics",
 			"description" : "The dataset provides metrics for the number of dataset views in catalog.data.gov broken down by month starting Jan 2014.",
-			"modified" : "2016-04-05",
+			"modified" : "2016-05-06",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139375",
 			"dataQuality" : true,
@@ -2972,7 +2972,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : ".Gov Domains API",
 			"description" : "This dataset offers the list of all .gov domains, including state, local, and tribal .gov domains. It does not include .mil domains, or other federal domains outside of .gov and .fed.us.",
-			"modified" : "2016-01-19",
+			"modified" : "2016-05-02",
 			"accessLevel" : "public",
 			"identifier" : "GSA-138675",
 			"dataQuality" : true,
@@ -2994,7 +2994,7 @@
 					"mediaType" : "text/csv",
 					"format" : "API",
 					"title" : "Full Domain Report",
-					"downloadURL" : "https://inventory.data.gov/dataset/b2c31002-8a5e-4cd0-85bd-6971934f4e59/resource/02706c7b-98e3-4267-8dd8-e3bb2d8c7ce3/download/full-domain-report-01192016.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/b2c31002-8a5e-4cd0-85bd-6971934f4e59/resource/02706c7b-98e3-4267-8dd8-e3bb2d8c7ce3/download/federal-domains-report-05022016.csv"
 				}
 			],
 			"keyword" : [".gov domains"],
@@ -6437,7 +6437,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-04-04",
+			"modified" : "2016-05-02",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25251",
 			"dataQuality" : true,
@@ -6457,10 +6457,9 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "excel",
+					"mediaType" : "text/csv",
 					"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
-					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/39d5d9dd-caa8-42d2-a7e4-7d2058c9e240/download/datagovbldgrexus.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/d99fb185-90cb-4f09-8835-281d8ec1d808/download/datagovbldgrexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
@@ -6490,7 +6489,7 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "text/csv",
 					"format" : "excel",
 					"title" : "Real Estate Across the United States (REXUS) Lease",
 					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/650b9646-1879-4509-a104-0fffd1b575ea/download/datagovlserexus.csv"
