@@ -3257,7 +3257,7 @@
 			"accrualPeriodicity" : "R/P1Y",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "Loreliei Kowalski",
+				"fn" : "Lorelei Kowalski",
 				"hasEmail" : "mailto:lorelei.kowalski@gsa.gov"
 			},
 			"distribution" : [{
