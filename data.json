@@ -2430,7 +2430,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Aircraft Cost and Utilization Data",
 			"description" : "Federal aviation data is submitted quarterly to the Federal Aviation Interactive Reporting System (FARIS) IT application.  This is a GSA system which is a secure, web-based application.  The report summarizes the Annual aviation cost and utilization information submitted by the thirteen agencies that own or operate aircraft as part of their mission.",
-			"modified" : "2010-03-31",
+			"modified" : "2016-05-10",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2082",
 			"dataQuality" : true,
@@ -2446,8 +2446,8 @@
 			"accrualPeriodicity" : "R/P1Y",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "Joseph J Spurr",
-				"hasEmail" : "mailto:joseph.spurr@gsa.gov"
+				"fn" : "Robert Galloway",
+				"hasEmail" : "mailto:robert.galloway@gsa.gov"
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
@@ -2574,7 +2574,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Mail Expenditures",
 			"description" : "Agencies annually report mail data using the Simplified Mail Accountability Reporting Tool (SMART), a web-based reporting tool cosponsored by GSA and the Department of Energy.  The Annual Mail Management Report publishes mail cost, professional certifications and the resulting data tables are available in these datasets.",
-			"modified" : "2012-04-01",
+			"modified" : "2016-05-10",
 			"accessLevel" : "public",
 			"identifier" : "GSA-6386",
 			"dataQuality" : true,
@@ -2590,8 +2590,8 @@
 			"accrualPeriodicity" : "R/P1Y",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "Linda J Willoughby",
-				"hasEmail" : "mailto:linda.willoughby@gsa.gov"
+				"fn" : "Lois Mandell",
+				"hasEmail" : "mailto:lois.mandell@gsa.gov"
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
@@ -2711,7 +2711,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Real Property Profile (FRPP)",
 			"description" : "The Federal Real Property Report includes summary data for the federal government's inventory of land, building, and structure assets around the world, as of September 30th each year.",
-			"modified" : "2016-01-07",
+			"modified" : "2016-05-10",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 138962",
 			"dataQuality" : true,
@@ -2724,8 +2724,8 @@
 			"accrualPeriodicity" : "R/P1Y",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "George W Deryckere",
-				"hasEmail" : "mailto:george.deryckere@gsa.gov"
+				"fn" : "Aluanda Drain",
+				"hasEmail" : "mailto:aluanda.drain@gsa.gov"
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
@@ -3241,7 +3241,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Federal Advisory Committee Act (FACA) Database-Complete-Raw",
 			"description" : "The Federal Advisory Committee Act (FACA) database is used by Federal agencies to continuously manage an average of 1,000 advisory committees government-wide. This database is also used by the Congress to perform oversight of related Executive Branch programs and by the public, the media, and others, to stay abreast of important developments resulting from advisory committee activities.  Although centrally supported by the General Services Administration's (GSA) Committee Management Secretariat, the database represents a true shared system wherein each participating agency and individual committee manager has responsibility for providing accurate and timely information that may be used to assure that the system's wide array of users has access to data required by FACA.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-05-10",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-08-26-01",
 			"dataQuality" : false,
@@ -3257,8 +3257,8 @@
 			"accrualPeriodicity" : "R/P1Y",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "George Deryckere",
-				"hasEmail" : "mailto:george.deryckere@gsa.gov"
+				"fn" : "Loreliei Kowalski",
+				"hasEmail" : "mailto:lorelei.kowalski@gsa.gov"
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
