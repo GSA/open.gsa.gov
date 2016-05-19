@@ -475,9 +475,9 @@
 			"theme" : ["API"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "City Pair Program API",
-			"description" : "This API provides access to the City Pair Program FY15 Award data.",
-			"modified" : "2015-11-16",
+			"title" : "City Pair Program (CSV)",
+			"description" : "This csv file provides access to the City Pair Program FY15 Award data.",
+			"modified" : "2015-05-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 155327",
 			"dataQuality" : true,
@@ -500,7 +500,7 @@
 					"downloadURL" : "https://apps.fas.gsa.gov/citypairs/createcsv.cfm?runsched=yes&award_year=2015"
 				}
 			],
-			"keyword" : ["API", "City Pair Program"],
+			"keyword" : ["City Pair Program"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:010"],
 			"language" : ["en-us"],
