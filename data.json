@@ -3143,7 +3143,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA IT Reform Cost Savings/Avoidance",
 			"description" : "GSA IT provides data related to Agency IT initiatives that save or avoid expenditures.  This data is provided as a requirement of OMB's Integrated Data Collection (IDC) and posted publicly as a requirement of the Federal Information Technology Acquisition Reform Act (FITARA) leglislation.",
-			"modified" : "2015-11-30",
+			"modified" : "2016-05-25",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-25-01",
 			"issued" : "2015-11-25",
@@ -3164,7 +3164,7 @@
 					"format" : "JSON",
 					"title" : "GSA IT Reform Cost Savings/Avoidance",
 					"conformsTo" : "https://management.cio.gov/schemaexamples/costSavingsAvoidanceSchema.json",
-					"downloadURL" : "https://inventory.data.gov/dataset/57f52388-9b32-4069-925f-e0de9c5c6ea4/resource/87eb8833-7abb-432b-a272-e611c0aff04a/download/gsaitcostsavingsavoidance20160217.json"
+					"downloadURL" : "https://inventory.data.gov/dataset/57f52388-9b32-4069-925f-e0de9c5c6ea4/resource/87eb8833-7abb-432b-a272-e611c0aff04a/download/gsaitcostsavingsavoidance20160525.json"
 				}
 			],
 			"keyword" : ["GSA IT", "GSA IT reform cost savings", "cost avoidance", "cost savings", "savings"],
@@ -6471,7 +6471,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-05-02",
+			"modified" : "2016-06-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25251",
 			"dataQuality" : true,
@@ -6492,8 +6492,9 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
-					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/d99fb185-90cb-4f09-8835-281d8ec1d808/download/datagovbldgrexus.csv"
+					"format" : "csv",
+					"title" : "Rexus Inventory Building",
+					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/bb0cf5af-948e-4c71-bc67-5d4a13058819/download/datagovbldgrexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
@@ -6524,9 +6525,9 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"format" : "excel",
-					"title" : "Real Estate Across the United States (REXUS) Lease",
-					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/650b9646-1879-4509-a104-0fffd1b575ea/download/datagovlserexus.csv"
+					"format" : "csv",
+					"title" : "Rexus Lease",
+					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/f1476f48-a4d8-4adc-941b-64573ae61562/download/datagovlserexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
