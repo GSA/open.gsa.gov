@@ -2867,6 +2867,45 @@
 			"theme" : ["Acquisition"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "FedRAMP Authorization Letters",
+			"description" : "A JSON export of cloud service providers authorized and in process of authorization by FedRAMP, as well as the agencies that use them.",
+			"modified" : "2016-06-20",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-07-19-01",
+			"dataQuality" : true,
+			"describedBy" : "https://github.com/18F/fedramp-micropurchase/blob/master/schema.json",
+			"describedByType" : "application/json",
+			"issued" : "2016-07-19",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "OCSIT/18F",
+				"subOrganizationOf" : {
+					"@type" : "org:Organization",
+					"name" : "General Services Administration"
+				}
+			},
+			"accrualPeriodicity" : "R/P1Y",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Gray Brooks",
+				"hasEmail" : "mailto:gray.brooks@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"accessURL" : "https://github.com/18F/fedramp-micropurchase/blob/master/data/data-2016-06-17.json",
+					"format" : "json",
+					"title" : "FedRAMP Authorization Data",
+					"describedBy" : "https://github.com/18F/fedramp-micropurchase/blob/master/schema.json",
+					"describedByType" : "application/json"
+				}
+			],
+			"keyword" : ["18F", "FISMA", "FedRAMP", "cloud", "cloud service providers"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:019"],
+			"language" : ["en-US"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "Fine Arts Database (FAD)",
 			"description" : "The Fine Arts Database records information on federally owned art in the control of the GSA; this includes the location, current condition and information on artists.",
 			"modified" : "2015-11-16",
@@ -4963,7 +5002,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Analytics.USA.gov Datasets",
 			"description" : "High level website analytics from across the government domain.",
-			"modified" : "2016-04-12",
+			"modified" : "2016-07-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-03",
 			"dataQuality" : true,
@@ -4992,7 +5031,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Current Active Users of Government Websites",
 			"description" : "The total number of visitors to government websites in the last minute.",
-			"modified" : "2016-04-13",
+			"modified" : "2016-07-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-11",
 			"dataQuality" : true,
@@ -5030,7 +5069,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Visitors Per Hour For The Last Day",
 			"description" : "The visitors to government websites for each hour in the last 24 hours.",
-			"modified" : "2016-04-12",
+			"modified" : "2016-07-19",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-12",
 			"dataQuality" : true,
