@@ -2869,7 +2869,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "FedRAMP Authorization Letters",
 			"description" : "A JSON export of cloud service providers authorized and in process of authorization by FedRAMP, as well as the agencies that use them.",
-			"modified" : "2016-06-20",
+			"modified" : "2016-07-20",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-07-19-01",
 			"dataQuality" : true,
@@ -2888,8 +2888,8 @@
 			"accrualPeriodicity" : "R/P1Y",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "Gray Brooks",
-				"hasEmail" : "mailto:gray.brooks@gsa.gov"
+				"fn" : "Laura Gerhardt",
+				"hasEmail" : "mailto:laura.gerhardt@gsa.gov"
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
