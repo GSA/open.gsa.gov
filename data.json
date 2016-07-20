@@ -6525,8 +6525,8 @@
 			"accrualPeriodicity" : "R/P1M",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "Dong Zhang",
-				"hasEmail" : "mailto:dong.zhang@gsa.gov"
+				"fn" : "Steve Peters",
+				"hasEmail" : "mailto:steve.peters@gsa.gov"
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
@@ -6558,8 +6558,8 @@
 			"accrualPeriodicity" : "R/P1M",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "Dong Zhang",
-				"hasEmail" : "mailto:dong.zhang@gsa.gov"
+				"fn" : "Steve Peters",
+				"hasEmail" : "mailto:steve.peters@gsa.gov"
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
