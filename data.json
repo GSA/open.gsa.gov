@@ -736,9 +736,10 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Daily Sessions",
 			"description" : "Data.gov Daily Sessions 20120101-20151231",
-			"modified" : "2015-12-31",
+			"modified" : "2016-08-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA - DATA.GOVMETRICS1",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
@@ -1064,9 +1065,10 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Sessions by Month",
 			"description" : "Data.gov Sessions by Month 20120101-20151231",
-			"modified" : "2015-12-31",
+			"modified" : "2016-08-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA - DATA.GOVMETRICS4",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
@@ -1098,9 +1100,10 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Sessions by Month from Countries with Sessions Greater than 1000 per Month, Excluding United States",
 			"description" : "Data.gov Sessions by Month from Countries with Sessions Greater than 1000 per Month, Excluding United States 20120101-20151231",
-			"modified" : "2015-12-31",
+			"modified" : "2016-08-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA - DATA.GOVMETRICS2",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
@@ -1127,10 +1130,11 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Sessions by U.S. States by Month",
 			"description" : "Data.gov Sessions by U.S. States by Month 20120101-20151231",
-			"modified" : "2015-12-31",
+			"modified" : "2016-08-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA - DATA.GOVMETRICS3",
 			"describedByType" : "text/csv",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
@@ -2869,7 +2873,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "FedRAMP Authorization Letters",
 			"description" : "A JSON export of cloud service providers authorized and in process of authorization by FedRAMP, as well as the agencies that use them.",
-			"modified" : "2016-07-20",
+			"modified" : "2016-08-02",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-07-19-01",
 			"dataQuality" : true,
@@ -2888,8 +2892,8 @@
 			"accrualPeriodicity" : "R/P1Y",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
-				"fn" : "Laura Gerhardt",
-				"hasEmail" : "mailto:laura.gerhardt@gsa.gov"
+				"fn" : "Matthew Goodrich",
+				"hasEmail" : "mailto:matthew.goodrich@gsa.gov"
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
@@ -3152,10 +3156,11 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA FITARA Actions and Milestones - April 30, 2016",
 			"description" : "GSA's Actions and Milestones as required by the April 30, 2016, submission to OMB.  This file is in the required JSON format, following the OMB schema found here: https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
-			"modified" : "2016-04-27",
+			"modified" : "2016-08-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-04-27-01",
 			"conformsTo" : "https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
 				"name" : "General Services Administration"
@@ -6025,6 +6030,40 @@
 			"theme" : ["Card Services Program"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions April - June 2016",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-08-03",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-08-03-01",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xls",
+					"title" : "Apr-Jun 2016 PC Transactions",
+					"downloadURL" : "https://inventory.data.gov/dataset/31b9e4bb-768f-4851-9e63-b8a9392143cb/resource/68c0a56e-12ff-4019-9752-2729bcad1c96/download/apr-jun-2016-pc-transactions.xlsx"
+				}
+			],
+			"keyword" : ["january", "march", "purchase card", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "Purchase Card Transactions - Board of Contract Appeals Parent",
 			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
 			"modified" : "2016-01-06",
@@ -6510,7 +6549,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-07-11",
+			"modified" : "2016-08-03",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25251",
 			"dataQuality" : true,
@@ -6533,7 +6572,7 @@
 					"mediaType" : "text/csv",
 					"format" : "csv",
 					"title" : "data_gov_bldg_rexus",
-					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/900e7c99-8036-4db6-9613-634af25f0b9e/download/datagovbldgrexus.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/d9561be7-53ec-4be7-979e-2f7795f90712/download/datagovbldgrexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
@@ -6543,7 +6582,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) (Lease)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-07-11",
+			"modified" : "2016-08-03",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25261",
 			"dataQuality" : true,
@@ -6566,7 +6605,7 @@
 					"mediaType" : "text/csv",
 					"format" : "csv",
 					"title" : "data_gov_lse_rexus",
-					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/d88e74a1-bf5e-4009-9686-0d9b5fad9d0a/download/datagovlserexus.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/38c7dce0-77fd-4a11-9cd8-3c9327d9e3f5/download/datagovlserexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
