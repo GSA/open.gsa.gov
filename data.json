@@ -2873,7 +2873,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "FedRAMP Authorization Letters",
 			"description" : "A JSON export of cloud service providers authorized and in process of authorization by FedRAMP, as well as the agencies that use them.",
-			"modified" : "2016-08-16",
+			"modified" : "2016-08-17",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-07-19-01",
 			"dataQuality" : true,
@@ -2899,7 +2899,7 @@
 					"@type" : "dcat:Distribution",
 					"accessURL" : "https://github.com/18F/fedramp-data/blob/master/data/data.json",
 					"format" : "json",
-					"title" : "FedRAMP Authorization Data",
+					"title" : "FedRAMP Authorization Letters",
 					"describedBy" : "https://github.com/18F/fedramp-micropurchase/blob/master/schema.json",
 					"describedByType" : "application/json"
 				}
