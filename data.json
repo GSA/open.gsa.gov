@@ -4658,6 +4658,40 @@
 			"theme" : ["Telecommunications Services"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "Networx Business Volume FY2016 3rd Quarter",
+			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
+			"modified" : "2016-05-18",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-08-22-01",
+			"dataQuality" : true,
+			"issued" : "2015-11-13",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2015-08-27P",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Toni L Holloway",
+				"hasEmail" : "mailto:toni.holloway@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
+					"title" : "Networx Total Revenue FY16 3rdQtr",
+					"downloadURL" : "https://inventory.data.gov/dataset/af7911e9-5d15-4a07-9b19-1a81204fb2d9/resource/f91650f5-0881-4b82-a6a4-8599ee919cf1/download/networxtotrevfy163rdqtr.xlsx"
+				}
+			],
+			"keyword" : ["Contract", "Networx Telecommunications", "Telecommunications"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:019"],
+			"language" : ["en-US"],
+			"theme" : ["Telecommunications Services"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "New Construction and Repair and Alteration (R&A) Projects",
 			"description" : "This map shows new construction and major R&A projects in federal buildings under GSA’s custody and control that are above the current prospectus threshold of $2.85 million. New construction and major R&A projects for two different fiscal years are displayed on the map. Projects for FY2014 were funded as part of the Consolidated Appropriations Act of 2014, and GSA will begin to execute these projects this year. Projects for FY2015 have been included in the President’s Budget request, but require approval and funding from Congress before the projects can begin.",
 			"modified" : "2014-04-28",
@@ -4860,7 +4894,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Per Diem Reimbursement Rates",
 			"description" : "The dataset contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 362 locations across the continental United States for Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014 and Fiscal Year 2013, as well as the standard per diem rates for any locations not specifically listed.",
-			"modified" : "2016-01-21",
+			"modified" : "2016-08-22",
 			"accessLevel" : "public",
 			"identifier" : "GSA-31641",
 			"dataQuality" : true,
@@ -4881,10 +4915,10 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "text/csv",
-					"format" : "text/csv",
-					"title" : "Per_Diem_Reimbursement_Rates.csv",
-					"description" : "Updated through 2016",
-					"downloadURL" : "https://inventory.data.gov/dataset/ad729937-b245-4eec-a88d-b72eb36d8106/resource/996f733b-7f9c-4011-a1a0-9768f67c1623/download/perdiemreimbursementrates2016.csv"
+					"format" : "csv",
+					"title" : "Per Diem Reimbursement Rates",
+					"description" : "Updated through 2017",
+					"downloadURL" : "https://inventory.data.gov/dataset/ad729937-b245-4eec-a88d-b72eb36d8106/resource/8ea44bc4-22ba-4386-b84c-1494ab28964b/download/perdiemreimbursementrates.csv"
 				}
 			],
 			"keyword" : ["federal per diem", "lodging", "m ie", "maximum per diem rates", "meals and incidental expenses", "per diem"],
@@ -4931,7 +4965,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Pulse HTTPS Survey",
 			"description" : "Results of Pulse's Survey of HTTPS support in Government Agency Websites.",
-			"modified" : "2016-04-12",
+			"modified" : "2016-08-18",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-01",
 			"dataQuality" : true,
@@ -4945,7 +4979,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/P1Y",
+			"accrualPeriodicity" : "irregular",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Eric Mill",
@@ -4969,7 +5003,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Pulse Analytics Participation Survey",
 			"description" : "Results of Pulse's survey of analytics participation on government agency websites.",
-			"modified" : "2016-04-12",
+			"modified" : "2016-08-18",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-02",
 			"dataQuality" : true,
@@ -4983,7 +5017,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/P1Y",
+			"accrualPeriodicity" : "irregular",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Eric Mill",
