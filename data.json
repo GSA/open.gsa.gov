@@ -2873,7 +2873,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "FedRAMP Authorization Letters",
 			"description" : "A JSON export of cloud service providers authorized and in process of authorization by FedRAMP, as well as the agencies that use them.",
-			"modified" : "2016-08-17",
+			"modified" : "2016-08-22",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-07-19-01",
 			"dataQuality" : true,
@@ -2889,7 +2889,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/P1Y",
+			"accrualPeriodicity" : "irregular",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Matthew Goodrich",
@@ -5041,7 +5041,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Analytics.USA.gov Datasets",
 			"description" : "High level website analytics from across the government domain.",
-			"modified" : "2016-07-19",
+			"modified" : "2016-08-22",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-03",
 			"dataQuality" : true,
@@ -5055,7 +5055,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/P1Y",
+			"accrualPeriodicity" : "R/PT1S",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Timothy Lowden",
@@ -5108,7 +5108,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Visitors Per Hour For The Last Day",
 			"description" : "The visitors to government websites for each hour in the last 24 hours.",
-			"modified" : "2016-07-19",
+			"modified" : "2016-08-22",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-12",
 			"dataQuality" : true,
@@ -5122,7 +5122,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/PT1S",
+			"accrualPeriodicity" : "R/PT1H",
 			"isPartOf" : "GSA-2016-03-03-03",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
@@ -5451,7 +5451,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Discovery Market Research API",
 			"description" : "The GSA Discovery Market Research API.",
-			"modified" : "2016-04-13",
+			"modified" : "2016-08-22",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-04",
 			"dataQuality" : true,
@@ -5465,7 +5465,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/P1Y",
+			"accrualPeriodicity" : "irregular",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Kelly Bailey",
@@ -5487,7 +5487,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Contract-Awarded Labor Category API",
 			"description" : "An API for searching awarded ceiling rates for labor categories.",
-			"modified" : "2016-04-13",
+			"modified" : "2016-08-22",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-05",
 			"dataQuality" : true,
@@ -5501,7 +5501,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/P1Y",
+			"accrualPeriodicity" : "irregular",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Kelly Bailey",
@@ -5523,7 +5523,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "18F Public Team API",
 			"description" : "An API for information on what 18F is working on.",
-			"modified" : "2016-04-13",
+			"modified" : "2016-08-22",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-06",
 			"dataQuality" : true,
@@ -5539,7 +5539,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/P1Y",
+			"accrualPeriodicity" : "irregular",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Amanda Robinson",
@@ -5564,7 +5564,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "18F Internal Team API",
 			"description" : "An API for information on what 18F is working on.",
-			"modified" : "2016-04-13",
+			"modified" : "2016-08-22",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA-2016-03-03-07",
 			"dataQuality" : true,
@@ -5580,7 +5580,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/P1Y",
+			"accrualPeriodicity" : "irregular",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Amanda Robinson",
@@ -5595,7 +5595,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Micropurchase API",
 			"description" : "An API for interacting with 18F's micropurchase auction service.",
-			"modified" : "2016-04-13",
+			"modified" : "2016-08-22",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-08",
 			"dataQuality" : true,
@@ -5611,7 +5611,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/P1Y",
+			"accrualPeriodicity" : "irregular",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Vladen Zvenyach",
@@ -5655,6 +5655,13 @@
 				"fn" : "Patrick Bateman",
 				"hasEmail" : "mailto:patrick.bateman@gsa.gov"
 			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"accessURL" : "https://tock.18f.gov/api/timecards.json",
+					"format" : "json",
+					"title" : "18F Tock API"
+				}
+			],
 			"keyword" : ["18F", "api", "timecards", "web service"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:019"],
@@ -5664,7 +5671,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "api.data.gov Admin API",
 			"description" : "An administrative API to manage the api.data.gov service.",
-			"modified" : "2016-04-14",
+			"modified" : "2016-08-22",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA-2016-03-03-10",
 			"dataQuality" : true,
@@ -5680,7 +5687,7 @@
 					"name" : "General Services Administration"
 				}
 			},
-			"accrualPeriodicity" : "R/P1Y",
+			"accrualPeriodicity" : "irregular",
 			"contactPoint" : {
 				"@type" : "vcard:Contact",
 				"fn" : "Gray Brooks",
