@@ -4893,8 +4893,8 @@
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Per Diem Reimbursement Rates",
-			"description" : "The dataset contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 362 locations across the continental United States for Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014 and Fiscal Year 2013, as well as the standard per diem rates for any locations not specifically listed.",
-			"modified" : "2016-08-22",
+			"description" : "The dataset contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017, Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014 and Fiscal Year 2013, as well as the standard per diem rates for any locations not specifically listed.",
+			"modified" : "2016-08-23",
 			"accessLevel" : "public",
 			"identifier" : "GSA-31641",
 			"dataQuality" : true,
