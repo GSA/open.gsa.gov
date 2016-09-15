@@ -39,70 +39,57 @@ navigation:
   url: /
 - text: "Executive Summary"
   url: /summary/
-- text: "Section 1: <span>The Approach to Open Government</span> "
-  url: /approachopengov/
-
-- text: "Section 2: <span>Strengthen the Culture of Open Government</span>"
-  url: /strengthenopengov/
-
+- text: "Section 1. Flagship Initiatives"
+  url: /summary/
+  
   sub_navigation:
-  - text: "2.1 <span>Sustaining Open Government </span>"
+  - text: "1.1 <span>1.1 New Flagship Initiative: Contact USA: The First Machine Readable Federal Government Directory</span>"
     url: /sustainingopengov/
 
-  - text: "2.2 <span>Public Engagement</span>"
-    url: /pubengagement/
-
-  - text: "2.3 <span>Research Services</span>"
-    url: /researchservices/
-
-  - text: "2.4 <span>Presidential Libraries</span>"
-    url: /presidentiallibraries/
-
-  - text: "2.5 <span>Employee Engagement</span>"
-    url: /employeeengagement/
-
-- text: "Section 3: <span>Flagship Initiatives: Make Access Happen Through Innovation</span>"
+- text: "Section 2: <span>Open Data</span>"
+  url: /flagshipinitiatives/
+  
+- text: "Section 3: <span>Open Innovation</span>"
   url: /flagshipinitiatives/
 
-- text: "Section 4: <span>Freedom of Information Act</span>"
+- text: "Section 4: <span>Public Participation</span>"
+  url: /flagshipinitiatives/
+
+- text: "Section 5: <span>Open Source Software</span>"
+  url: /newinitiatives/
+  
+- text: "Section 6: <span>Transparency Initiatives</span>"
+  url: /newinitiatives/
+  
+- text: "Section 7: <span>Proactive Disclosures</span>"
   url: /foia/
 
-- text: "Section 5: <span>New and Ongoing Open Government Initiatives</span>"
+- text: "Section 8: <span>Privacy</span>"
   url: /newinitiatives/
 
-- text: "Section 6: <span>Provide Leadership and Services</span>"
+- text: "Section 9: <span>Whistleblower Protection</span>"
 
+- text: "Section 10: <span>Websites</span>"
+  url: /newinitiatives/
 
-  sub_navigation:
-  - text: "6.1 <span>Records Management: The Backbone of Open Government</span>"
-    url: /recmanagement/
+- text: "Section 11: <span>Spending Information</span>"
+  url: /newinitiatives/
+    
+- text: "Section 12: <span>Public Notice</span>"
+  url: /newinitiatives/
+  
+- text: "Section 13: <span>Records Management</span>"
+  url: /newinitiatives/
+    
+- text: "Section 14: <span>Freedom of Information Act (FOIA) Requests</span>"
+  url: /newinitiatives/ 
+  
+- text: "Section 15: <span>Declassification</span>"
+  url: /newinitiatives/
+  
+- text: "Section 16: <span>Congressional Requests</span>"
+  url: /newinitiatives/
+    
+- text: "Section 17: <span>Web Pages</span>"
+  url: /newinitiatives/ 
 
-  - text: "6.2 <span>National Declassification Center</span>"
-    url: /declassification/
-
-  - text: "6.3 <span>Federal Records Centers</span>"
-    url: /fedrecordscenters/
-
-  - text: "6.4 <span>Electronic Records Archives</span>"
-    url: /erecordsarchives/
-
-  - text: "6.5 <span>Office of Government Information Services</span>"
-    url: /informationservice/
-
-  - text: "6.6 <span>Information Security Oversight Office</span>"
-    url: /informationsecurityoffice/
-
-  - text: "6.7 <span>Office of the Federal Register</span>"
-    url: /fedregister/
-
-  - text: "6.8 <span>National Historical Publications and Records Commission</span>"
-    url: /publicationsrecords/
-
-- text: "Appendix A: <span>Summary of Comments Received"
-  url: /appendixa/
-
-- text: "Appendix B: <span>2016-2018 NARA Open Government Commitments</span>"
-  url: /appendixb/
-
-- text: "Appendix C: <span>Updates to 2014–2016 NARA Open Government Commitments</span>"
-  url: /appendixc/
