@@ -1,0 +1,115 @@
+# markdown
+markdown: kramdown
+kramdown:
+  extensions: ["superscript","tables","with_toc_data","strikethrough","smart"]
+highlighter: rouge
+
+exclude:
+- ".ruby-version"
+- ".jekyll-metadata"
+- ".gitignore"
+- ".travis.yml"
+- todo.txt
+- resources
+- Gemfile
+- Gemfile.lock
+- Makefile
+- vendor
+- README.md
+- CONTRIBUTING.md
+- LICENSE.md
+
+# Site metadata
+name: "Open Government Plan"
+description: "Some information about GSA in general."
+baseurl: /opengovplan
+
+# Uncomment the following line for localhost development at http://127.0.0.1:4000/software/
+# baseurl: /software
+
+# GitHub information
+org_name: generalservicesadministration
+repo_name: opengovplan
+branch: gh-pages
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: "Home"
+  url: /
+- text: "Message from the Administrator"
+  url: /messages/
+- text: "Executive Summary"
+  url: /summary/
+- text: "Section 1: <span>The Approach to Open Government</span> "
+  url: /approachopengov/
+
+- text: "Section 2: <span>Strengthen the Culture of Open Government</span>"
+  url: /strengthenopengov/
+
+  sub_navigation:
+  - text: "2.1 <span>Sustaining Open Government </span>"
+    url: /sustainingopengov/
+
+  - text: "2.2 <span>Public Engagement</span>"
+    url: /pubengagement/
+
+  - text: "2.3 <span>Research Services</span>"
+    url: /researchservices/
+
+  - text: "2.4 <span>Presidential Libraries</span>"
+    url: /presidentiallibraries/
+
+  - text: "2.5 <span>Employee Engagement</span>"
+    url: /employeeengagement/
+
+- text: "Section 3: <span>Flagship Initiatives: Make Access Happen Through Innovation</span>"
+  url: /flagshipinitiatives/
+
+- text: "Section 4: <span>Freedom of Information Act</span>"
+  url: /foia/
+
+- text: "Section 5: <span>New and Ongoing Open Government Initiatives</span>"
+  url: /newinitiatives/
+
+- text: "Section 6: <span>Provide Leadership and Services</span>"
+
+
+  sub_navigation:
+  - text: "6.1 <span>Records Management: The Backbone of Open Government</span>"
+    url: /recmanagement/
+
+  - text: "6.2 <span>National Declassification Center</span>"
+    url: /declassification/
+
+  - text: "6.3 <span>Federal Records Centers</span>"
+    url: /fedrecordscenters/
+
+  - text: "6.4 <span>Electronic Records Archives</span>"
+    url: /erecordsarchives/
+
+  - text: "6.5 <span>Office of Government Information Services</span>"
+    url: /informationservice/
+
+  - text: "6.6 <span>Information Security Oversight Office</span>"
+    url: /informationsecurityoffice/
+
+  - text: "6.7 <span>Office of the Federal Register</span>"
+    url: /fedregister/
+
+  - text: "6.8 <span>National Historical Publications and Records Commission</span>"
+    url: /publicationsrecords/
+
+- text: "Appendix A: <span>Summary of Comments Received"
+  url: /appendixa/
+
+- text: "Appendix B: <span>2016-2018 NARA Open Government Commitments</span>"
+  url: /appendixb/
+
+- text: "Appendix C: <span>Updates to 2014–2016 NARA Open Government Commitments</span>"
+  url: /appendixc/
+
+
+# sass
+sass:
+  sass_dir: _sass
