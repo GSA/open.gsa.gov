@@ -37,8 +37,6 @@ branch: gh-pages
 navigation:
 - text: "Home"
   url: /
-- text: "Message from the Administrator"
-  url: /messages/
 - text: "Executive Summary"
   url: /summary/
 - text: "Section 1: <span>The Approach to Open Government</span> "
