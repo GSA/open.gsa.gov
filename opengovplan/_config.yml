@@ -108,8 +108,3 @@ navigation:
 
 - text: "Appendix C: <span>Updates to 2014–2016 NARA Open Government Commitments</span>"
   url: /appendixc/
-
-
-# sass
-sass:
-  sass_dir: _sass

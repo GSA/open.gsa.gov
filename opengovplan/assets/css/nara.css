@@ -85,7 +85,7 @@ header img{
 }
 
 div header{
-  background-color:#FEC44E;
+  background-color:#aeb0b5;
   background: top left repeat url(../images/background1.png);
 
 }
@@ -137,7 +137,7 @@ header .pg_header h2{
 	height:auto;
   font-weight:normal;
 	margin:0;
-  color:#6F6A5B;
+  color:#fff;
 }
 header .pg_header h2 a{
 	/*color:white;*/
@@ -162,7 +162,7 @@ header .header_menu{
 }
 
 header .header_menu, header .header_menu a, header .header_menu a:link{
-  color: #0072ce !important;
+  color: #112e51 !important;
 }
 
 @media screen and (max-width: 1200px) {
