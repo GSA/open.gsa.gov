@@ -40,10 +40,10 @@ navigation:
 - text: "Executive Summary"
   url: /summary/
 - text: "Section 1. Flagship Initiatives"
-  url: /summary/
+  url: /ongoingflagship/
   
   sub_navigation:
-  - text: "1.1 <span>1.1 New Flagship Initiative: Contact USA: The First Machine Readable Federal Government Directory</span>"
+  - text: "1.1 <span>New Flagship Initiative: Contact USA: The First Machine Readable Federal Government Directory</span>"
     url: /sustainingopengov/
 
 - text: "Section 2: <span>Open Data</span>"
