@@ -44,52 +44,53 @@ navigation:
   
   sub_navigation:
   - text: "1.1 <span>New Flagship Initiative: Contact USA: The First Machine Readable Federal Government Directory</span>"
-    url: /sustainingopengov/
+    url: /newflagship/
 
 - text: "Section 2: <span>Open Data</span>"
-  url: /flagshipinitiatives/
+  url: /opendata/
   
 - text: "Section 3: <span>Open Innovation</span>"
-  url: /flagshipinitiatives/
+  url: /openinnovation/
 
 - text: "Section 4: <span>Public Participation</span>"
-  url: /flagshipinitiatives/
+  url: /participation/
 
 - text: "Section 5: <span>Open Source Software</span>"
-  url: /newinitiatives/
+  url: /open source/
   
 - text: "Section 6: <span>Transparency Initiatives</span>"
-  url: /newinitiatives/
+  url: /transparency/
   
 - text: "Section 7: <span>Proactive Disclosures</span>"
-  url: /foia/
+  url: /disclosures/
 
 - text: "Section 8: <span>Privacy</span>"
-  url: /newinitiatives/
+  url: /privacy/
 
 - text: "Section 9: <span>Whistleblower Protection</span>"
-
+  url: /whistleblowerprotection/
+  
 - text: "Section 10: <span>Websites</span>"
-  url: /newinitiatives/
+  url: /websites/
 
 - text: "Section 11: <span>Spending Information</span>"
-  url: /newinitiatives/
+  url: /spending/
     
 - text: "Section 12: <span>Public Notice</span>"
-  url: /newinitiatives/
+  url: /publicnotice/
   
 - text: "Section 13: <span>Records Management</span>"
-  url: /newinitiatives/
+  url: /records/
     
 - text: "Section 14: <span>Freedom of Information Act (FOIA) Requests</span>"
-  url: /newinitiatives/ 
+  url: /foia/ 
   
 - text: "Section 15: <span>Declassification</span>"
-  url: /newinitiatives/
+  url: /declassification/
   
 - text: "Section 16: <span>Congressional Requests</span>"
-  url: /newinitiatives/
+  url: /congressionalrequests/
     
 - text: "Section 17: <span>Web Pages</span>"
-  url: /newinitiatives/ 
+  url: /webpages/ 
 
