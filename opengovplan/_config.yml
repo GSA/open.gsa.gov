@@ -37,7 +37,7 @@ branch: gh-pages
 navigation:
 - text: "Home"
   url: /
-- text: "Executive Summary"
+- text: "About GSA Open Government"
   url: /summary/
 - text: "Section 1. Flagship Initiatives"
   url: /ongoingflagship/
