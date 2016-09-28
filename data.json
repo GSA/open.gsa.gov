@@ -1264,6 +1264,38 @@
 			"theme" : ["States", "Top 10"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "DCOI Strategic Plan",
+			"description" : "Under the Data Center Optimization Initiative (DCOI), covered agencies are required to post DCOI Strategic Plans and updates to their FITARA milestones publicly on or before September 30, 2016.",
+			"modified" : "2016-09-27",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-09-27-02",
+			"conformsTo" : "https://management.cio.gov/schemaexamples/DCOI_StrategicPlans_fy2016Schema.json",
+			"describedByType" : "application/json",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Vern Samuel",
+				"hasEmail" : "mailto:vernon.samuel@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/json",
+					"format" : "json",
+					"title" : "datacenteroptimizationstrategicplan",
+					"description" : "Under the Data Center Optimization Initiative (DCOI), covered agencies are required to post DCOI Strategic Plans and updates to their FITARA milestones publicly on or before September 30, 2016.",
+					"conformsTo" : "https://management.cio.gov/schemaexamples/DCOI_StrategicPlans_fy2016Schema.json",
+					"downloadURL" : "https://inventory.data.gov/dataset/20d5c816-e31a-46be-81d2-abc59d0f4fdb/resource/b8d9e71b-963b-4398-8d37-04628e64871d/download/datacenteroptimizationstrategicplan.json"
+				}
+			],
+			"keyword" : ["DCOI", "DCOI strategic plan", "data center", "data center optimization", "fdcci", "strategic plan"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:000"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "DigitalGov Search API (formerly USASearch)",
 			"description" : "Provides DigitalGov Search customers their search results in JSON. Sign in with a .gov or .mil email is required.",
 			"modified" : "2014-05-29",
@@ -1503,7 +1535,7 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 					"format" : "xlsx",
 					"title" : "e-Buy Awards for Fiscal Year 2010",
 					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
@@ -1539,7 +1571,7 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 					"format" : "xlsx",
 					"title" : "e-Buy Awards for Fiscal Year 2011",
 					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
@@ -1575,7 +1607,7 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 					"format" : "xlsx",
 					"title" : "e-Buy Awards for Fiscal Year 2012",
 					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
@@ -1611,7 +1643,7 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 					"format" : "xlsx",
 					"title" : "e-Buy Awards for Fiscal Year 2013",
 					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year",
@@ -1647,11 +1679,47 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 					"format" : "xlsx",
 					"title" : "e-Buy Awards for Fiscal Year 2014",
 					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
 					"downloadURL" : "https://inventory.data.gov/dataset/17945414-d229-45fb-a216-b0b05df931b8/resource/4f3e8d99-2fa8-4ea2-8bba-d1cca2cc0a48/download/ebuyawardsfy2014.xlsx"
+				}
+			],
+			"keyword" : ["Awards", "Contracts", "Quote", "RFQ", "Schedules", "e-Buy", "procurement"],
+			"bureauCode" : ["023:10"],
+			"programCode" : ["023:007"],
+			"language" : ["en-us"],
+			"theme" : ["Acquisition"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "e-Buy Awards for Fiscal Year 2015",
+			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+			"modified" : "2016-09-28",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-09-28-01",
+			"dataQuality" : true,
+			"issued" : "2015-09-28",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Usha Gopal",
+				"hasEmail" : "mailto:usha.gopal@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
+					"title" : "eBuy_Awards_FY2015",
+					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+					"downloadURL" : "https://inventory.data.gov/dataset/81593d91-7c5a-45bd-b159-abe873249e6c/resource/f7344899-2fa2-4bed-92ee-3f1845e9a429/download/ebuyawardsfy2015.xlsx"
 				}
 			],
 			"keyword" : ["Awards", "Contracts", "Quote", "RFQ", "Schedules", "e-Buy", "procurement"],
@@ -3116,6 +3184,35 @@
 			"programCode" : ["023:014"],
 			"language" : ["us-EN"],
 			"theme" : ["Enterprise Data Inventory"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "GSA Enterprise Roadmap",
+			"description" : "As is described in OMB Memorandum 13-09, the Enterprise Roadmap is an annual summary of information technology (IT) initiatives that implement the agency’s Information Resources Management (IRM) Strategic Plan. OMB will provide the agency Chief Information Officer with specific areas to comment on in the Roadmap with regard to IT mission and support functions that can be more effectively or efficiently provided through shared services or a transfer/termination of functions. OMB will conduct an analysis of Roadmap submissions during October and will engage directly with agencies on these areas of interest as part of the quarterly PortfolioStat review process.",
+			"modified" : "2016-09-27",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-09-27-01",
+			"describedByType" : "application/pdf",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Jonah Hatfield",
+				"hasEmail" : "mailto:jonah.hatfield@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/pdf",
+					"format" : "pdf",
+					"title" : "GSA Enterprise Roadmap",
+					"downloadURL" : "https://inventory.data.gov/dataset/4773ad45-88b0-4a0f-bb0b-fb7173e2f7ba/resource/4d9c4af6-3902-44fd-a450-39e2c4713b48/download/gsa-enterprise-roadmap.pdf"
+				}
+			],
+			"keyword" : ["IT roadmap", "Roadmap", "enterprise roadmap"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:000"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Fair Act Inventory Data",
