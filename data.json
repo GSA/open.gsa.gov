@@ -3252,9 +3252,9 @@
 			"theme" : ["People"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "GSA FITARA Actions and Milestones - April 30, 2016",
-			"description" : "GSA's Actions and Milestones as required by the April 30, 2016, submission to OMB.  This file is in the required JSON format, following the OMB schema found here: https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
-			"modified" : "2016-08-01",
+			"title" : "GSA FITARA Actions and Milestones",
+			"description" : "This JSON file represents GSA's FITARA Actions and Milestones submission to OMB.  This file abides by the OMB JSON schema found here: https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
+			"modified" : "2016-09-29",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-04-27-01",
 			"conformsTo" : "https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
@@ -4992,6 +4992,42 @@
 			"bureauCode" : ["023:30"],
 			"programCode" : ["023:015"],
 			"language" : ["us-EN"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Per Diem API",
+			"description" : "This API contains maximum lodging reimbursement per diem rates and the meals and incidentals (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017.",
+			"modified" : "2016-10-04",
+			"accessLevel" : "public",
+			"identifier" : "GSA-138679",
+			"dataQuality" : true,
+			"issued" : "2012-08-07",
+			"landingPage" : "http://www.gsa.gov/perdiem",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"spatial" : "National",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P1Y",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Jill Miller Denning",
+				"hasEmail" : "mailto:jill.denning@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"accessURL" : "https://inventory.data.gov/api/action/datastore_search?resource_id=8ea44bc4-22ba-4386-b84c-1494ab28964b&limit=5",
+					"format" : "json",
+					"title" : "Per Diem API",
+					"description" : "This API contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017."
+				}
+			],
+			"keyword" : ["API", "Per Diem"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["us-EN"],
+			"theme" : ["API"]
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "PSC Matrix for Active GSA Schedules and GSA GWACs",
