@@ -4995,7 +4995,7 @@
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Per Diem API",
-			"description" : "This API contains maximum lodging reimbursement per diem rates and the meals and incidentals (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017.",
+			"description" : "The API contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017, Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014, Fiscal Year 2013 and Fiscal Year 2012, as well as the standard per diem rates for any locations not specifically listed.",
 			"modified" : "2016-10-04",
 			"accessLevel" : "public",
 			"identifier" : "GSA-138679",
@@ -5017,10 +5017,10 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "https://inventory.data.gov/api/action/datastore_search?resource_id=8ea44bc4-22ba-4386-b84c-1494ab28964b&limit=5",
-					"format" : "json",
+					"accessURL" : "https://inventory.data.gov/dataset/per-diem-reimbursement-rates/resource/8ea44bc4-22ba-4386-b84c-1494ab28964b",
+					"format" : "API",
 					"title" : "Per Diem API",
-					"description" : "This API contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017."
+					"description" : "This API contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017, Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014, Fiscal Year 2013 and Fiscal Year 2012, as well as the standard per diem rates for any locations not specifically listed."
 				}
 			],
 			"keyword" : ["API", "Per Diem"],
