@@ -919,7 +919,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Dataset Visitor Metrics",
 			"description" : "The dataset provides metrics for the number of dataset views in catalog.data.gov broken down by month starting Jan 2014.",
-			"modified" : "2016-09-06",
+			"modified" : "2016-10-05",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139375",
 			"dataQuality" : true,
@@ -4995,7 +4995,7 @@
 		}, {
 			"@type" : "dcat:Dataset",
 			"title" : "Per Diem API",
-			"description" : "The API contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017, Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014, Fiscal Year 2013 and Fiscal Year 2012, as well as the standard per diem rates for any locations not specifically listed.",
+			"description" : "The API contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017, Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014, Fiscal Year 2013 and Fiscal Year 2012.",
 			"modified" : "2016-10-04",
 			"accessLevel" : "public",
 			"identifier" : "GSA-138679",
@@ -5017,10 +5017,10 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"accessURL" : "https://inventory.data.gov/dataset/per-diem-reimbursement-rates/resource/8ea44bc4-22ba-4386-b84c-1494ab28964b",
+					"accessURL" : "http://gsa.gov/portal/content/162379",
 					"format" : "API",
 					"title" : "Per Diem API",
-					"description" : "This API contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017, Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014, Fiscal Year 2013 and Fiscal Year 2012, as well as the standard per diem rates for any locations not specifically listed."
+					"description" : "This API contains maximum lodging reimbursement per diem rates and the meals and incidental (M&IE) rates for 346 locations across the continental United States for Fiscal Year 2017, Fiscal Year 2016, Fiscal Year 2015, Fiscal Year 2014, Fiscal Year 2013 and Fiscal Year 2012."
 				}
 			],
 			"keyword" : ["API", "Per Diem"],
