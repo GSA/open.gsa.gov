@@ -6208,6 +6208,40 @@
 			"theme" : ["Card Services Program"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions July - September 2016",
+			"description" : "Purchases made with the purchase card. Files will be batched quarterly.",
+			"modified" : "2016-10-19",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-10-19-01",
+			"dataQuality" : true,
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-05-01",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Nancy V Hexmoor",
+				"hasEmail" : "mailto:nancy.hexmoor@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xls",
+					"title" : "July-September 2016 PC Transactions",
+					"downloadURL" : "https://inventory.data.gov/dataset/ac13f165-5085-4cb7-899d-c1c752739d2b/resource/2038528a-592b-494a-b494-33c97cac6c5d/download/july-september-2016-pc-transactions.xlsx"
+				}
+			],
+			"keyword" : ["august", "july", "purchase card", "september", "transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "Purchase Card Transactions - Board of Contract Appeals Parent",
 			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
 			"modified" : "2016-01-06",
@@ -6548,6 +6582,76 @@
 					"format" : "excel",
 					"title" : "Jan-Mar BOCA PC Transactions",
 					"downloadURL" : "https://inventory.data.gov/dataset/53a65d0a-91b9-4b24-ad95-7cf135b0536b/resource/0bf6a2a6-581c-4737-96a5-ddcf57dc3363/download/jan-mar-2016-cbca-pc-transactions.xlsx"
+				}
+			],
+			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - BOCA April - June 2016",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+			"modified" : "2016-10-19",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-10-19-02",
+			"dataQuality" : true,
+			"issued" : "2014-10-01",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-06-1",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "James G Parks",
+				"hasEmail" : "mailto:greg.parks@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xlsw",
+					"title" : "April-June 2016 BOCA PC Transactions",
+					"downloadURL" : "https://inventory.data.gov/dataset/194d3c0b-d938-444d-a49a-ab1c837d2e76/resource/49691000-2c6c-477c-81f1-fbbea8f3ac71/download/april-june-2016-boca-pc-transactions.xlsx"
+				}
+			],
+			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:010"],
+			"language" : ["en-us"],
+			"theme" : ["Card Services Program"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "Purchase Card Transactions - BOCA July - September 2016",
+			"description" : "The GSA SmartPay® purchase card program provides cards to federal employees to make official government purchases. These are transactions made by the GSA Board of Contract Appeals.",
+			"modified" : "2016-10-19",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-10-19-03",
+			"dataQuality" : true,
+			"issued" : "2014-10-01",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2016-01-06-1",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "James G Parks",
+				"hasEmail" : "mailto:greg.parks@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.ms-excel",
+					"format" : "xls",
+					"title" : "July-September 2016 BOCA PC Transactions",
+					"downloadURL" : "https://inventory.data.gov/dataset/d1575481-b864-4e44-98d9-692d0e64a964/resource/d03c71d3-2e51-4b3c-9ced-79e88b9adc91/download/july-september-2016-boca-pc-transactions.xlsx"
 				}
 			],
 			"keyword" : ["BOCA", "Board of Contract Appeals", "GSA SmartPay", "Purchase Card", "Transactions"],
