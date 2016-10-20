@@ -29,23 +29,20 @@ title: Home
                         <h2 class="sidebar_head">News</h2>
                         <ul class="sidebar_list nav-list">
                             <li class="sidebar_list_item">
-                                <h3 class="sidebar_list_item_head">Save the date! On May 8th, 2015 GSA will host the Digital-Innovation-Hackathon
+                                <h3 class="sidebar_list_item_head"></a>
+                                  Our next Hackathon is targeted towards women in technology and will be hosted at GSA HQ in Washington, DC.  Open to all attendees from industry, academia, and government.  Cash prizes will be awarded for the best solutions.  Stay tuned!
                                 </h3>
-                                
-                                <div class="sidebar_list_item_meta entry_meta">
-                                    Sponsored By <span class="author">GSA Digital Innovation and Strategy</span> &ndash;
 
-                                    <time>
-                                        May 8, 2015, 9:30 am - 4:00 pm
-                                    </time>
+                                <div class="sidebar_list_item_meta entry_meta">
+
                                 </div>
                             </li>
                         </ul>
                         <ul class="sidebar_list nav-list">
                             <li class="sidebar_list_item">
     <!--                           <h3 class="sidebar_list_item_head"><a href="https://18f.gsa.gov/2014/07/23/take-a-gander-at-our-developer-page/">Take a gander at our /Developer page!</a>
-                                </h3> 
-                                
+                                </h3>
+
                                 <div class="sidebar_list_item_meta entry_meta">
                                     By <span class="author">Gray Brooks</span> &ndash;
 
@@ -82,6 +79,20 @@ title: Home
                         </h3>
                         <p class="featured-project_desc">Check out the latest open source code projects from GSA teams.</p>
                     </li>
+                    <li class="featured-project">
+                        <a href="/gsa-labs" target="_blank"><div class="featured-project_img__gsa_labs"></div></a>
+                        <h3 class="featured-project_head">
+                            <a href="/gsa-labs" target="_blank">GSA Labs</a>
+                        </h3>
+                        <p class="featured-project_desc">Welcome to GSA Labs!  This is a community where government agencies can share applications, code, and best practices. It is designed to maximize the collective thought leadership across the entire Government.</p>
+                    </li>
+                    <li class="featured-project">
+                        <a href="/gsa-labs" target="_blank"><div class="featured-project_img__opengov"></div></a>
+                        <h3 class="featured-project_head">
+                            <a href="https://gsa.github.io/opengovplan/" target="_blank">Open Gov Plan 2016-2018</a></h3>
+                            <p>This is the fourth update of GSA’s Open Government Plan. It continues our efforts to raise the bar on good management and demands higher standards of accountability by asking the public to become active participants in our government.</p>
+                        </h3>
+                    </li>
                 </ul>
             </section>
 
@@ -103,11 +114,11 @@ title: Home
                         {% if post.tagline %}
                         <p class="entry_tagline">{{ post.tagline }}</p>
                         {% endif %}
-                        
+
                         {% if post.excerpt %}
                         <p class="entry_description">{{ post.excerpt | markdownify }}</p>
                         {% endif %}
-                        
+
                         <div class="entry_meta">
                             {% if post.author %}
                             By <span class="author">{{ post.author }}</span> &ndash;
@@ -118,7 +129,7 @@ title: Home
                                 {{ post.date | date: '%b %d, %Y' }}
                             </time>
                             {% endif %}
-                            
+
                             {% comment %}
                                 {% if post.tags %}
                                 <div class="tags cf">
@@ -226,6 +237,21 @@ title: Home
                     <a class="more-repos_view-all-link call-to-action__icon" href="https://github.com/gsa">
                         View all repositories <i class="icon-external-link"></i>
                     </a>
+                </section>
+
+
+            <section class="repositories wrap">
+                <h2 class="section-head"><i class="icon-github"></i> Partner Digital Organizations</h2>
+
+                <section class="repos">
+                    <section class="repo">
+                        <h3 class="repo_name"><a href="https://www.whitehouse.gov/digital/united-states-digital-service">U.S. Digital Service</a></h3>
+                        <p class="repo_description">A band of top-notch industry tech experts from the White House.</p>
+                    </section>
+                    <section class="repo">
+                        <h3 class="repo_name"><a href="https://18f.gsa.gov">18F</a></h3>
+                        <p class="repo_description">Digital development and service team located at GSA.</p>
+                    </section>
                 </section>
 
             </section>

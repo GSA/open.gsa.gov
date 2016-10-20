@@ -282,7 +282,7 @@ main p a:visited {
 a:hover {
     border-bottom: 1px solid #7FB8E6;
     color: #7FB8E6;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a:focus {
@@ -581,7 +581,7 @@ sub {
 }
 
 .sidebar_list {
-    
+
 }
 .sidebar_list .author {
     font-family: "Avenir Next W01", Arial, sans-serif;
@@ -626,6 +626,9 @@ sub {
 .featured-project_img__pdp {
     background: url(../img/feature_pdp_150x150.png) no-repeat;
 }
+.featured-project_img__Judge {
+    background: url(https://cloud.githubusercontent.com/assets/10743420/7526192/94d1e1ea-f4dd-11e4-899b-d6e3bc5b5733.png) no-repeat;
+}
 .featured-project_img__eregs {
     background: url(../img/feature_eregs_150x150.png) no-repeat;
 }
@@ -638,8 +641,11 @@ sub {
 .featured-project_img__api {
     background: url(../img/api_circle-150x150.png) no-repeat;
 }
+.featured-project_img__gsa_labs {
+    background: url(../img/labs-150x150.png) no-repeat;
+}
 .featured-project_img__Rules-and-Criteria {
-    background: url(https://cloud.githubusercontent.com/assets/10743420/6626526/92e07518-c8cd-11e4-909d-085246cadaf0.jpg) no-repeat;   
+    background: url(https://cloud.githubusercontent.com/assets/10743420/6626526/92e07518-c8cd-11e4-909d-085246cadaf0.jpg) no-repeat;
 }
 .featured-project_img__Open-data {
     background: url(../img/Open-data.jpg) no-repeat;
@@ -653,6 +659,12 @@ sub {
 .featured-project_img__code {
     background: url(../img/code_circle-150x150.jpg) no-repeat;
 }
+.featured-project_img__toolbox {
+    background: url(../img/toolbox.jpg) no-repeat;
+}
+.featured-project_img__opengov {
+    background: url(https://www.digitalgov.gov/files/2016/03/600-x-410-Globe-network-connection-on-city-skyscraper-background-Mirexon-iStock-Thinkstock-486689738.jpg) no-repeat;
+  }
 .featured-project_head {
     margin-bottom: .75em;
     font-family: "Avenir Next W01", Arial, sans-serif;
@@ -905,7 +917,7 @@ sub {
 }
 
 /* TABLET/NETBOOK (768px) */
-@media only screen and (min-width: 48em) { 
+@media only screen and (min-width: 48em) {
     .intro,
     .featured-entries,
     .repos,
@@ -931,7 +943,7 @@ sub {
 /*    .intro h1 {
         font-size: 1.75em;
     }*/
-    
+
     .sidebar {
         width: 23%;
         margin-left: 4%;
@@ -1023,7 +1035,7 @@ sub {
 }
 
 /* LANDSCAPE TABLET/NETBOOK/LAPTOP (1024px) */
-@media only screen and (min-width: 64em) { 
+@media only screen and (min-width: 64em) {
     /*.content {
         overflow: hidden;
     }*/
@@ -1038,7 +1050,7 @@ sub {
 /*    .intro h1 {
         font-size: 2.375em;
     }*/
-    
+
     .featured-project {
         width: 33.333333333%;
     }
@@ -1053,7 +1065,7 @@ sub {
 }
 
 /* DESKTOP (1200px) */
-@media only screen and (min-width: 75em) { 
+@media only screen and (min-width: 75em) {
     .wrap {
         max-width: 1200px;
     }
@@ -1073,7 +1085,7 @@ sub {
 }
 
 /* WIDESCREEN */
-@media only screen and (min-width: 87.5em) { 
+@media only screen and (min-width: 87.5em) {
     /*body { font-size: 1.125em; }*/
 }
 
@@ -1106,7 +1118,7 @@ ol ol ol > li {
 ol ol ol ol > li {
     list-style-type: lower-roman;
 }
-    
+
 /* PRINT */
 @media print {
   * {background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important} /* Black prints faster */
