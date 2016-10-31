@@ -1,0 +1,10 @@
+
+
+.usa-hero
+{
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+    background-image: url('../img/pattern.svg');
+    background-position: center;
+    background-size: cover;
+}
