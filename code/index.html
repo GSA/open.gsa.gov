@@ -1,0 +1,135 @@
+---
+layout: default
+title: Data
+---
+
+            <section class="hero">
+                <div class="wrap">
+                    <section class="intro">
+                        <h1>Datasets</h1>
+                        <p>GSA has categorized its public data listing to facilitate search and an improved customer experience on this site. Click on a category below to view the datasets in that category.  APIs and their documentation are detailed in the <a href="http://open.gsa.gov/developer/">developers hub</a>.
+                        </p>
+                        <p>
+                        Many of our APIs are themselves open sourced and we always <a href="https://github.com/GSA/GSA-APIs/issues">welcome feedback</a>.  For more information or data requests, please contact <a href="mailto:opendata@gsa.gov">opendata@gsa.gov</a>.
+                        </p>
+                        <ul class="learn-more">
+                            <li class="learn-more_item">
+                                <a class="call-to-action" href="https://github.com/GSA/GSA-APIs/issues">
+                                    Feedback
+                                </a>
+                            </li>
+                          <!--  <li class="learn-more_item">
+                                <a class="call-to-action"
+                                   href="http://gsa.gov/portal/content/162631">
+                                    View our Developer Terms of Service
+                                </a>
+                            </li> -->
+                        </ul>
+                    </section>
+
+                    <section class="sidebar off-the-press">
+                        <h2 class="sidebar_head">Other Data Resources</h2>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="https://www.data.gov">Data.gov</a> (<a href="https://catalog.data.gov/organization/gsa-gov">GSA's Data Sets</a>)
+                                </h3>
+                            </li>
+                        </ul>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="https://project-open-data.cio.gov">Project Open Data</a>
+                                </h3>
+                            </li>
+                        </ul>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="http://www.gsa.gov/data.json">GSA's Public Data Listing</a>
+                                </h3>
+                            </li>
+                        </ul>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="https://github.com/GSA/data">GSA's Open Data Repository</a>
+                                </h3>
+                            </li>
+                        </ul>
+                        <ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="http://www.gsa.gov/portal/category/105839">Open Data at GSA (Deprecated)</a>
+                                </h3>
+                            </li>
+                        </ul>
+                        <!--<ul class="sidebar_list nav-list">
+                            <li class="sidebar_list_item">
+                                <h3 class="sidebar_list_item_head">* <a href="http://www.usa.gov/developer">USA.gov</a>
+                                </h3>
+                            </li>
+                        </ul>-->
+                    </section>
+                </div>
+            </section> <!-- /.hero -->
+
+
+            <section class="featured-projects">
+                <div class="wrap">
+                    <div class="bootstrap">
+                        <div class="dataContainer">
+                          <h2>Themes</h2>
+                        </div>
+                        <script src="/js/data.json.js"></script>
+                        <script>
+                            GSA.dataDotJSON.init({
+                              url: "/data.json",
+                              container: ".dataContainer"
+                            });
+                        </script>
+                    </div>
+                </div>
+            </section>
+
+            <section class="repositories wrap">
+                <h2 class="section-head"><i class="icon-github"></i> Highlighted Repositories</h2>
+
+                <section class="repos">
+                    <section class="repo">
+                        <h3 class="repo_name"><a href="https://github.com/GSA/data.gov">data.gov</a></h3>
+                        <p class="repo_description">The CKAN-based data catalog for the federal government.</p>
+                    </section>
+                    <section class="repo">
+                        <h3 class="repo_name"><a href="https://github.com/GSA/sam_api">sam_api</a></h3>
+                        <p class="repo_description">API access to the System for Award Management</p>
+                    </section>
+                    <section class="repo">
+                        <h3 class="repo_name"><a href="https://github.com/GSA/unclaimed_money">unclaimed_money</a></h3>
+                        <p class="repo_description">US Government unclaimed money metasearch tool.</p>
+                    </section>
+                </section>
+
+                <section class="sidebar more-repos">
+                    <h2 class="sidebar_head">More repositories</h2>
+                    <ul class="sidebar_list nav-list">
+                        <li class="sidebar_list_item">
+                            <h3 class="sidebar_list_item_head">
+                                <a href="https://github.com/GSA/openIAE">openIAE</a>
+                                <i class="icon-external-link"></i>
+                            </h3>
+                        </li>
+                        <li class="sidebar_list_item">
+                            <h3 class="sidebar_list_item_head">
+                                <a href="https://github.com/GSA/asis">asis</a>
+                                <i class="icon-external-link"></i>
+                            </h3>
+                        </li>
+                        <li class="sidebar_list_item">
+                            <h3 class="sidebar_list_item_head">
+                                <a href="https://github.com/GSA/govt-urls">govt-urls</a>
+                                <i class="icon-external-link"></i>
+                            </h3>
+                        </li>
+                    </ul>
+                    <a class="more-repos_view-all-link call-to-action__icon" href="https://github.com/gsa">
+                        View all repositories <i class="icon-external-link"></i>
+                    </a>
+                </section>
+
+            </section>
