@@ -1,0 +1,11 @@
+name: open.gsa.gov
+description: 'A developer hub to share GSA data, APIs, and code.'
+license: 'https://github.com/GSA/open.gsa.gov/blob/gh-pages/TERMS.md'
+openSourceProject: 1
+governmentWideReuseProject: 1
+tags:
+    - data
+    - api
+    - developer
+contact:
+    email: cto@gsa.gov
