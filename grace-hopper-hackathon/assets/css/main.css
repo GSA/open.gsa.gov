@@ -6,6 +6,16 @@
   background-size: cover;
  }
 
+ .usa-hero-callout .usa-button {
+    margin-top: 4rem;
+  }
+
+  @media screen and (min-width: 481px){
+  .usa-hero-callout {
+      max-width: 35rem;
+    }
+  }
+
 .rsvp-bar {
     background: #F8F8FA;
     display: flex;
