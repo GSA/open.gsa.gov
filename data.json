@@ -4820,6 +4820,40 @@
 			"theme" : ["Telecommunications Services"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "Networx Business Volume FY2016 4th Quarter",
+			"description" : "The dataset represents the Networx Universal and Enterprise business volume of each government agency that has ordered telecommunications services from the Networx Contact, by Fiscal Year, Contract, Contract Vehicle, Agency and Month for the Central and Direct billing accounts.",
+			"modified" : "2016-05-18",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-11-29-01",
+			"dataQuality" : true,
+			"issued" : "2015-11-13",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P3M",
+			"isPartOf" : "GSA-2015-08-27P",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Toni L Holloway",
+				"hasEmail" : "mailto:toni.holloway@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
+					"title" : "Networx TotRevFY16_4thQtr",
+					"downloadURL" : "https://inventory.data.gov/dataset/8b70220b-ebbd-4ebe-b8b4-2b982114574c/resource/b3b8c595-762d-4b13-9c99-d9726e346aec/download/networxtotrevfy164thqtr.xlsx"
+				}
+			],
+			"keyword" : ["Contract", "Networx Telecommunications", "Telecommunications"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:019"],
+			"language" : ["en-US"],
+			"theme" : ["Telecommunications Services"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "New Construction and Repair and Alteration (R&A) Projects",
 			"description" : "This map shows new construction and major R&A projects in federal buildings under GSA’s custody and control that are above the current prospectus threshold of $2.85 million. New construction and major R&A projects for two different fiscal years are displayed on the map. Projects for FY2014 were funded as part of the Consolidated Appropriations Act of 2014, and GSA will begin to execute these projects this year. Projects for FY2015 have been included in the President’s Budget request, but require approval and funding from Congress before the projects can begin.",
 			"modified" : "2014-04-28",
