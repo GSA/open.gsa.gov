@@ -3152,7 +3152,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Enterprise Data Inventory (EDI)",
 			"description" : "GSA Enterprise Data Inventory (EDI)",
-			"modified" : "2016-04-15",
+			"modified" : "2016-11-30",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-13-01",
 			"dataQuality" : true,
@@ -3173,10 +3173,10 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/json",
-					"format" : "json",
-					"title" : "EDI JSON FILE",
+					"format" : "JSON",
+					"title" : "EDI JSON File",
 					"description" : "GSA Enterprise Data Inventory - EDI",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/6e3e7391-4574-4245-a393-b95856e97bf1/download/edi-json-file-04-15-16.js"
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/fd10454a-2795-464e-92d3-3ce1bd9e6470/download/edi-json-file-11-30-16.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
@@ -3254,7 +3254,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA FITARA Actions and Milestones",
 			"description" : "This JSON file represents GSA's FITARA Actions and Milestones submission to OMB.  This file abides by the OMB JSON schema found here: https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
-			"modified" : "2016-09-29",
+			"modified" : "2016-11-29",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-04-27-01",
 			"conformsTo" : "https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
@@ -3272,8 +3272,8 @@
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/json",
 					"format" : "json",
-					"title" : "GSA FITARA Actions and Milestones 2016-09-30",
-					"description" : "GSA's Actions and Milestones JSON file to fulfill the FITARA requirements for the August 31, 2016 submission to OMB.\r\nOn September 30, 2016, five milestones were added as a result of the Data Center Optimization Initiative (DCOI) Strategic Plan requirements.",
+					"title" : "GSA FITARA Actions and Milestones 2016-11-30",
+					"description" : "GSA's Actions and Milestones JSON file to fulfill the FITARA requirements for the November 30, 2016 submission to OMB.\r\nOn September 30, 2016, five milestones were added as a result of the Data Center Optimization Initiative (DCOI) Strategic Plan requirements.",
 					"conformsTo" : "https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
 					"downloadURL" : "https://inventory.data.gov/dataset/cedf61aa-c4c8-4c30-8357-9d57362afe9b/resource/69cf9b0f-fe64-4ec3-a082-664d34497d5e/download/fitaramilestones.json"
 				}
@@ -3285,7 +3285,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA IT Reform Cost Savings/Avoidance",
 			"description" : "GSA IT provides data related to Agency IT initiatives that save or avoid expenditures.  This data is provided as a requirement of OMB's Integrated Data Collection (IDC) and posted publicly as a requirement of the Federal Information Technology Acquisition Reform Act (FITARA) leglislation.",
-			"modified" : "2016-05-25",
+			"modified" : "2016-11-29",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-25-01",
 			"issued" : "2015-11-25",
@@ -3305,9 +3305,9 @@
 					"mediaType" : "application/json",
 					"format" : "JSON",
 					"title" : "GSA IT Reform Cost Savings/Avoidance",
-					"description" : "GSA's August 2016 Cost Savings/Avoidance submission to satisfy the requirements set forth in OMB's Integrated Data Collection.",
+					"description" : "GSA's November 2016 Cost Savings/Avoidance submission to satisfy the requirements set forth in OMB's Integrated Data Collection.",
 					"conformsTo" : "https://management.cio.gov/schemaexamples/costSavingsAvoidanceSchema.json",
-					"downloadURL" : "https://inventory.data.gov/dataset/57f52388-9b32-4069-925f-e0de9c5c6ea4/resource/87eb8833-7abb-432b-a272-e611c0aff04a/download/gsaitcostsavingsavoidance20160829.json"
+					"downloadURL" : "https://inventory.data.gov/dataset/57f52388-9b32-4069-925f-e0de9c5c6ea4/resource/87eb8833-7abb-432b-a272-e611c0aff04a/download/gsaitcostsavingsavoidance20151125.json"
 				}
 			],
 			"keyword" : ["GSA IT", "GSA IT reform cost savings", "cost avoidance", "cost savings", "savings"],
