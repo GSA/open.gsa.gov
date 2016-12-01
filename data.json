@@ -2941,7 +2941,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "FedRAMP Authorization Letters",
 			"description" : "A JSON export of cloud service providers authorized and in process of authorization by FedRAMP, as well as the agencies that use them.",
-			"modified" : "2016-08-22",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-07-19-01",
 			"dataQuality" : true,
@@ -2951,7 +2951,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -3152,7 +3152,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Enterprise Data Inventory (EDI)",
 			"description" : "GSA Enterprise Data Inventory (EDI)",
-			"modified" : "2016-11-30",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-13-01",
 			"dataQuality" : true,
@@ -3173,10 +3173,9 @@
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
 					"mediaType" : "application/json",
-					"format" : "JSON",
-					"title" : "EDI JSON File",
-					"description" : "GSA Enterprise Data Inventory - EDI",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/fd10454a-2795-464e-92d3-3ce1bd9e6470/download/edi-json-file-11-30-16.js"
+					"format" : "json",
+					"title" : "EDI JSON FILE",
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/bfbbb86d-0772-4beb-acf5-5cb6205ebd28/download/edi-json-file-12-01-16.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
@@ -3583,6 +3582,42 @@
 			"language" : ["us-EN"]
 		}, {
 			"@type" : "dcat:Dataset",
+			"title" : "IT Standards Profile List",
+			"description" : "A JSON export of the GSA IT Standards Profile.",
+			"modified" : "2016-12-01",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2016-12-01-01",
+			"dataQuality" : true,
+			"describedByType" : "application/json",
+			"issued" : "2016-09-07",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "Office of the Chief Technology Officer",
+				"subOrganizationOf" : {
+					"@type" : "org:Organization",
+					"name" : "General Services Administration"
+				}
+			},
+			"accrualPeriodicity" : "irregular",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Chris Campbell",
+				"hasEmail" : "mailto:christopher.campbell@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"accessURL" : "https://raw.githubusercontent.com/GSA/data/gh-pages/enterprise-architecture/it-standards.csv",
+					"format" : "json",
+					"title" : "GSA IT Standards Profile"
+				}
+			],
+			"keyword" : ["GSA", "SaaS", "approvals", "compliance", "software"],
+			"bureauCode" : ["023:00"],
+			"programCode" : ["023:008"],
+			"language" : ["en-US"]
+		}, {
+			"@type" : "dcat:Dataset",
 			"title" : "Jobs API",
 			"description" : "This Jobs API returns job openings across the federal government and includes all current openings posted on USAJobs.gov that are open to the public and located in the United States. It also includes some state and local government jobs.",
 			"modified" : "2013-05-01",
@@ -3709,39 +3744,6 @@
 			"keyword" : ["API", "Mobile", "Mobilie App"],
 			"bureauCode" : ["023:00"],
 			"programCode" : ["023:008"],
-			"language" : ["en-us"],
-			"theme" : ["API"]
-		}, {
-			"@type" : "dcat:Dataset",
-			"title" : "MyUSA API",
-			"description" : "MyUSA API for authentication and task assignment.",
-			"modified" : "2014-05-29",
-			"accessLevel" : "public",
-			"identifier" : "GSA - 138677",
-			"dataQuality" : true,
-			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-			"rights" : "N/A",
-			"publisher" : {
-				"@type" : "org:Organization",
-				"name" : "General Services Administration"
-			},
-			"accrualPeriodicity" : "R/PT1S",
-			"contactPoint" : {
-				"@type" : "vcard:Contact",
-				"fn" : "Eric Maland",
-				"hasEmail" : "mailto:eric.maland@gsa.gov"
-			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"accessURL" : "https://alpha.my.usa.gov/developer",
-					"format" : "API",
-					"title" : "MyUSA Citizen API",
-					"description" : "MyUSA API for authentication and task assignment."
-				}
-			],
-			"keyword" : ["API", "Citizen", "MyUSA Citizen API"],
-			"bureauCode" : ["023:00"],
-			"programCode" : ["023:019"],
 			"language" : ["en-us"],
 			"theme" : ["API"]
 		}, {
@@ -5131,7 +5133,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Pulse HTTPS Survey",
 			"description" : "Results of Pulse's Survey of HTTPS support in Government Agency Websites.",
-			"modified" : "2016-08-18",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-01",
 			"dataQuality" : true,
@@ -5139,7 +5141,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5169,7 +5171,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Pulse Analytics Participation Survey",
 			"description" : "Results of Pulse's survey of analytics participation on government agency websites.",
-			"modified" : "2016-08-18",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-02",
 			"dataQuality" : true,
@@ -5177,7 +5179,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5207,7 +5209,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Analytics.USA.gov Datasets",
 			"description" : "High level website analytics from across the government domain.",
-			"modified" : "2016-08-22",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-03",
 			"dataQuality" : true,
@@ -5215,7 +5217,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5236,7 +5238,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Current Active Users of Government Websites",
 			"description" : "The total number of visitors to government websites in the last minute.",
-			"modified" : "2016-07-19",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-11",
 			"dataQuality" : true,
@@ -5244,7 +5246,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5274,7 +5276,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Visitors Per Hour For The Last Day",
 			"description" : "The visitors to government websites for each hour in the last 24 hours.",
-			"modified" : "2016-08-22",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-12",
 			"dataQuality" : true,
@@ -5282,7 +5284,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5312,7 +5314,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Visits by Device Type",
 			"description" : "A breakdown into Desktop/Mobile/Tablet of the past 90 days of visitors to government websites.",
-			"modified" : "2016-04-12",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-13",
 			"dataQuality" : true,
@@ -5320,7 +5322,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5350,7 +5352,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Visits by Operating Systems",
 			"description" : "A breakdown by operating system of the past 90 days of visits to government websites.",
-			"modified" : "2016-04-12",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-14",
 			"dataQuality" : true,
@@ -5358,7 +5360,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5388,7 +5390,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Visits by Windows Version",
 			"description" : "A breakdown by Windows version of the past 90 days of visits to government websites.",
-			"modified" : "2016-04-13",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-15",
 			"dataQuality" : true,
@@ -5396,7 +5398,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5426,7 +5428,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Visits by Browser",
 			"description" : "A breakdown by web browser of the past 90 days of visits to government websites.",
-			"modified" : "2016-04-12",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-16",
 			"dataQuality" : true,
@@ -5434,7 +5436,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5464,7 +5466,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Visits by Internet Explorer Version",
 			"description" : "A breakdown by Internet Explorer version of the past 90 days of visits to government websites.",
-			"modified" : "2016-04-12",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-17",
 			"dataQuality" : true,
@@ -5472,7 +5474,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5502,7 +5504,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Top 20 Pages, Ranked by Current Visitors",
 			"description" : "The top 20 pages visited in the last minute.",
-			"modified" : "2016-04-12",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-18",
 			"dataQuality" : true,
@@ -5510,7 +5512,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5541,7 +5543,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Top 20 Domains Over Last 7 Days",
 			"description" : "The top 20 domains visited in the last 7 days.",
-			"modified" : "2016-04-13",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-19",
 			"dataQuality" : true,
@@ -5549,7 +5551,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5579,7 +5581,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Top 20 Domains Over Last 30 Days",
 			"description" : "The top 20 government domains visited in the last 30 days.",
-			"modified" : "2016-04-12",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-20",
 			"dataQuality" : true,
@@ -5587,7 +5589,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5617,7 +5619,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Discovery Market Research API",
 			"description" : "The GSA Discovery Market Research API.",
-			"modified" : "2016-08-22",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-04",
 			"dataQuality" : true,
@@ -5625,7 +5627,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5653,7 +5655,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Contract-Awarded Labor Category API",
 			"description" : "An API for searching awarded ceiling rates for labor categories.",
-			"modified" : "2016-08-22",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-05",
 			"dataQuality" : true,
@@ -5661,7 +5663,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5689,7 +5691,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "18F Public Team API",
 			"description" : "An API for information on what 18F is working on.",
-			"modified" : "2016-08-22",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-06",
 			"dataQuality" : true,
@@ -5699,7 +5701,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5730,7 +5732,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "18F Internal Team API",
 			"description" : "An API for information on what 18F is working on.",
-			"modified" : "2016-08-22",
+			"modified" : "2016-12-01",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA-2016-03-03-07",
 			"dataQuality" : true,
@@ -5740,7 +5742,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5761,7 +5763,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Micropurchase API",
 			"description" : "An API for interacting with 18F's micropurchase auction service.",
-			"modified" : "2016-08-22",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-03-03-08",
 			"dataQuality" : true,
@@ -5771,7 +5773,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5801,7 +5803,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Tock Timecards API",
 			"description" : "Weekly timecards for 18F and Presidential Innovation Fellows.",
-			"modified" : "2016-04-14",
+			"modified" : "2016-12-01",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA-2016-03-03-09",
 			"dataQuality" : true,
@@ -5809,7 +5811,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -5837,7 +5839,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "api.data.gov Admin API",
 			"description" : "An administrative API to manage the api.data.gov service.",
-			"modified" : "2016-08-22",
+			"modified" : "2016-12-01",
 			"accessLevel" : "non-public",
 			"identifier" : "GSA-2016-03-03-10",
 			"dataQuality" : true,
@@ -5847,7 +5849,7 @@
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
 			"publisher" : {
 				"@type" : "org:Organization",
-				"name" : "OCSIT/18F",
+				"name" : "Technology Transformation Service",
 				"subOrganizationOf" : {
 					"@type" : "org:Organization",
 					"name" : "General Services Administration"
@@ -6860,7 +6862,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-11-10",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25251",
 			"dataQuality" : true,
@@ -6883,7 +6885,7 @@
 					"mediaType" : "text/csv",
 					"format" : "csv",
 					"title" : "data_gov_bldg_rexus",
-					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/f16d3452-defb-4a1e-a78f-eb9bcc3f2499/download/datagovbldgrexus.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/0fe4deb0-7b41-4837-a5db-d8904659c5da/download/datagovbldgrexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
@@ -6893,7 +6895,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) (Lease)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-11-10",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25261",
 			"dataQuality" : true,
@@ -6916,7 +6918,7 @@
 					"mediaType" : "text/csv",
 					"format" : "csv",
 					"title" : "data_gov_lse_rexus",
-					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/e4a70c41-febc-4812-90f2-bfa60e923a00/download/datagovlserexus.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/30184cd6-2091-4808-b6fa-9ccdff896dcf/download/datagovlserexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
