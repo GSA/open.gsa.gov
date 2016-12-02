@@ -3175,7 +3175,7 @@
 					"mediaType" : "application/json",
 					"format" : "json",
 					"title" : "EDI JSON FILE",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/bfbbb86d-0772-4beb-acf5-5cb6205ebd28/download/edi-json-file-12-01-16.js"
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/4beda266-195a-4973-9d20-c8585e8ea935/download/edi-json-file-12-02-16.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
@@ -3609,7 +3609,8 @@
 					"@type" : "dcat:Distribution",
 					"accessURL" : "https://raw.githubusercontent.com/GSA/data/gh-pages/enterprise-architecture/it-standards.csv",
 					"format" : "json",
-					"title" : "GSA IT Standards Profile"
+					"title" : "GSA IT Standards Profile",
+					"description" : "https://github.com/GSA/data/tree/gh-pages/enterprise-architecture"
 				}
 			],
 			"keyword" : ["GSA", "SaaS", "approvals", "compliance", "software"],
