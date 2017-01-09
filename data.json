@@ -919,7 +919,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Data.gov Dataset Visitor Metrics",
 			"description" : "The dataset provides metrics for the number of dataset views in catalog.data.gov broken down by month starting Jan 2014.",
-			"modified" : "2016-11-04",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA - 139375",
 			"dataQuality" : true,
@@ -1286,7 +1286,7 @@
 					"mediaType" : "application/json",
 					"format" : "json",
 					"title" : "datacenteroptimizationstrategicplan",
-					"description" : "Under the Data Center Optimization Initiative (DCOI), covered agencies are required to post DCOI Strategic Plans and updates to their FITARA milestones publicly on or before September 30, 2016.",
+					"description" : "Under the Data Center Optimization Initiative (DCOI), covered agencies are required to post DCOI Strategic Plans and updates to their FITARA milestones publicly on or before September 30, 2016. Updated 12/8/2016.",
 					"conformsTo" : "https://management.cio.gov/schemaexamples/DCOI_StrategicPlans_fy2016Schema.json",
 					"downloadURL" : "https://inventory.data.gov/dataset/20d5c816-e31a-46be-81d2-abc59d0f4fdb/resource/b8d9e71b-963b-4398-8d37-04628e64871d/download/datacenteroptimizationstrategicplan.json"
 				}
@@ -1720,6 +1720,41 @@
 					"title" : "eBuy_Awards_FY2015",
 					"description" : "Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
 					"downloadURL" : "https://inventory.data.gov/dataset/81593d91-7c5a-45bd-b159-abe873249e6c/resource/f7344899-2fa2-4bed-92ee-3f1845e9a429/download/ebuyawardsfy2015.xlsx"
+				}
+			],
+			"keyword" : ["Awards", "Contracts", "Quote", "RFQ", "Schedules", "e-Buy", "procurement"],
+			"bureauCode" : ["023:10"],
+			"programCode" : ["023:007"],
+			"language" : ["en-us"],
+			"theme" : ["Acquisition"]
+		}, {
+			"@type" : "dcat:Dataset",
+			"title" : "e-Buy Awards for Fiscal Year 2016",
+			"description" : "GSA e-Buy, is an electronic Request for Quote (RFQ) / Request for Proposal (RFP) system designed to allow government buyers to request information, find sources, and prepare RFQs/RFPs, online, for millions of services and products offered through GSA's Multiple Award Schedule (MAS) and GSA Technology Contracts. Government buyers can use eBuy to obtain quotes or proposals for services, large quantity purchases, big ticket items, and purchases with complex requirements. Buyers may use e-Buy to evaluate and accept the quotation that represents the best value. Buyers may then make award to any contractor whose quotation was accepted. The e-Buy Award dataset are the award data collected by e-Buy for a given fiscal year.",
+			"modified" : "2017-01-09",
+			"accessLevel" : "public",
+			"identifier" : "GSA-2017-01-09-01",
+			"dataQuality" : true,
+			"issued" : "2015-09-28",
+			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+			"rights" : "N/A",
+			"publisher" : {
+				"@type" : "org:Organization",
+				"name" : "General Services Administration"
+			},
+			"accrualPeriodicity" : "R/P1Y",
+			"isPartOf" : "GSA-2015-08-31",
+			"contactPoint" : {
+				"@type" : "vcard:Contact",
+				"fn" : "Usha Gopal",
+				"hasEmail" : "mailto:usha.gopal@gsa.gov"
+			},
+			"distribution" : [{
+					"@type" : "dcat:Distribution",
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
+					"title" : "FY16_Ebuy_Awarded_Data_Report",
+					"downloadURL" : "https://inventory.data.gov/dataset/2d2da689-5342-4024-b9e1-fb6bc9ec79eb/resource/0e3ec74a-9322-41b3-b769-2613eacba24c/download/fy16ebuyawardeddatareport.xlsx"
 				}
 			],
 			"keyword" : ["Awards", "Contracts", "Quote", "RFQ", "Schedules", "e-Buy", "procurement"],
@@ -3083,7 +3118,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : ".Gov Domains API",
 			"description" : "This dataset offers the list of all .gov domains, including state, local, and tribal .gov domains. It does not include .mil domains, or other federal domains outside of .gov and .fed.us.",
-			"modified" : "2016-09-09",
+			"modified" : "2016-12-01",
 			"accessLevel" : "public",
 			"identifier" : "GSA-138675",
 			"dataQuality" : true,
@@ -3105,7 +3140,7 @@
 					"mediaType" : "text/csv",
 					"format" : "API",
 					"title" : "Full Domain Report",
-					"downloadURL" : "https://inventory.data.gov/dataset/b2c31002-8a5e-4cd0-85bd-6971934f4e59/resource/02706c7b-98e3-4267-8dd8-e3bb2d8c7ce3/download/federal-domainreport-posted-09092016.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/b2c31002-8a5e-4cd0-85bd-6971934f4e59/resource/02706c7b-98e3-4267-8dd8-e3bb2d8c7ce3/download/federal-domain-report-12012016.csv"
 				}
 			],
 			"keyword" : [".gov domains"],
@@ -3116,7 +3151,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA eLibrary Schedules and Contracts",
 			"description" : "GSA eLibrary (formerly Schedules e-Library) is the online source for the latest contract award information for: GSA Schedules; Department of Veterans Affairs (VA) Schedules; and Technology Contracts, including Governmentwide Acquisition Contracts (GWACs), Network Services and Telecommunications Contracts, and Information Technology (IT) Schedule 70. This data contains all the current contracts under those contract vehicles and their respective schedule, special item number information.",
-			"modified" : "2015-11-20",
+			"modified" : "2017-01-05",
 			"accessLevel" : "public",
 			"identifier" : "GSA-4001",
 			"dataQuality" : true,
@@ -3137,10 +3172,10 @@
 			},
 			"distribution" : [{
 					"@type" : "dcat:Distribution",
-					"mediaType" : "application/vnd.ms-excel",
-					"format" : "xls",
-					"title" : "GSA eLibrary Schedules and Contracts",
-					"downloadURL" : "https://www.asap.gsa.gov/datagov/eLibrary_Schedule_Contracts.xls"
+					"mediaType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+					"format" : "xlsx",
+					"title" : "eLibrary_Schedule_Contracts",
+					"downloadURL" : "https://inventory.data.gov/dataset/4fd4a79f-7fd6-4699-a77a-411bc7e980b9/resource/bfd33f01-4156-44a9-a680-d31dc42a857c/download/elibraryschedulecontracts.xlsx"
 				}
 			],
 			"keyword" : ["eLibrary GSA Schedule Contract"],
@@ -3152,7 +3187,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA Enterprise Data Inventory (EDI)",
 			"description" : "GSA Enterprise Data Inventory (EDI)",
-			"modified" : "2016-12-01",
+			"modified" : "2017-01-09",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-13-01",
 			"dataQuality" : true,
@@ -3175,7 +3210,7 @@
 					"mediaType" : "application/json",
 					"format" : "json",
 					"title" : "EDI JSON FILE",
-					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/4beda266-195a-4973-9d20-c8585e8ea935/download/edi-json-file-12-02-16.js"
+					"downloadURL" : "https://inventory.data.gov/dataset/acf8e47e-24d2-4e4d-a786-847643f101fd/resource/f4d61b5a-0a56-4399-8e7a-262eeec72822/download/edi-json-file-01-09-17.js"
 				}
 			],
 			"keyword" : ["EDI", "Enterprise Data Inventory", "GSA EDI", "JSON"],
@@ -6863,7 +6898,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) Inventory (Building)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-12-01",
+			"modified" : "2017-01-05",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25251",
 			"dataQuality" : true,
@@ -6886,7 +6921,7 @@
 					"mediaType" : "text/csv",
 					"format" : "csv",
 					"title" : "data_gov_bldg_rexus",
-					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/0fe4deb0-7b41-4837-a5db-d8904659c5da/download/datagovbldgrexus.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/04247624-1d6b-4e03-84eb-9eda1a6ea638/resource/9f274f3a-e669-4646-98a0-aa7754dd84d9/download/datagovbldgrexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
@@ -6896,7 +6931,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "Real Estate Across the United States (REXUS) (Lease)",
 			"description" : "Real Estate Across the United States (REXUS) is the primary tool used by PBS to track and manage the government's real property assets and to store inventory data, building data, customer data, and lease information. STAR manages aspects of real property space management, including identification of all building space and daily management of 22,000 assignments for all property to its client Federal agencies. This data set contains PBS building inventory that consists of both owned and leased buildings with active and excess status.",
-			"modified" : "2016-12-01",
+			"modified" : "2017-01-05",
 			"accessLevel" : "public",
 			"identifier" : "GSA-25261",
 			"dataQuality" : true,
@@ -6919,7 +6954,7 @@
 					"mediaType" : "text/csv",
 					"format" : "csv",
 					"title" : "data_gov_lse_rexus",
-					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/30184cd6-2091-4808-b6fa-9ccdff896dcf/download/datagovlserexus.csv"
+					"downloadURL" : "https://inventory.data.gov/dataset/2cdc97b5-3029-4ec3-b3bf-baec7948bad1/resource/4299bcbc-f854-416a-a16e-bc4ab4e76c84/download/datagovlserexus.csv"
 				}
 			],
 			"keyword" : ["building", "gsa", "owned", "property", "real estate", "real property"],
