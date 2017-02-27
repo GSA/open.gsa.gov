@@ -2063,38 +2063,6 @@
 			"theme" : ["Acquisition"]
 		}, {
 			"@type" : "dcat:Dataset",
-			"title" : "FBOpen API",
-			"description" : "FBOpen is an API to a search index containing opportunities to do business with the U.S. Federal Government",
-			"modified" : "2014-05-30",
-			"accessLevel" : "public",
-			"identifier" : "GSA - 138964",
-			"dataQuality" : true,
-			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-			"rights" : "N/A",
-			"publisher" : {
-				"@type" : "org:Organization",
-				"name" : "General Services Administration"
-			},
-			"accrualPeriodicity" : "R/PT1S",
-			"contactPoint" : {
-				"@type" : "vcard:Contact",
-				"fn" : "Andrew Starling",
-				"hasEmail" : "mailto:andrew.starling@gsa.gov"
-			},
-			"distribution" : [{
-					"@type" : "dcat:Distribution",
-					"accessURL" : "https://pages.18f.gov/fbopen/",
-					"format" : "API",
-					"title" : "FBOpen API"
-				}
-			],
-			"keyword" : ["API", "Contracts", "FB open", "FBO", "Government Opportunities", "procurement"],
-			"bureauCode" : ["023:30"],
-			"programCode" : ["023:019"],
-			"language" : ["en-us"],
-			"theme" : ["API"]
-		}, {
-			"@type" : "dcat:Dataset",
 			"title" : "FedBizOpps Documentation",
 			"description" : "In addition to the ability to interact directly with FedBizOpps using its on-line web interface, the service supports Web Services for Federal buyers to post information to the database using their agency’s electronic procurement system",
 			"modified" : "2016-01-07",
@@ -3288,7 +3256,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA FITARA Actions and Milestones",
 			"description" : "This JSON file represents GSA's FITARA Actions and Milestones submission to OMB.  This file abides by the OMB JSON schema found here: https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
-			"modified" : "2016-11-29",
+			"modified" : "2017-02-28",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-04-27-01",
 			"conformsTo" : "https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
@@ -3307,7 +3275,7 @@
 					"mediaType" : "application/json",
 					"format" : "json",
 					"title" : "GSA FITARA Actions and Milestones 2016-11-30",
-					"description" : "GSA's Actions and Milestones JSON file to fulfill the FITARA requirements for the November 30, 2016 submission to OMB.\r\nOn September 30, 2016, five milestones were added as a result of the Data Center Optimization Initiative (DCOI) Strategic Plan requirements.",
+					"description" : "GSA's Actions and Milestones JSON file to fulfill the FITARA requirements for the February 28, 2017, quarterly submission to OMB.\r\nOn September 30, 2016, five milestones were added as a result of the Data Center Optimization Initiative (DCOI) Strategic Plan requirements.",
 					"conformsTo" : "https://management.cio.gov/schemaexamples/FITARA_milestones_schema.json",
 					"downloadURL" : "https://inventory.data.gov/dataset/cedf61aa-c4c8-4c30-8357-9d57362afe9b/resource/69cf9b0f-fe64-4ec3-a082-664d34497d5e/download/fitaramilestones.json"
 				}
@@ -3319,7 +3287,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA IT Reform Cost Savings/Avoidance",
 			"description" : "GSA IT provides data related to Agency IT initiatives that save or avoid expenditures.  This data is provided as a requirement of OMB's Integrated Data Collection (IDC) and posted publicly as a requirement of the Federal Information Technology Acquisition Reform Act (FITARA) leglislation.",
-			"modified" : "2016-11-29",
+			"modified" : "2017-02-21",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2015-11-25-01",
 			"issued" : "2015-11-25",
@@ -3339,7 +3307,7 @@
 					"mediaType" : "application/json",
 					"format" : "JSON",
 					"title" : "GSA IT Reform Cost Savings/Avoidance",
-					"description" : "GSA's November 2016 Cost Savings/Avoidance submission to satisfy the requirements set forth in OMB's Integrated Data Collection.",
+					"description" : "GSA's February 2017 Cost Savings/Avoidance submission to satisfy the requirements set forth in OMB's Integrated Data Collection.",
 					"conformsTo" : "https://management.cio.gov/schemaexamples/costSavingsAvoidanceSchema.json",
 					"downloadURL" : "https://inventory.data.gov/dataset/57f52388-9b32-4069-925f-e0de9c5c6ea4/resource/87eb8833-7abb-432b-a272-e611c0aff04a/download/gsaitcostsavingsavoidance20151125.json"
 				}
@@ -3352,7 +3320,7 @@
 			"@type" : "dcat:Dataset",
 			"title" : "GSA IT Policy Archive Zip",
 			"description" : "A compressed zip file containing all of GSA's public IT policy documents, posted publicly at gsa.gov]/digitalstrategy/policyarchive.zip and identified in the agency public data listing as “Agency IT Policy Archive”.",
-			"modified" : "2016-11-02",
+			"modified" : "2017-02-24",
 			"accessLevel" : "public",
 			"identifier" : "GSA-2016-11-02-01",
 			"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -3370,7 +3338,7 @@
 					"mediaType" : "application/zip",
 					"format" : "ZIP",
 					"title" : "GSA IT Policy Archive Zip",
-					"description" : "Last update: 2017-02-01",
+					"description" : "Last update: 2017-02-24",
 					"downloadURL" : "https://inventory.data.gov/dataset/08a7a4da-f414-498c-858b-076fdc7da31a/resource/4a87172f-af14-4cf1-a024-e9fb04c0ac2d/download/gsa-it-policy-archive-zip.zip"
 				}
 			],
