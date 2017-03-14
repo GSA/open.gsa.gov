@@ -1,4 +1,8 @@
-# [open.gsa.gov](http://open.gsa.gov)
+# DEPRECATED
+The current [open.gsa.gov](http://open.gsa.gov) site now sits at https://github.com/GSA/open-gsa-redesign. Any further edits/issue should be done there. Contact the GSA Digital Service Team or CTO office for questions.
+
+
+# Open.gsa.gov
 
 A developer hub to share GSA data, APIs, and code.  
 
